@@ -1,0 +1,52 @@
+{
+  "id": "present-tense",
+  "title": "现在时表达",
+  "phase": "基础表达",
+  "level": "A1",
+  "estimatedMinutes": 28,
+  "objective": "用现在时表达身份、状态、拥有、去向、动作和否定。",
+  "strategy": "先学能产出的句型，不从完整语法表开始。每个句型都是一个可替换模板。",
+  "sections": [
+    {
+      "id": "etre-patterns",
+      "title": "être: 是 / 在 / 状态",
+      "note": "先用 être 表达身份、位置、状态。",
+      "blocks": [
+        {"id": "pattern-je-suis", "type": "pattern", "text": "Je suis ...", "audioText": "Je suis prêt.", "translation": "我是 / 我在 / 我处于...", "rule": "suis 是 être 的 je 形式。", "examples": [{"text": "Je suis prêt.", "audioText": "Je suis prêt.", "translation": "我准备好了。"}, {"text": "Je suis à Paris.", "audioText": "Je suis à Paris.", "translation": "我在巴黎。"}]},
+        {"id": "pattern-cest", "type": "pattern", "text": "C'est ...", "audioText": "C'est important.", "translation": "这是 / 这很...", "rule": "c'est 是超高频整块。", "examples": [{"text": "C'est important.", "audioText": "C'est important.", "translation": "这很重要。"}, {"text": "C'est possible.", "audioText": "C'est possible.", "translation": "这是可能的。"}]},
+        {"id": "pattern-il-est", "type": "pattern", "text": "Il est / Elle est ...", "audioText": "Elle est ici.", "translation": "他 / 她是或在...", "examples": [{"text": "Elle est ici.", "audioText": "Elle est ici.", "translation": "她在这里。"}, {"text": "Il est français.", "audioText": "Il est français.", "translation": "他是法国人。"}]}
+      ]
+    },
+    {
+      "id": "avoir-patterns",
+      "title": "avoir: 有 / 需要 / 年龄",
+      "note": "法语很多表达用 avoir，不要按中文逐词翻。",
+      "blocks": [
+        {"id": "pattern-jai", "type": "pattern", "text": "J'ai ...", "audioText": "J'ai une question.", "translation": "我有...", "examples": [{"text": "J'ai une question.", "audioText": "J'ai une question.", "translation": "我有一个问题。"}, {"text": "J'ai le temps.", "audioText": "J'ai le temps.", "translation": "我有时间。"}]},
+        {"id": "pattern-besoin", "type": "pattern", "text": "J'ai besoin de ...", "audioText": "J'ai besoin de temps.", "translation": "我需要...", "examples": [{"text": "J'ai besoin de temps.", "audioText": "J'ai besoin de temps.", "translation": "我需要时间。"}, {"text": "J'ai besoin d'aide.", "audioText": "J'ai besoin d'aide.", "translation": "我需要帮助。"}]},
+        {"id": "pattern-age", "type": "pattern", "text": "J'ai ... ans.", "audioText": "J'ai trente ans.", "translation": "我...岁。", "rule": "年龄用 avoir，不用 être。", "examples": [{"text": "J'ai trente ans.", "audioText": "J'ai trente ans.", "translation": "我三十岁。"}]}
+      ]
+    },
+    {
+      "id": "action-patterns",
+      "title": "动作与去向",
+      "note": "用少量动词先搭出大量句子。",
+      "blocks": [
+        {"id": "pattern-je-vais", "type": "pattern", "text": "Je vais ...", "audioText": "Je vais au café.", "translation": "我去 / 我要...", "examples": [{"text": "Je vais au café.", "audioText": "Je vais au café.", "translation": "我去咖啡馆。"}, {"text": "Je vais travailler.", "audioText": "Je vais travailler.", "translation": "我要工作。"}]},
+        {"id": "pattern-je-fais", "type": "pattern", "text": "Je fais ...", "audioText": "Je fais ça maintenant.", "translation": "我做...", "examples": [{"text": "Je fais ça maintenant.", "audioText": "Je fais ça maintenant.", "translation": "我现在做这个。"}, {"text": "Je fais du français.", "audioText": "Je fais du français.", "translation": "我学法语。"}]},
+        {"id": "pattern-je-veux", "type": "pattern", "text": "Je veux ...", "audioText": "Je veux comprendre.", "translation": "我想要...", "examples": [{"text": "Je veux comprendre.", "audioText": "Je veux comprendre.", "translation": "我想理解。"}, {"text": "Je veux parler français.", "audioText": "Je veux parler français.", "translation": "我想说法语。"}]}
+      ]
+    },
+    {
+      "id": "negation-question",
+      "title": "否定与提问",
+      "note": "先掌握最常用结构，口语细节后面再优化。",
+      "blocks": [
+        {"id": "pattern-ne-pas", "type": "pattern", "text": "Je ne ... pas.", "audioText": "Je ne comprends pas.", "translation": "我不...", "rule": "ne ... pas 包住变位动词。", "examples": [{"text": "Je ne comprends pas.", "audioText": "Je ne comprends pas.", "translation": "我不懂。"}, {"text": "Je ne peux pas.", "audioText": "Je ne peux pas.", "translation": "我不能。"}]},
+        {"id": "pattern-est-ce-que", "type": "pattern", "text": "Est-ce que ... ?", "audioText": "Est-ce que vous comprenez ?", "translation": "...吗？", "examples": [{"text": "Est-ce que vous comprenez ?", "audioText": "Est-ce que vous comprenez ?", "translation": "您懂吗？"}, {"text": "Est-ce que c'est clair ?", "audioText": "Est-ce que c'est clair ?", "translation": "清楚吗？"}]},
+        {"id": "pattern-quest-ce-que", "type": "pattern", "text": "Qu'est-ce que ... ?", "audioText": "Qu'est-ce que vous faites ?", "translation": "什么...？", "examples": [{"text": "Qu'est-ce que vous faites ?", "audioText": "Qu'est-ce que vous faites ?", "translation": "您在做什么？"}]}
+      ]
+    }
+  ]
+}
+

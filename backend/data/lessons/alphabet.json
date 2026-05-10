@@ -1,0 +1,58 @@
+{
+  "id": "alphabet",
+  "title": "认识字母",
+  "phase": "发音系统",
+  "level": "A0",
+  "estimatedMinutes": 12,
+  "objective": "听懂并能读出 26 个法语字母名，建立后续读单词的最小发音入口。",
+  "strategy": "快速听一轮字母名，熟悉就直接跳到下一课。系统只自动记录你听过什么，不要求你打勾，也不会拦住后面的内容。",
+  "sections": [
+    {
+      "id": "alphabet-core",
+      "title": "26 个字母名",
+      "note": "点击每个字母旁边的声音按钮，听法语字母名。法语字母和英语/西语形状相同，关键是名称和后面读音规则的连接。",
+      "blocks": [
+        {"id": "letter-a", "type": "letter", "text": "A", "audioText": "a", "ipa": "/a/", "hint": "开口清晰，接近西语 a。", "example": {"text": "ami", "audioText": "ami", "translation": "朋友"}},
+        {"id": "letter-b", "type": "letter", "text": "B", "audioText": "bé", "ipa": "/be/", "hint": "字母名是 bé。", "example": {"text": "bébé", "audioText": "bébé", "translation": "婴儿"}},
+        {"id": "letter-c", "type": "letter", "text": "C", "audioText": "cé", "ipa": "/se/", "hint": "字母名像 cé。", "example": {"text": "café", "audioText": "café", "translation": "咖啡馆 / 咖啡"}},
+        {"id": "letter-d", "type": "letter", "text": "D", "audioText": "dé", "ipa": "/de/", "hint": "字母名是 dé。", "example": {"text": "déjà", "audioText": "déjà", "translation": "已经"}},
+        {"id": "letter-e", "type": "letter", "text": "E", "audioText": "e", "ipa": "/ə/", "hint": "法语核心元音之一，后面会专门练。", "example": {"text": "été", "audioText": "été", "translation": "夏天"}},
+        {"id": "letter-f", "type": "letter", "text": "F", "audioText": "effe", "ipa": "/ɛf/", "hint": "结尾有轻短的 f。", "example": {"text": "fille", "audioText": "fille", "translation": "女孩"}},
+        {"id": "letter-g", "type": "letter", "text": "G", "audioText": "gé", "ipa": "/ʒe/", "hint": "像 j 音起头。", "example": {"text": "gare", "audioText": "gare", "translation": "车站"}},
+        {"id": "letter-h", "type": "letter", "text": "H", "audioText": "ache", "ipa": "/aʃ/", "hint": "字母名 ache；实际单词中 h 常不发音。", "example": {"text": "hôtel", "audioText": "hôtel", "translation": "酒店"}},
+        {"id": "letter-i", "type": "letter", "text": "I", "audioText": "i", "ipa": "/i/", "hint": "接近西语 i。", "example": {"text": "ici", "audioText": "ici", "translation": "这里"}},
+        {"id": "letter-j", "type": "letter", "text": "J", "audioText": "ji", "ipa": "/ʒi/", "hint": "法语 j 是 /ʒ/ 起头。", "example": {"text": "jour", "audioText": "jour", "translation": "天 / 白天"}},
+        {"id": "letter-k", "type": "letter", "text": "K", "audioText": "ka", "ipa": "/ka/", "hint": "少见，多在外来词里。", "example": {"text": "kilo", "audioText": "kilo", "translation": "公斤"}},
+        {"id": "letter-l", "type": "letter", "text": "L", "audioText": "elle", "ipa": "/ɛl/", "hint": "字母名 elle。", "example": {"text": "lune", "audioText": "lune", "translation": "月亮"}},
+        {"id": "letter-m", "type": "letter", "text": "M", "audioText": "emme", "ipa": "/ɛm/", "hint": "字母名 emme。", "example": {"text": "maman", "audioText": "maman", "translation": "妈妈"}},
+        {"id": "letter-n", "type": "letter", "text": "N", "audioText": "enne", "ipa": "/ɛn/", "hint": "字母名 enne。", "example": {"text": "non", "audioText": "non", "translation": "不"}},
+        {"id": "letter-o", "type": "letter", "text": "O", "audioText": "o", "ipa": "/o/", "hint": "口型更圆更稳定。", "example": {"text": "orange", "audioText": "orange", "translation": "橙子 / 橙色"}},
+        {"id": "letter-p", "type": "letter", "text": "P", "audioText": "pé", "ipa": "/pe/", "hint": "字母名 pé。", "example": {"text": "papa", "audioText": "papa", "translation": "爸爸"}},
+        {"id": "letter-q", "type": "letter", "text": "Q", "audioText": "ku", "ipa": "/ky/", "hint": "法语 u 是圆唇前元音，先听熟即可。", "example": {"text": "quatre", "audioText": "quatre", "translation": "四"}},
+        {"id": "letter-r", "type": "letter", "text": "R", "audioText": "erre", "ipa": "/ɛʁ/", "hint": "法语 r 在喉部，后面会单独练。", "example": {"text": "rue", "audioText": "rue", "translation": "街道"}},
+        {"id": "letter-s", "type": "letter", "text": "S", "audioText": "esse", "ipa": "/ɛs/", "hint": "字母名 esse。", "example": {"text": "salut", "audioText": "salut", "translation": "你好 / 再见"}},
+        {"id": "letter-t", "type": "letter", "text": "T", "audioText": "té", "ipa": "/te/", "hint": "字母名 té。", "example": {"text": "table", "audioText": "table", "translation": "桌子"}},
+        {"id": "letter-u", "type": "letter", "text": "U", "audioText": "u", "ipa": "/y/", "hint": "法语标志音：舌位像 i，嘴唇像 u。", "example": {"text": "tu", "audioText": "tu", "translation": "你"}},
+        {"id": "letter-v", "type": "letter", "text": "V", "audioText": "vé", "ipa": "/ve/", "hint": "字母名 vé。", "example": {"text": "ville", "audioText": "ville", "translation": "城市"}},
+        {"id": "letter-w", "type": "letter", "text": "W", "audioText": "double vé", "ipa": "/dublə ve/", "hint": "字母名 double vé，常见于外来词。", "example": {"text": "wagon", "audioText": "wagon", "translation": "车厢"}},
+        {"id": "letter-x", "type": "letter", "text": "X", "audioText": "iks", "ipa": "/iks/", "hint": "字母名 iks。", "example": {"text": "taxi", "audioText": "taxi", "translation": "出租车"}},
+        {"id": "letter-y", "type": "letter", "text": "Y", "audioText": "i grec", "ipa": "/i gʁɛk/", "hint": "意思是“希腊 i”。", "example": {"text": "stylo", "audioText": "stylo", "translation": "笔"}},
+        {"id": "letter-z", "type": "letter", "text": "Z", "audioText": "zède", "ipa": "/zɛd/", "hint": "字母名 zède。", "example": {"text": "zéro", "audioText": "zéro", "translation": "零"}}
+      ]
+    },
+    {
+      "id": "micro-sentences",
+      "title": "最短句子听感",
+      "note": "这些不是要背句型，只是让耳朵适应法语节奏。后面所有句子块也会沿用同一个发音按钮。",
+      "blocks": [
+        {"id": "sent-bonjour", "type": "sentence", "text": "Bonjour.", "audioText": "Bonjour.", "translation": "你好。", "hint": "先注意 j 的 /ʒ/ 和鼻化音 on。"},
+        {"id": "sent-je-suis", "type": "sentence", "text": "Je suis prêt.", "audioText": "Je suis prêt.", "translation": "我准备好了。", "hint": "后面学 être 时会正式展开。"},
+        {"id": "sent-on-y-va", "type": "sentence", "text": "On y va ?", "audioText": "On y va ?", "translation": "我们走吗？", "hint": "很高频，先建立听感。"}
+      ]
+    }
+  ],
+  "completionRule": {
+    "masteredThreshold": 26,
+    "description": "非强制完成规则：觉得够用了就继续，之后遇到读音卡点再回来查。"
+  }
+}

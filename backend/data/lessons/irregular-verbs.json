@@ -1,0 +1,47 @@
+{
+  "id": "irregular-verbs",
+  "title": "être / avoir / aller / faire",
+  "phase": "动词变位",
+  "level": "A1-A2",
+  "estimatedMinutes": 38,
+  "objective": "优先拿下最高频不规则动词，因为它们支撑大量日常表达和后续时态。",
+  "strategy": "先看现在时变位表，再听例句。不要一次背完整语法说明，先把高频形式变成可识别、可套用的块。",
+  "sections": [
+    {
+      "id": "core-irregulars",
+      "title": "四个核心不规则动词",
+      "layout": "compact",
+      "note": "être, avoir, aller, faire 是必须优先掌握的四个。",
+      "blocks": [
+        {"id": "iv-etre", "type": "verb", "text": "être", "audioText": "être", "ipa": "/ɛtʁ/", "translation": "是 / 在 / 存在", "rule": "身份、状态、位置；也是部分复合过去时的助动词。", "conjugation": {"je": "suis", "tu": "es", "il": "est", "nous": "sommes", "vous": "êtes", "ils": "sont"}, "examples": [{"text": "Je suis prêt.", "audioText": "Je suis prêt.", "ipa": "/ʒə sɥi pʁɛ/", "translation": "我准备好了。"}, {"text": "Vous êtes ici ?", "audioText": "Vous êtes ici ?", "ipa": "/vu zɛt isi/", "translation": "您在这里吗？"}]},
+        {"id": "iv-avoir", "type": "verb", "text": "avoir", "audioText": "avoir", "ipa": "/avwaʁ/", "translation": "有", "rule": "拥有、年龄、需求；也是大多数复合过去时的助动词。", "conjugation": {"je": "ai", "tu": "as", "il": "a", "nous": "avons", "vous": "avez", "ils": "ont"}, "examples": [{"text": "J'ai une idée.", "audioText": "J'ai une idée.", "ipa": "/ʒe yn ide/", "translation": "我有一个想法。"}, {"text": "Vous avez raison.", "audioText": "Vous avez raison.", "ipa": "/vu zave ʁɛzɔ̃/", "translation": "您是对的。"}]},
+        {"id": "iv-aller", "type": "verb", "text": "aller", "audioText": "aller", "ipa": "/ale/", "translation": "去", "rule": "aller + infinitif 可以表达近将来。", "conjugation": {"je": "vais", "tu": "vas", "il": "va", "nous": "allons", "vous": "allez", "ils": "vont"}, "examples": [{"text": "Je vais commencer.", "audioText": "Je vais commencer.", "ipa": "/ʒə vɛ kɔmɑ̃se/", "translation": "我要开始。"}, {"text": "On va continuer.", "audioText": "On va continuer.", "ipa": "/ɔ̃ va kɔ̃tinyje/", "translation": "我们会继续。"}]},
+        {"id": "iv-faire", "type": "verb", "text": "faire", "audioText": "faire", "ipa": "/fɛʁ/", "translation": "做", "rule": "大量固定表达都靠 faire。", "conjugation": {"je": "fais", "tu": "fais", "il": "fait", "nous": "faisons", "vous": "faites", "ils": "font"}, "examples": [{"text": "Je fais du français.", "audioText": "Je fais du français.", "ipa": "/ʒə fɛ dy fʁɑ̃sɛ/", "translation": "我学法语。"}, {"text": "Qu'est-ce que vous faites ?", "audioText": "Qu'est-ce que vous faites ?", "ipa": "/kɛs kə vu fɛt/", "translation": "您在做什么？"}]}
+      ]
+    },
+    {
+      "id": "modal-irregulars",
+      "title": "高频情态与认知动词",
+      "layout": "compact",
+      "note": "pouvoir, vouloir, devoir, savoir 一学会，表达能力会马上上一个台阶。",
+      "blocks": [
+        {"id": "iv-pouvoir", "type": "verb", "text": "pouvoir", "audioText": "pouvoir", "ipa": "/puvwaʁ/", "translation": "能够", "conjugation": {"je": "peux", "tu": "peux", "il": "peut", "nous": "pouvons", "vous": "pouvez", "ils": "peuvent"}, "examples": [{"text": "Je peux le faire.", "audioText": "Je peux le faire.", "ipa": "/ʒə pø lə fɛʁ/", "translation": "我能做这件事。"}]},
+        {"id": "iv-vouloir", "type": "verb", "text": "vouloir", "audioText": "vouloir", "ipa": "/vulwaʁ/", "translation": "想要", "conjugation": {"je": "veux", "tu": "veux", "il": "veut", "nous": "voulons", "vous": "voulez", "ils": "veulent"}, "examples": [{"text": "Je veux parler français.", "audioText": "Je veux parler français.", "ipa": "/ʒə vø paʁle fʁɑ̃sɛ/", "translation": "我想说法语。"}]},
+        {"id": "iv-devoir", "type": "verb", "text": "devoir", "audioText": "devoir", "ipa": "/dəvwaʁ/", "translation": "必须 / 应该", "conjugation": {"je": "dois", "tu": "dois", "il": "doit", "nous": "devons", "vous": "devez", "ils": "doivent"}, "examples": [{"text": "Je dois partir.", "audioText": "Je dois partir.", "ipa": "/ʒə dwa paʁtiʁ/", "translation": "我必须离开。"}]},
+        {"id": "iv-savoir", "type": "verb", "text": "savoir", "audioText": "savoir", "ipa": "/savwaʁ/", "translation": "知道 / 会", "conjugation": {"je": "sais", "tu": "sais", "il": "sait", "nous": "savons", "vous": "savez", "ils": "savent"}, "examples": [{"text": "Je ne sais pas.", "audioText": "Je ne sais pas.", "ipa": "/ʒə nə sɛ pa/", "translation": "我不知道。"}]}
+      ]
+    },
+    {
+      "id": "movement-speech-irregulars",
+      "title": "移动、表达、感知",
+      "layout": "compact",
+      "note": "这些也很高频，后面会不断遇到。",
+      "blocks": [
+        {"id": "iv-venir", "type": "verb", "text": "venir", "audioText": "venir", "ipa": "/vəniʁ/", "translation": "来", "conjugation": {"je": "viens", "tu": "viens", "il": "vient", "nous": "venons", "vous": "venez", "ils": "viennent"}, "examples": [{"text": "Je viens de Chine.", "audioText": "Je viens de Chine.", "ipa": "/ʒə vjɛ̃ də ʃin/", "translation": "我来自中国。"}]},
+        {"id": "iv-dire", "type": "verb", "text": "dire", "audioText": "dire", "ipa": "/diʁ/", "translation": "说", "conjugation": {"je": "dis", "tu": "dis", "il": "dit", "nous": "disons", "vous": "dites", "ils": "disent"}, "examples": [{"text": "Comment on dit ça ?", "audioText": "Comment on dit ça ?", "ipa": "/kɔmɑ̃ ɔ̃ di sa/", "translation": "这个怎么说？"}]},
+        {"id": "iv-voir", "type": "verb", "text": "voir", "audioText": "voir", "ipa": "/vwaʁ/", "translation": "看见 / 明白", "conjugation": {"je": "vois", "tu": "vois", "il": "voit", "nous": "voyons", "vous": "voyez", "ils": "voient"}, "examples": [{"text": "Je vois.", "audioText": "Je vois.", "ipa": "/ʒə vwa/", "translation": "我明白 / 我看见。"}]},
+        {"id": "iv-prendre", "type": "verb", "text": "prendre", "audioText": "prendre", "ipa": "/pʁɑ̃dʁ/", "translation": "拿 / 乘坐 / 吃喝", "conjugation": {"je": "prends", "tu": "prends", "il": "prend", "nous": "prenons", "vous": "prenez", "ils": "prennent"}, "examples": [{"text": "Je prends un café.", "audioText": "Je prends un café.", "ipa": "/ʒə pʁɑ̃ œ̃ kafe/", "translation": "我喝一杯咖啡。"}]}
+      ]
+    }
+  ]
+}

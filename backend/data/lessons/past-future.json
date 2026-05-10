@@ -1,0 +1,46 @@
+{
+  "id": "past-future",
+  "title": "过去与将来",
+  "phase": "复杂表达",
+  "level": "A2-B1",
+  "estimatedMinutes": 34,
+  "objective": "先建立过去和将来的表达骨架：讲做过什么、正在形成的背景、马上要做什么。",
+  "strategy": "先用少量高频模板进入表达，不在时态理论里绕太久。后面再扩展细节和例外。",
+  "sections": [
+    {
+      "id": "passe-compose",
+      "title": "passé composé",
+      "note": "讲已完成的动作，最实用的过去时入口。",
+      "blocks": [
+        {"id": "pc-avoir", "type": "pattern", "text": "J'ai + participe passé", "audioText": "J'ai travaillé.", "translation": "我已经做了某事。", "rule": "大多数动词用 avoir + 过去分词。", "examples": [{"text": "J'ai travaillé.", "audioText": "J'ai travaillé.", "translation": "我工作了。"}, {"text": "J'ai compris.", "audioText": "J'ai compris.", "translation": "我懂了。"}]},
+        {"id": "pc-etre", "type": "pattern", "text": "Je suis allé(e)", "audioText": "Je suis allé à Paris.", "translation": "我去了...", "rule": "aller 等移动动词常用 être。", "examples": [{"text": "Je suis allé à Paris.", "audioText": "Je suis allé à Paris.", "translation": "我去了巴黎。"}]}
+      ]
+    },
+    {
+      "id": "imparfait",
+      "title": "imparfait",
+      "note": "讲背景、习惯、持续状态。",
+      "blocks": [
+        {"id": "imp-etre", "type": "pattern", "text": "J'étais ...", "audioText": "J'étais à la maison.", "translation": "我当时在 / 我以前是...", "examples": [{"text": "J'étais à la maison.", "audioText": "J'étais à la maison.", "translation": "我当时在家。"}]},
+        {"id": "imp-habit", "type": "pattern", "text": "Je faisais ...", "audioText": "Je faisais ça tous les jours.", "translation": "我过去常做...", "examples": [{"text": "Je faisais ça tous les jours.", "audioText": "Je faisais ça tous les jours.", "translation": "我以前每天做这个。"}]}
+      ]
+    },
+    {
+      "id": "future-near",
+      "title": "近将来",
+      "note": "马上能用，结构简单。",
+      "blocks": [
+        {"id": "future-proche", "type": "pattern", "text": "Je vais + infinitif", "audioText": "Je vais étudier.", "translation": "我将要...", "examples": [{"text": "Je vais étudier.", "audioText": "Je vais étudier.", "translation": "我要学习。"}, {"text": "On va voir.", "audioText": "On va voir.", "translation": "我们会看看。"}]}
+      ]
+    },
+    {
+      "id": "future-simple",
+      "title": "简单将来",
+      "note": "更书面、更正式，先记几个高频。",
+      "blocks": [
+        {"id": "future-simple-etre", "type": "pattern", "text": "Je serai / j'aurai / je ferai", "audioText": "je serai, j'aurai, je ferai", "translation": "我将是 / 我将有 / 我将做", "examples": [{"text": "Je serai prêt demain.", "audioText": "Je serai prêt demain.", "translation": "我明天会准备好。"}, {"text": "Je ferai ça demain.", "audioText": "Je ferai ça demain.", "translation": "我明天会做这个。"}]}
+      ]
+    }
+  ]
+}
+

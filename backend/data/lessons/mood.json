@@ -1,0 +1,40 @@
+{
+  "id": "mood",
+  "title": "条件式与虚拟式",
+  "phase": "复杂表达",
+  "level": "B1",
+  "estimatedMinutes": 35,
+  "objective": "先理解条件式和虚拟式在表达中的用途：礼貌、假设、愿望、态度、不确定。",
+  "strategy": "这部分先建立识别能力和几个高频模板，不追求一次性完整掌握。快速学习时，先会用最常见的块。",
+  "sections": [
+    {
+      "id": "conditionnel",
+      "title": "条件式 conditionnel",
+      "note": "常用于礼貌请求、假设结果。",
+      "blocks": [
+        {"id": "cond-would-like", "type": "pattern", "text": "Je voudrais ...", "audioText": "Je voudrais un café.", "translation": "我想要...", "rule": "比 je veux 更礼貌。", "examples": [{"text": "Je voudrais un café.", "audioText": "Je voudrais un café.", "translation": "我想要一杯咖啡。"}, {"text": "Je voudrais comprendre.", "audioText": "Je voudrais comprendre.", "translation": "我想理解。"}]},
+        {"id": "cond-could", "type": "pattern", "text": "Pourriez-vous ... ?", "audioText": "Pourriez-vous répéter ?", "translation": "您可以...吗？", "examples": [{"text": "Pourriez-vous répéter ?", "audioText": "Pourriez-vous répéter ?", "translation": "您可以重复一下吗？"}]},
+        {"id": "cond-if", "type": "pattern", "text": "Si j'avais le temps, je ...", "audioText": "Si j'avais le temps, je voyagerais.", "translation": "如果我有时间，我会...", "examples": [{"text": "Si j'avais le temps, je voyagerais.", "audioText": "Si j'avais le temps, je voyagerais.", "translation": "如果我有时间，我会旅行。"}]}
+      ]
+    },
+    {
+      "id": "subjonctif",
+      "title": "虚拟式 subjonctif",
+      "note": "常在愿望、必要、情绪、怀疑后出现。",
+      "blocks": [
+        {"id": "sub-il-faut", "type": "pattern", "text": "Il faut que je ...", "audioText": "Il faut que je parte.", "translation": "我必须...", "rule": "que 后常接虚拟式。", "examples": [{"text": "Il faut que je parte.", "audioText": "Il faut que je parte.", "translation": "我必须走了。"}]},
+        {"id": "sub-je-veux", "type": "pattern", "text": "Je veux que tu ...", "audioText": "Je veux que tu comprennes.", "translation": "我希望你...", "examples": [{"text": "Je veux que tu comprennes.", "audioText": "Je veux que tu comprennes.", "translation": "我希望你理解。"}]},
+        {"id": "sub-bien-que", "type": "pattern", "text": "Bien que ...", "audioText": "Bien que ce soit difficile.", "translation": "尽管...", "examples": [{"text": "Bien que ce soit difficile, je continue.", "audioText": "Bien que ce soit difficile, je continue.", "translation": "尽管这很难，我继续。"}]}
+      ]
+    },
+    {
+      "id": "mood-fast-map",
+      "title": "快速判断",
+      "note": "先用功能判断，不从变位表开始。",
+      "blocks": [
+        {"id": "mood-map-cond", "type": "rule", "text": "条件式 = 礼貌 / 假设 / 会做", "audioText": "Je voudrais. Je pourrais. Je ferais.", "examples": [{"text": "Je pourrais le faire.", "audioText": "Je pourrais le faire.", "translation": "我可以做这件事。"}]},
+        {"id": "mood-map-sub", "type": "rule", "text": "虚拟式 = que 后的态度空间", "audioText": "Il faut que. Je veux que. Bien que.", "examples": [{"text": "Il faut que je comprenne.", "audioText": "Il faut que je comprenne.", "translation": "我必须理解。"}]}
+      ]
+    }
+  ]
+}

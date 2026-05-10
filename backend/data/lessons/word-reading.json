@@ -1,0 +1,433 @@
+{
+  "id": "word-reading",
+  "title": "从单词到短句",
+  "phase": "发音系统",
+  "level": "A1-A2",
+  "estimatedMinutes": 90,
+  "objective": "把上一课的发音规则放进真实短语和短句里，训练从“看懂单词”到“读出句子节奏”的能力。",
+  "strategy": "这节课按阶梯推进：先读词组，再读节奏组，再练连读、省音、弱读、否定、提问和短对话。不要追求一次完美，重点是看到短句时能快速分块、识别不读的词尾、处理连读，然后自然读出来。",
+  "sections": [
+    {
+      "id": "reading-method",
+      "title": "读句子的 5 步方法",
+      "layout": "compact",
+      "note": "先建立方法：法语不是逐字母读，而是按音块和节奏组读。",
+      "blocks": [
+        {
+          "id": "method-chunk",
+          "type": "rule",
+          "text": "1. 先找音块",
+          "audioText": "beaucoup, aujourd'hui, français",
+          "rule": "看到词时先找熟悉组合：ou, eau, ai, an/en, on, in, ch, gn, qu。",
+          "examples": [
+            {"text": "beaucoup", "audioText": "beaucoup", "ipa": "/boku/", "translation": "很多 / 非常"},
+            {"text": "aujourd'hui", "audioText": "aujourd'hui", "ipa": "/oʒuʁdɥi/", "translation": "今天"},
+            {"text": "français", "audioText": "français", "ipa": "/fʁɑ̃sɛ/", "translation": "法语 / 法国的"}
+          ]
+        },
+        {
+          "id": "method-final",
+          "type": "rule",
+          "text": "2. 先怀疑词尾不读",
+          "audioText": "vous, petit, grand, deux",
+          "rule": "很多词尾 s, t, d, x 不读。读短句时，先不要急着把词尾字母发出来。",
+          "examples": [
+            {"text": "vous", "audioText": "vous", "ipa": "/vu/", "translation": "您 / 你们"},
+            {"text": "petit", "audioText": "petit", "ipa": "/pəti/", "translation": "小的"},
+            {"text": "grand", "audioText": "grand", "ipa": "/ɡʁɑ̃/", "translation": "大的 / 高的"},
+            {"text": "deux", "audioText": "deux", "ipa": "/dø/", "translation": "二"}
+          ]
+        },
+        {
+          "id": "method-link",
+          "type": "rule",
+          "text": "3. 看下一个词是否元音开头",
+          "audioText": "vous avez, les amis, mon ami",
+          "rule": "下个词元音或 h muet 开头时，可能连读或自然接上。",
+          "examples": [
+            {"text": "vous avez", "audioText": "vous avez", "ipa": "/vu zave/", "translation": "您有 / 你们有"},
+            {"text": "les amis", "audioText": "les amis", "ipa": "/le zami/", "translation": "朋友们"},
+            {"text": "mon ami", "audioText": "mon ami", "ipa": "/mɔ̃ nami/", "translation": "我的朋友"},
+            {"text": "il arrive", "audioText": "il arrive", "ipa": "/il aʁiv/", "translation": "他到了"}
+          ]
+        },
+        {
+          "id": "method-rhythm",
+          "type": "rule",
+          "text": "4. 按节奏组读",
+          "audioText": "Je parle français. Je vais à Paris.",
+          "rule": "短句不是每个词同样重。先把主语+动词+补充信息读成一个小节奏组。",
+          "examples": [
+            {"text": "Je parle français.", "audioText": "Je parle français.", "ipa": "/ʒə paʁl fʁɑ̃sɛ/", "translation": "我说法语。"},
+            {"text": "Je vais à Paris.", "audioText": "Je vais à Paris.", "ipa": "/ʒə vɛ a paʁi/", "translation": "我去巴黎。"},
+            {"text": "C'est très important.", "audioText": "C'est très important.", "ipa": "/sɛ tʁɛ zɛ̃pɔʁtɑ̃/", "translation": "这很重要。"}
+          ]
+        },
+        {
+          "id": "method-shadow",
+          "type": "rule",
+          "text": "5. 听一句，跟读一句",
+          "audioText": "Je comprends. Je comprends bien. Je comprends très bien.",
+          "rule": "用阶梯跟读：先短，再加一个词，再加一个节奏块。",
+          "examples": [
+            {"text": "Je comprends.", "audioText": "Je comprends.", "ipa": "/ʒə kɔ̃pʁɑ̃/", "translation": "我理解。"},
+            {"text": "Je comprends bien.", "audioText": "Je comprends bien.", "ipa": "/ʒə kɔ̃pʁɑ̃ bjɛ̃/", "translation": "我理解得好。"},
+            {"text": "Je comprends très bien.", "audioText": "Je comprends très bien.", "ipa": "/ʒə kɔ̃pʁɑ̃ tʁɛ bjɛ̃/", "translation": "我非常理解。"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "article-noun",
+      "title": "冠词 + 名词：最小节奏组",
+      "layout": "compact",
+      "note": "名词前面经常有 le/la/un/une/des/les。先把它们读成一个小块。",
+      "blocks": [
+        {"id": "np-le-cafe", "type": "phrase", "text": "le café", "audioText": "le café", "ipa": "/lə kafe/", "translation": "咖啡 / 咖啡馆", "hint": "le 弱读，é 清楚。"},
+        {"id": "np-la-maison", "type": "phrase", "text": "la maison", "audioText": "la maison", "ipa": "/la mɛzɔ̃/", "translation": "房子 / 家", "hint": "s 在两个元音之间读 /z/。"},
+        {"id": "np-un-ami", "type": "phrase", "text": "un ami", "audioText": "un ami", "ipa": "/œ̃ nami/", "translation": "一个朋友", "hint": "n 连读出来。"},
+        {"id": "np-une-question", "type": "phrase", "text": "une question", "audioText": "une question", "ipa": "/yn kɛstjɔ̃/", "translation": "一个问题", "hint": "question 里 -tion 读 /sjɔ̃/。"},
+        {"id": "np-des-fruits", "type": "phrase", "text": "des fruits", "audioText": "des fruits", "ipa": "/de fʁɥi/", "translation": "一些水果", "hint": "des 的 s 不读，fruits 的 ts 不读。"},
+        {"id": "np-les-amis", "type": "phrase", "text": "les amis", "audioText": "les amis", "ipa": "/le zami/", "translation": "朋友们", "hint": "les 的 s 连成 /z/。"},
+        {"id": "np-mon-livre", "type": "phrase", "text": "mon livre", "audioText": "mon livre", "ipa": "/mɔ̃ livʁ/", "translation": "我的书", "hint": "mon 鼻化。"},
+        {"id": "np-ton-idee", "type": "phrase", "text": "ton idée", "audioText": "ton idée", "ipa": "/tɔ̃ nide/", "translation": "你的想法", "hint": "ton 的 n 连到 idée。"},
+        {"id": "np-son-chien", "type": "phrase", "text": "son chien", "audioText": "son chien", "ipa": "/sɔ̃ ʃjɛ̃/", "translation": "他/她的狗", "hint": "chien 里 ien 是 /jɛ̃/。"},
+        {"id": "np-notre-travail", "type": "phrase", "text": "notre travail", "audioText": "notre travail", "ipa": "/nɔtʁ tʁavaj/", "translation": "我们的工作", "hint": "travail 词尾 ail 读 /aj/。"}
+      ]
+    },
+    {
+      "id": "noun-adjective",
+      "title": "名词 + 形容词：词尾变化会改变读音",
+      "layout": "compact",
+      "note": "很多阳性词尾辅音不读，加 e 变阴性后辅音读出来。这是读短句很常见的挑战。",
+      "blocks": [
+        {"id": "adj-petit-cafe", "type": "phrase", "text": "un petit café", "audioText": "un petit café", "ipa": "/œ̃ pəti kafe/", "translation": "一小杯咖啡", "hint": "petit 的 t 不读。"},
+        {"id": "adj-petite-question", "type": "phrase", "text": "une petite question", "audioText": "une petite question", "ipa": "/yn pətit kɛstjɔ̃/", "translation": "一个小问题", "hint": "petite 的 t 读出来。"},
+        {"id": "adj-grand-livre", "type": "phrase", "text": "un grand livre", "audioText": "un grand livre", "ipa": "/œ̃ ɡʁɑ̃ livʁ/", "translation": "一本大书", "hint": "grand 的 d 不读。"},
+        {"id": "adj-grande-maison", "type": "phrase", "text": "une grande maison", "audioText": "une grande maison", "ipa": "/yn ɡʁɑ̃d mɛzɔ̃/", "translation": "一栋大房子", "hint": "grande 的 d 读出来。"},
+        {"id": "adj-bon-cafe", "type": "phrase", "text": "un bon café", "audioText": "un bon café", "ipa": "/œ̃ bɔ̃ kafe/", "translation": "一杯好咖啡", "hint": "bon 鼻化。"},
+        {"id": "adj-bonne-idee", "type": "phrase", "text": "une bonne idée", "audioText": "une bonne idée", "ipa": "/yn bɔn ide/", "translation": "一个好主意", "hint": "bonne 不鼻化，n 发出来。"},
+        {"id": "adj-francais", "type": "phrase", "text": "un mot français", "audioText": "un mot français", "ipa": "/œ̃ mo fʁɑ̃sɛ/", "translation": "一个法语词", "hint": "mot 的 t 不读，français 的 s 不读。"},
+        {"id": "adj-francaise", "type": "phrase", "text": "une phrase française", "audioText": "une phrase française", "ipa": "/yn fʁaz fʁɑ̃sɛz/", "translation": "一个法语句子", "hint": "française 的 s 读 /z/。"}
+      ]
+    },
+    {
+      "id": "preposition-groups",
+      "title": "介词短语：地点、对象、方向",
+      "layout": "compact",
+      "note": "介词短语是扩展短句的最快方式：在哪里、和谁、给谁、为了什么。",
+      "blocks": [
+        {"id": "prep-a-paris", "type": "phrase", "text": "à Paris", "audioText": "à Paris", "ipa": "/a paʁi/", "translation": "在/去巴黎", "hint": "Paris 的 s 不读。"},
+        {"id": "prep-en-france", "type": "phrase", "text": "en France", "audioText": "en France", "ipa": "/ɑ̃ fʁɑ̃s/", "translation": "在法国", "hint": "两个鼻化音：en, France。"},
+        {"id": "prep-chez-moi", "type": "phrase", "text": "chez moi", "audioText": "chez moi", "ipa": "/ʃe mwa/", "translation": "在我家/我那里", "hint": "chez 的 z 不读。"},
+        {"id": "prep-avec-vous", "type": "phrase", "text": "avec vous", "audioText": "avec vous", "ipa": "/avɛk vu/", "translation": "和您/你们", "hint": "avec 的 c 读。"},
+        {"id": "prep-pour-moi", "type": "phrase", "text": "pour moi", "audioText": "pour moi", "ipa": "/puʁ mwa/", "translation": "给我/对我来说", "hint": "ou /u/，oi /wa/。"},
+        {"id": "prep-sans-probleme", "type": "phrase", "text": "sans problème", "audioText": "sans problème", "ipa": "/sɑ̃ pʁɔblɛm/", "translation": "没问题", "hint": "sans 鼻化。"},
+        {"id": "prep-dans-la-maison", "type": "phrase", "text": "dans la maison", "audioText": "dans la maison", "ipa": "/dɑ̃ la mɛzɔ̃/", "translation": "在房子里", "hint": "dans 的 s 不读。"},
+        {"id": "prep-sur-la-table", "type": "phrase", "text": "sur la table", "audioText": "sur la table", "ipa": "/syʁ la tabl/", "translation": "在桌上", "hint": "sur 的 u 是 /y/。"},
+        {"id": "prep-apres-le-travail", "type": "phrase", "text": "après le travail", "audioText": "après le travail", "ipa": "/apʁɛ lə tʁavaj/", "translation": "工作之后", "hint": "travail 的 ail 读 /aj/。"},
+        {"id": "prep-avant-demain", "type": "phrase", "text": "avant demain", "audioText": "avant demain", "ipa": "/avɑ̃ dəmɛ̃/", "translation": "明天之前", "hint": "avant 和 demain 都有鼻化。"}
+      ]
+    },
+    {
+      "id": "subject-verb-core",
+      "title": "主语 + 高频动词：短句骨架",
+      "layout": "compact",
+      "note": "先用 je/tu/vous/on 加最高频动词，形成能直接开口的短句。",
+      "blocks": [
+        {"id": "sv-je-suis", "type": "sentence", "text": "Je suis ici.", "audioText": "Je suis ici.", "ipa": "/ʒə sɥi isi/", "translation": "我在这里。", "hint": "suis 里 ui 是 /ɥi/。"},
+        {"id": "sv-tu-es", "type": "sentence", "text": "Tu es prêt ?", "audioText": "Tu es prêt ?", "ipa": "/ty ɛ pʁɛ/", "translation": "你准备好了吗？", "hint": "prêt 的 t 不读。"},
+        {"id": "sv-cest-bon", "type": "sentence", "text": "C'est bon.", "audioText": "C'est bon.", "ipa": "/sɛ bɔ̃/", "translation": "可以/好吃/没问题。", "hint": "c'est 是 /sɛ/。"},
+        {"id": "sv-jai-question", "type": "sentence", "text": "J'ai une question.", "audioText": "J'ai une question.", "ipa": "/ʒe yn kɛstjɔ̃/", "translation": "我有一个问题。", "hint": "j'ai 是 je + ai 的省音。"},
+        {"id": "sv-vous-avez", "type": "sentence", "text": "Vous avez le temps ?", "audioText": "Vous avez le temps ?", "ipa": "/vu zave lə tɑ̃/", "translation": "您有时间吗？", "hint": "vous avez 连读 /z/。"},
+        {"id": "sv-je-vais", "type": "sentence", "text": "Je vais au café.", "audioText": "Je vais au café.", "ipa": "/ʒə vɛ o kafe/", "translation": "我去咖啡馆。", "hint": "au 读 /o/。"},
+        {"id": "sv-je-veux", "type": "sentence", "text": "Je veux comprendre.", "audioText": "Je veux comprendre.", "ipa": "/ʒə vø kɔ̃pʁɑ̃dʁ/", "translation": "我想理解。", "hint": "veux 读 /vø/，x 不读。"},
+        {"id": "sv-je-peux", "type": "sentence", "text": "Je peux le faire.", "audioText": "Je peux le faire.", "ipa": "/ʒə pø lə fɛʁ/", "translation": "我能做这件事。", "hint": "peux 读 /pø/，x 不读。"},
+        {"id": "sv-je-dois", "type": "sentence", "text": "Je dois partir.", "audioText": "Je dois partir.", "ipa": "/ʒə dwa paʁtiʁ/", "translation": "我必须离开。", "hint": "dois 读 /dwa/。"},
+        {"id": "sv-on-continue", "type": "sentence", "text": "On continue.", "audioText": "On continue.", "ipa": "/ɔ̃ kɔ̃tiny/", "translation": "我们继续。", "hint": "continue 里 u 是 /y/。"}
+      ]
+    },
+    {
+      "id": "liaison-practice",
+      "title": "连读专项：把词接起来",
+      "layout": "compact",
+      "note": "连读是从“读单词”到“读句子”的关键。先练最高频、最稳定的连读。",
+      "blocks": [
+        {
+          "id": "liaison-vous",
+          "type": "rule",
+          "text": "vous + 元音",
+          "audioText": "vous avez, vous êtes, vous allez",
+          "rule": "vous 的 s 在元音前常连成 /z/。",
+          "examples": [
+            {"text": "vous avez", "audioText": "vous avez", "ipa": "/vu zave/", "translation": "您有"},
+            {"text": "vous êtes", "audioText": "vous êtes", "ipa": "/vu zɛt/", "translation": "您是/在"},
+            {"text": "vous allez", "audioText": "vous allez", "ipa": "/vu zale/", "translation": "您去/将要"},
+            {"text": "vous aimez", "audioText": "vous aimez", "ipa": "/vu zeme/", "translation": "您喜欢"}
+          ]
+        },
+        {
+          "id": "liaison-nous",
+          "type": "rule",
+          "text": "nous + 元音",
+          "audioText": "nous avons, nous allons, nous aimons",
+          "rule": "nous 的 s 在元音前常连成 /z/。",
+          "examples": [
+            {"text": "nous avons", "audioText": "nous avons", "ipa": "/nu zavɔ̃/", "translation": "我们有"},
+            {"text": "nous allons", "audioText": "nous allons", "ipa": "/nu zalɔ̃/", "translation": "我们去"},
+            {"text": "nous aimons", "audioText": "nous aimons", "ipa": "/nu zemɔ̃/", "translation": "我们喜欢"},
+            {"text": "nous écoutons", "audioText": "nous écoutons", "ipa": "/nu zekutɔ̃/", "translation": "我们听"}
+          ]
+        },
+        {
+          "id": "liaison-les-des",
+          "type": "rule",
+          "text": "les/des + 元音",
+          "audioText": "les amis, des idées, les animaux",
+          "rule": "les/des 的 s 在元音前常连成 /z/。",
+          "examples": [
+            {"text": "les amis", "audioText": "les amis", "ipa": "/le zami/", "translation": "朋友们"},
+            {"text": "des idées", "audioText": "des idées", "ipa": "/de zide/", "translation": "一些想法"},
+            {"text": "les animaux", "audioText": "les animaux", "ipa": "/le zanimo/", "translation": "动物们"},
+            {"text": "des oranges", "audioText": "des oranges", "ipa": "/de zɔʁɑ̃ʒ/", "translation": "一些橙子"}
+          ]
+        },
+        {
+          "id": "liaison-un-mon",
+          "type": "rule",
+          "text": "un/mon/ton/son + 元音",
+          "audioText": "un ami, mon idée, ton ami",
+          "rule": "n 在元音前可能连出来，形成 /n/。",
+          "examples": [
+            {"text": "un ami", "audioText": "un ami", "ipa": "/œ̃ nami/", "translation": "一个朋友"},
+            {"text": "mon ami", "audioText": "mon ami", "ipa": "/mɔ̃ nami/", "translation": "我的朋友"},
+            {"text": "ton idée", "audioText": "ton idée", "ipa": "/tɔ̃ nide/", "translation": "你的想法"},
+            {"text": "son appartement", "audioText": "son appartement", "ipa": "/sɔ̃ napaʁtəmɑ̃/", "translation": "他/她的公寓"}
+          ]
+        },
+        {
+          "id": "liaison-tres",
+          "type": "rule",
+          "text": "très + 元音",
+          "audioText": "très important, très utile, très intéressant",
+          "rule": "très 的 s 在元音前常连成 /z/。",
+          "examples": [
+            {"text": "très important", "audioText": "très important", "ipa": "/tʁɛ zɛ̃pɔʁtɑ̃/", "translation": "很重要"},
+            {"text": "très utile", "audioText": "très utile", "ipa": "/tʁɛ zytil/", "translation": "很有用"},
+            {"text": "très intéressant", "audioText": "très intéressant", "ipa": "/tʁɛ zɛ̃teʁesɑ̃/", "translation": "很有趣"},
+            {"text": "très agréable", "audioText": "très agréable", "ipa": "/tʁɛ zaɡʁeabl/", "translation": "很愉快"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "elision-contraction",
+      "title": "省音与缩合：短句读起来更顺",
+      "layout": "compact",
+      "note": "je, le, la, de, que 遇到元音时常省音。au/du/des 这类缩合也要整块读。",
+      "blocks": [
+        {"id": "elis-jai", "type": "sentence", "text": "J'ai une idée.", "audioText": "J'ai une idée.", "ipa": "/ʒe yn ide/", "translation": "我有一个想法。", "hint": "je + ai -> j'ai。"},
+        {"id": "elis-jaime", "type": "sentence", "text": "J'aime le café.", "audioText": "J'aime le café.", "ipa": "/ʒɛm lə kafe/", "translation": "我喜欢咖啡。", "hint": "je + aime -> j'aime。"},
+        {"id": "elis-cest", "type": "sentence", "text": "C'est important.", "audioText": "C'est important.", "ipa": "/sɛ tɛ̃pɔʁtɑ̃/", "translation": "这很重要。", "hint": "ce + est -> c'est。"},
+        {"id": "elis-lami", "type": "phrase", "text": "l'ami", "audioText": "l'ami", "ipa": "/lami/", "translation": "这个朋友", "hint": "le/la + 元音 -> l'。"},
+        {"id": "elis-daccord", "type": "sentence", "text": "D'accord.", "audioText": "D'accord.", "ipa": "/dakɔʁ/", "translation": "同意 / 好的。", "hint": "de + accord -> d'accord。"},
+        {"id": "elis-questce", "type": "sentence", "text": "Qu'est-ce que c'est ?", "audioText": "Qu'est-ce que c'est ?", "ipa": "/kɛs kə sɛ/", "translation": "这是什么？", "hint": "que + est -> qu'est。"},
+        {"id": "contract-au", "type": "sentence", "text": "Je vais au café.", "audioText": "Je vais au café.", "ipa": "/ʒə vɛ o kafe/", "translation": "我去咖啡馆。", "hint": "à + le -> au。"},
+        {"id": "contract-du", "type": "sentence", "text": "Je fais du français.", "audioText": "Je fais du français.", "ipa": "/ʒə fɛ dy fʁɑ̃sɛ/", "translation": "我学法语。", "hint": "de + le -> du。"},
+        {"id": "contract-des", "type": "phrase", "text": "des amis", "audioText": "des amis", "ipa": "/de zami/", "translation": "一些朋友", "hint": "des + 元音连读 /z/。"},
+        {"id": "contract-aux", "type": "phrase", "text": "aux États-Unis", "audioText": "aux États-Unis", "ipa": "/oz etazyni/", "translation": "在/去美国", "hint": "à + les -> aux，后面连 /z/。"}
+      ]
+    },
+    {
+      "id": "weak-words",
+      "title": "弱读小词：je / le / de / ne",
+      "layout": "compact",
+      "note": "很多小词不该读得太重。读得太重会很像逐词拼读。",
+      "blocks": [
+        {"id": "weak-je-parle", "type": "sentence", "text": "Je parle.", "audioText": "Je parle.", "ipa": "/ʒə paʁl/", "translation": "我说。", "hint": "je 弱读，重心在 parle。"},
+        {"id": "weak-le-livre", "type": "sentence", "text": "Je lis le livre.", "audioText": "Je lis le livre.", "ipa": "/ʒə li lə livʁ/", "translation": "我读这本书。", "hint": "le 弱读。"},
+        {"id": "weak-de-temps", "type": "sentence", "text": "J'ai besoin de temps.", "audioText": "J'ai besoin de temps.", "ipa": "/ʒe bəzwɛ̃ də tɑ̃/", "translation": "我需要时间。", "hint": "de 弱读。"},
+        {"id": "weak-je-ne-sais", "type": "sentence", "text": "Je ne sais pas.", "audioText": "Je ne sais pas.", "ipa": "/ʒə nə sɛ pa/", "translation": "我不知道。", "hint": "先读完整形式；口语里 ne 常弱化。"},
+        {"id": "weak-je-sais-pas", "type": "sentence", "text": "Je sais pas.", "audioText": "Je sais pas.", "ipa": "/ʒə sɛ pa/", "translation": "我不知道，口语。", "hint": "口语里常省掉 ne。"},
+        {"id": "weak-cest-pas", "type": "sentence", "text": "C'est pas grave.", "audioText": "C'est pas grave.", "ipa": "/sɛ pa ɡʁav/", "translation": "没关系。", "hint": "常用口语块。"}
+      ]
+    },
+    {
+      "id": "negative-ladders",
+      "title": "否定句阶梯",
+      "layout": "compact",
+      "note": "否定句容易卡，因为 ne...pas 把动词包住。先用短句练节奏。",
+      "blocks": [
+        {"id": "neg-comprendre", "type": "sentence", "text": "Je ne comprends pas.", "audioText": "Je ne comprends pas.", "ipa": "/ʒə nə kɔ̃pʁɑ̃ pa/", "translation": "我不懂。", "hint": "comprends 词尾 ds 不读。"},
+        {"id": "neg-avoir", "type": "sentence", "text": "Je n'ai pas le temps.", "audioText": "Je n'ai pas le temps.", "ipa": "/ʒə ne pa lə tɑ̃/", "translation": "我没有时间。", "hint": "ne + ai -> n'ai。"},
+        {"id": "neg-etre", "type": "sentence", "text": "Ce n'est pas possible.", "audioText": "Ce n'est pas possible.", "ipa": "/sə nɛ pa pɔsibl/", "translation": "这不可能。", "hint": "正式完整形式。"},
+        {"id": "neg-cest-pas", "type": "sentence", "text": "C'est pas possible.", "audioText": "C'est pas possible.", "ipa": "/sɛ pa pɔsibl/", "translation": "这不可能，口语。", "hint": "口语常省 ne。"},
+        {"id": "neg-vouloir", "type": "sentence", "text": "Je ne veux pas.", "audioText": "Je ne veux pas.", "ipa": "/ʒə nə vø pa/", "translation": "我不想要。", "hint": "veux 的 x 不读。"},
+        {"id": "neg-pouvoir", "type": "sentence", "text": "Je ne peux pas.", "audioText": "Je ne peux pas.", "ipa": "/ʒə nə pø pa/", "translation": "我不能。", "hint": "peux 的 x 不读。"},
+        {"id": "neg-aller", "type": "sentence", "text": "Je ne vais pas à Paris.", "audioText": "Je ne vais pas à Paris.", "ipa": "/ʒə nə vɛ pa a paʁi/", "translation": "我不去巴黎。", "hint": "pas à 不需要强行连读。"},
+        {"id": "neg-savoir", "type": "sentence", "text": "Je ne sais pas encore.", "audioText": "Je ne sais pas encore.", "ipa": "/ʒə nə sɛ pa zɑ̃kɔʁ/", "translation": "我还不知道。", "hint": "pas encore 常连 /z/。"}
+      ]
+    },
+    {
+      "id": "question-ladders",
+      "title": "问句阶梯",
+      "layout": "compact",
+      "note": "先掌握最常用的三种：语调升高、est-ce que、疑问词短句。",
+      "blocks": [
+        {"id": "q-ca-va", "type": "sentence", "text": "Ça va ?", "audioText": "Ça va ?", "ipa": "/sa va/", "translation": "还好吗？", "hint": "最小问句，靠语调。"},
+        {"id": "q-tu-comprends", "type": "sentence", "text": "Tu comprends ?", "audioText": "Tu comprends ?", "ipa": "/ty kɔ̃pʁɑ̃/", "translation": "你懂吗？", "hint": "口语常用语调提问。"},
+        {"id": "q-vous-avez", "type": "sentence", "text": "Vous avez une question ?", "audioText": "Vous avez une question ?", "ipa": "/vu zave yn kɛstjɔ̃/", "translation": "您有问题吗？", "hint": "vous avez 连读 /z/。"},
+        {"id": "q-est-ce-clair", "type": "sentence", "text": "Est-ce que c'est clair ?", "audioText": "Est-ce que c'est clair ?", "ipa": "/ɛs kə sɛ klɛʁ/", "translation": "这清楚吗？", "hint": "est-ce que 当作固定问句开头。"},
+        {"id": "q-est-ce-vous", "type": "sentence", "text": "Est-ce que vous comprenez ?", "audioText": "Est-ce que vous comprenez ?", "ipa": "/ɛs kə vu kɔ̃pʁəne/", "translation": "您懂吗？", "hint": "comprenez 的 ez 读 /e/。"},
+        {"id": "q-comment", "type": "sentence", "text": "Comment on dit ça ?", "audioText": "Comment on dit ça ?", "ipa": "/kɔmɑ̃ ɔ̃ di sa/", "translation": "这个怎么说？", "hint": "comment 的 ent 不按英文读。"},
+        {"id": "q-ou", "type": "sentence", "text": "Où est le café ?", "audioText": "Où est le café ?", "ipa": "/u ɛ lə kafe/", "translation": "咖啡馆在哪里？", "hint": "où 读 /u/。"},
+        {"id": "q-quand", "type": "sentence", "text": "Quand est-ce qu'on commence ?", "audioText": "Quand est-ce qu'on commence ?", "ipa": "/kɑ̃ ɛs kɔ̃ kɔmɑ̃s/", "translation": "我们什么时候开始？", "hint": "qu'on 是 que + on。"}
+      ]
+    },
+    {
+      "id": "sentence-expansion",
+      "title": "句子扩展阶梯：一点点加长",
+      "layout": "compact",
+      "note": "从短句到长句的关键不是硬读长句，而是会逐步加块。",
+      "blocks": [
+        {
+          "id": "ladder-parler",
+          "type": "rule",
+          "text": "Je parle → Je parle français → Je parle un peu français",
+          "audioText": "Je parle. Je parle français. Je parle un peu français.",
+          "rule": "先主语+动词，再加对象，再加程度。",
+          "examples": [
+            {"text": "Je parle.", "audioText": "Je parle.", "ipa": "/ʒə paʁl/", "translation": "我说。"},
+            {"text": "Je parle français.", "audioText": "Je parle français.", "ipa": "/ʒə paʁl fʁɑ̃sɛ/", "translation": "我说法语。"},
+            {"text": "Je parle un peu français.", "audioText": "Je parle un peu français.", "ipa": "/ʒə paʁl œ̃ pø fʁɑ̃sɛ/", "translation": "我会说一点法语。"}
+          ]
+        },
+        {
+          "id": "ladder-aller",
+          "type": "rule",
+          "text": "Je vais → Je vais au café → Je vais au café maintenant",
+          "audioText": "Je vais. Je vais au café. Je vais au café maintenant.",
+          "rule": "移动句可以加地点，再加时间。",
+          "examples": [
+            {"text": "Je vais.", "audioText": "Je vais.", "ipa": "/ʒə vɛ/", "translation": "我去。"},
+            {"text": "Je vais au café.", "audioText": "Je vais au café.", "ipa": "/ʒə vɛ o kafe/", "translation": "我去咖啡馆。"},
+            {"text": "Je vais au café maintenant.", "audioText": "Je vais au café maintenant.", "ipa": "/ʒə vɛ o kafe mɛ̃tnɑ̃/", "translation": "我现在去咖啡馆。"}
+          ]
+        },
+        {
+          "id": "ladder-avoir",
+          "type": "rule",
+          "text": "J'ai → J'ai une question → J'ai une petite question",
+          "audioText": "J'ai. J'ai une question. J'ai une petite question.",
+          "rule": "拥有句可以加名词，再加形容词。",
+          "examples": [
+            {"text": "J'ai.", "audioText": "J'ai.", "ipa": "/ʒe/", "translation": "我有。"},
+            {"text": "J'ai une question.", "audioText": "J'ai une question.", "ipa": "/ʒe yn kɛstjɔ̃/", "translation": "我有一个问题。"},
+            {"text": "J'ai une petite question.", "audioText": "J'ai une petite question.", "ipa": "/ʒe yn pətit kɛstjɔ̃/", "translation": "我有一个小问题。"}
+          ]
+        },
+        {
+          "id": "ladder-understand",
+          "type": "rule",
+          "text": "Je comprends → Je comprends bien → Je comprends très bien",
+          "audioText": "Je comprends. Je comprends bien. Je comprends très bien.",
+          "rule": "理解句可以加程度副词。",
+          "examples": [
+            {"text": "Je comprends.", "audioText": "Je comprends.", "ipa": "/ʒə kɔ̃pʁɑ̃/", "translation": "我理解。"},
+            {"text": "Je comprends bien.", "audioText": "Je comprends bien.", "ipa": "/ʒə kɔ̃pʁɑ̃ bjɛ̃/", "translation": "我理解得好。"},
+            {"text": "Je comprends très bien.", "audioText": "Je comprends très bien.", "ipa": "/ʒə kɔ̃pʁɑ̃ tʁɛ bjɛ̃/", "translation": "我非常理解。"}
+          ]
+        },
+        {
+          "id": "ladder-need",
+          "type": "rule",
+          "text": "J'ai besoin → J'ai besoin de temps → J'ai besoin de plus de temps",
+          "audioText": "J'ai besoin. J'ai besoin de temps. J'ai besoin de plus de temps.",
+          "rule": "besoin de 是固定块，后面接需要的东西。",
+          "examples": [
+            {"text": "J'ai besoin.", "audioText": "J'ai besoin.", "ipa": "/ʒe bəzwɛ̃/", "translation": "我需要。"},
+            {"text": "J'ai besoin de temps.", "audioText": "J'ai besoin de temps.", "ipa": "/ʒe bəzwɛ̃ də tɑ̃/", "translation": "我需要时间。"},
+            {"text": "J'ai besoin de plus de temps.", "audioText": "J'ai besoin de plus de temps.", "ipa": "/ʒe bəzwɛ̃ də ply də tɑ̃/", "translation": "我需要更多时间。"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mini-dialogues",
+      "title": "短对话：真实节奏练习",
+      "note": "短对话会逼你处理问句、回答、连读和常用口语块。句子仍然保持短。",
+      "blocks": [
+        {"id": "dialogue-ca-va-a", "type": "sentence", "text": "Ça va ?", "audioText": "Ça va ?", "ipa": "/sa va/", "translation": "还好吗？"},
+        {"id": "dialogue-ca-va-b", "type": "sentence", "text": "Oui, ça va bien.", "audioText": "Oui, ça va bien.", "ipa": "/wi sa va bjɛ̃/", "translation": "是的，我很好。"},
+        {"id": "dialogue-question-a", "type": "sentence", "text": "Vous avez une question ?", "audioText": "Vous avez une question ?", "ipa": "/vu zave yn kɛstjɔ̃/", "translation": "您有问题吗？"},
+        {"id": "dialogue-question-b", "type": "sentence", "text": "Oui, une petite question.", "audioText": "Oui, une petite question.", "ipa": "/wi yn pətit kɛstjɔ̃/", "translation": "有，一个小问题。"},
+        {"id": "dialogue-repeat-a", "type": "sentence", "text": "Vous pouvez répéter ?", "audioText": "Vous pouvez répéter ?", "ipa": "/vu puve ʁepete/", "translation": "您可以重复一下吗？"},
+        {"id": "dialogue-repeat-b", "type": "sentence", "text": "Bien sûr.", "audioText": "Bien sûr.", "ipa": "/bjɛ̃ syʁ/", "translation": "当然。"},
+        {"id": "dialogue-cafe-a", "type": "sentence", "text": "Tu vas au café ?", "audioText": "Tu vas au café ?", "ipa": "/ty va o kafe/", "translation": "你去咖啡馆吗？"},
+        {"id": "dialogue-cafe-b", "type": "sentence", "text": "Oui, avec toi.", "audioText": "Oui, avec toi.", "ipa": "/wi avɛk twa/", "translation": "去，和你一起。"},
+        {"id": "dialogue-understand-a", "type": "sentence", "text": "Tu comprends ?", "audioText": "Tu comprends ?", "ipa": "/ty kɔ̃pʁɑ̃/", "translation": "你懂吗？"},
+        {"id": "dialogue-understand-b", "type": "sentence", "text": "Je comprends un peu.", "audioText": "Je comprends un peu.", "ipa": "/ʒə kɔ̃pʁɑ̃ œ̃ pø/", "translation": "我懂一点。"}
+      ]
+    },
+    {
+      "id": "challenge-map",
+      "title": "读短句常见卡点",
+      "layout": "compact",
+      "note": "这部分是遇到困难时回来看。每个卡点都给最小例句。",
+      "blocks": [
+        {
+          "id": "challenge-too-many-letters",
+          "type": "rule",
+          "text": "卡点：想把每个字母都读出来",
+          "audioText": "petit, vous, deux, ils parlent",
+          "rule": "解决：先找词尾不读，再听整块。法语拼写保留很多历史字母。",
+          "examples": [
+            {"text": "petit", "audioText": "petit", "ipa": "/pəti/", "translation": "小的"},
+            {"text": "vous", "audioText": "vous", "ipa": "/vu/", "translation": "您/你们"},
+            {"text": "deux", "audioText": "deux", "ipa": "/dø/", "translation": "二"},
+            {"text": "ils parlent", "audioText": "ils parlent", "ipa": "/il paʁl/", "translation": "他们说"}
+          ]
+        },
+        {
+          "id": "challenge-liaison",
+          "type": "rule",
+          "text": "卡点：不知道什么时候连读",
+          "audioText": "vous avez, les amis, un ami",
+          "rule": "解决：先只掌握最高频必备连读。不要一开始追求所有连读规则。",
+          "examples": [
+            {"text": "vous avez", "audioText": "vous avez", "ipa": "/vu zave/", "translation": "您有"},
+            {"text": "les amis", "audioText": "les amis", "ipa": "/le zami/", "translation": "朋友们"},
+            {"text": "un ami", "audioText": "un ami", "ipa": "/œ̃ nami/", "translation": "一个朋友"},
+            {"text": "très important", "audioText": "très important", "ipa": "/tʁɛ zɛ̃pɔʁtɑ̃/", "translation": "很重要"}
+          ]
+        },
+        {
+          "id": "challenge-schwa",
+          "type": "rule",
+          "text": "卡点：je/le/de/ne 太重",
+          "audioText": "je parle, le livre, de temps, je ne sais pas",
+          "rule": "解决：这些小词先轻轻带过，把重心放在实义词上。",
+          "examples": [
+            {"text": "je parle", "audioText": "je parle", "ipa": "/ʒə paʁl/", "translation": "我说"},
+            {"text": "le livre", "audioText": "le livre", "ipa": "/lə livʁ/", "translation": "这本书"},
+            {"text": "de temps", "audioText": "de temps", "ipa": "/də tɑ̃/", "translation": "时间的/一些时间"},
+            {"text": "je ne sais pas", "audioText": "je ne sais pas", "ipa": "/ʒə nə sɛ pa/", "translation": "我不知道"}
+          ]
+        },
+        {
+          "id": "challenge-rhythm",
+          "type": "rule",
+          "text": "卡点：短句读得很碎",
+          "audioText": "Je vais au café maintenant.",
+          "rule": "解决：按意义分块，不按空格逐词停顿。",
+          "examples": [
+            {"text": "Je vais / au café.", "audioText": "Je vais au café.", "ipa": "/ʒə vɛ / o kafe/", "translation": "我去 / 咖啡馆。"},
+            {"text": "J'ai / une question.", "audioText": "J'ai une question.", "ipa": "/ʒe / yn kɛstjɔ̃/", "translation": "我有 / 一个问题。"},
+            {"text": "C'est / très important.", "audioText": "C'est très important.", "ipa": "/sɛ / tʁɛ zɛ̃pɔʁtɑ̃/", "translation": "这 / 很重要。"},
+            {"text": "Je comprends / un peu.", "audioText": "Je comprends un peu.", "ipa": "/ʒə kɔ̃pʁɑ̃ / œ̃ pø/", "translation": "我懂 / 一点。"}
+          ]
+        }
+      ]
+    }
+  ]
+}

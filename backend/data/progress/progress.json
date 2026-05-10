@@ -1,0 +1,2017 @@
+{
+  "currentLessonId": "word-reading",
+  "blockStates": {
+    "letter-a": "mastered",
+    "letter-b": "mastered",
+    "letter-c": "mastered",
+    "letter-d": "mastered",
+    "letter-e": "mastered"
+  },
+  "completedLessons": [],
+  "sessions": [],
+  "visitedLessons": [
+    "alphabet",
+    "letter-combinations",
+    "word-reading",
+    "core-words",
+    "present-tense",
+    "past-future",
+    "regular-verbs",
+    "irregular-verbs",
+    "mood"
+  ],
+  "heardBlocks": {
+    "letter-a": {
+      "at": "2026-05-06T04:33:51.482Z",
+      "text": "a"
+    },
+    "letter-b": {
+      "at": "2026-05-06T04:33:51.795Z",
+      "text": "bé"
+    },
+    "letter-c": {
+      "at": "2026-05-06T04:33:52.122Z",
+      "text": "cé"
+    },
+    "letter-d": {
+      "at": "2026-05-06T04:33:52.519Z",
+      "text": "dé"
+    },
+    "letter-e": {
+      "at": "2026-05-06T04:33:52.860Z",
+      "text": "e"
+    },
+    "letter-f": {
+      "at": "2026-05-06T04:33:53.132Z",
+      "text": "effe"
+    },
+    "letter-g": {
+      "at": "2026-05-06T04:33:53.672Z",
+      "text": "gé"
+    },
+    "letter-h": {
+      "at": "2026-05-06T04:33:54.035Z",
+      "text": "ache"
+    },
+    "letter-i": {
+      "at": "2026-05-06T04:33:54.563Z",
+      "text": "i"
+    },
+    "letter-j": {
+      "at": "2026-05-06T04:33:54.822Z",
+      "text": "ji"
+    },
+    "letter-k": {
+      "at": "2026-05-06T04:33:55.183Z",
+      "text": "ka"
+    },
+    "letter-l": {
+      "at": "2026-05-06T04:33:55.556Z",
+      "text": "elle"
+    },
+    "letter-m": {
+      "at": "2026-05-06T04:33:55.996Z",
+      "text": "emme"
+    },
+    "letter-n": {
+      "at": "2026-05-06T04:33:56.424Z",
+      "text": "enne"
+    },
+    "letter-o": {
+      "at": "2026-05-06T04:33:57.085Z",
+      "text": "o"
+    },
+    "letter-p": {
+      "at": "2026-05-06T04:33:57.373Z",
+      "text": "pé"
+    },
+    "letter-q": {
+      "at": "2026-05-06T04:33:57.721Z",
+      "text": "ku"
+    },
+    "letter-r": {
+      "at": "2026-05-06T04:33:58.126Z",
+      "text": "erre"
+    },
+    "letter-s": {
+      "at": "2026-05-06T04:33:58.664Z",
+      "text": "esse"
+    },
+    "letter-t": {
+      "at": "2026-05-06T04:33:59.207Z",
+      "text": "té"
+    },
+    "letter-u": {
+      "at": "2026-05-06T04:33:59.567Z",
+      "text": "u"
+    },
+    "letter-v": {
+      "at": "2026-05-06T04:33:59.821Z",
+      "text": "vé"
+    },
+    "letter-w": {
+      "at": "2026-05-06T04:34:00.189Z",
+      "text": "double vé"
+    },
+    "letter-x": {
+      "at": "2026-05-06T04:34:00.881Z",
+      "text": "iks"
+    },
+    "letter-y": {
+      "at": "2026-05-06T04:34:01.111Z",
+      "text": "i grec"
+    },
+    "letter-z": {
+      "at": "2026-05-06T04:34:01.887Z",
+      "text": "zède"
+    },
+    "sent-bonjour": {
+      "at": "2026-05-06T04:34:05.082Z",
+      "text": "Bonjour."
+    },
+    "sent-je-suis": {
+      "at": "2026-05-06T09:52:47.589Z",
+      "text": "Je suis prêt."
+    },
+    "sent-on-y-va": {
+      "at": "2026-05-06T09:52:55.805Z",
+      "text": "On y va ?"
+    },
+    "letter-a:example:0": {
+      "at": "2026-05-06T04:34:41.340Z",
+      "text": "ami"
+    },
+    "letter-b:example:0": {
+      "at": "2026-05-06T04:34:42.669Z",
+      "text": "bébé"
+    },
+    "letter-c:example:0": {
+      "at": "2026-05-06T04:34:44.223Z",
+      "text": "café"
+    },
+    "letter-d:example:0": {
+      "at": "2026-05-06T04:34:46.704Z",
+      "text": "déjà"
+    },
+    "letter-e:example:0": {
+      "at": "2026-05-06T04:34:49.816Z",
+      "text": "été"
+    },
+    "letter-f:example:0": {
+      "at": "2026-05-06T04:34:51.887Z",
+      "text": "fille"
+    },
+    "chunk-ou": {
+      "at": "2026-05-06T04:35:08.085Z",
+      "text": "ou"
+    },
+    "chunk-ou:example:0": {
+      "at": "2026-05-06T08:58:20.819Z",
+      "text": "vous"
+    },
+    "chunk-ou:example:1": {
+      "at": "2026-05-06T08:58:23.483Z",
+      "text": "jour"
+    },
+    "chunk-u": {
+      "at": "2026-05-06T04:35:20.169Z",
+      "text": "u"
+    },
+    "chunk-u:example:0": {
+      "at": "2026-05-06T04:35:25.403Z",
+      "text": "tu"
+    },
+    "chunk-u:example:1": {
+      "at": "2026-05-06T04:35:28.835Z",
+      "text": "rue"
+    },
+    "chunk-ai": {
+      "at": "2026-05-06T04:35:36.786Z",
+      "text": "ai, ei"
+    },
+    "chunk-ai:example:0": {
+      "at": "2026-05-06T04:35:39.019Z",
+      "text": "mais"
+    },
+    "chunk-ai:example:1": {
+      "at": "2026-05-06T04:35:42.219Z",
+      "text": "seize"
+    },
+    "chunk-eau": {
+      "at": "2026-05-06T04:35:49.787Z",
+      "text": "au, eau"
+    },
+    "chunk-eau:example:0": {
+      "at": "2026-05-06T04:35:54.715Z",
+      "text": "beau"
+    },
+    "chunk-eau:example:1": {
+      "at": "2026-05-06T04:35:56.832Z",
+      "text": "eau"
+    },
+    "chunk-oi": {
+      "at": "2026-05-06T08:58:41.637Z",
+      "text": "oi"
+    },
+    "chunk-oi:example:0": {
+      "at": "2026-05-06T08:58:43.905Z",
+      "text": "moi"
+    },
+    "chunk-oi:example:1": {
+      "at": "2026-05-06T08:58:46.382Z",
+      "text": "toi"
+    },
+    "chunk-eu": {
+      "at": "2026-05-06T04:36:13.186Z",
+      "text": "eu, œu"
+    },
+    "chunk-eu:example:0": {
+      "at": "2026-05-06T04:36:17.652Z",
+      "text": "deux"
+    },
+    "chunk-eu:example:1": {
+      "at": "2026-05-06T04:36:21.183Z",
+      "text": "sœur"
+    },
+    "nasal-an": {
+      "at": "2026-05-06T04:36:24.268Z",
+      "text": "an, en"
+    },
+    "nasal-an:example:0": {
+      "at": "2026-05-06T04:36:32.336Z",
+      "text": "France"
+    },
+    "nasal-an:example:1": {
+      "at": "2026-05-06T08:45:50.619Z",
+      "text": "enfant"
+    },
+    "nasal-on": {
+      "at": "2026-05-06T04:36:39.061Z",
+      "text": "on, om"
+    },
+    "nasal-on:example:0": {
+      "at": "2026-05-06T04:36:42.669Z",
+      "text": "bonjour"
+    },
+    "nasal-on:example:1": {
+      "at": "2026-05-06T08:45:53.423Z",
+      "text": "nom"
+    },
+    "nasal-in": {
+      "at": "2026-05-06T04:36:46.936Z",
+      "text": "in, ain, ein"
+    },
+    "nasal-in:example:0": {
+      "at": "2026-05-06T04:36:52.152Z",
+      "text": "vin"
+    },
+    "nasal-in:example:1": {
+      "at": "2026-05-06T08:45:55.585Z",
+      "text": "pain"
+    },
+    "nasal-un": {
+      "at": "2026-05-06T04:36:58.919Z",
+      "text": "un"
+    },
+    "nasal-un:example:0": {
+      "at": "2026-05-06T04:37:04.636Z",
+      "text": "un"
+    },
+    "nasal-un:example:1": {
+      "at": "2026-05-06T08:45:56.853Z",
+      "text": "lundi"
+    },
+    "cons-ch": {
+      "at": "2026-05-06T04:52:07.449Z",
+      "text": "ch"
+    },
+    "cons-ch:example:0": {
+      "at": "2026-05-06T04:37:15.901Z",
+      "text": "chat"
+    },
+    "cons-ch:example:1": {
+      "at": "2026-05-06T04:37:18.819Z",
+      "text": "chose"
+    },
+    "cons-gn:example:0": {
+      "at": "2026-05-06T04:51:52.200Z",
+      "text": "Espagne"
+    },
+    "cons-gn": {
+      "at": "2026-05-06T04:52:08.221Z",
+      "text": "gn"
+    },
+    "cons-gn:example:1": {
+      "at": "2026-05-06T04:51:54.998Z",
+      "text": "ligne"
+    },
+    "cons-qu": {
+      "at": "2026-05-06T04:52:08.861Z",
+      "text": "qu"
+    },
+    "cons-qu:example:0": {
+      "at": "2026-05-06T04:52:00.500Z",
+      "text": "qui"
+    },
+    "cons-qu:example:1": {
+      "at": "2026-05-06T04:52:03.264Z",
+      "text": "quatre"
+    },
+    "cons-c-soft:example:0": {
+      "at": "2026-05-06T04:52:13.180Z",
+      "text": "ça"
+    },
+    "cons-c-soft": {
+      "at": "2026-05-06T04:52:09.246Z",
+      "text": "c, ç"
+    },
+    "cons-g-soft": {
+      "at": "2026-05-06T04:52:10.656Z",
+      "text": "g, ge"
+    },
+    "cons-c-soft:example:1": {
+      "at": "2026-05-06T04:52:15.163Z",
+      "text": "merci"
+    },
+    "cons-g-soft:example:0": {
+      "at": "2026-05-06T04:52:20.367Z",
+      "text": "gare"
+    },
+    "cons-g-soft:example:1": {
+      "at": "2026-05-06T04:52:24.431Z",
+      "text": "génial"
+    },
+    "rule-final-consonant": {
+      "at": "2026-05-06T04:52:27.850Z",
+      "text": "petit, grand, vous"
+    },
+    "rule-liaison": {
+      "at": "2026-05-06T04:52:29.436Z",
+      "text": "vous avez, les amis"
+    },
+    "rule-silent-e": {
+      "at": "2026-05-06T04:52:30.911Z",
+      "text": "je, petite"
+    },
+    "rule-final-consonant:example:0": {
+      "at": "2026-05-06T04:52:40.216Z",
+      "text": "petit"
+    },
+    "rule-final-consonant:example:1": {
+      "at": "2026-05-06T04:52:41.648Z",
+      "text": "vous"
+    },
+    "rule-liaison:example:0": {
+      "at": "2026-05-06T04:52:51.467Z",
+      "text": "vous avez"
+    },
+    "rule-liaison:example:1": {
+      "at": "2026-05-06T04:53:01.863Z",
+      "text": "les amis"
+    },
+    "rule-silent-e:example:0": {
+      "at": "2026-05-06T04:53:13.326Z",
+      "text": "je parle"
+    },
+    "rule-silent-e:example:1": {
+      "at": "2026-05-06T04:53:17.098Z",
+      "text": "petite"
+    },
+    "word-je": {
+      "at": "2026-05-06T04:53:45.396Z",
+      "text": "je"
+    },
+    "word-tu": {
+      "at": "2026-05-06T04:53:48.432Z",
+      "text": "tu"
+    },
+    "word-vous": {
+      "at": "2026-05-06T04:53:49.998Z",
+      "text": "vous"
+    },
+    "word-etre": {
+      "at": "2026-05-06T04:53:51.578Z",
+      "text": "être"
+    },
+    "word-avoir": {
+      "at": "2026-05-06T04:53:57.095Z",
+      "text": "avoir"
+    },
+    "word-aller": {
+      "at": "2026-05-06T04:54:00.781Z",
+      "text": "aller"
+    },
+    "word-faire": {
+      "at": "2026-05-06T04:54:04.028Z",
+      "text": "faire"
+    },
+    "word-bien": {
+      "at": "2026-05-06T04:54:07.177Z",
+      "text": "bien"
+    },
+    "phrase-un-ami": {
+      "at": "2026-05-06T04:54:12.700Z",
+      "text": "un ami"
+    },
+    "phrase-le-cafe": {
+      "at": "2026-05-06T04:54:17.317Z",
+      "text": "le café"
+    },
+    "phrase-a-paris": {
+      "at": "2026-05-06T04:54:22.967Z",
+      "text": "à Paris"
+    },
+    "phrase-tres-bien": {
+      "at": "2026-05-06T04:54:26.031Z",
+      "text": "très bien"
+    },
+    "phrase-pour-moi": {
+      "at": "2026-05-06T04:54:33.447Z",
+      "text": "pour moi"
+    },
+    "phrase-avec-vous": {
+      "at": "2026-05-06T04:54:37.746Z",
+      "text": "avec vous"
+    },
+    "sent-je-vais": {
+      "at": "2026-05-06T04:54:51.749Z",
+      "text": "Je vais à Paris."
+    },
+    "sent-tu-as": {
+      "at": "2026-05-06T04:55:04.950Z",
+      "text": "Tu as un livre."
+    },
+    "sent-cest-bon": {
+      "at": "2026-05-06T04:55:09.733Z",
+      "text": "C'est bon."
+    },
+    "sent-je-ne-sais-pas": {
+      "at": "2026-05-06T04:55:21.765Z",
+      "text": "Je ne sais pas."
+    },
+    "sent-on-continue": {
+      "at": "2026-05-06T04:55:43.183Z",
+      "text": "On continue ?"
+    },
+    "core-je": {
+      "at": "2026-05-06T09:22:02.054Z",
+      "text": "je"
+    },
+    "core-je:example:0": {
+      "at": "2026-05-06T08:15:00.447Z",
+      "text": "Je parle."
+    },
+    "core-tu": {
+      "at": "2026-05-06T09:22:02.558Z",
+      "text": "tu"
+    },
+    "core-tu:example:0": {
+      "at": "2026-05-06T08:15:05.147Z",
+      "text": "Tu comprends ?"
+    },
+    "core-il-elle": {
+      "at": "2026-05-06T04:56:12.914Z",
+      "text": "il, elle"
+    },
+    "core-il-elle:example:0": {
+      "at": "2026-05-06T07:35:22.671Z",
+      "text": "Elle est ici."
+    },
+    "core-nous-on": {
+      "at": "2026-05-06T07:34:59.360Z",
+      "text": "nous, on"
+    },
+    "core-nous-on:example:0": {
+      "at": "2026-05-06T07:35:01.012Z",
+      "text": "On y va."
+    },
+    "core-vous": {
+      "at": "2026-05-06T09:22:04.495Z",
+      "text": "vous"
+    },
+    "core-ils": {
+      "at": "2026-05-06T04:56:36.242Z",
+      "text": "ils, elles"
+    },
+    "core-ils:example:0": {
+      "at": "2026-05-06T07:36:19.763Z",
+      "text": "Ils sont prêts."
+    },
+    "core-vous:example:0": {
+      "at": "2026-05-06T07:35:52.720Z",
+      "text": "Vous avez le temps ?"
+    },
+    "core-ici": {
+      "at": "2026-05-06T08:18:13.475Z",
+      "text": "ici"
+    },
+    "core-la": {
+      "at": "2026-05-06T08:18:14.845Z",
+      "text": "là"
+    },
+    "core-ici:example:0": {
+      "at": "2026-05-06T07:36:47.475Z",
+      "text": "Je suis ici."
+    },
+    "core-la:example:0": {
+      "at": "2026-05-06T07:36:59.188Z",
+      "text": "Il est là."
+    },
+    "core-beaucoup": {
+      "at": "2026-05-06T07:38:19.386Z",
+      "text": "beaucoup"
+    },
+    "core-beaucoup:example:0": {
+      "at": "2026-05-06T07:38:17.203Z",
+      "text": "Merci beaucoup."
+    },
+    "survival-french": {
+      "at": "2026-05-06T08:41:53.258Z",
+      "text": "Je parle un peu français."
+    },
+    "survival-repeat": {
+      "at": "2026-05-06T08:41:54.726Z",
+      "text": "Vous pouvez répéter ?"
+    },
+    "survival-understand": {
+      "at": "2026-05-06T08:41:55.900Z",
+      "text": "Je comprends, mais je parle lentement."
+    },
+    "survival-question": {
+      "at": "2026-05-06T08:41:58.095Z",
+      "text": "Comment on dit ça en français ?"
+    },
+    "core-et": {
+      "at": "2026-05-06T08:18:41.897Z",
+      "text": "et"
+    },
+    "core-mais": {
+      "at": "2026-05-06T08:18:43.594Z",
+      "text": "mais"
+    },
+    "core-parce-que": {
+      "at": "2026-05-06T08:18:49.562Z",
+      "text": "parce que"
+    },
+    "core-donc": {
+      "at": "2026-05-06T08:18:47.213Z",
+      "text": "donc"
+    },
+    "core-aujourdhui": {
+      "at": "2026-05-06T08:18:16.129Z",
+      "text": "aujourd'hui"
+    },
+    "core-maintenant": {
+      "at": "2026-05-06T08:18:27.862Z",
+      "text": "maintenant"
+    },
+    "core-un-peu": {
+      "at": "2026-05-06T07:38:20.787Z",
+      "text": "un peu"
+    },
+    "rule-er": {
+      "at": "2026-05-06T05:13:15.539Z",
+      "text": "je parle, tu parles, il parle"
+    },
+    "rule-er-nous-vous": {
+      "at": "2026-05-06T05:13:29.668Z",
+      "text": "nous parlons, vous parlez"
+    },
+    "rule-er-ils": {
+      "at": "2026-05-06T05:13:44.470Z",
+      "text": "ils parlent"
+    },
+    "rule-er-ils:example:0": {
+      "at": "2026-05-06T05:13:53.706Z",
+      "text": "Ils parlent français."
+    },
+    "rule-er-nous-vous:example:0": {
+      "at": "2026-05-06T05:14:05.100Z",
+      "text": "Nous parlons anglais."
+    },
+    "rule-er-nous-vous:example:1": {
+      "at": "2026-05-06T05:14:16.558Z",
+      "text": "Vous parlez vite."
+    },
+    "rule-er:example:0": {
+      "at": "2026-05-06T05:14:22.659Z",
+      "text": "Je parle français."
+    },
+    "rule-er:example:1": {
+      "at": "2026-05-06T05:14:41.789Z",
+      "text": "Tu travailles aujourd'hui ?"
+    },
+    "core-aujourdhui:example:0": {
+      "at": "2026-05-06T07:37:34.552Z",
+      "text": "Aujourd'hui, je travaille."
+    },
+    "core-un-peu:example:0": {
+      "at": "2026-05-06T07:38:34.743Z",
+      "text": "Je parle un peu français."
+    },
+    "core-parce-que:example:0": {
+      "at": "2026-05-06T07:39:05.103Z",
+      "text": "Parce que c'est important."
+    },
+    "core-donc:example:0": {
+      "at": "2026-05-06T07:39:17.201Z",
+      "text": "Donc, on commence."
+    },
+    "etre-forms": {
+      "at": "2026-05-06T07:41:24.116Z",
+      "text": "je suis, tu es, il est, nous sommes, vous êtes, ils sont"
+    },
+    "core-il:example:0": {
+      "at": "2026-05-06T08:15:10.333Z",
+      "text": "Il est là."
+    },
+    "core-elle:example:0": {
+      "at": "2026-05-06T08:15:15.011Z",
+      "text": "Elle est ici."
+    },
+    "num-zero": {
+      "at": "2026-05-06T08:15:21.100Z",
+      "text": "zéro"
+    },
+    "num-un": {
+      "at": "2026-05-06T08:15:22.415Z",
+      "text": "un"
+    },
+    "num-deux": {
+      "at": "2026-05-06T08:15:24.233Z",
+      "text": "deux"
+    },
+    "num-trois": {
+      "at": "2026-05-06T08:15:25.632Z",
+      "text": "trois"
+    },
+    "num-quatre": {
+      "at": "2026-05-06T08:15:28.097Z",
+      "text": "quatre"
+    },
+    "num-cinq": {
+      "at": "2026-05-06T08:15:29.800Z",
+      "text": "cinq"
+    },
+    "num-six": {
+      "at": "2026-05-06T08:15:34.130Z",
+      "text": "six"
+    },
+    "num-sept": {
+      "at": "2026-05-06T08:15:35.648Z",
+      "text": "sept"
+    },
+    "num-huit": {
+      "at": "2026-05-06T08:15:38.631Z",
+      "text": "huit"
+    },
+    "num-neuf": {
+      "at": "2026-05-06T08:15:41.260Z",
+      "text": "neuf"
+    },
+    "num-dix": {
+      "at": "2026-05-06T08:15:42.863Z",
+      "text": "dix"
+    },
+    "num-onze": {
+      "at": "2026-05-06T08:15:44.267Z",
+      "text": "onze"
+    },
+    "num-douze": {
+      "at": "2026-05-06T08:15:46.866Z",
+      "text": "douze"
+    },
+    "num-treize": {
+      "at": "2026-05-06T08:15:48.815Z",
+      "text": "treize"
+    },
+    "num-quatorze": {
+      "at": "2026-05-06T08:15:50.596Z",
+      "text": "quatorze"
+    },
+    "num-quinze": {
+      "at": "2026-05-06T08:15:53.859Z",
+      "text": "quinze"
+    },
+    "num-seize": {
+      "at": "2026-05-06T08:15:59.614Z",
+      "text": "seize"
+    },
+    "num-dix-sept": {
+      "at": "2026-05-06T08:16:01.673Z",
+      "text": "dix-sept"
+    },
+    "num-dix-huit": {
+      "at": "2026-05-06T08:16:06.259Z",
+      "text": "dix-huit"
+    },
+    "num-dix-neuf": {
+      "at": "2026-05-06T08:16:07.925Z",
+      "text": "dix-neuf"
+    },
+    "num-vingt": {
+      "at": "2026-05-06T08:16:10.699Z",
+      "text": "vingt"
+    },
+    "num-trente": {
+      "at": "2026-05-06T08:16:12.629Z",
+      "text": "trente"
+    },
+    "num-quarante": {
+      "at": "2026-05-06T08:16:16.212Z",
+      "text": "quarante"
+    },
+    "num-cinquante": {
+      "at": "2026-05-06T08:16:18.783Z",
+      "text": "cinquante"
+    },
+    "num-soixante": {
+      "at": "2026-05-06T08:16:23.548Z",
+      "text": "soixante"
+    },
+    "num-cent": {
+      "at": "2026-05-06T08:16:25.728Z",
+      "text": "cent"
+    },
+    "day-lundi": {
+      "at": "2026-05-06T08:16:29.665Z",
+      "text": "lundi"
+    },
+    "day-mardi": {
+      "at": "2026-05-06T08:16:33.312Z",
+      "text": "mardi"
+    },
+    "day-mercredi": {
+      "at": "2026-05-06T08:16:36.643Z",
+      "text": "mercredi"
+    },
+    "day-jeudi": {
+      "at": "2026-05-06T08:16:40.577Z",
+      "text": "jeudi"
+    },
+    "day-vendredi": {
+      "at": "2026-05-06T08:16:45.581Z",
+      "text": "vendredi"
+    },
+    "day-samedi": {
+      "at": "2026-05-06T08:16:47.543Z",
+      "text": "samedi"
+    },
+    "day-dimanche": {
+      "at": "2026-05-06T08:16:53.597Z",
+      "text": "dimanche"
+    },
+    "month-janvier": {
+      "at": "2026-05-06T08:16:58.379Z",
+      "text": "janvier"
+    },
+    "month-fevrier": {
+      "at": "2026-05-06T08:17:04.483Z",
+      "text": "février"
+    },
+    "month-mars": {
+      "at": "2026-05-06T08:17:11.515Z",
+      "text": "mars"
+    },
+    "month-avril": {
+      "at": "2026-05-06T08:17:14.063Z",
+      "text": "avril"
+    },
+    "month-mai": {
+      "at": "2026-05-06T08:17:17.011Z",
+      "text": "mai"
+    },
+    "month-juin": {
+      "at": "2026-05-06T08:17:21.826Z",
+      "text": "juin"
+    },
+    "month-juillet": {
+      "at": "2026-05-06T08:17:43.828Z",
+      "text": "juillet"
+    },
+    "month-aout": {
+      "at": "2026-05-06T08:17:47.130Z",
+      "text": "août"
+    },
+    "month-septembre": {
+      "at": "2026-05-06T08:17:54.563Z",
+      "text": "septembre"
+    },
+    "month-octobre": {
+      "at": "2026-05-06T08:17:59.781Z",
+      "text": "octobre"
+    },
+    "month-novembre": {
+      "at": "2026-05-06T08:18:05.366Z",
+      "text": "novembre"
+    },
+    "month-decembre": {
+      "at": "2026-05-06T08:18:09.698Z",
+      "text": "décembre"
+    },
+    "core-demain": {
+      "at": "2026-05-06T08:18:20.822Z",
+      "text": "demain"
+    },
+    "core-hier": {
+      "at": "2026-05-06T08:18:25.582Z",
+      "text": "hier"
+    },
+    "core-temps": {
+      "at": "2026-05-06T08:18:33.681Z",
+      "text": "temps"
+    },
+    "core-fois": {
+      "at": "2026-05-06T08:18:38.114Z",
+      "text": "fois"
+    },
+    "core-ou": {
+      "at": "2026-05-06T08:18:45.895Z",
+      "text": "ou"
+    },
+    "core-avec": {
+      "at": "2026-05-06T08:18:55.838Z",
+      "text": "avec"
+    },
+    "core-sans": {
+      "at": "2026-05-06T08:18:57.760Z",
+      "text": "sans"
+    },
+    "noun-maison": {
+      "at": "2026-05-06T08:38:20.570Z",
+      "text": "maison"
+    },
+    "noun-travail": {
+      "at": "2026-05-06T08:38:23.755Z",
+      "text": "travail"
+    },
+    "noun-argent": {
+      "at": "2026-05-06T08:38:27.555Z",
+      "text": "argent"
+    },
+    "noun-question": {
+      "at": "2026-05-06T08:38:33.304Z",
+      "text": "question"
+    },
+    "noun-probleme": {
+      "at": "2026-05-06T08:39:54.519Z",
+      "text": "problème"
+    },
+    "noun-chose": {
+      "at": "2026-05-06T08:39:56.095Z",
+      "text": "chose"
+    },
+    "noun-personne": {
+      "at": "2026-05-06T08:39:57.539Z",
+      "text": "personne"
+    },
+    "noun-livre": {
+      "at": "2026-05-06T08:39:59.761Z",
+      "text": "livre"
+    },
+    "noun-ville": {
+      "at": "2026-05-06T08:40:01.993Z",
+      "text": "ville"
+    },
+    "noun-pays": {
+      "at": "2026-05-06T08:40:03.773Z",
+      "text": "pays"
+    },
+    "noun-langue": {
+      "at": "2026-05-06T08:40:09.003Z",
+      "text": "langue"
+    },
+    "noun-eau": {
+      "at": "2026-05-06T08:40:29.376Z",
+      "text": "eau"
+    },
+    "fruit-pomme": {
+      "at": "2026-05-06T08:40:33.818Z",
+      "text": "pomme"
+    },
+    "fruit-banane": {
+      "at": "2026-05-06T08:40:34.381Z",
+      "text": "banane"
+    },
+    "fruit-orange": {
+      "at": "2026-05-06T08:40:35.134Z",
+      "text": "orange"
+    },
+    "fruit-fraise": {
+      "at": "2026-05-06T08:40:35.724Z",
+      "text": "fraise"
+    },
+    "fruit-raisin": {
+      "at": "2026-05-06T08:40:36.395Z",
+      "text": "raisin"
+    },
+    "fruit-citron": {
+      "at": "2026-05-06T08:40:36.869Z",
+      "text": "citron"
+    },
+    "fruit-peche": {
+      "at": "2026-05-06T08:40:37.596Z",
+      "text": "pêche"
+    },
+    "fruit-poire": {
+      "at": "2026-05-06T08:40:38.143Z",
+      "text": "poire"
+    },
+    "veg-carotte": {
+      "at": "2026-05-06T08:40:38.816Z",
+      "text": "carotte"
+    },
+    "veg-tomate": {
+      "at": "2026-05-06T08:40:39.398Z",
+      "text": "tomate"
+    },
+    "veg-pomme-de-terre": {
+      "at": "2026-05-06T08:40:40.217Z",
+      "text": "pomme de terre"
+    },
+    "veg-oignon": {
+      "at": "2026-05-06T08:40:41.112Z",
+      "text": "oignon"
+    },
+    "veg-salade": {
+      "at": "2026-05-06T08:40:41.655Z",
+      "text": "salade"
+    },
+    "veg-concombre": {
+      "at": "2026-05-06T08:40:42.436Z",
+      "text": "concombre"
+    },
+    "veg-champignon": {
+      "at": "2026-05-06T08:40:43.220Z",
+      "text": "champignon"
+    },
+    "veg-ail": {
+      "at": "2026-05-06T08:40:44.097Z",
+      "text": "ail"
+    },
+    "animal-chat": {
+      "at": "2026-05-06T08:40:46.884Z",
+      "text": "chat"
+    },
+    "animal-chien": {
+      "at": "2026-05-06T08:40:47.326Z",
+      "text": "chien"
+    },
+    "animal-oiseau": {
+      "at": "2026-05-06T08:40:47.784Z",
+      "text": "oiseau"
+    },
+    "animal-cheval": {
+      "at": "2026-05-06T08:40:48.424Z",
+      "text": "cheval"
+    },
+    "animal-poisson": {
+      "at": "2026-05-06T08:40:49.110Z",
+      "text": "poisson"
+    },
+    "animal-vache": {
+      "at": "2026-05-06T08:40:49.749Z",
+      "text": "vache"
+    },
+    "animal-mouton": {
+      "at": "2026-05-06T08:40:50.294Z",
+      "text": "mouton"
+    },
+    "animal-cochon": {
+      "at": "2026-05-06T08:40:50.913Z",
+      "text": "cochon"
+    },
+    "adj-bon": {
+      "at": "2026-05-06T08:40:54.368Z",
+      "text": "bon"
+    },
+    "adj-mauvais": {
+      "at": "2026-05-06T08:40:54.769Z",
+      "text": "mauvais"
+    },
+    "adj-grand": {
+      "at": "2026-05-06T08:40:55.291Z",
+      "text": "grand"
+    },
+    "adj-petit": {
+      "at": "2026-05-06T08:40:55.800Z",
+      "text": "petit"
+    },
+    "adj-nouveau": {
+      "at": "2026-05-06T08:40:56.216Z",
+      "text": "nouveau"
+    },
+    "adj-important": {
+      "at": "2026-05-06T08:40:56.838Z",
+      "text": "important"
+    },
+    "adj-possible": {
+      "at": "2026-05-06T08:40:57.501Z",
+      "text": "possible"
+    },
+    "adj-facile": {
+      "at": "2026-05-06T08:40:58.337Z",
+      "text": "facile"
+    },
+    "adj-difficile": {
+      "at": "2026-05-06T08:40:59.018Z",
+      "text": "difficile"
+    },
+    "adv-vite": {
+      "at": "2026-05-06T08:40:59.990Z",
+      "text": "vite"
+    },
+    "adv-lentement": {
+      "at": "2026-05-06T08:41:00.433Z",
+      "text": "lentement"
+    },
+    "adv-toujours": {
+      "at": "2026-05-06T08:41:01.145Z",
+      "text": "toujours"
+    },
+    "adv-souvent": {
+      "at": "2026-05-06T08:41:01.830Z",
+      "text": "souvent"
+    },
+    "adv-jamais": {
+      "at": "2026-05-06T08:41:02.472Z",
+      "text": "jamais"
+    },
+    "verb-etre": {
+      "at": "2026-05-06T08:41:36.827Z",
+      "text": "être"
+    },
+    "verb-avoir": {
+      "at": "2026-05-06T08:41:37.634Z",
+      "text": "avoir"
+    },
+    "verb-aller": {
+      "at": "2026-05-06T08:41:38.339Z",
+      "text": "aller"
+    },
+    "verb-faire": {
+      "at": "2026-05-06T08:41:38.649Z",
+      "text": "faire"
+    },
+    "verb-pouvoir": {
+      "at": "2026-05-06T08:41:39.405Z",
+      "text": "pouvoir"
+    },
+    "verb-vouloir": {
+      "at": "2026-05-06T08:41:39.990Z",
+      "text": "vouloir"
+    },
+    "verb-devoir": {
+      "at": "2026-05-06T08:41:40.776Z",
+      "text": "devoir"
+    },
+    "verb-savoir": {
+      "at": "2026-05-06T08:41:41.427Z",
+      "text": "savoir"
+    },
+    "verb-comprendre": {
+      "at": "2026-05-06T08:41:42.258Z",
+      "text": "comprendre"
+    },
+    "verb-parler": {
+      "at": "2026-05-06T08:41:43.095Z",
+      "text": "parler"
+    },
+    "verb-travailler": {
+      "at": "2026-05-06T08:41:43.650Z",
+      "text": "travailler"
+    },
+    "verb-aimer": {
+      "at": "2026-05-06T08:41:44.259Z",
+      "text": "aimer"
+    },
+    "verb-donner": {
+      "at": "2026-05-06T08:41:44.761Z",
+      "text": "donner"
+    },
+    "verb-prendre": {
+      "at": "2026-05-06T08:41:45.168Z",
+      "text": "prendre"
+    },
+    "verb-venir": {
+      "at": "2026-05-06T08:41:45.971Z",
+      "text": "venir"
+    },
+    "verb-voir": {
+      "at": "2026-05-06T08:41:46.677Z",
+      "text": "voir"
+    },
+    "verb-dire": {
+      "at": "2026-05-06T08:41:47.298Z",
+      "text": "dire"
+    },
+    "verb-mettre": {
+      "at": "2026-05-06T08:41:47.818Z",
+      "text": "mettre"
+    },
+    "verb-partir": {
+      "at": "2026-05-06T08:41:48.486Z",
+      "text": "partir"
+    },
+    "verb-vivre": {
+      "at": "2026-05-06T08:41:49.245Z",
+      "text": "vivre"
+    },
+    "verb-attendre": {
+      "at": "2026-05-06T08:41:49.935Z",
+      "text": "attendre"
+    },
+    "vowel-a:example:0": {
+      "at": "2026-05-06T08:55:36.991Z",
+      "text": "ami"
+    },
+    "vowel-a:example:1": {
+      "at": "2026-05-06T08:55:38.738Z",
+      "text": "à Paris"
+    },
+    "vowel-a:example:2": {
+      "at": "2026-05-06T08:55:43.847Z",
+      "text": "pâte"
+    },
+    "vowel-a:example:3": {
+      "at": "2026-05-06T08:55:50.788Z",
+      "text": "chat"
+    },
+    "vowel-e-acute": {
+      "at": "2026-05-06T08:55:55.348Z",
+      "text": "é"
+    },
+    "vowel-e-acute:example:0": {
+      "at": "2026-05-06T08:55:58.434Z",
+      "text": "café"
+    },
+    "vowel-e-acute:example:1": {
+      "at": "2026-05-06T08:56:01.252Z",
+      "text": "été"
+    },
+    "vowel-e-acute:example:2": {
+      "at": "2026-05-06T08:56:12.849Z",
+      "text": "répéter"
+    },
+    "vowel-e-acute:example:3": {
+      "at": "2026-05-06T08:56:17.983Z",
+      "text": "télé"
+    },
+    "vowel-e-grave:example:0": {
+      "at": "2026-05-06T08:56:29.065Z",
+      "text": "très"
+    },
+    "vowel-e-grave:example:1": {
+      "at": "2026-05-06T08:56:31.128Z",
+      "text": "mère"
+    },
+    "vowel-e-grave:example:2": {
+      "at": "2026-05-06T08:56:37.134Z",
+      "text": "tête"
+    },
+    "vowel-e-grave:example:3": {
+      "at": "2026-05-06T08:56:40.387Z",
+      "text": "elle"
+    },
+    "vowel-schwa": {
+      "at": "2026-05-06T08:56:46.039Z",
+      "text": "je, le, de"
+    },
+    "vowel-schwa:example:0": {
+      "at": "2026-05-06T08:56:50.703Z",
+      "text": "je"
+    },
+    "vowel-schwa:example:1": {
+      "at": "2026-05-06T08:56:52.331Z",
+      "text": "le"
+    },
+    "vowel-schwa:example:2": {
+      "at": "2026-05-06T08:56:53.650Z",
+      "text": "de"
+    },
+    "vowel-schwa:example:3": {
+      "at": "2026-05-06T08:57:00.569Z",
+      "text": "petit"
+    },
+    "vowel-u": {
+      "at": "2026-05-06T08:57:07.965Z",
+      "text": "u"
+    },
+    "vowel-u:example:0": {
+      "at": "2026-05-06T08:57:09.701Z",
+      "text": "tu"
+    },
+    "vowel-u:example:1": {
+      "at": "2026-05-06T08:57:20.913Z",
+      "text": "rue"
+    },
+    "vowel-u:example:2": {
+      "at": "2026-05-06T08:57:25.419Z",
+      "text": "lune"
+    },
+    "vowel-u:example:3": {
+      "at": "2026-05-06T08:57:26.917Z",
+      "text": "salut"
+    },
+    "vowel-y": {
+      "at": "2026-05-06T08:57:28.935Z",
+      "text": "y"
+    },
+    "vowel-y:example:0": {
+      "at": "2026-05-06T08:57:32.782Z",
+      "text": "stylo"
+    },
+    "vowel-y:example:1": {
+      "at": "2026-05-06T08:57:33.984Z",
+      "text": "type"
+    },
+    "vowel-y:example:2": {
+      "at": "2026-05-06T08:57:35.804Z",
+      "text": "pays"
+    },
+    "vowel-y:example:3": {
+      "at": "2026-05-06T08:58:10.849Z",
+      "text": "yeux"
+    },
+    "chunk-ou:example:2": {
+      "at": "2026-05-06T08:58:27.719Z",
+      "text": "pour"
+    },
+    "chunk-ou:example:3": {
+      "at": "2026-05-06T08:58:39.569Z",
+      "text": "beaucoup"
+    },
+    "chunk-oi:example:2": {
+      "at": "2026-05-06T08:58:47.819Z",
+      "text": "trois"
+    },
+    "chunk-oi:example:3": {
+      "at": "2026-05-06T08:58:49.721Z",
+      "text": "fois"
+    },
+    "chunk-oi:example:4": {
+      "at": "2026-05-06T08:58:53.668Z",
+      "text": "boire"
+    },
+    "chunk-au-eau": {
+      "at": "2026-05-06T08:58:57.352Z",
+      "text": "au, eau"
+    },
+    "chunk-au-eau:example:0": {
+      "at": "2026-05-06T08:59:00.901Z",
+      "text": "eau"
+    },
+    "chunk-au-eau:example:1": {
+      "at": "2026-05-06T08:59:03.085Z",
+      "text": "beau"
+    },
+    "chunk-au-eau:example:2": {
+      "at": "2026-05-06T08:59:05.282Z",
+      "text": "nouveau"
+    },
+    "chunk-au-eau:example:3": {
+      "at": "2026-05-06T08:59:07.904Z",
+      "text": "aussi"
+    },
+    "chunk-au-eau:example:4": {
+      "at": "2026-05-06T08:59:10.803Z",
+      "text": "chaud"
+    },
+    "chunk-ai-ei": {
+      "at": "2026-05-06T08:59:14.870Z",
+      "text": "ai, ei"
+    },
+    "chunk-ai-ei:example:0": {
+      "at": "2026-05-06T08:59:22.834Z",
+      "text": "mais"
+    },
+    "chunk-ai-ei:example:1": {
+      "at": "2026-05-06T08:59:25.154Z",
+      "text": "faire"
+    },
+    "chunk-ai-ei:example:2": {
+      "at": "2026-05-06T08:59:27.119Z",
+      "text": "vrai"
+    },
+    "chunk-ai-ei:example:3": {
+      "at": "2026-05-06T08:59:31.635Z",
+      "text": "seize"
+    },
+    "chunk-ai-ei:example:4": {
+      "at": "2026-05-06T08:59:34.201Z",
+      "text": "neige"
+    },
+    "chunk-eu-oeu-closed:example:0": {
+      "at": "2026-05-06T09:00:12.887Z",
+      "text": "deux"
+    },
+    "chunk-eu-oeu-closed:example:1": {
+      "at": "2026-05-06T08:59:51.983Z",
+      "text": "peu"
+    },
+    "chunk-eu-oeu-closed:example:2": {
+      "at": "2026-05-06T08:59:56.738Z",
+      "text": "bleu"
+    },
+    "chunk-eu-oeu-closed:example:3": {
+      "at": "2026-05-06T09:00:00.256Z",
+      "text": "je veux"
+    },
+    "chunk-eu-oeu-closed:example:4": {
+      "at": "2026-05-06T09:00:05.901Z",
+      "text": "heureux"
+    },
+    "chunk-eu-oeu-closed": {
+      "at": "2026-05-06T09:00:09.383Z",
+      "text": "deux, peu, veux"
+    },
+    "chunk-eu-oeu-open:example:0": {
+      "at": "2026-05-06T09:00:31.286Z",
+      "text": "jeune"
+    },
+    "chunk-eu-oeu-open": {
+      "at": "2026-05-06T09:00:27.403Z",
+      "text": "jeune, neuf, sœur"
+    },
+    "chunk-eu-oeu-open:example:1": {
+      "at": "2026-05-06T09:00:33.718Z",
+      "text": "neuf"
+    },
+    "chunk-eu-oeu-open:example:2": {
+      "at": "2026-05-06T09:00:36.321Z",
+      "text": "sœur"
+    },
+    "chunk-eu-oeu-open:example:3": {
+      "at": "2026-05-06T09:00:44.554Z",
+      "text": "cœur"
+    },
+    "chunk-eu-oeu-open:example:4": {
+      "at": "2026-05-06T09:00:47.151Z",
+      "text": "œuf"
+    },
+    "chunk-er-ez-final": {
+      "at": "2026-05-06T09:00:51.355Z",
+      "text": "parler, allez, écoutez"
+    },
+    "chunk-er-ez-final:example:0": {
+      "at": "2026-05-06T09:00:58.485Z",
+      "text": "parler"
+    },
+    "chunk-er-ez-final:example:1": {
+      "at": "2026-05-06T09:01:03.489Z",
+      "text": "aller"
+    },
+    "chunk-er-ez-final:example:2": {
+      "at": "2026-05-06T09:01:05.674Z",
+      "text": "vous avez"
+    },
+    "chunk-er-ez-final:example:3": {
+      "at": "2026-05-06T09:01:12.212Z",
+      "text": "écoutez"
+    },
+    "chunk-er-ez-final:example:4": {
+      "at": "2026-05-06T09:01:22.583Z",
+      "text": "répétez"
+    },
+    "chunk-et-es-est": {
+      "at": "2026-05-06T09:01:27.698Z",
+      "text": "et, tu es, il est"
+    },
+    "chunk-et-es-est:example:0": {
+      "at": "2026-05-06T09:01:30.118Z",
+      "text": "et"
+    },
+    "chunk-et-es-est:example:1": {
+      "at": "2026-05-06T09:01:31.686Z",
+      "text": "tu es"
+    },
+    "chunk-et-es-est:example:2": {
+      "at": "2026-05-06T09:01:34.656Z",
+      "text": "il est"
+    },
+    "chunk-et-es-est:example:3": {
+      "at": "2026-05-06T09:01:37.780Z",
+      "text": "c'est"
+    },
+    "chunk-et-es-est:example:4": {
+      "at": "2026-05-06T09:01:39.920Z",
+      "text": "très"
+    },
+    "method-chunk:example:0": {
+      "at": "2026-05-06T09:13:37.540Z",
+      "text": "beaucoup"
+    },
+    "method-chunk:example:1": {
+      "at": "2026-05-06T09:13:59.478Z",
+      "text": "aujourd'hui"
+    },
+    "method-chunk:example:2": {
+      "at": "2026-05-06T09:14:01.545Z",
+      "text": "français"
+    },
+    "method-final": {
+      "at": "2026-05-10T23:14:08.618Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/eace9b83f6c3e68e68e642f231a827aba54cccca.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "vous, petit, grand, deux",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "method-chunk": {
+      "at": "2026-05-10T23:14:04.056Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/ca6c23912486ba76b2a6b837ca2096929244830a.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "beaucoup, aujourd'hui, français",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "method-final:example:0": {
+      "at": "2026-05-06T09:15:06.241Z",
+      "text": "vous"
+    },
+    "method-final:example:1": {
+      "at": "2026-05-06T09:15:09.310Z",
+      "text": "petit"
+    },
+    "method-final:example:2": {
+      "at": "2026-05-06T09:15:12.644Z",
+      "text": "grand"
+    },
+    "method-final:example:3": {
+      "at": "2026-05-06T09:15:14.925Z",
+      "text": "deux"
+    },
+    "method-link:example:0": {
+      "at": "2026-05-06T09:15:35.777Z",
+      "text": "vous avez"
+    },
+    "method-link:example:1": {
+      "at": "2026-05-06T09:15:44.175Z",
+      "text": "les amis"
+    },
+    "method-link:example:2": {
+      "at": "2026-05-06T09:15:53.445Z",
+      "text": "mon ami"
+    },
+    "method-link:example:3": {
+      "at": "2026-05-06T09:16:00.909Z",
+      "text": "il arrive"
+    },
+    "method-link": {
+      "at": "2026-05-10T23:14:13.091Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/45c8156248cacd91be63df607390126d58c211ef.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "vous avez, les amis, mon ami",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "method-rhythm:example:0": {
+      "at": "2026-05-06T09:16:09.231Z",
+      "text": "Je parle français."
+    },
+    "method-rhythm:example:1": {
+      "at": "2026-05-06T09:16:33.952Z",
+      "text": "Je vais à Paris."
+    },
+    "method-rhythm:example:2": {
+      "at": "2026-05-06T09:17:29.324Z",
+      "text": "C'est très important."
+    },
+    "method-rhythm": {
+      "at": "2026-05-10T23:14:17.675Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/613f730735ac331bec7fe653e71bdc47beb9182b.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "Je parle français. Je vais à Paris.",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "method-shadow:example:0": {
+      "at": "2026-05-06T09:17:56.646Z",
+      "text": "Je comprends."
+    },
+    "method-shadow:example:1": {
+      "at": "2026-05-06T09:18:11.845Z",
+      "text": "Je comprends bien."
+    },
+    "method-shadow:example:2": {
+      "at": "2026-05-06T09:18:22.363Z",
+      "text": "Je comprends très bien."
+    },
+    "np-le-cafe": {
+      "at": "2026-05-10T23:18:35.919Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/5efff873e3915ff011e4ed9627b24268364d9b87.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "le café",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "core-il": {
+      "at": "2026-05-06T09:22:02.946Z",
+      "text": "il"
+    },
+    "core-elle": {
+      "at": "2026-05-06T09:22:03.423Z",
+      "text": "elle"
+    },
+    "core-nous": {
+      "at": "2026-05-06T09:22:03.778Z",
+      "text": "nous"
+    },
+    "core-on": {
+      "at": "2026-05-06T09:22:04.140Z",
+      "text": "on"
+    },
+    "core-ils-elles": {
+      "at": "2026-05-06T09:22:04.788Z",
+      "text": "ils, elles"
+    },
+    "method-shadow": {
+      "at": "2026-05-10T23:14:23.239Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/e335f0e04b79c20b360a7740a1fa93ae31964359.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "Je comprends. Je comprends bien. Je comprends très bien.",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "np-la-maison": {
+      "at": "2026-05-10T23:18:39.067Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/86fd483a8adf7148d690724b1d224bd218745af3.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "la maison",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "np-un-ami": {
+      "at": "2026-05-10T23:18:42.245Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/d299ca2fb44f7b84eac7afae4f261aed347e7d35.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "un ami",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "np-une-question": {
+      "at": "2026-05-10T23:18:45.336Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/aef8e1674ee01eb6e6bc77b4d42efa301f2c5a32.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "une question",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "np-des-fruits": {
+      "at": "2026-05-10T23:18:48.431Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/7c9095ebc1e0f4ca62e114d13424fad1a0400dab.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "des fruits",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "np-les-amis": {
+      "at": "2026-05-10T23:18:51.441Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/981fa3b1cea24c0fd07266047f578aee1a398c8a.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "les amis",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "np-mon-livre": {
+      "at": "2026-05-10T23:18:54.854Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/a48f1a8ed09da42fd61d8a0458de8cc19a8527c1.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "mon livre",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "np-ton-idee": {
+      "at": "2026-05-10T23:18:57.326Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/53c2ac6196a5c162b7f1f9ba394bc01985a00da0.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "ton idée",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "np-son-chien": {
+      "at": "2026-05-10T23:19:00.355Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/0bafdc53c1f5a618f6bfdfdac17eec67e73a7575.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "son chien",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "np-notre-travail": {
+      "at": "2026-05-10T23:19:03.842Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/18b77ab2689b3cb1ed0e1556d7eff68d930a6e49.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "notre travail",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "adj-petit-cafe": {
+      "at": "2026-05-10T23:19:20.039Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/936d08c15fe698a37d1441f6e6784ddaecc2eac5.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "un petit café",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "adj-petite-question": {
+      "at": "2026-05-10T23:19:23.607Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/46febfa8e3967388b7ec64f98ef49acadba3ba1e.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "une petite question",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "adj-grand-livre": {
+      "at": "2026-05-10T23:19:27.122Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/97175b45dbae23e89cbda7f4b1c8674dfbab0a9f.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "un grand livre",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "adj-grande-maison": {
+      "at": "2026-05-10T23:19:29.843Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/2b91f2bd7bc824e99a9aba0e0783964d6e1b5796.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "une grande maison",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "adj-bon-cafe": {
+      "at": "2026-05-10T23:19:33.159Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/41d3d13c1059bc083b595032e684265e6c7ec915.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "un bon café",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "adj-bonne-idee": {
+      "at": "2026-05-10T23:19:36.329Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/11b73d58d69587cc08bdf9a0156e965bcc6f11fd.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "une bonne idée",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "adj-francais": {
+      "at": "2026-05-10T23:19:39.565Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/018baa9ee95d67304e98e6e2decbcc32433e1a95.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "un mot français",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "adj-francaise": {
+      "at": "2026-05-10T23:19:42.937Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/10caa8fadf1a1d495f2f37457af32cc1b486632a.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "une phrase française",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "prep-a-paris": {
+      "at": "2026-05-10T23:20:00.785Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/322c512730547102f3a8a7efd9de82efbc35a249.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "à Paris",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "prep-en-france": {
+      "at": "2026-05-10T23:20:03.752Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/3160eda5e01799eb34afbed26f7a6ff9bc5cda93.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "en France",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "prep-chez-moi": {
+      "at": "2026-05-10T23:20:06.376Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/572d2aaea4ab8e808f8e652bbab86d79b9a4e18b.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "chez moi",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "prep-avec-vous": {
+      "at": "2026-05-10T23:20:09.439Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/62767bf4cef9a082e20f13213567f97034a8c8ba.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "avec vous",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "prep-pour-moi": {
+      "at": "2026-05-10T23:20:12.359Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/ec1f8efa86c44b8e46e809f5bb1ac6a518ce9ad4.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "pour moi",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "prep-sans-probleme": {
+      "at": "2026-05-10T23:20:15.286Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/3aa47dc20b47baa3411b18f35e4a81167ba80b50.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "sans problème",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "prep-dans-la-maison": {
+      "at": "2026-05-10T23:20:18.522Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/ac7d6db435c91732526d18ff46dc5d57dc1da774.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "dans la maison",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "prep-sur-la-table": {
+      "at": "2026-05-10T23:20:21.642Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/442f34b0952289f1da7671af3e8fee6c1684db4c.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "sur la table",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "prep-apres-le-travail": {
+      "at": "2026-05-10T23:20:24.887Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/8a517298af723cbd237b967bef941c007d571e51.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "après le travail",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "prep-avant-demain": {
+      "at": "2026-05-10T23:20:28.442Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/68292e3645fd769d48223a3b0668fb6a0b54e9d3.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "avant demain",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "sv-je-suis": {
+      "at": "2026-05-10T23:21:29.511Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/45b1de0c32807cfbaf8d9cf72d6389630c97237a.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "Je suis ici.",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "sv-tu-es": {
+      "at": "2026-05-10T23:21:30.979Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/2a2f96c3dd126d72f61ca3980e3448248f63c072.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "Tu es prêt ?",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "sv-cest-bon": {
+      "at": "2026-05-10T23:21:32.692Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/8885f6a683cb15a18081e8306f67ea3e24c1f639.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "C'est bon.",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "sv-jai-question": {
+      "at": "2026-05-10T23:21:34.285Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/81572521a7dcf01f18204ab5c8a3c64ee9fcf03f.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "J'ai une question.",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "sv-vous-avez": {
+      "at": "2026-05-10T23:21:36.297Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/d0bb509ef13cde45e071579542ceb356020349d9.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "Vous avez le temps ?",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "sv-je-vais": {
+      "at": "2026-05-10T23:21:38.182Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/7e7d2f2e1cde11a024c95d8cda78628eb9af6a02.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "Je vais au café.",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "sv-je-veux": {
+      "at": "2026-05-10T23:21:39.636Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/21ccd71fa5abcb02be9aa5ddbe715246275c33b3.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "Je veux comprendre.",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "sv-je-peux": {
+      "at": "2026-05-10T23:21:41.900Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/f340cad611bf8e6a8dd67ef474fd44ea367c7986.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "Je peux le faire.",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "sv-je-dois": {
+      "at": "2026-05-10T23:21:43.985Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/2ba41828caa893b4ab65ee6339ac8b3664c7f338.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "Je dois partir.",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "sv-on-continue": {
+      "at": "2026-05-10T23:21:46.098Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/36cc4f1928489d61c6d031de38432afaebbbbfe9.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "On continue.",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "liaison-vous": {
+      "at": "2026-05-10T23:23:01.407Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/1401b1de09f2f5ef2fb84da31d5580e5c528531f.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "vous avez, vous êtes, vous allez",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "liaison-nous": {
+      "at": "2026-05-10T23:23:04.614Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/88f16467c56f7d1cce460c9996c791465573b07b.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "nous avons, nous allons, nous aimons",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "liaison-les-des": {
+      "at": "2026-05-10T23:23:07.655Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/f05b5b348d4ffa04cd3f1727d491b75b46ac0c6e.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "les amis, des idées, les animaux",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "liaison-un-mon": {
+      "at": "2026-05-10T23:23:10.988Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/309d9458ae8e3f982bfbb895719770d4dcd5a6fa.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "un ami, mon idée, ton ami",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "liaison-tres": {
+      "at": "2026-05-10T23:23:14.318Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/26c8fa6e388bde3745351ae5b986e625af1d8eeb.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "très important, très utile, très intéressant",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "liaison-tres:example:2": {
+      "at": "2026-05-10T23:23:53.613Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/1194fde1b94ad905f5f8af32695cea55a9e96a4d.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "très intéressant",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "liaison-tres:example:3": {
+      "at": "2026-05-10T23:24:02.264Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/270cd3c3e6c830ae1cb1553a389b010469fe5a39.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "très agréable",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "elis-jai": {
+      "at": "2026-05-10T23:39:05.886Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/c1982f9de4a45f56ac25c6301dac212bc2329a01.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "J'ai une idée.",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "elis-jaime": {
+      "at": "2026-05-10T23:39:07.753Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/0488dd3d84b7580bff1685ec4513f7cf7ab7ddcf.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "J'aime le café.",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "elis-cest": {
+      "at": "2026-05-10T23:39:09.884Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/1141ff5072b5313d3063e87bbfe474f87f6ac614.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "C'est important.",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "elis-lami": {
+      "at": "2026-05-10T23:39:11.304Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/ea655b88a27113c52ae4d9ccb9d7133f23b6faf6.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "l'ami",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "elis-daccord": {
+      "at": "2026-05-10T23:39:12.941Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/43f4b6307ca0a70c00e283097e5ff4a3f160cc09.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "D'accord.",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "elis-questce": {
+      "at": "2026-05-10T23:39:14.788Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/f930ed1ab3ad6040277285046b5473ba3d95e2b8.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "Qu'est-ce que c'est ?",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "contract-au": {
+      "at": "2026-05-10T23:39:16.661Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/7e7d2f2e1cde11a024c95d8cda78628eb9af6a02.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "Je vais au café.",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "contract-du": {
+      "at": "2026-05-10T23:39:18.097Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/ba24255b933f211e9912c2784935281a5d0f0d10.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "Je fais du français.",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "contract-des": {
+      "at": "2026-05-10T23:39:20.273Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/d4c7f5a8d7c0f31123c019b04ba1840422ac99c4.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "des amis",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "contract-aux": {
+      "at": "2026-05-10T23:39:49.893Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/814751a7d017aaee3d03f5367582824bba1a23dd.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "aux États-Unis",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "weak-je-parle": {
+      "at": "2026-05-10T23:41:52.645Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/be0b294018c6fd0ab834f92de32390e67fc0197c.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "Je parle.",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "weak-le-livre": {
+      "at": "2026-05-10T23:41:53.968Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/13c10b06c5cf1d62243f6bdad74b0a5a44b01cb5.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "Je lis le livre.",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "weak-de-temps": {
+      "at": "2026-05-10T23:41:56.072Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/ff69277907ae80c1235e2f004981e7a8b9f4a2d5.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "J'ai besoin de temps.",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "weak-je-ne-sais": {
+      "at": "2026-05-10T23:41:58.209Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/57e1f20917e3b144349f024fba739d0a5e20362d.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "Je ne sais pas.",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "weak-je-sais-pas": {
+      "at": "2026-05-10T23:42:00.084Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/b00e7bd683bf60c267542e66179ca086dc484477.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "text": "Je sais pas.",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "weak-cest-pas": {
+      "at": "2026-05-10T23:42:01.854Z",
+      "text": "C'est pas grave.",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/25cb9e19bf10b5904d3fc976b2916cb6c20fb188.mp3",
+      "cached": true,
+      "engine": "edge-tts",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    }
+  }
+}

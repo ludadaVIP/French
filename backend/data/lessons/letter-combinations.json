@@ -1,0 +1,943 @@
+{
+  "id": "letter-combinations",
+  "title": "常见字母组合",
+  "phase": "发音系统",
+  "level": "A0-A2",
+  "estimatedMinutes": 75,
+  "objective": "系统掌握法语拼写到发音的高频映射：元音组合、鼻化音、半元音、辅音变化、词尾不读、连读和常见例外。",
+  "strategy": "这一课值得做厚一点，但不需要一次背完。建议先扫“元音组合、鼻化、辅音捷径、词尾规则”四块；之后读词卡住时再回到对应规则。每个例词都有音频和 IPA，用来把拼写、声音和意义绑在一起。",
+  "sections": [
+    {
+      "id": "core-vowels",
+      "title": "核心元音与重音符号",
+      "layout": "compact",
+      "note": "先把几个单字母元音和重音符号建立起来，后面的组合会更容易。",
+      "blocks": [
+        {
+          "id": "vowel-a",
+          "type": "chunk",
+          "text": "a / à / â",
+          "audioText": "a, à, â",
+          "ipa": "/a/",
+          "rule": "a、à、â 多数情况下读 /a/。à 常是介词“到/在”，重音符号主要帮助区分词义。",
+          "examples": [
+            {"text": "ami", "audioText": "ami", "ipa": "/ami/", "translation": "朋友"},
+            {"text": "à Paris", "audioText": "à Paris", "ipa": "/a paʁi/", "translation": "在/去巴黎"},
+            {"text": "pâte", "audioText": "pâte", "ipa": "/pat/", "translation": "面团 / 意面"},
+            {"text": "chat", "audioText": "chat", "ipa": "/ʃa/", "translation": "猫"}
+          ]
+        },
+        {
+          "id": "vowel-e-acute",
+          "type": "chunk",
+          "text": "é",
+          "audioText": "é",
+          "ipa": "/e/",
+          "rule": "é 通常读较闭的 /e/，像“诶”但口型更紧。",
+          "examples": [
+            {"text": "café", "audioText": "café", "ipa": "/kafe/", "translation": "咖啡 / 咖啡馆"},
+            {"text": "été", "audioText": "été", "ipa": "/ete/", "translation": "夏天"},
+            {"text": "répéter", "audioText": "répéter", "ipa": "/ʁepete/", "translation": "重复"},
+            {"text": "télé", "audioText": "télé", "ipa": "/tele/", "translation": "电视"}
+          ]
+        },
+        {
+          "id": "vowel-e-grave",
+          "type": "chunk",
+          "text": "è / ê / e + 双辅音",
+          "audioText": "è, ê, elle, merci",
+          "ipa": "/ɛ/",
+          "rule": "è、ê 以及 e 后接部分双辅音时常读较开的 /ɛ/。",
+          "examples": [
+            {"text": "très", "audioText": "très", "ipa": "/tʁɛ/", "translation": "很"},
+            {"text": "mère", "audioText": "mère", "ipa": "/mɛʁ/", "translation": "母亲"},
+            {"text": "tête", "audioText": "tête", "ipa": "/tɛt/", "translation": "头"},
+            {"text": "elle", "audioText": "elle", "ipa": "/ɛl/", "translation": "她"}
+          ]
+        },
+        {
+          "id": "vowel-schwa",
+          "type": "chunk",
+          "text": "e",
+          "audioText": "je, le, de",
+          "ipa": "/ə/",
+          "rule": "不带重音的 e 常弱读为 /ə/，在口语里还可能弱化或消失。",
+          "examples": [
+            {"text": "je", "audioText": "je", "ipa": "/ʒə/", "translation": "我"},
+            {"text": "le", "audioText": "le", "ipa": "/lə/", "translation": "这个/那个，阳性"},
+            {"text": "de", "audioText": "de", "ipa": "/də/", "translation": "的 / 从"},
+            {"text": "petit", "audioText": "petit", "ipa": "/pəti/", "translation": "小的"}
+          ]
+        },
+        {
+          "id": "vowel-u",
+          "type": "chunk",
+          "text": "u",
+          "audioText": "u",
+          "ipa": "/y/",
+          "rule": "u 是法语核心难点：舌位像 /i/，嘴唇像 /u/。",
+          "examples": [
+            {"text": "tu", "audioText": "tu", "ipa": "/ty/", "translation": "你"},
+            {"text": "rue", "audioText": "rue", "ipa": "/ʁy/", "translation": "街道"},
+            {"text": "lune", "audioText": "lune", "ipa": "/lyn/", "translation": "月亮"},
+            {"text": "salut", "audioText": "salut", "ipa": "/saly/", "translation": "你好/再见"}
+          ]
+        },
+        {
+          "id": "vowel-y",
+          "type": "chunk",
+          "text": "y",
+          "audioText": "y",
+          "ipa": "/i/ 或 /j/",
+          "rule": "y 常像 i；在一些组合里会参与形成半元音 /j/。",
+          "examples": [
+            {"text": "stylo", "audioText": "stylo", "ipa": "/stilo/", "translation": "笔"},
+            {"text": "type", "audioText": "type", "ipa": "/tip/", "translation": "类型 / 家伙"},
+            {"text": "pays", "audioText": "pays", "ipa": "/pei/", "translation": "国家"},
+            {"text": "yeux", "audioText": "yeux", "ipa": "/jø/", "translation": "眼睛，复数"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "high-yield-vowels",
+      "title": "高频元音组合",
+      "layout": "compact",
+      "note": "这些组合出现频率很高，直接把它们当成“音块”记，比逐字母分析快。",
+      "blocks": [
+        {
+          "id": "chunk-ou",
+          "type": "chunk",
+          "text": "ou",
+          "audioText": "ou",
+          "ipa": "/u/",
+          "rule": "ou 通常读 /u/，接近西语 u。注意它和法语 u /y/ 完全不同。",
+          "examples": [
+            {"text": "vous", "audioText": "vous", "ipa": "/vu/", "translation": "你们 / 您"},
+            {"text": "jour", "audioText": "jour", "ipa": "/ʒuʁ/", "translation": "天 / 白天"},
+            {"text": "pour", "audioText": "pour", "ipa": "/puʁ/", "translation": "为了 / 给"},
+            {"text": "beaucoup", "audioText": "beaucoup", "ipa": "/boku/", "translation": "很多 / 非常"},
+            {"text": "toujours", "audioText": "toujours", "ipa": "/tuʒuʁ/", "translation": "总是 / 仍然"}
+          ]
+        },
+        {
+          "id": "chunk-oi",
+          "type": "chunk",
+          "text": "oi",
+          "audioText": "oi",
+          "ipa": "/wa/",
+          "rule": "oi 读 /wa/，不是 o+i。",
+          "examples": [
+            {"text": "moi", "audioText": "moi", "ipa": "/mwa/", "translation": "我"},
+            {"text": "toi", "audioText": "toi", "ipa": "/twa/", "translation": "你"},
+            {"text": "trois", "audioText": "trois", "ipa": "/tʁwa/", "translation": "三"},
+            {"text": "fois", "audioText": "fois", "ipa": "/fwa/", "translation": "次"},
+            {"text": "boire", "audioText": "boire", "ipa": "/bwaʁ/", "translation": "喝"}
+          ]
+        },
+        {
+          "id": "chunk-au-eau",
+          "type": "chunk",
+          "text": "au / eau",
+          "audioText": "au, eau",
+          "ipa": "/o/",
+          "rule": "au、eau 通常读 /o/。",
+          "examples": [
+            {"text": "eau", "audioText": "eau", "ipa": "/o/", "translation": "水"},
+            {"text": "beau", "audioText": "beau", "ipa": "/bo/", "translation": "漂亮的，阳性"},
+            {"text": "nouveau", "audioText": "nouveau", "ipa": "/nuvo/", "translation": "新的"},
+            {"text": "aussi", "audioText": "aussi", "ipa": "/osi/", "translation": "也"},
+            {"text": "chaud", "audioText": "chaud", "ipa": "/ʃo/", "translation": "热的"}
+          ]
+        },
+        {
+          "id": "chunk-ai-ei",
+          "type": "chunk",
+          "text": "ai / ei",
+          "audioText": "ai, ei",
+          "ipa": "/ɛ/",
+          "rule": "ai、ei 常读 /ɛ/；部分词形或变位里可能读 /e/，先掌握高频 /ɛ/。",
+          "examples": [
+            {"text": "mais", "audioText": "mais", "ipa": "/mɛ/", "translation": "但是"},
+            {"text": "faire", "audioText": "faire", "ipa": "/fɛʁ/", "translation": "做"},
+            {"text": "vrai", "audioText": "vrai", "ipa": "/vʁɛ/", "translation": "真的"},
+            {"text": "seize", "audioText": "seize", "ipa": "/sɛz/", "translation": "十六"},
+            {"text": "neige", "audioText": "neige", "ipa": "/nɛʒ/", "translation": "雪"}
+          ]
+        },
+        {
+          "id": "chunk-eu-oeu-closed",
+          "type": "chunk",
+          "text": "eu / œu",
+          "audioText": "deux, peu, veux",
+          "ipa": "/ø/",
+          "rule": "eu、œu 在一些词里读较闭的 /ø/，圆唇但舌位靠前。",
+          "examples": [
+            {"text": "deux", "audioText": "deux", "ipa": "/dø/", "translation": "二"},
+            {"text": "peu", "audioText": "peu", "ipa": "/pø/", "translation": "少 / 一点"},
+            {"text": "bleu", "audioText": "bleu", "ipa": "/blø/", "translation": "蓝色的"},
+            {"text": "je veux", "audioText": "je veux", "ipa": "/ʒə vø/", "translation": "我想要"},
+            {"text": "heureux", "audioText": "heureux", "ipa": "/øʁø/", "translation": "开心的"}
+          ]
+        },
+        {
+          "id": "chunk-eu-oeu-open",
+          "type": "chunk",
+          "text": "eu / œu",
+          "audioText": "jeune, neuf, sœur",
+          "ipa": "/œ/",
+          "rule": "eu、œu 在另一些词里读较开的 /œ/，先通过例词听辨。",
+          "examples": [
+            {"text": "jeune", "audioText": "jeune", "ipa": "/ʒœn/", "translation": "年轻的"},
+            {"text": "neuf", "audioText": "neuf", "ipa": "/nœf/", "translation": "九 / 新的"},
+            {"text": "sœur", "audioText": "sœur", "ipa": "/sœʁ/", "translation": "姐妹"},
+            {"text": "cœur", "audioText": "cœur", "ipa": "/kœʁ/", "translation": "心"},
+            {"text": "œuf", "audioText": "œuf", "ipa": "/œf/", "translation": "鸡蛋，单数"}
+          ]
+        },
+        {
+          "id": "chunk-er-ez-final",
+          "type": "chunk",
+          "text": "-er / -ez",
+          "audioText": "parler, allez, écoutez",
+          "ipa": "/e/",
+          "rule": "动词不定式词尾 -er 和 vous 形式 -ez 通常读 /e/。",
+          "examples": [
+            {"text": "parler", "audioText": "parler", "ipa": "/paʁle/", "translation": "说"},
+            {"text": "aller", "audioText": "aller", "ipa": "/ale/", "translation": "去"},
+            {"text": "vous avez", "audioText": "vous avez", "ipa": "/vu zave/", "translation": "您有"},
+            {"text": "écoutez", "audioText": "écoutez", "ipa": "/ekute/", "translation": "请听"},
+            {"text": "répétez", "audioText": "répétez", "ipa": "/ʁepete/", "translation": "请重复"}
+          ]
+        },
+        {
+          "id": "chunk-et-es-est",
+          "type": "chunk",
+          "text": "et / es / est",
+          "audioText": "et, tu es, il est",
+          "ipa": "/e/ 或 /ɛ/",
+          "rule": "et 通常读 /e/；es、est 常读 /ɛ/。这些是高频小词，直接整块记。",
+          "examples": [
+            {"text": "et", "audioText": "et", "ipa": "/e/", "translation": "和"},
+            {"text": "tu es", "audioText": "tu es", "ipa": "/ty ɛ/", "translation": "你是/在"},
+            {"text": "il est", "audioText": "il est", "ipa": "/il ɛ/", "translation": "他是/在"},
+            {"text": "c'est", "audioText": "c'est", "ipa": "/sɛ/", "translation": "这是"},
+            {"text": "très", "audioText": "très", "ipa": "/tʁɛ/", "translation": "很"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nasal-vowels",
+      "title": "鼻化元音",
+      "layout": "compact",
+      "note": "法语听起来“像法语”的关键之一。鼻化时 n/m 通常不再单独发音；但后面接元音时可能重新发出来。",
+      "blocks": [
+        {
+          "id": "nasal-an-en",
+          "type": "chunk",
+          "text": "an / en / am / em",
+          "audioText": "an, en, am, em",
+          "ipa": "/ɑ̃/",
+          "rule": "an、en 常读 /ɑ̃/；在 b/p 前拼作 am/em。",
+          "examples": [
+            {"text": "France", "audioText": "France", "ipa": "/fʁɑ̃s/", "translation": "法国"},
+            {"text": "enfant", "audioText": "enfant", "ipa": "/ɑ̃fɑ̃/", "translation": "孩子"},
+            {"text": "temps", "audioText": "temps", "ipa": "/tɑ̃/", "translation": "时间 / 天气"},
+            {"text": "chambre", "audioText": "chambre", "ipa": "/ʃɑ̃bʁ/", "translation": "房间"},
+            {"text": "ensemble", "audioText": "ensemble", "ipa": "/ɑ̃sɑ̃bl/", "translation": "一起"}
+          ]
+        },
+        {
+          "id": "nasal-on-om",
+          "type": "chunk",
+          "text": "on / om",
+          "audioText": "on, om",
+          "ipa": "/ɔ̃/",
+          "rule": "on、om 是圆唇鼻化音。",
+          "examples": [
+            {"text": "bonjour", "audioText": "bonjour", "ipa": "/bɔ̃ʒuʁ/", "translation": "你好"},
+            {"text": "nom", "audioText": "nom", "ipa": "/nɔ̃/", "translation": "名字"},
+            {"text": "mon", "audioText": "mon", "ipa": "/mɔ̃/", "translation": "我的，阳性"},
+            {"text": "question", "audioText": "question", "ipa": "/kɛstjɔ̃/", "translation": "问题"},
+            {"text": "comprendre", "audioText": "comprendre", "ipa": "/kɔ̃pʁɑ̃dʁ/", "translation": "理解"}
+          ]
+        },
+        {
+          "id": "nasal-in-ain-ein",
+          "type": "chunk",
+          "text": "in / im / ain / aim / ein",
+          "audioText": "in, im, ain, aim, ein",
+          "ipa": "/ɛ̃/",
+          "rule": "in、ain、ein 等常读 /ɛ̃/；在 b/p 前常写 im/aim。",
+          "examples": [
+            {"text": "vin", "audioText": "vin", "ipa": "/vɛ̃/", "translation": "葡萄酒"},
+            {"text": "pain", "audioText": "pain", "ipa": "/pɛ̃/", "translation": "面包"},
+            {"text": "main", "audioText": "main", "ipa": "/mɛ̃/", "translation": "手"},
+            {"text": "plein", "audioText": "plein", "ipa": "/plɛ̃/", "translation": "满的"},
+            {"text": "important", "audioText": "important", "ipa": "/ɛ̃pɔʁtɑ̃/", "translation": "重要的"}
+          ]
+        },
+        {
+          "id": "nasal-un-um",
+          "type": "chunk",
+          "text": "un / um",
+          "audioText": "un, lundi, parfum",
+          "ipa": "/œ̃/ 或 /ɛ̃/",
+          "rule": "un、um 在许多现代口音里接近 /ɛ̃/，先听懂并能识别即可。",
+          "examples": [
+            {"text": "un", "audioText": "un", "ipa": "/œ̃/", "translation": "一个"},
+            {"text": "lundi", "audioText": "lundi", "ipa": "/lœ̃di/", "translation": "星期一"},
+            {"text": "chacun", "audioText": "chacun", "ipa": "/ʃakœ̃/", "translation": "每个人"},
+            {"text": "parfum", "audioText": "parfum", "ipa": "/paʁfœ̃/", "translation": "香水"},
+            {"text": "brun", "audioText": "brun", "ipa": "/bʁœ̃/", "translation": "棕色的"}
+          ]
+        },
+        {
+          "id": "nasal-ien",
+          "type": "chunk",
+          "text": "ien",
+          "audioText": "ien",
+          "ipa": "/jɛ̃/",
+          "rule": "ien 常读 /jɛ̃/，前面带一个 /j/ 滑音。",
+          "examples": [
+            {"text": "bien", "audioText": "bien", "ipa": "/bjɛ̃/", "translation": "好"},
+            {"text": "rien", "audioText": "rien", "ipa": "/ʁjɛ̃/", "translation": "什么也没有"},
+            {"text": "chien", "audioText": "chien", "ipa": "/ʃjɛ̃/", "translation": "狗"},
+            {"text": "italien", "audioText": "italien", "ipa": "/italjɛ̃/", "translation": "意大利的/意大利人"},
+            {"text": "bientôt", "audioText": "bientôt", "ipa": "/bjɛ̃to/", "translation": "很快"}
+          ]
+        },
+        {
+          "id": "nasal-oin",
+          "type": "chunk",
+          "text": "oin",
+          "audioText": "oin",
+          "ipa": "/wɛ̃/",
+          "rule": "oin 常读 /wɛ̃/。",
+          "examples": [
+            {"text": "loin", "audioText": "loin", "ipa": "/lwɛ̃/", "translation": "远"},
+            {"text": "moins", "audioText": "moins", "ipa": "/mwɛ̃/", "translation": "更少 / 减"},
+            {"text": "point", "audioText": "point", "ipa": "/pwɛ̃/", "translation": "点"},
+            {"text": "besoin", "audioText": "besoin", "ipa": "/bəzwɛ̃/", "translation": "需要"},
+            {"text": "soin", "audioText": "soin", "ipa": "/swɛ̃/", "translation": "照顾"}
+          ]
+        },
+        {
+          "id": "nasal-before-vowel",
+          "type": "rule",
+          "text": "鼻化解除：n/m + 元音",
+          "audioText": "bonne, année, ami",
+          "rule": "当 n/m 后面还有元音时，通常不鼻化，而是把 n/m 发出来。",
+          "examples": [
+            {"text": "bonne", "audioText": "bonne", "ipa": "/bɔn/", "translation": "好的，阴性"},
+            {"text": "année", "audioText": "année", "ipa": "/ane/", "translation": "年"},
+            {"text": "ami", "audioText": "ami", "ipa": "/ami/", "translation": "朋友，阳性"},
+            {"text": "femme", "audioText": "femme", "ipa": "/fam/", "translation": "女人 / 妻子"},
+            {"text": "homme", "audioText": "homme", "ipa": "/ɔm/", "translation": "男人 / 人"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "semi-vowels",
+      "title": "半元音与滑音",
+      "layout": "compact",
+      "note": "这些组合会让法语读起来更连贯。你有西语经验，可以把它们当作 y/w 类滑音来理解。",
+      "blocks": [
+        {
+          "id": "glide-ui",
+          "type": "chunk",
+          "text": "ui",
+          "audioText": "ui",
+          "ipa": "/ɥi/",
+          "rule": "ui 常读 /ɥi/，先从 huit、lui、suis 练。",
+          "examples": [
+            {"text": "huit", "audioText": "huit", "ipa": "/ɥit/", "translation": "八"},
+            {"text": "lui", "audioText": "lui", "ipa": "/lɥi/", "translation": "他/她，间接宾语"},
+            {"text": "je suis", "audioText": "je suis", "ipa": "/ʒə sɥi/", "translation": "我是/我在"},
+            {"text": "aujourd'hui", "audioText": "aujourd'hui", "ipa": "/oʒuʁdɥi/", "translation": "今天"},
+            {"text": "cuisine", "audioText": "cuisine", "ipa": "/kɥizin/", "translation": "厨房 / 烹饪"}
+          ]
+        },
+        {
+          "id": "glide-oui-oue",
+          "type": "chunk",
+          "text": "oui / ou + 元音",
+          "audioText": "oui, louer, jouer",
+          "ipa": "/wi/ /w/",
+          "rule": "oui 读 /wi/；ou 后接元音时常形成 /w/ 滑音。",
+          "examples": [
+            {"text": "oui", "audioText": "oui", "ipa": "/wi/", "translation": "是的"},
+            {"text": "louer", "audioText": "louer", "ipa": "/lwe/", "translation": "租"},
+            {"text": "jouer", "audioText": "jouer", "ipa": "/ʒwe/", "translation": "玩 / 演奏"},
+            {"text": "ouest", "audioText": "ouest", "ipa": "/wɛst/", "translation": "西方"},
+            {"text": "week-end", "audioText": "week-end", "ipa": "/wikɛnd/", "translation": "周末"}
+          ]
+        },
+        {
+          "id": "glide-ill-ille",
+          "type": "chunk",
+          "text": "ill / ille",
+          "audioText": "fille, famille, travailler",
+          "ipa": "/j/ 或 /ij/",
+          "rule": "ill/ille 常带 /j/，但 ville、mille、tranquille 等是常见例外。",
+          "examples": [
+            {"text": "fille", "audioText": "fille", "ipa": "/fij/", "translation": "女孩"},
+            {"text": "famille", "audioText": "famille", "ipa": "/famij/", "translation": "家庭"},
+            {"text": "travailler", "audioText": "travailler", "ipa": "/tʁavaje/", "translation": "工作 / 学习"},
+            {"text": "ville", "audioText": "ville", "ipa": "/vil/", "translation": "城市，例外"},
+            {"text": "mille", "audioText": "mille", "ipa": "/mil/", "translation": "一千，例外"}
+          ]
+        },
+        {
+          "id": "glide-ail",
+          "type": "chunk",
+          "text": "ail / aille",
+          "audioText": "ail, travail, taille",
+          "ipa": "/aj/",
+          "rule": "ail、aille 常读 /aj/。",
+          "examples": [
+            {"text": "travail", "audioText": "travail", "ipa": "/tʁavaj/", "translation": "工作"},
+            {"text": "détail", "audioText": "détail", "ipa": "/detaj/", "translation": "细节"},
+            {"text": "ail", "audioText": "ail", "ipa": "/aj/", "translation": "大蒜"},
+            {"text": "taille", "audioText": "taille", "ipa": "/taj/", "translation": "尺寸 / 腰"},
+            {"text": "bataille", "audioText": "bataille", "ipa": "/bataj/", "translation": "战斗"}
+          ]
+        },
+        {
+          "id": "glide-eil-eille",
+          "type": "chunk",
+          "text": "eil / eille",
+          "audioText": "soleil, réveil, oreille",
+          "ipa": "/ɛj/",
+          "rule": "eil、eille 常读 /ɛj/。",
+          "examples": [
+            {"text": "soleil", "audioText": "soleil", "ipa": "/sɔlɛj/", "translation": "太阳"},
+            {"text": "réveil", "audioText": "réveil", "ipa": "/ʁevɛj/", "translation": "闹钟 / 醒来"},
+            {"text": "oreille", "audioText": "oreille", "ipa": "/ɔʁɛj/", "translation": "耳朵"},
+            {"text": "merveille", "audioText": "merveille", "ipa": "/mɛʁvɛj/", "translation": "奇迹 / 妙事"},
+            {"text": "pareil", "audioText": "pareil", "ipa": "/paʁɛj/", "translation": "一样的"}
+          ]
+        },
+        {
+          "id": "glide-euil-ouil",
+          "type": "chunk",
+          "text": "euil / ouil",
+          "audioText": "fauteuil, feuille, grenouille",
+          "ipa": "/œj/ /uj/",
+          "rule": "euil/euille 常读 /œj/；ouil/ouille 常读 /uj/。",
+          "examples": [
+            {"text": "fauteuil", "audioText": "fauteuil", "ipa": "/fotœj/", "translation": "扶手椅"},
+            {"text": "feuille", "audioText": "feuille", "ipa": "/fœj/", "translation": "叶子 / 纸张"},
+            {"text": "accueil", "audioText": "accueil", "ipa": "/akœj/", "translation": "接待 / 欢迎"},
+            {"text": "grenouille", "audioText": "grenouille", "ipa": "/ɡʁənuj/", "translation": "青蛙"},
+            {"text": "fouille", "audioText": "fouille", "ipa": "/fuj/", "translation": "搜索 / 挖掘"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consonant-shortcuts",
+      "title": "辅音组合与捷径",
+      "layout": "compact",
+      "note": "这些规则能马上提高读词速度。",
+      "blocks": [
+        {
+          "id": "cons-ch",
+          "type": "chunk",
+          "text": "ch",
+          "audioText": "ch",
+          "ipa": "/ʃ/",
+          "rule": "ch 通常读 /ʃ/，类似英语 sh。",
+          "examples": [
+            {"text": "chat", "audioText": "chat", "ipa": "/ʃa/", "translation": "猫"},
+            {"text": "chose", "audioText": "chose", "ipa": "/ʃoz/", "translation": "东西 / 事情"},
+            {"text": "chez", "audioText": "chez", "ipa": "/ʃe/", "translation": "在……家/处"},
+            {"text": "chercher", "audioText": "chercher", "ipa": "/ʃɛʁʃe/", "translation": "寻找"},
+            {"text": "machine", "audioText": "machine", "ipa": "/maʃin/", "translation": "机器"}
+          ]
+        },
+        {
+          "id": "cons-gn",
+          "type": "chunk",
+          "text": "gn",
+          "audioText": "gn",
+          "ipa": "/ɲ/",
+          "rule": "gn 类似西语 ñ。",
+          "examples": [
+            {"text": "Espagne", "audioText": "Espagne", "ipa": "/ɛspaɲ/", "translation": "西班牙"},
+            {"text": "ligne", "audioText": "ligne", "ipa": "/liɲ/", "translation": "线 / 行"},
+            {"text": "montagne", "audioText": "montagne", "ipa": "/mɔ̃taɲ/", "translation": "山"},
+            {"text": "gagner", "audioText": "gagner", "ipa": "/ɡaɲe/", "translation": "赢 / 赚"},
+            {"text": "champignon", "audioText": "champignon", "ipa": "/ʃɑ̃piɲɔ̃/", "translation": "蘑菇"}
+          ]
+        },
+        {
+          "id": "cons-qu",
+          "type": "chunk",
+          "text": "qu",
+          "audioText": "qu",
+          "ipa": "/k/",
+          "rule": "qu 通常读 /k/，u 不单独读。",
+          "examples": [
+            {"text": "qui", "audioText": "qui", "ipa": "/ki/", "translation": "谁"},
+            {"text": "que", "audioText": "que", "ipa": "/kə/", "translation": "什么/引导从句"},
+            {"text": "quatre", "audioText": "quatre", "ipa": "/katʁ/", "translation": "四"},
+            {"text": "question", "audioText": "question", "ipa": "/kɛstjɔ̃/", "translation": "问题"},
+            {"text": "quand", "audioText": "quand", "ipa": "/kɑ̃/", "translation": "什么时候"}
+          ]
+        },
+        {
+          "id": "cons-ph-th",
+          "type": "chunk",
+          "text": "ph / th",
+          "audioText": "ph, th",
+          "ipa": "/f/ /t/",
+          "rule": "ph 读 /f/；th 通常读 /t/。",
+          "examples": [
+            {"text": "photo", "audioText": "photo", "ipa": "/foto/", "translation": "照片"},
+            {"text": "phrase", "audioText": "phrase", "ipa": "/fʁaz/", "translation": "句子"},
+            {"text": "téléphone", "audioText": "téléphone", "ipa": "/telefɔn/", "translation": "电话"},
+            {"text": "thé", "audioText": "thé", "ipa": "/te/", "translation": "茶"},
+            {"text": "théâtre", "audioText": "théâtre", "ipa": "/teatʁ/", "translation": "剧院"}
+          ]
+        },
+        {
+          "id": "cons-ss-s",
+          "type": "chunk",
+          "text": "ss / s",
+          "audioText": "ss, s",
+          "ipa": "/s/ 或 /z/",
+          "rule": "ss 常读 /s/；单个 s 在两个元音之间常读 /z/。",
+          "examples": [
+            {"text": "poisson", "audioText": "poisson", "ipa": "/pwasɔ̃/", "translation": "鱼"},
+            {"text": "aussi", "audioText": "aussi", "ipa": "/osi/", "translation": "也"},
+            {"text": "passer", "audioText": "passer", "ipa": "/pase/", "translation": "经过 / 通过"},
+            {"text": "maison", "audioText": "maison", "ipa": "/mɛzɔ̃/", "translation": "房子 / 家"},
+            {"text": "rose", "audioText": "rose", "ipa": "/ʁoz/", "translation": "玫瑰 / 粉色"}
+          ]
+        },
+        {
+          "id": "cons-ti-tion",
+          "type": "chunk",
+          "text": "ti + 元音 / -tion",
+          "audioText": "nation, attention, essentiel",
+          "ipa": "/sj/",
+          "rule": "很多 -tion、-tiel/-tielle 中 ti 读 /sj/。",
+          "examples": [
+            {"text": "nation", "audioText": "nation", "ipa": "/nasjɔ̃/", "translation": "国家 / 民族"},
+            {"text": "attention", "audioText": "attention", "ipa": "/atɑ̃sjɔ̃/", "translation": "注意"},
+            {"text": "information", "audioText": "information", "ipa": "/ɛ̃fɔʁmasjɔ̃/", "translation": "信息"},
+            {"text": "essentiel", "audioText": "essentiel", "ipa": "/esɑ̃sjɛl/", "translation": "必要的"},
+            {"text": "patient", "audioText": "patient", "ipa": "/pasjɑ̃/", "translation": "病人 / 有耐心的"}
+          ]
+        },
+        {
+          "id": "cons-x",
+          "type": "chunk",
+          "text": "x",
+          "audioText": "x",
+          "ipa": "/ks/ /gz/ /z/ 或不读",
+          "rule": "x 的读法取决于词：常见有 /ks/、/gz/、/z/，词尾复数 x 多数不读。",
+          "examples": [
+            {"text": "taxi", "audioText": "taxi", "ipa": "/taksi/", "translation": "出租车"},
+            {"text": "exemple", "audioText": "exemple", "ipa": "/ɛɡzɑ̃pl/", "translation": "例子"},
+            {"text": "examen", "audioText": "examen", "ipa": "/ɛɡzamɛ̃/", "translation": "考试"},
+            {"text": "deuxième", "audioText": "deuxième", "ipa": "/døzjɛm/", "translation": "第二"},
+            {"text": "deux", "audioText": "deux", "ipa": "/dø/", "translation": "二"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-g-rules",
+      "title": "c / g 的软硬变化",
+      "layout": "compact",
+      "note": "c 和 g 的读音受后面元音影响，这一组非常重要。",
+      "blocks": [
+        {
+          "id": "c-hard",
+          "type": "chunk",
+          "text": "ca / co / cu",
+          "audioText": "ca, co, cu",
+          "ipa": "/k/",
+          "rule": "c 在 a/o/u 前通常读 /k/。",
+          "examples": [
+            {"text": "café", "audioText": "café", "ipa": "/kafe/", "translation": "咖啡 / 咖啡馆"},
+            {"text": "carte", "audioText": "carte", "ipa": "/kaʁt/", "translation": "卡 / 地图 / 菜单"},
+            {"text": "comme", "audioText": "comme", "ipa": "/kɔm/", "translation": "像 / 如同"},
+            {"text": "couleur", "audioText": "couleur", "ipa": "/kulœʁ/", "translation": "颜色"},
+            {"text": "culture", "audioText": "culture", "ipa": "/kyltyʁ/", "translation": "文化"}
+          ]
+        },
+        {
+          "id": "c-soft",
+          "type": "chunk",
+          "text": "ce / ci / cy / ç",
+          "audioText": "ce, ci, cy, ça",
+          "ipa": "/s/",
+          "rule": "c 在 e/i/y 前常读 /s/；ç 保证在 a/o/u 前也读 /s/。",
+          "examples": [
+            {"text": "ce", "audioText": "ce", "ipa": "/sə/", "translation": "这个/那个"},
+            {"text": "ici", "audioText": "ici", "ipa": "/isi/", "translation": "这里"},
+            {"text": "merci", "audioText": "merci", "ipa": "/mɛʁsi/", "translation": "谢谢"},
+            {"text": "ça", "audioText": "ça", "ipa": "/sa/", "translation": "这个/那个"},
+            {"text": "français", "audioText": "français", "ipa": "/fʁɑ̃sɛ/", "translation": "法语 / 法国的"}
+          ]
+        },
+        {
+          "id": "g-hard",
+          "type": "chunk",
+          "text": "ga / go / gu",
+          "audioText": "ga, go, gu",
+          "ipa": "/g/",
+          "rule": "g 在 a/o/u 前通常读 /g/。",
+          "examples": [
+            {"text": "gare", "audioText": "gare", "ipa": "/ɡaʁ/", "translation": "车站"},
+            {"text": "garçon", "audioText": "garçon", "ipa": "/ɡaʁsɔ̃/", "translation": "男孩 / 服务员"},
+            {"text": "gomme", "audioText": "gomme", "ipa": "/ɡɔm/", "translation": "橡皮"},
+            {"text": "goût", "audioText": "goût", "ipa": "/ɡu/", "translation": "味道"},
+            {"text": "légume", "audioText": "légume", "ipa": "/leɡym/", "translation": "蔬菜"}
+          ]
+        },
+        {
+          "id": "g-soft",
+          "type": "chunk",
+          "text": "ge / gi / gy",
+          "audioText": "ge, gi, gy",
+          "ipa": "/ʒ/",
+          "rule": "g 在 e/i/y 前常读 /ʒ/。",
+          "examples": [
+            {"text": "je", "audioText": "je", "ipa": "/ʒə/", "translation": "我"},
+            {"text": "génial", "audioText": "génial", "ipa": "/ʒenjal/", "translation": "太棒了"},
+            {"text": "girafe", "audioText": "girafe", "ipa": "/ʒiʁaf/", "translation": "长颈鹿"},
+            {"text": "âge", "audioText": "âge", "ipa": "/aʒ/", "translation": "年龄"},
+            {"text": "voyage", "audioText": "voyage", "ipa": "/vwajaʒ/", "translation": "旅行"}
+          ]
+        },
+        {
+          "id": "gue-gui",
+          "type": "chunk",
+          "text": "gue / gui",
+          "audioText": "gue, gui",
+          "ipa": "/g/",
+          "rule": "gue、gui 中 u 通常不读，用来让 g 保持 /g/。",
+          "examples": [
+            {"text": "guerre", "audioText": "guerre", "ipa": "/ɡɛʁ/", "translation": "战争"},
+            {"text": "guide", "audioText": "guide", "ipa": "/ɡid/", "translation": "向导 / 指南"},
+            {"text": "guitare", "audioText": "guitare", "ipa": "/ɡitaʁ/", "translation": "吉他"},
+            {"text": "fatigue", "audioText": "fatigue", "ipa": "/fatiɡ/", "translation": "疲劳"},
+            {"text": "longue", "audioText": "longue", "ipa": "/lɔ̃ɡ/", "translation": "长的，阴性"}
+          ]
+        },
+        {
+          "id": "gea-geo",
+          "type": "chunk",
+          "text": "gea / geo",
+          "audioText": "gea, geo",
+          "ipa": "/ʒ/",
+          "rule": "gea、geo 中 e 用来让 g 在 a/o 前仍读 /ʒ/。",
+          "examples": [
+            {"text": "mangeons", "audioText": "mangeons", "ipa": "/mɑ̃ʒɔ̃/", "translation": "我们吃"},
+            {"text": "nageons", "audioText": "nageons", "ipa": "/naʒɔ̃/", "translation": "我们游泳"},
+            {"text": "Georges", "audioText": "Georges", "ipa": "/ʒɔʁʒ/", "translation": "乔治"},
+            {"text": "géographie", "audioText": "géographie", "ipa": "/ʒeɔɡʁafi/", "translation": "地理"},
+            {"text": "bourgeois", "audioText": "bourgeois", "ipa": "/buʁʒwa/", "translation": "资产阶级的 / 市民的"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "final-endings",
+      "title": "词尾读音规则",
+      "layout": "compact",
+      "note": "法语词尾经常不按字母读。掌握这些规则，读词速度会明显提高。",
+      "blocks": [
+        {
+          "id": "final-silent-consonants",
+          "type": "rule",
+          "text": "词尾 d / s / t / x 多数不读",
+          "audioText": "grand, vous, petit, deux",
+          "rule": "许多词尾 d、s、t、x 不读。不要把每个字母都发出来。",
+          "examples": [
+            {"text": "grand", "audioText": "grand", "ipa": "/ɡʁɑ̃/", "translation": "大的 / 高的"},
+            {"text": "vous", "audioText": "vous", "ipa": "/vu/", "translation": "你们 / 您"},
+            {"text": "petit", "audioText": "petit", "ipa": "/pəti/", "translation": "小的"},
+            {"text": "deux", "audioText": "deux", "ipa": "/dø/", "translation": "二"},
+            {"text": "temps", "audioText": "temps", "ipa": "/tɑ̃/", "translation": "时间 / 天气"}
+          ]
+        },
+        {
+          "id": "final-cflr",
+          "type": "rule",
+          "text": "词尾 c / f / l / r 常读",
+          "audioText": "avec, neuf, mal, mer",
+          "rule": "一个粗略捷径：词尾 c/f/l/r 比较常发音，但仍有例外。",
+          "examples": [
+            {"text": "avec", "audioText": "avec", "ipa": "/avɛk/", "translation": "和 / 带着"},
+            {"text": "neuf", "audioText": "neuf", "ipa": "/nœf/", "translation": "九 / 新的"},
+            {"text": "mal", "audioText": "mal", "ipa": "/mal/", "translation": "坏 / 疼"},
+            {"text": "mer", "audioText": "mer", "ipa": "/mɛʁ/", "translation": "海"},
+            {"text": "bonjour", "audioText": "bonjour", "ipa": "/bɔ̃ʒuʁ/", "translation": "你好"}
+          ]
+        },
+        {
+          "id": "final-ent-verbs",
+          "type": "rule",
+          "text": "动词 -ent 词尾不读",
+          "audioText": "ils parlent, elles aiment, ils travaillent",
+          "rule": "第三人称复数动词词尾 -ent 通常完全不读。",
+          "examples": [
+            {"text": "ils parlent", "audioText": "ils parlent", "ipa": "/il paʁl/", "translation": "他们说"},
+            {"text": "elles aiment", "audioText": "elles aiment", "ipa": "/ɛl zɛm/", "translation": "她们喜欢"},
+            {"text": "ils travaillent", "audioText": "ils travaillent", "ipa": "/il tʁavaj/", "translation": "他们工作"},
+            {"text": "elles regardent", "audioText": "elles regardent", "ipa": "/ɛl ʁəɡaʁd/", "translation": "她们看"},
+            {"text": "ils comprennent", "audioText": "ils comprennent", "ipa": "/il kɔ̃pʁɛn/", "translation": "他们理解"}
+          ]
+        },
+        {
+          "id": "plural-s-x",
+          "type": "rule",
+          "text": "复数 -s / -x 多数不读",
+          "audioText": "les livres, les amis, les animaux",
+          "rule": "名词和形容词复数词尾 -s、-x 通常不读，但可能在连读里出现。",
+          "examples": [
+            {"text": "les livres", "audioText": "les livres", "ipa": "/le livʁ/", "translation": "这些书"},
+            {"text": "les amis", "audioText": "les amis", "ipa": "/le zami/", "translation": "朋友们"},
+            {"text": "les animaux", "audioText": "les animaux", "ipa": "/le zanimo/", "translation": "动物们"},
+            {"text": "des questions", "audioText": "des questions", "ipa": "/de kɛstjɔ̃/", "translation": "一些问题"},
+            {"text": "beaux jours", "audioText": "beaux jours", "ipa": "/bo ʒuʁ/", "translation": "好日子"}
+          ]
+        },
+        {
+          "id": "silent-e-final",
+          "type": "rule",
+          "text": "词尾 e 常不读",
+          "audioText": "table, grande, petite",
+          "rule": "很多词尾 e 不重读或不读，但它可能让前面的辅音被读出来。",
+          "examples": [
+            {"text": "table", "audioText": "table", "ipa": "/tabl/", "translation": "桌子"},
+            {"text": "grande", "audioText": "grande", "ipa": "/ɡʁɑ̃d/", "translation": "大的，阴性"},
+            {"text": "petite", "audioText": "petite", "ipa": "/pətit/", "translation": "小的，阴性"},
+            {"text": "verte", "audioText": "verte", "ipa": "/vɛʁt/", "translation": "绿色的，阴性"},
+            {"text": "française", "audioText": "française", "ipa": "/fʁɑ̃sɛz/", "translation": "法国的，阴性"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flow-rules",
+      "title": "读句子的流动规则",
+      "note": "读句子时，词和词之间会互相影响。先掌握 liaison、enchaînement、h muet/aspiré。",
+      "blocks": [
+        {
+          "id": "rule-liaison-z",
+          "type": "rule",
+          "text": "连读 liaison: s/x → /z/",
+          "audioText": "vous avez, les amis, deux heures",
+          "rule": "词尾原本不读的 s/x，在下个词元音开头时常连成 /z/。",
+          "examples": [
+            {"text": "vous avez", "audioText": "vous avez", "ipa": "/vu zave/", "translation": "您有 / 你们有"},
+            {"text": "les amis", "audioText": "les amis", "ipa": "/le zami/", "translation": "朋友们"},
+            {"text": "deux heures", "audioText": "deux heures", "ipa": "/dø zœʁ/", "translation": "两小时"},
+            {"text": "très important", "audioText": "très important", "ipa": "/tʁɛ zɛ̃pɔʁtɑ̃/", "translation": "很重要"},
+            {"text": "nous avons", "audioText": "nous avons", "ipa": "/nu zavɔ̃/", "translation": "我们有"}
+          ]
+        },
+        {
+          "id": "rule-liaison-t-n",
+          "type": "rule",
+          "text": "连读 liaison: t / n",
+          "audioText": "grand ami, bon appétit, quand il",
+          "rule": "部分词尾 d/t 在连读时像 /t/；词尾 n 在连读时可能发 /n/。",
+          "examples": [
+            {"text": "grand ami", "audioText": "grand ami", "ipa": "/ɡʁɑ̃ tami/", "translation": "好朋友/大朋友"},
+            {"text": "quand il arrive", "audioText": "quand il arrive", "ipa": "/kɑ̃ til aʁiv/", "translation": "当他到达时"},
+            {"text": "bon appétit", "audioText": "bon appétit", "ipa": "/bɔn apeti/", "translation": "祝好胃口"},
+            {"text": "mon ami", "audioText": "mon ami", "ipa": "/mɔ̃ nami/", "translation": "我的朋友"},
+            {"text": "un homme", "audioText": "un homme", "ipa": "/œ̃ nɔm/", "translation": "一个男人"}
+          ]
+        },
+        {
+          "id": "rule-enchainement",
+          "type": "rule",
+          "text": "enchaînement: 直接接上",
+          "audioText": "avec elle, il arrive, elle aime",
+          "rule": "如果前一个词本来就发辅音结尾，后面接元音时会自然接上，不算真正 liaison。",
+          "examples": [
+            {"text": "avec elle", "audioText": "avec elle", "ipa": "/avɛ kɛl/", "translation": "和她"},
+            {"text": "il arrive", "audioText": "il arrive", "ipa": "/il aʁiv/", "translation": "他到了"},
+            {"text": "elle aime", "audioText": "elle aime", "ipa": "/ɛl ɛm/", "translation": "她喜欢"},
+            {"text": "pour elle", "audioText": "pour elle", "ipa": "/puʁ ɛl/", "translation": "为了她"},
+            {"text": "petite amie", "audioText": "petite amie", "ipa": "/pəti tami/", "translation": "女朋友"}
+          ]
+        },
+        {
+          "id": "rule-h-muet",
+          "type": "rule",
+          "text": "h muet: 可省音/连读",
+          "audioText": "l'homme, les hommes, un hôtel",
+          "rule": "h muet 不阻止省音和连读，像元音开头一样处理。",
+          "examples": [
+            {"text": "l'homme", "audioText": "l'homme", "ipa": "/lɔm/", "translation": "这个男人"},
+            {"text": "les hommes", "audioText": "les hommes", "ipa": "/le zɔm/", "translation": "这些男人"},
+            {"text": "un hôtel", "audioText": "un hôtel", "ipa": "/œ̃ notɛl/", "translation": "一家酒店"},
+            {"text": "l'histoire", "audioText": "l'histoire", "ipa": "/listwaʁ/", "translation": "历史 / 故事"},
+            {"text": "les heures", "audioText": "les heures", "ipa": "/le zœʁ/", "translation": "这些小时"}
+          ]
+        },
+        {
+          "id": "rule-h-aspire",
+          "type": "rule",
+          "text": "h aspiré: 阻止省音/连读",
+          "audioText": "le héros, les haricots, la Hollande",
+          "rule": "h aspiré 本身通常也不发 /h/，但它阻止省音和连读。",
+          "examples": [
+            {"text": "le héros", "audioText": "le héros", "ipa": "/lə eʁo/", "translation": "英雄"},
+            {"text": "les héros", "audioText": "les héros", "ipa": "/le eʁo/", "translation": "这些英雄"},
+            {"text": "le haricot", "audioText": "le haricot", "ipa": "/lə aʁiko/", "translation": "豆子"},
+            {"text": "la Hollande", "audioText": "la Hollande", "ipa": "/la ɔlɑ̃d/", "translation": "荷兰"},
+            {"text": "la honte", "audioText": "la honte", "ipa": "/la ɔ̃t/", "translation": "羞耻"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "high-frequency-exceptions",
+      "title": "高频例外与陷阱词",
+      "layout": "compact",
+      "note": "这些词很常见，但读音不完全按直觉走。直接整块记，效率最高。",
+      "blocks": [
+        {
+          "id": "trap-femme",
+          "type": "word",
+          "text": "femme",
+          "audioText": "femme",
+          "ipa": "/fam/",
+          "translation": "女人 / 妻子",
+          "hint": "写作 femme，但 e 读 /a/。",
+          "examples": [
+            {"text": "une femme", "audioText": "une femme", "ipa": "/yn fam/", "translation": "一个女人"},
+            {"text": "ma femme", "audioText": "ma femme", "ipa": "/ma fam/", "translation": "我的妻子"}
+          ]
+        },
+        {
+          "id": "trap-monsieur",
+          "type": "word",
+          "text": "monsieur",
+          "audioText": "monsieur",
+          "ipa": "/məsjø/",
+          "translation": "先生",
+          "hint": "高频称呼，读音和拼写差距较大。",
+          "examples": [
+            {"text": "Bonjour, monsieur.", "audioText": "Bonjour, monsieur.", "ipa": "/bɔ̃ʒuʁ məsjø/", "translation": "您好，先生。"},
+            {"text": "Merci, monsieur.", "audioText": "Merci, monsieur.", "ipa": "/mɛʁsi məsjø/", "translation": "谢谢您，先生。"}
+          ]
+        },
+        {
+          "id": "trap-fils",
+          "type": "word",
+          "text": "fils",
+          "audioText": "fils",
+          "ipa": "/fis/",
+          "translation": "儿子",
+          "hint": "词尾 s 要读，这是高频例外。",
+          "examples": [
+            {"text": "mon fils", "audioText": "mon fils", "ipa": "/mɔ̃ fis/", "translation": "我的儿子"},
+            {"text": "son fils", "audioText": "son fils", "ipa": "/sɔ̃ fis/", "translation": "他/她的儿子"}
+          ]
+        },
+        {
+          "id": "trap-second",
+          "type": "word",
+          "text": "second",
+          "audioText": "second",
+          "ipa": "/səɡɔ̃/",
+          "translation": "第二的",
+          "hint": "second 里的 c 常读 /g/。",
+          "examples": [
+            {"text": "la seconde fois", "audioText": "la seconde fois", "ipa": "/la səɡɔ̃d fwa/", "translation": "第二次"},
+            {"text": "le second jour", "audioText": "le second jour", "ipa": "/lə səɡɔ̃ ʒuʁ/", "translation": "第二天"}
+          ]
+        },
+        {
+          "id": "trap-oeuf-boeuf",
+          "type": "chunk",
+          "text": "œuf / bœuf",
+          "audioText": "œuf, œufs, bœuf, bœufs",
+          "ipa": "/œf/ /ø/",
+          "rule": "œuf、bœuf 单数常读 /œf/；复数 œufs、bœufs 常读 /ø/。",
+          "examples": [
+            {"text": "un œuf", "audioText": "un œuf", "ipa": "/œ̃ nœf/", "translation": "一个鸡蛋"},
+            {"text": "des œufs", "audioText": "des œufs", "ipa": "/de zø/", "translation": "一些鸡蛋"},
+            {"text": "un bœuf", "audioText": "un bœuf", "ipa": "/œ̃ bœf/", "translation": "一头牛 / 牛肉"},
+            {"text": "des bœufs", "audioText": "des bœufs", "ipa": "/de bø/", "translation": "一些牛"}
+          ]
+        },
+        {
+          "id": "trap-plus",
+          "type": "word",
+          "text": "plus",
+          "audioText": "plus",
+          "ipa": "/ply/ /plys/ /plyz/",
+          "translation": "更多 / 不再",
+          "hint": "plus 有多种读法：否定里常 /ply/；表示更多时常 /plys/；连读时可 /plyz/。",
+          "examples": [
+            {"text": "Je n'en veux plus.", "audioText": "Je n'en veux plus.", "ipa": "/ʒə nɑ̃ vø ply/", "translation": "我不再想要了。"},
+            {"text": "plus grand", "audioText": "plus grand", "ipa": "/plys ɡʁɑ̃/", "translation": "更大"},
+            {"text": "plus important", "audioText": "plus important", "ipa": "/plyz ɛ̃pɔʁtɑ̃/", "translation": "更重要"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contrast-drills",
+      "title": "关键听辨对比",
+      "layout": "compact",
+      "note": "这些对比是中国学习者和西语背景学习者都容易混的地方。先听差异，不急着完美。",
+      "blocks": [
+        {
+          "id": "contrast-u-ou",
+          "type": "rule",
+          "text": "u /y/ vs ou /u/",
+          "audioText": "tu, tout, rue, roue",
+          "rule": "u 是 /y/，ou 是 /u/。这是法语发音最值得早期校准的对比之一。",
+          "examples": [
+            {"text": "tu", "audioText": "tu", "ipa": "/ty/", "translation": "你"},
+            {"text": "tout", "audioText": "tout", "ipa": "/tu/", "translation": "全部"},
+            {"text": "rue", "audioText": "rue", "ipa": "/ʁy/", "translation": "街道"},
+            {"text": "roue", "audioText": "roue", "ipa": "/ʁu/", "translation": "轮子"}
+          ]
+        },
+        {
+          "id": "contrast-e-open-closed",
+          "type": "rule",
+          "text": "é /e/ vs è /ɛ/",
+          "audioText": "été, très, parler, mère",
+          "rule": "先能听出 /e/ 更闭、/ɛ/ 更开；后面在词汇中慢慢稳定。",
+          "examples": [
+            {"text": "été", "audioText": "été", "ipa": "/ete/", "translation": "夏天"},
+            {"text": "très", "audioText": "très", "ipa": "/tʁɛ/", "translation": "很"},
+            {"text": "parler", "audioText": "parler", "ipa": "/paʁle/", "translation": "说"},
+            {"text": "mère", "audioText": "mère", "ipa": "/mɛʁ/", "translation": "母亲"}
+          ]
+        },
+        {
+          "id": "contrast-nasals",
+          "type": "rule",
+          "text": "an / on / in",
+          "audioText": "sans, son, cinq",
+          "rule": "三个鼻化音都重要：/ɑ̃/ 更开，/ɔ̃/ 更圆，/ɛ̃/ 更前。",
+          "examples": [
+            {"text": "sans", "audioText": "sans", "ipa": "/sɑ̃/", "translation": "没有"},
+            {"text": "son", "audioText": "son", "ipa": "/sɔ̃/", "translation": "声音 / 他的"},
+            {"text": "cinq", "audioText": "cinq", "ipa": "/sɛ̃k/", "translation": "五"},
+            {"text": "France", "audioText": "France", "ipa": "/fʁɑ̃s/", "translation": "法国"},
+            {"text": "fin", "audioText": "fin", "ipa": "/fɛ̃/", "translation": "结束"}
+          ]
+        }
+      ]
+    }
+  ]
+}

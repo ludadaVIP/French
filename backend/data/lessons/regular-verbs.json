@@ -1,0 +1,49 @@
+{
+  "id": "regular-verbs",
+  "title": "-er / -ir / -re 规则动词",
+  "phase": "动词变位",
+  "level": "A1-A2",
+  "estimatedMinutes": 34,
+  "objective": "用三类规则动词快速建立现在时变位直觉，先覆盖最常见可复用动词。",
+  "strategy": "规则动词不要逐个死背。先看一类模式，再用高频动词套模板；卡片会直接列出现在时六个人称。",
+  "sections": [
+    {
+      "id": "er-verbs",
+      "title": "-er 动词",
+      "layout": "compact",
+      "note": "-er 是最大类。口语里 je/tu/il/ils 很多形式听起来接近，理解这一点会轻松很多。",
+      "blocks": [
+        {"id": "rv-parler", "type": "verb", "text": "parler", "audioText": "parler", "ipa": "/paʁle/", "translation": "说", "rule": "-er 动词基础模板。", "conjugation": {"je": "parle", "tu": "parles", "il": "parle", "nous": "parlons", "vous": "parlez", "ils": "parlent"}, "examples": [{"text": "Je parle français.", "audioText": "Je parle français.", "ipa": "/ʒə paʁl fʁɑ̃sɛ/", "translation": "我说法语。"}]},
+        {"id": "rv-travailler", "type": "verb", "text": "travailler", "audioText": "travailler", "ipa": "/tʁavaje/", "translation": "工作 / 学习", "conjugation": {"je": "travaille", "tu": "travailles", "il": "travaille", "nous": "travaillons", "vous": "travaillez", "ils": "travaillent"}, "examples": [{"text": "Tu travailles aujourd'hui ?", "audioText": "Tu travailles aujourd'hui ?", "ipa": "/ty tʁavaj oʒuʁdɥi/", "translation": "你今天工作吗？"}]},
+        {"id": "rv-aimer", "type": "verb", "text": "aimer", "audioText": "aimer", "ipa": "/eme/", "translation": "喜欢 / 爱", "conjugation": {"je": "aime", "tu": "aimes", "il": "aime", "nous": "aimons", "vous": "aimez", "ils": "aiment"}, "examples": [{"text": "J'aime le français.", "audioText": "J'aime le français.", "ipa": "/ʒɛm lə fʁɑ̃sɛ/", "translation": "我喜欢法语。"}]},
+        {"id": "rv-donner", "type": "verb", "text": "donner", "audioText": "donner", "ipa": "/dɔne/", "translation": "给", "conjugation": {"je": "donne", "tu": "donnes", "il": "donne", "nous": "donnons", "vous": "donnez", "ils": "donnent"}, "examples": [{"text": "Je donne un exemple.", "audioText": "Je donne un exemple.", "ipa": "/ʒə dɔn œ̃ ɛɡzɑ̃pl/", "translation": "我给一个例子。"}]},
+        {"id": "rv-chercher", "type": "verb", "text": "chercher", "audioText": "chercher", "ipa": "/ʃɛʁʃe/", "translation": "找 / 寻找", "conjugation": {"je": "cherche", "tu": "cherches", "il": "cherche", "nous": "cherchons", "vous": "cherchez", "ils": "cherchent"}, "examples": [{"text": "Je cherche un mot.", "audioText": "Je cherche un mot.", "ipa": "/ʒə ʃɛʁʃ œ̃ mo/", "translation": "我在找一个词。"}]},
+        {"id": "rv-regarder", "type": "verb", "text": "regarder", "audioText": "regarder", "ipa": "/ʁəɡaʁde/", "translation": "看", "conjugation": {"je": "regarde", "tu": "regardes", "il": "regarde", "nous": "regardons", "vous": "regardez", "ils": "regardent"}, "examples": [{"text": "Je regarde la vidéo.", "audioText": "Je regarde la vidéo.", "ipa": "/ʒə ʁəɡaʁd la video/", "translation": "我看视频。"}]},
+        {"id": "rv-ecouter", "type": "verb", "text": "écouter", "audioText": "écouter", "ipa": "/ekute/", "translation": "听", "conjugation": {"je": "écoute", "tu": "écoutes", "il": "écoute", "nous": "écoutons", "vous": "écoutez", "ils": "écoutent"}, "examples": [{"text": "J'écoute la phrase.", "audioText": "J'écoute la phrase.", "ipa": "/ʒekut la fʁaz/", "translation": "我听这个句子。"}]},
+        {"id": "rv-commencer", "type": "verb", "text": "commencer", "audioText": "commencer", "ipa": "/kɔmɑ̃se/", "translation": "开始", "conjugation": {"je": "commence", "tu": "commences", "il": "commence", "nous": "commençons", "vous": "commencez", "ils": "commencent"}, "examples": [{"text": "On commence maintenant.", "audioText": "On commence maintenant.", "ipa": "/ɔ̃ kɔmɑ̃s mɛ̃tnɑ̃/", "translation": "我们现在开始。"}]}
+      ]
+    },
+    {
+      "id": "ir-verbs",
+      "title": "-ir 动词",
+      "layout": "compact",
+      "note": "先掌握 finir 这一类规则模式：复数常出现 -iss-。",
+      "blocks": [
+        {"id": "rv-finir", "type": "verb", "text": "finir", "audioText": "finir", "ipa": "/finiʁ/", "translation": "完成 / 结束", "rule": "finir 类：je finis, nous finissons。", "conjugation": {"je": "finis", "tu": "finis", "il": "finit", "nous": "finissons", "vous": "finissez", "ils": "finissent"}, "examples": [{"text": "Je finis le travail.", "audioText": "Je finis le travail.", "ipa": "/ʒə fini lə tʁavaj/", "translation": "我完成工作。"}]},
+        {"id": "rv-choisir", "type": "verb", "text": "choisir", "audioText": "choisir", "ipa": "/ʃwaziʁ/", "translation": "选择", "conjugation": {"je": "choisis", "tu": "choisis", "il": "choisit", "nous": "choisissons", "vous": "choisissez", "ils": "choisissent"}, "examples": [{"text": "Je choisis ça.", "audioText": "Je choisis ça.", "ipa": "/ʒə ʃwazi sa/", "translation": "我选这个。"}]},
+        {"id": "rv-reussir", "type": "verb", "text": "réussir", "audioText": "réussir", "ipa": "/ʁeysiʁ/", "translation": "成功", "conjugation": {"je": "réussis", "tu": "réussis", "il": "réussit", "nous": "réussissons", "vous": "réussissez", "ils": "réussissent"}, "examples": [{"text": "Tu réussis vite.", "audioText": "Tu réussis vite.", "ipa": "/ty ʁeysi vit/", "translation": "你进步很快。"}]}
+      ]
+    },
+    {
+      "id": "re-verbs",
+      "title": "-re 动词",
+      "layout": "compact",
+      "note": "-re 类数量少一些，但 attendre, répondre, vendre 很常用。",
+      "blocks": [
+        {"id": "rv-attendre", "type": "verb", "text": "attendre", "audioText": "attendre", "ipa": "/atɑ̃dʁ/", "translation": "等待", "rule": "去掉 -re 后加对应结尾。", "conjugation": {"je": "attends", "tu": "attends", "il": "attend", "nous": "attendons", "vous": "attendez", "ils": "attendent"}, "examples": [{"text": "J'attends ici.", "audioText": "J'attends ici.", "ipa": "/ʒatɑ̃ isi/", "translation": "我在这里等。"}]},
+        {"id": "rv-repondre", "type": "verb", "text": "répondre", "audioText": "répondre", "ipa": "/ʁepɔ̃dʁ/", "translation": "回答 / 回复", "conjugation": {"je": "réponds", "tu": "réponds", "il": "répond", "nous": "répondons", "vous": "répondez", "ils": "répondent"}, "examples": [{"text": "Je réponds maintenant.", "audioText": "Je réponds maintenant.", "ipa": "/ʒə ʁepɔ̃ mɛ̃tnɑ̃/", "translation": "我现在回复。"}]},
+        {"id": "rv-vendre", "type": "verb", "text": "vendre", "audioText": "vendre", "ipa": "/vɑ̃dʁ/", "translation": "卖", "conjugation": {"je": "vends", "tu": "vends", "il": "vend", "nous": "vendons", "vous": "vendez", "ils": "vendent"}, "examples": [{"text": "Ils vendent des fruits.", "audioText": "Ils vendent des fruits.", "ipa": "/il vɑ̃d de fʁɥi/", "translation": "他们卖水果。"}]}
+      ]
+    }
+  ]
+}
