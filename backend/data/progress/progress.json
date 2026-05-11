@@ -2007,11 +2007,155 @@
     },
     "weak-cest-pas": {
       "at": "2026-05-10T23:42:01.854Z",
-      "text": "C'est pas grave.",
       "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/25cb9e19bf10b5904d3fc976b2916cb6c20fb188.mp3",
       "cached": true,
       "engine": "edge-tts",
+      "text": "C'est pas grave.",
       "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "dialogue-ca-va-a": {
+      "at": "2026-05-11T00:09:53.388Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/43bc5f1cb9c74bac3a5771f7047ea64473ff95bd.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "Ça va ?",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "dialogue-ca-va-b": {
+      "at": "2026-05-11T00:09:57.099Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/3f496b7b6c86bf4c2ad05146ebbb49e0ef7a0ad2.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "Oui, ça va bien.",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "dialogue-question-a": {
+      "at": "2026-05-11T00:10:00.368Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/d65d7184af6062b6bdbb53eecb9c3d126873da51.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "Vous avez une question ?",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "dialogue-question-b": {
+      "at": "2026-05-11T00:10:05.290Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/2450bc6438c104920ee9b74af9e28b966f216ec0.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "Oui, une petite question.",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "dialogue-repeat-a": {
+      "at": "2026-05-11T00:10:09.176Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/63545e253dff3ffed35a8af8fd07f9794177c1a2.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "Vous pouvez répéter ?",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "dialogue-repeat-b": {
+      "at": "2026-05-11T00:10:13.048Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/52c728e93e6ae42caded706ce2a79ac19bb117b2.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "Bien sûr.",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "dialogue-cafe-a": {
+      "at": "2026-05-11T00:10:16.879Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/08a1606d7ef8a2fe8c2bdfce7ce4c6efebd58e1b.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "Tu vas au café ?",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "dialogue-cafe-b": {
+      "at": "2026-05-11T00:10:19.608Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/ad4a05d137b422b5172db478a30c5b918edae3be.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "Oui, avec toi.",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "dialogue-understand-a": {
+      "at": "2026-05-11T00:10:23.306Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/988be2d08707b2eb87a3cd13078aea9addafecda.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "Tu comprends ?",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "dialogue-understand-b": {
+      "at": "2026-05-11T00:10:26.261Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/dd1142ac63a2c3a970c699286d8c1dc9c00b2dec.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "Je comprends un peu.",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "neg-comprendre": {
+      "at": "2026-05-11T00:10:42.685Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/aa950c9ed030629ee0dcc2963ffa3ee047242758.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "Je ne comprends pas.",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "neg-avoir": {
+      "at": "2026-05-11T00:10:45.634Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/26b2caa753154b786c07dcd0a23326d3d1ed06da.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "Je n'ai pas le temps.",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "neg-etre": {
+      "at": "2026-05-11T00:10:49.269Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/9a34dfc7749b189bd9006b98010663684a0c075b.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "Ce n'est pas possible.",
+      "voice": "fr-FR-HenriNeural"
+    },
+    "neg-cest-pas": {
+      "at": "2026-05-11T00:10:52.570Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/8014e95da43c13cf360e0e7982ef57ddc8e4f5bc.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "C'est pas possible.",
+      "voice": "fr-FR-DeniseNeural"
+    },
+    "neg-vouloir": {
+      "at": "2026-05-11T00:10:56.084Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/339518d9bb0780303f08ac0a3df42abe0515f7a5.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "Je ne veux pas.",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "neg-pouvoir": {
+      "at": "2026-05-11T00:10:58.324Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/cb37e6ecb2b63968643b7140881f4f1034a28c7f.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "Je ne peux pas.",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "neg-aller": {
+      "at": "2026-05-11T00:11:00.663Z",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/d169f4a39528908053c1c49f2ec3ae634a4aaa5a.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "text": "Je ne vais pas à Paris.",
+      "voice": "fr-FR-VivienneMultilingualNeural"
+    },
+    "neg-savoir": {
+      "at": "2026-05-11T00:11:03.366Z",
+      "text": "Je ne sais pas encore.",
+      "audioPath": "/audio/edge-tts/fr-FR/fr-FR-DeniseNeural/834f50b32b924f8840e011e861465ed15ff5a682.mp3",
+      "cached": false,
+      "engine": "edge-tts",
+      "voice": "fr-FR-DeniseNeural"
     }
   }
 }

@@ -39,9 +39,9 @@ def main() -> int:
     run([venv_pip(), "install", "-r", "requirements.txt"], BACKEND)
 
     if not (FRONTEND / "node_modules").exists():
-        run(["npm", "install"], FRONTEND)
+        run(["npm.cmd", "install"], FRONTEND)
 
-    run(["npm", "run", "build"], FRONTEND)
+    run(["npm.cmd", "run", "build"], FRONTEND)
 
     env = os.environ.copy()
     env.setdefault("PORT", "5055")
