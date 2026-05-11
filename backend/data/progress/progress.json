@@ -1,5 +1,5 @@
 {
-  "currentLessonId": "core-words",
+  "currentLessonId": "present-verbs",
   "blockStates": {
     "letter-a": "mastered",
     "letter-b": "mastered",
@@ -18,7 +18,8 @@
     "past-future",
     "regular-verbs",
     "irregular-verbs",
-    "mood"
+    "mood",
+    "present-verbs"
   ],
   "heardBlocks": {
     "letter-a": {
@@ -563,10 +564,10 @@
     },
     "survival-question": {
       "at": "2026-05-11T00:19:45.335Z",
-      "text": "Comment on dit ça en français ?",
       "audioPath": "/audio/edge-tts/fr-FR/fr-FR-HenriNeural/d8a029f102f4f87a315193e48f835f42f1ef1574.mp3",
       "cached": false,
       "engine": "edge-tts",
+      "text": "Comment on dit ça en français ?",
       "voice": "fr-FR-HenriNeural"
     },
     "core-et": {

@@ -1,0 +1,4903 @@
+{
+  "id": "present-verbs",
+  "title": "动词变位-现在时",
+  "phase": "基础表达",
+  "level": "A1-A2",
+  "estimatedMinutes": 135,
+  "objective": "把 100+ 个最高频法语动词的现在时变位变成可听、可读、可直接套句子的块。",
+  "strategy": "先听不定式，再逐格听 je/tu/il/nous/vous/ils。每个动词用“我、他/她、我们、你们/您”四个例句立刻落到句子里，不用先死背完整语法解释。",
+  "sections": [
+    {
+      "id": "pv-core-irregular",
+      "title": "核心不规则：先拿最高频",
+      "note": "être, avoir, aller, faire 和情态动词支撑大量日常句。",
+      "blocks": [
+        {
+          "id": "pv-etre",
+          "type": "verb",
+          "text": "être",
+          "audioText": "être",
+          "translation": "在 / 是",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "suis",
+            "tu": "es",
+            "il": "est",
+            "nous": "sommes",
+            "vous": "êtes",
+            "ils": "sont"
+          },
+          "examples": [
+            {
+              "text": "Je suis ici.",
+              "audioText": "Je suis ici.",
+              "translation": "我在 / 是在这里。"
+            },
+            {
+              "text": "Il est ici.",
+              "audioText": "Il est ici.",
+              "translation": "他/她在 / 是在这里。"
+            },
+            {
+              "text": "Nous sommes ici.",
+              "audioText": "Nous sommes ici.",
+              "translation": "我们在 / 是在这里。"
+            },
+            {
+              "text": "Vous êtes ici.",
+              "audioText": "Vous êtes ici.",
+              "translation": "你们/您在 / 是在这里。"
+            }
+          ]
+        },
+        {
+          "id": "pv-avoir",
+          "type": "verb",
+          "text": "avoir",
+          "audioText": "avoir",
+          "translation": "有",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "ai",
+            "tu": "as",
+            "il": "a",
+            "nous": "avons",
+            "vous": "avez",
+            "ils": "ont"
+          },
+          "examples": [
+            {
+              "text": "J'ai une idée.",
+              "audioText": "J'ai une idée.",
+              "translation": "我有一个想法。"
+            },
+            {
+              "text": "Il a une idée.",
+              "audioText": "Il a une idée.",
+              "translation": "他/她有一个想法。"
+            },
+            {
+              "text": "Nous avons une idée.",
+              "audioText": "Nous avons une idée.",
+              "translation": "我们有一个想法。"
+            },
+            {
+              "text": "Vous avez une idée.",
+              "audioText": "Vous avez une idée.",
+              "translation": "你们/您有一个想法。"
+            }
+          ]
+        },
+        {
+          "id": "pv-aller",
+          "type": "verb",
+          "text": "aller",
+          "audioText": "aller",
+          "translation": "去",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "vais",
+            "tu": "vas",
+            "il": "va",
+            "nous": "allons",
+            "vous": "allez",
+            "ils": "vont"
+          },
+          "examples": [
+            {
+              "text": "Je vais à Paris.",
+              "audioText": "Je vais à Paris.",
+              "translation": "我去去巴黎。"
+            },
+            {
+              "text": "Il va à Paris.",
+              "audioText": "Il va à Paris.",
+              "translation": "他/她去去巴黎。"
+            },
+            {
+              "text": "Nous allons à Paris.",
+              "audioText": "Nous allons à Paris.",
+              "translation": "我们去去巴黎。"
+            },
+            {
+              "text": "Vous allez à Paris.",
+              "audioText": "Vous allez à Paris.",
+              "translation": "你们/您去去巴黎。"
+            }
+          ]
+        },
+        {
+          "id": "pv-faire",
+          "type": "verb",
+          "text": "faire",
+          "audioText": "faire",
+          "translation": "做",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "fais",
+            "tu": "fais",
+            "il": "fait",
+            "nous": "faisons",
+            "vous": "faites",
+            "ils": "font"
+          },
+          "examples": [
+            {
+              "text": "Je fais ça.",
+              "audioText": "Je fais ça.",
+              "translation": "我做这件事。"
+            },
+            {
+              "text": "Il fait ça.",
+              "audioText": "Il fait ça.",
+              "translation": "他/她做这件事。"
+            },
+            {
+              "text": "Nous faisons ça.",
+              "audioText": "Nous faisons ça.",
+              "translation": "我们做这件事。"
+            },
+            {
+              "text": "Vous faites ça.",
+              "audioText": "Vous faites ça.",
+              "translation": "你们/您做这件事。"
+            }
+          ]
+        },
+        {
+          "id": "pv-pouvoir",
+          "type": "verb",
+          "text": "pouvoir",
+          "audioText": "pouvoir",
+          "translation": "能够",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "peux",
+            "tu": "peux",
+            "il": "peut",
+            "nous": "pouvons",
+            "vous": "pouvez",
+            "ils": "peuvent"
+          },
+          "examples": [
+            {
+              "text": "Je peux partir.",
+              "audioText": "Je peux partir.",
+              "translation": "我能够离开。"
+            },
+            {
+              "text": "Il peut partir.",
+              "audioText": "Il peut partir.",
+              "translation": "他/她能够离开。"
+            },
+            {
+              "text": "Nous pouvons partir.",
+              "audioText": "Nous pouvons partir.",
+              "translation": "我们能够离开。"
+            },
+            {
+              "text": "Vous pouvez partir.",
+              "audioText": "Vous pouvez partir.",
+              "translation": "你们/您能够离开。"
+            }
+          ]
+        },
+        {
+          "id": "pv-vouloir",
+          "type": "verb",
+          "text": "vouloir",
+          "audioText": "vouloir",
+          "translation": "想要",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "veux",
+            "tu": "veux",
+            "il": "veut",
+            "nous": "voulons",
+            "vous": "voulez",
+            "ils": "veulent"
+          },
+          "examples": [
+            {
+              "text": "Je veux comprendre.",
+              "audioText": "Je veux comprendre.",
+              "translation": "我想要理解。"
+            },
+            {
+              "text": "Il veut comprendre.",
+              "audioText": "Il veut comprendre.",
+              "translation": "他/她想要理解。"
+            },
+            {
+              "text": "Nous voulons comprendre.",
+              "audioText": "Nous voulons comprendre.",
+              "translation": "我们想要理解。"
+            },
+            {
+              "text": "Vous voulez comprendre.",
+              "audioText": "Vous voulez comprendre.",
+              "translation": "你们/您想要理解。"
+            }
+          ]
+        },
+        {
+          "id": "pv-devoir",
+          "type": "verb",
+          "text": "devoir",
+          "audioText": "devoir",
+          "translation": "必须 / 应该",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "dois",
+            "tu": "dois",
+            "il": "doit",
+            "nous": "devons",
+            "vous": "devez",
+            "ils": "doivent"
+          },
+          "examples": [
+            {
+              "text": "Je dois travailler.",
+              "audioText": "Je dois travailler.",
+              "translation": "我必须 / 应该工作。"
+            },
+            {
+              "text": "Il doit travailler.",
+              "audioText": "Il doit travailler.",
+              "translation": "他/她必须 / 应该工作。"
+            },
+            {
+              "text": "Nous devons travailler.",
+              "audioText": "Nous devons travailler.",
+              "translation": "我们必须 / 应该工作。"
+            },
+            {
+              "text": "Vous devez travailler.",
+              "audioText": "Vous devez travailler.",
+              "translation": "你们/您必须 / 应该工作。"
+            }
+          ]
+        },
+        {
+          "id": "pv-savoir",
+          "type": "verb",
+          "text": "savoir",
+          "audioText": "savoir",
+          "translation": "知道 / 会",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "sais",
+            "tu": "sais",
+            "il": "sait",
+            "nous": "savons",
+            "vous": "savez",
+            "ils": "savent"
+          },
+          "examples": [
+            {
+              "text": "Je sais la réponse.",
+              "audioText": "Je sais la réponse.",
+              "translation": "我知道 / 会答案。"
+            },
+            {
+              "text": "Il sait la réponse.",
+              "audioText": "Il sait la réponse.",
+              "translation": "他/她知道 / 会答案。"
+            },
+            {
+              "text": "Nous savons la réponse.",
+              "audioText": "Nous savons la réponse.",
+              "translation": "我们知道 / 会答案。"
+            },
+            {
+              "text": "Vous savez la réponse.",
+              "audioText": "Vous savez la réponse.",
+              "translation": "你们/您知道 / 会答案。"
+            }
+          ]
+        },
+        {
+          "id": "pv-comprendre",
+          "type": "verb",
+          "text": "comprendre",
+          "audioText": "comprendre",
+          "translation": "理解",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "comprends",
+            "tu": "comprends",
+            "il": "comprend",
+            "nous": "comprenons",
+            "vous": "comprenez",
+            "ils": "comprennent"
+          },
+          "examples": [
+            {
+              "text": "Je comprends la phrase.",
+              "audioText": "Je comprends la phrase.",
+              "translation": "我理解这个句子。"
+            },
+            {
+              "text": "Il comprend la phrase.",
+              "audioText": "Il comprend la phrase.",
+              "translation": "他/她理解这个句子。"
+            },
+            {
+              "text": "Nous comprenons la phrase.",
+              "audioText": "Nous comprenons la phrase.",
+              "translation": "我们理解这个句子。"
+            },
+            {
+              "text": "Vous comprenez la phrase.",
+              "audioText": "Vous comprenez la phrase.",
+              "translation": "你们/您理解这个句子。"
+            }
+          ]
+        },
+        {
+          "id": "pv-prendre",
+          "type": "verb",
+          "text": "prendre",
+          "audioText": "prendre",
+          "translation": "拿 / 乘坐 / 吃喝",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "prends",
+            "tu": "prends",
+            "il": "prend",
+            "nous": "prenons",
+            "vous": "prenez",
+            "ils": "prennent"
+          },
+          "examples": [
+            {
+              "text": "Je prends le train.",
+              "audioText": "Je prends le train.",
+              "translation": "我拿 / 乘坐 / 吃喝火车。"
+            },
+            {
+              "text": "Il prend le train.",
+              "audioText": "Il prend le train.",
+              "translation": "他/她拿 / 乘坐 / 吃喝火车。"
+            },
+            {
+              "text": "Nous prenons le train.",
+              "audioText": "Nous prenons le train.",
+              "translation": "我们拿 / 乘坐 / 吃喝火车。"
+            },
+            {
+              "text": "Vous prenez le train.",
+              "audioText": "Vous prenez le train.",
+              "translation": "你们/您拿 / 乘坐 / 吃喝火车。"
+            }
+          ]
+        },
+        {
+          "id": "pv-apprendre",
+          "type": "verb",
+          "text": "apprendre",
+          "audioText": "apprendre",
+          "translation": "学习",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "apprends",
+            "tu": "apprends",
+            "il": "apprend",
+            "nous": "apprenons",
+            "vous": "apprenez",
+            "ils": "apprennent"
+          },
+          "examples": [
+            {
+              "text": "J'apprends le français.",
+              "audioText": "J'apprends le français.",
+              "translation": "我学习法语。"
+            },
+            {
+              "text": "Il apprend le français.",
+              "audioText": "Il apprend le français.",
+              "translation": "他/她学习法语。"
+            },
+            {
+              "text": "Nous apprenons le français.",
+              "audioText": "Nous apprenons le français.",
+              "translation": "我们学习法语。"
+            },
+            {
+              "text": "Vous apprenez le français.",
+              "audioText": "Vous apprenez le français.",
+              "translation": "你们/您学习法语。"
+            }
+          ]
+        },
+        {
+          "id": "pv-dire",
+          "type": "verb",
+          "text": "dire",
+          "audioText": "dire",
+          "translation": "说",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "dis",
+            "tu": "dis",
+            "il": "dit",
+            "nous": "disons",
+            "vous": "dites",
+            "ils": "disent"
+          },
+          "examples": [
+            {
+              "text": "Je dis la vérité.",
+              "audioText": "Je dis la vérité.",
+              "translation": "我说真话。"
+            },
+            {
+              "text": "Il dit la vérité.",
+              "audioText": "Il dit la vérité.",
+              "translation": "他/她说真话。"
+            },
+            {
+              "text": "Nous disons la vérité.",
+              "audioText": "Nous disons la vérité.",
+              "translation": "我们说真话。"
+            },
+            {
+              "text": "Vous dites la vérité.",
+              "audioText": "Vous dites la vérité.",
+              "translation": "你们/您说真话。"
+            }
+          ]
+        },
+        {
+          "id": "pv-venir",
+          "type": "verb",
+          "text": "venir",
+          "audioText": "venir",
+          "translation": "来",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "viens",
+            "tu": "viens",
+            "il": "vient",
+            "nous": "venons",
+            "vous": "venez",
+            "ils": "viennent"
+          },
+          "examples": [
+            {
+              "text": "Je viens demain.",
+              "audioText": "Je viens demain.",
+              "translation": "我来明天来。"
+            },
+            {
+              "text": "Il vient demain.",
+              "audioText": "Il vient demain.",
+              "translation": "他/她来明天来。"
+            },
+            {
+              "text": "Nous venons demain.",
+              "audioText": "Nous venons demain.",
+              "translation": "我们来明天来。"
+            },
+            {
+              "text": "Vous venez demain.",
+              "audioText": "Vous venez demain.",
+              "translation": "你们/您来明天来。"
+            }
+          ]
+        },
+        {
+          "id": "pv-revenir",
+          "type": "verb",
+          "text": "revenir",
+          "audioText": "revenir",
+          "translation": "回来",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "reviens",
+            "tu": "reviens",
+            "il": "revient",
+            "nous": "revenons",
+            "vous": "revenez",
+            "ils": "reviennent"
+          },
+          "examples": [
+            {
+              "text": "Je reviens ce soir.",
+              "audioText": "Je reviens ce soir.",
+              "translation": "我回来今晚回来。"
+            },
+            {
+              "text": "Il revient ce soir.",
+              "audioText": "Il revient ce soir.",
+              "translation": "他/她回来今晚回来。"
+            },
+            {
+              "text": "Nous revenons ce soir.",
+              "audioText": "Nous revenons ce soir.",
+              "translation": "我们回来今晚回来。"
+            },
+            {
+              "text": "Vous revenez ce soir.",
+              "audioText": "Vous revenez ce soir.",
+              "translation": "你们/您回来今晚回来。"
+            }
+          ]
+        },
+        {
+          "id": "pv-devenir",
+          "type": "verb",
+          "text": "devenir",
+          "audioText": "devenir",
+          "translation": "成为",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "deviens",
+            "tu": "deviens",
+            "il": "devient",
+            "nous": "devenons",
+            "vous": "devenez",
+            "ils": "deviennent"
+          },
+          "examples": [
+            {
+              "text": "Je deviens meilleur.",
+              "audioText": "Je deviens meilleur.",
+              "translation": "我成为更好。"
+            },
+            {
+              "text": "Il devient meilleur.",
+              "audioText": "Il devient meilleur.",
+              "translation": "他/她成为更好。"
+            },
+            {
+              "text": "Nous devenons meilleur.",
+              "audioText": "Nous devenons meilleur.",
+              "translation": "我们成为更好。"
+            },
+            {
+              "text": "Vous devenez meilleur.",
+              "audioText": "Vous devenez meilleur.",
+              "translation": "你们/您成为更好。"
+            }
+          ]
+        },
+        {
+          "id": "pv-voir",
+          "type": "verb",
+          "text": "voir",
+          "audioText": "voir",
+          "translation": "看见",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "vois",
+            "tu": "vois",
+            "il": "voit",
+            "nous": "voyons",
+            "vous": "voyez",
+            "ils": "voient"
+          },
+          "examples": [
+            {
+              "text": "Je vois le problème.",
+              "audioText": "Je vois le problème.",
+              "translation": "我看见这个问题。"
+            },
+            {
+              "text": "Il voit le problème.",
+              "audioText": "Il voit le problème.",
+              "translation": "他/她看见这个问题。"
+            },
+            {
+              "text": "Nous voyons le problème.",
+              "audioText": "Nous voyons le problème.",
+              "translation": "我们看见这个问题。"
+            },
+            {
+              "text": "Vous voyez le problème.",
+              "audioText": "Vous voyez le problème.",
+              "translation": "你们/您看见这个问题。"
+            }
+          ]
+        },
+        {
+          "id": "pv-croire",
+          "type": "verb",
+          "text": "croire",
+          "audioText": "croire",
+          "translation": "相信 / 认为",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "crois",
+            "tu": "crois",
+            "il": "croit",
+            "nous": "croyons",
+            "vous": "croyez",
+            "ils": "croient"
+          },
+          "examples": [
+            {
+              "text": "Je crois cette idée.",
+              "audioText": "Je crois cette idée.",
+              "translation": "我相信 / 认为这个想法。"
+            },
+            {
+              "text": "Il croit cette idée.",
+              "audioText": "Il croit cette idée.",
+              "translation": "他/她相信 / 认为这个想法。"
+            },
+            {
+              "text": "Nous croyons cette idée.",
+              "audioText": "Nous croyons cette idée.",
+              "translation": "我们相信 / 认为这个想法。"
+            },
+            {
+              "text": "Vous croyez cette idée.",
+              "audioText": "Vous croyez cette idée.",
+              "translation": "你们/您相信 / 认为这个想法。"
+            }
+          ]
+        },
+        {
+          "id": "pv-mettre",
+          "type": "verb",
+          "text": "mettre",
+          "audioText": "mettre",
+          "translation": "放 / 穿",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "mets",
+            "tu": "mets",
+            "il": "met",
+            "nous": "mettons",
+            "vous": "mettez",
+            "ils": "mettent"
+          },
+          "examples": [
+            {
+              "text": "Je mets la clé ici.",
+              "audioText": "Je mets la clé ici.",
+              "translation": "我放 / 穿钥匙放在这里。"
+            },
+            {
+              "text": "Il met la clé ici.",
+              "audioText": "Il met la clé ici.",
+              "translation": "他/她放 / 穿钥匙放在这里。"
+            },
+            {
+              "text": "Nous mettons la clé ici.",
+              "audioText": "Nous mettons la clé ici.",
+              "translation": "我们放 / 穿钥匙放在这里。"
+            },
+            {
+              "text": "Vous mettez la clé ici.",
+              "audioText": "Vous mettez la clé ici.",
+              "translation": "你们/您放 / 穿钥匙放在这里。"
+            }
+          ]
+        },
+        {
+          "id": "pv-permettre",
+          "type": "verb",
+          "text": "permettre",
+          "audioText": "permettre",
+          "translation": "允许",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "permets",
+            "tu": "permets",
+            "il": "permet",
+            "nous": "permettons",
+            "vous": "permettez",
+            "ils": "permettent"
+          },
+          "examples": [
+            {
+              "text": "Je permets ça.",
+              "audioText": "Je permets ça.",
+              "translation": "我允许这件事。"
+            },
+            {
+              "text": "Il permet ça.",
+              "audioText": "Il permet ça.",
+              "translation": "他/她允许这件事。"
+            },
+            {
+              "text": "Nous permettons ça.",
+              "audioText": "Nous permettons ça.",
+              "translation": "我们允许这件事。"
+            },
+            {
+              "text": "Vous permettez ça.",
+              "audioText": "Vous permettez ça.",
+              "translation": "你们/您允许这件事。"
+            }
+          ]
+        },
+        {
+          "id": "pv-lire",
+          "type": "verb",
+          "text": "lire",
+          "audioText": "lire",
+          "translation": "读",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "lis",
+            "tu": "lis",
+            "il": "lit",
+            "nous": "lisons",
+            "vous": "lisez",
+            "ils": "lisent"
+          },
+          "examples": [
+            {
+              "text": "Je lis ce livre.",
+              "audioText": "Je lis ce livre.",
+              "translation": "我读这本书。"
+            },
+            {
+              "text": "Il lit ce livre.",
+              "audioText": "Il lit ce livre.",
+              "translation": "他/她读这本书。"
+            },
+            {
+              "text": "Nous lisons ce livre.",
+              "audioText": "Nous lisons ce livre.",
+              "translation": "我们读这本书。"
+            },
+            {
+              "text": "Vous lisez ce livre.",
+              "audioText": "Vous lisez ce livre.",
+              "translation": "你们/您读这本书。"
+            }
+          ]
+        },
+        {
+          "id": "pv-ecrire",
+          "type": "verb",
+          "text": "écrire",
+          "audioText": "écrire",
+          "translation": "写",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "écris",
+            "tu": "écris",
+            "il": "écrit",
+            "nous": "écrivons",
+            "vous": "écrivez",
+            "ils": "écrivent"
+          },
+          "examples": [
+            {
+              "text": "J'écris un message.",
+              "audioText": "J'écris un message.",
+              "translation": "我写一条消息。"
+            },
+            {
+              "text": "Il écrit un message.",
+              "audioText": "Il écrit un message.",
+              "translation": "他/她写一条消息。"
+            },
+            {
+              "text": "Nous écrivons un message.",
+              "audioText": "Nous écrivons un message.",
+              "translation": "我们写一条消息。"
+            },
+            {
+              "text": "Vous écrivez un message.",
+              "audioText": "Vous écrivez un message.",
+              "translation": "你们/您写一条消息。"
+            }
+          ]
+        },
+        {
+          "id": "pv-boire",
+          "type": "verb",
+          "text": "boire",
+          "audioText": "boire",
+          "translation": "喝",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "bois",
+            "tu": "bois",
+            "il": "boit",
+            "nous": "buvons",
+            "vous": "buvez",
+            "ils": "boivent"
+          },
+          "examples": [
+            {
+              "text": "Je bois de l’eau.",
+              "audioText": "Je bois de l’eau.",
+              "translation": "我喝水。"
+            },
+            {
+              "text": "Il boit de l’eau.",
+              "audioText": "Il boit de l’eau.",
+              "translation": "他/她喝水。"
+            },
+            {
+              "text": "Nous buvons de l’eau.",
+              "audioText": "Nous buvons de l’eau.",
+              "translation": "我们喝水。"
+            },
+            {
+              "text": "Vous buvez de l’eau.",
+              "audioText": "Vous buvez de l’eau.",
+              "translation": "你们/您喝水。"
+            }
+          ]
+        },
+        {
+          "id": "pv-connaitre",
+          "type": "verb",
+          "text": "connaître",
+          "audioText": "connaître",
+          "translation": "认识 / 了解",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "connais",
+            "tu": "connais",
+            "il": "connaît",
+            "nous": "connaissons",
+            "vous": "connaissez",
+            "ils": "connaissent"
+          },
+          "examples": [
+            {
+              "text": "Je connais cette ville.",
+              "audioText": "Je connais cette ville.",
+              "translation": "我认识 / 了解这座城市。"
+            },
+            {
+              "text": "Il connaît cette ville.",
+              "audioText": "Il connaît cette ville.",
+              "translation": "他/她认识 / 了解这座城市。"
+            },
+            {
+              "text": "Nous connaissons cette ville.",
+              "audioText": "Nous connaissons cette ville.",
+              "translation": "我们认识 / 了解这座城市。"
+            },
+            {
+              "text": "Vous connaissez cette ville.",
+              "audioText": "Vous connaissez cette ville.",
+              "translation": "你们/您认识 / 了解这座城市。"
+            }
+          ]
+        },
+        {
+          "id": "pv-vivre",
+          "type": "verb",
+          "text": "vivre",
+          "audioText": "vivre",
+          "translation": "生活 / 居住",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "vis",
+            "tu": "vis",
+            "il": "vit",
+            "nous": "vivons",
+            "vous": "vivez",
+            "ils": "vivent"
+          },
+          "examples": [
+            {
+              "text": "Je vis ici.",
+              "audioText": "Je vis ici.",
+              "translation": "我生活 / 居住在这里生活。"
+            },
+            {
+              "text": "Il vit ici.",
+              "audioText": "Il vit ici.",
+              "translation": "他/她生活 / 居住在这里生活。"
+            },
+            {
+              "text": "Nous vivons ici.",
+              "audioText": "Nous vivons ici.",
+              "translation": "我们生活 / 居住在这里生活。"
+            },
+            {
+              "text": "Vous vivez ici.",
+              "audioText": "Vous vivez ici.",
+              "translation": "你们/您生活 / 居住在这里生活。"
+            }
+          ]
+        },
+        {
+          "id": "pv-suivre",
+          "type": "verb",
+          "text": "suivre",
+          "audioText": "suivre",
+          "translation": "跟随 / 上课",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "suis",
+            "tu": "suis",
+            "il": "suit",
+            "nous": "suivons",
+            "vous": "suivez",
+            "ils": "suivent"
+          },
+          "examples": [
+            {
+              "text": "Je suis le cours.",
+              "audioText": "Je suis le cours.",
+              "translation": "我跟随 / 上课这门课。"
+            },
+            {
+              "text": "Il suit le cours.",
+              "audioText": "Il suit le cours.",
+              "translation": "他/她跟随 / 上课这门课。"
+            },
+            {
+              "text": "Nous suivons le cours.",
+              "audioText": "Nous suivons le cours.",
+              "translation": "我们跟随 / 上课这门课。"
+            },
+            {
+              "text": "Vous suivez le cours.",
+              "audioText": "Vous suivez le cours.",
+              "translation": "你们/您跟随 / 上课这门课。"
+            }
+          ]
+        },
+        {
+          "id": "pv-recevoir",
+          "type": "verb",
+          "text": "recevoir",
+          "audioText": "recevoir",
+          "translation": "收到",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "reçois",
+            "tu": "reçois",
+            "il": "reçoit",
+            "nous": "recevons",
+            "vous": "recevez",
+            "ils": "reçoivent"
+          },
+          "examples": [
+            {
+              "text": "Je reçois un message.",
+              "audioText": "Je reçois un message.",
+              "translation": "我收到一条消息。"
+            },
+            {
+              "text": "Il reçoit un message.",
+              "audioText": "Il reçoit un message.",
+              "translation": "他/她收到一条消息。"
+            },
+            {
+              "text": "Nous recevons un message.",
+              "audioText": "Nous recevons un message.",
+              "translation": "我们收到一条消息。"
+            },
+            {
+              "text": "Vous recevez un message.",
+              "audioText": "Vous recevez un message.",
+              "translation": "你们/您收到一条消息。"
+            }
+          ]
+        },
+        {
+          "id": "pv-ouvrir",
+          "type": "verb",
+          "text": "ouvrir",
+          "audioText": "ouvrir",
+          "translation": "打开",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "ouvre",
+            "tu": "ouvres",
+            "il": "ouvre",
+            "nous": "ouvrons",
+            "vous": "ouvrez",
+            "ils": "ouvrent"
+          },
+          "examples": [
+            {
+              "text": "J'ouvre la porte.",
+              "audioText": "J'ouvre la porte.",
+              "translation": "我打开门。"
+            },
+            {
+              "text": "Il ouvre la porte.",
+              "audioText": "Il ouvre la porte.",
+              "translation": "他/她打开门。"
+            },
+            {
+              "text": "Nous ouvrons la porte.",
+              "audioText": "Nous ouvrons la porte.",
+              "translation": "我们打开门。"
+            },
+            {
+              "text": "Vous ouvrez la porte.",
+              "audioText": "Vous ouvrez la porte.",
+              "translation": "你们/您打开门。"
+            }
+          ]
+        },
+        {
+          "id": "pv-offrir",
+          "type": "verb",
+          "text": "offrir",
+          "audioText": "offrir",
+          "translation": "提供 / 赠送",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "offre",
+            "tu": "offres",
+            "il": "offre",
+            "nous": "offrons",
+            "vous": "offrez",
+            "ils": "offrent"
+          },
+          "examples": [
+            {
+              "text": "J'offre un café.",
+              "audioText": "J'offre un café.",
+              "translation": "我提供 / 赠送一杯咖啡。"
+            },
+            {
+              "text": "Il offre un café.",
+              "audioText": "Il offre un café.",
+              "translation": "他/她提供 / 赠送一杯咖啡。"
+            },
+            {
+              "text": "Nous offrons un café.",
+              "audioText": "Nous offrons un café.",
+              "translation": "我们提供 / 赠送一杯咖啡。"
+            },
+            {
+              "text": "Vous offrez un café.",
+              "audioText": "Vous offrez un café.",
+              "translation": "你们/您提供 / 赠送一杯咖啡。"
+            }
+          ]
+        },
+        {
+          "id": "pv-partir",
+          "type": "verb",
+          "text": "partir",
+          "audioText": "partir",
+          "translation": "离开 / 出发",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "pars",
+            "tu": "pars",
+            "il": "part",
+            "nous": "partons",
+            "vous": "partez",
+            "ils": "partent"
+          },
+          "examples": [
+            {
+              "text": "Je pars demain.",
+              "audioText": "Je pars demain.",
+              "translation": "我离开 / 出发明天出发。"
+            },
+            {
+              "text": "Il part demain.",
+              "audioText": "Il part demain.",
+              "translation": "他/她离开 / 出发明天出发。"
+            },
+            {
+              "text": "Nous partons demain.",
+              "audioText": "Nous partons demain.",
+              "translation": "我们离开 / 出发明天出发。"
+            },
+            {
+              "text": "Vous partez demain.",
+              "audioText": "Vous partez demain.",
+              "translation": "你们/您离开 / 出发明天出发。"
+            }
+          ]
+        },
+        {
+          "id": "pv-sortir",
+          "type": "verb",
+          "text": "sortir",
+          "audioText": "sortir",
+          "translation": "出去",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "sors",
+            "tu": "sors",
+            "il": "sort",
+            "nous": "sortons",
+            "vous": "sortez",
+            "ils": "sortent"
+          },
+          "examples": [
+            {
+              "text": "Je sors ce soir.",
+              "audioText": "Je sors ce soir.",
+              "translation": "我出去今晚出去。"
+            },
+            {
+              "text": "Il sort ce soir.",
+              "audioText": "Il sort ce soir.",
+              "translation": "他/她出去今晚出去。"
+            },
+            {
+              "text": "Nous sortons ce soir.",
+              "audioText": "Nous sortons ce soir.",
+              "translation": "我们出去今晚出去。"
+            },
+            {
+              "text": "Vous sortez ce soir.",
+              "audioText": "Vous sortez ce soir.",
+              "translation": "你们/您出去今晚出去。"
+            }
+          ]
+        },
+        {
+          "id": "pv-dormir",
+          "type": "verb",
+          "text": "dormir",
+          "audioText": "dormir",
+          "translation": "睡觉",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "dors",
+            "tu": "dors",
+            "il": "dort",
+            "nous": "dormons",
+            "vous": "dormez",
+            "ils": "dorment"
+          },
+          "examples": [
+            {
+              "text": "Je dors bien.",
+              "audioText": "Je dors bien.",
+              "translation": "我睡觉睡得好。"
+            },
+            {
+              "text": "Il dort bien.",
+              "audioText": "Il dort bien.",
+              "translation": "他/她睡觉睡得好。"
+            },
+            {
+              "text": "Nous dormons bien.",
+              "audioText": "Nous dormons bien.",
+              "translation": "我们睡觉睡得好。"
+            },
+            {
+              "text": "Vous dormez bien.",
+              "audioText": "Vous dormez bien.",
+              "translation": "你们/您睡觉睡得好。"
+            }
+          ]
+        },
+        {
+          "id": "pv-courir",
+          "type": "verb",
+          "text": "courir",
+          "audioText": "courir",
+          "translation": "跑",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "cours",
+            "tu": "cours",
+            "il": "court",
+            "nous": "courons",
+            "vous": "courez",
+            "ils": "courent"
+          },
+          "examples": [
+            {
+              "text": "Je cours vite.",
+              "audioText": "Je cours vite.",
+              "translation": "我跑跑得快。"
+            },
+            {
+              "text": "Il court vite.",
+              "audioText": "Il court vite.",
+              "translation": "他/她跑跑得快。"
+            },
+            {
+              "text": "Nous courons vite.",
+              "audioText": "Nous courons vite.",
+              "translation": "我们跑跑得快。"
+            },
+            {
+              "text": "Vous courez vite.",
+              "audioText": "Vous courez vite.",
+              "translation": "你们/您跑跑得快。"
+            }
+          ]
+        },
+        {
+          "id": "pv-servir",
+          "type": "verb",
+          "text": "servir",
+          "audioText": "servir",
+          "translation": "服务 / 端上",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "sers",
+            "tu": "sers",
+            "il": "sert",
+            "nous": "servons",
+            "vous": "servez",
+            "ils": "servent"
+          },
+          "examples": [
+            {
+              "text": "Je sers le repas.",
+              "audioText": "Je sers le repas.",
+              "translation": "我服务 / 端上这顿饭。"
+            },
+            {
+              "text": "Il sert le repas.",
+              "audioText": "Il sert le repas.",
+              "translation": "他/她服务 / 端上这顿饭。"
+            },
+            {
+              "text": "Nous servons le repas.",
+              "audioText": "Nous servons le repas.",
+              "translation": "我们服务 / 端上这顿饭。"
+            },
+            {
+              "text": "Vous servez le repas.",
+              "audioText": "Vous servez le repas.",
+              "translation": "你们/您服务 / 端上这顿饭。"
+            }
+          ]
+        },
+        {
+          "id": "pv-sentir",
+          "type": "verb",
+          "text": "sentir",
+          "audioText": "sentir",
+          "translation": "感觉 / 闻到",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "sens",
+            "tu": "sens",
+            "il": "sent",
+            "nous": "sentons",
+            "vous": "sentez",
+            "ils": "sentent"
+          },
+          "examples": [
+            {
+              "text": "Je sens le café.",
+              "audioText": "Je sens le café.",
+              "translation": "我感觉 / 闻到咖啡味。"
+            },
+            {
+              "text": "Il sent le café.",
+              "audioText": "Il sent le café.",
+              "translation": "他/她感觉 / 闻到咖啡味。"
+            },
+            {
+              "text": "Nous sentons le café.",
+              "audioText": "Nous sentons le café.",
+              "translation": "我们感觉 / 闻到咖啡味。"
+            },
+            {
+              "text": "Vous sentez le café.",
+              "audioText": "Vous sentez le café.",
+              "translation": "你们/您感觉 / 闻到咖啡味。"
+            }
+          ]
+        },
+        {
+          "id": "pv-tenir",
+          "type": "verb",
+          "text": "tenir",
+          "audioText": "tenir",
+          "translation": "拿住 / 坚持",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "tiens",
+            "tu": "tiens",
+            "il": "tient",
+            "nous": "tenons",
+            "vous": "tenez",
+            "ils": "tiennent"
+          },
+          "examples": [
+            {
+              "text": "Je tiens la porte.",
+              "audioText": "Je tiens la porte.",
+              "translation": "我拿住 / 坚持门。"
+            },
+            {
+              "text": "Il tient la porte.",
+              "audioText": "Il tient la porte.",
+              "translation": "他/她拿住 / 坚持门。"
+            },
+            {
+              "text": "Nous tenons la porte.",
+              "audioText": "Nous tenons la porte.",
+              "translation": "我们拿住 / 坚持门。"
+            },
+            {
+              "text": "Vous tenez la porte.",
+              "audioText": "Vous tenez la porte.",
+              "translation": "你们/您拿住 / 坚持门。"
+            }
+          ]
+        },
+        {
+          "id": "pv-obtenir",
+          "type": "verb",
+          "text": "obtenir",
+          "audioText": "obtenir",
+          "translation": "获得",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "obtiens",
+            "tu": "obtiens",
+            "il": "obtient",
+            "nous": "obtenons",
+            "vous": "obtenez",
+            "ils": "obtiennent"
+          },
+          "examples": [
+            {
+              "text": "J'obtiens un résultat.",
+              "audioText": "J'obtiens un résultat.",
+              "translation": "我获得一个结果。"
+            },
+            {
+              "text": "Il obtient un résultat.",
+              "audioText": "Il obtient un résultat.",
+              "translation": "他/她获得一个结果。"
+            },
+            {
+              "text": "Nous obtenons un résultat.",
+              "audioText": "Nous obtenons un résultat.",
+              "translation": "我们获得一个结果。"
+            },
+            {
+              "text": "Vous obtenez un résultat.",
+              "audioText": "Vous obtenez un résultat.",
+              "translation": "你们/您获得一个结果。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pv-er-daily",
+      "title": "-er 高频动作：日常表达主力",
+      "note": "-er 是最稳定、最能批量扩展的现在时模式。",
+      "blocks": [
+        {
+          "id": "pv-parler",
+          "type": "verb",
+          "text": "parler",
+          "audioText": "parler",
+          "translation": "说",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "parle",
+            "tu": "parles",
+            "il": "parle",
+            "nous": "parlons",
+            "vous": "parlez",
+            "ils": "parlent"
+          },
+          "examples": [
+            {
+              "text": "Je parle français.",
+              "audioText": "Je parle français.",
+              "translation": "我说法语。"
+            },
+            {
+              "text": "Il parle français.",
+              "audioText": "Il parle français.",
+              "translation": "他/她说法语。"
+            },
+            {
+              "text": "Nous parlons français.",
+              "audioText": "Nous parlons français.",
+              "translation": "我们说法语。"
+            },
+            {
+              "text": "Vous parlez français.",
+              "audioText": "Vous parlez français.",
+              "translation": "你们/您说法语。"
+            }
+          ]
+        },
+        {
+          "id": "pv-aimer",
+          "type": "verb",
+          "text": "aimer",
+          "audioText": "aimer",
+          "translation": "喜欢",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "aime",
+            "tu": "aimes",
+            "il": "aime",
+            "nous": "aimons",
+            "vous": "aimez",
+            "ils": "aiment"
+          },
+          "examples": [
+            {
+              "text": "J'aime ce livre.",
+              "audioText": "J'aime ce livre.",
+              "translation": "我喜欢这本书。"
+            },
+            {
+              "text": "Il aime ce livre.",
+              "audioText": "Il aime ce livre.",
+              "translation": "他/她喜欢这本书。"
+            },
+            {
+              "text": "Nous aimons ce livre.",
+              "audioText": "Nous aimons ce livre.",
+              "translation": "我们喜欢这本书。"
+            },
+            {
+              "text": "Vous aimez ce livre.",
+              "audioText": "Vous aimez ce livre.",
+              "translation": "你们/您喜欢这本书。"
+            }
+          ]
+        },
+        {
+          "id": "pv-travailler",
+          "type": "verb",
+          "text": "travailler",
+          "audioText": "travailler",
+          "translation": "工作",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "travaille",
+            "tu": "travailles",
+            "il": "travaille",
+            "nous": "travaillons",
+            "vous": "travaillez",
+            "ils": "travaillent"
+          },
+          "examples": [
+            {
+              "text": "Je travaille ici.",
+              "audioText": "Je travaille ici.",
+              "translation": "我工作在这里。"
+            },
+            {
+              "text": "Il travaille ici.",
+              "audioText": "Il travaille ici.",
+              "translation": "他/她工作在这里。"
+            },
+            {
+              "text": "Nous travaillons ici.",
+              "audioText": "Nous travaillons ici.",
+              "translation": "我们工作在这里。"
+            },
+            {
+              "text": "Vous travaillez ici.",
+              "audioText": "Vous travaillez ici.",
+              "translation": "你们/您工作在这里。"
+            }
+          ]
+        },
+        {
+          "id": "pv-donner",
+          "type": "verb",
+          "text": "donner",
+          "audioText": "donner",
+          "translation": "给",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "donne",
+            "tu": "donnes",
+            "il": "donne",
+            "nous": "donnons",
+            "vous": "donnez",
+            "ils": "donnent"
+          },
+          "examples": [
+            {
+              "text": "Je donne un exemple.",
+              "audioText": "Je donne un exemple.",
+              "translation": "我给一个例子。"
+            },
+            {
+              "text": "Il donne un exemple.",
+              "audioText": "Il donne un exemple.",
+              "translation": "他/她给一个例子。"
+            },
+            {
+              "text": "Nous donnons un exemple.",
+              "audioText": "Nous donnons un exemple.",
+              "translation": "我们给一个例子。"
+            },
+            {
+              "text": "Vous donnez un exemple.",
+              "audioText": "Vous donnez un exemple.",
+              "translation": "你们/您给一个例子。"
+            }
+          ]
+        },
+        {
+          "id": "pv-demander",
+          "type": "verb",
+          "text": "demander",
+          "audioText": "demander",
+          "translation": "询问 / 请求",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "demande",
+            "tu": "demandes",
+            "il": "demande",
+            "nous": "demandons",
+            "vous": "demandez",
+            "ils": "demandent"
+          },
+          "examples": [
+            {
+              "text": "Je demande de l’aide.",
+              "audioText": "Je demande de l’aide.",
+              "translation": "我询问 / 请求帮助。"
+            },
+            {
+              "text": "Il demande de l’aide.",
+              "audioText": "Il demande de l’aide.",
+              "translation": "他/她询问 / 请求帮助。"
+            },
+            {
+              "text": "Nous demandons de l’aide.",
+              "audioText": "Nous demandons de l’aide.",
+              "translation": "我们询问 / 请求帮助。"
+            },
+            {
+              "text": "Vous demandez de l’aide.",
+              "audioText": "Vous demandez de l’aide.",
+              "translation": "你们/您询问 / 请求帮助。"
+            }
+          ]
+        },
+        {
+          "id": "pv-regarder",
+          "type": "verb",
+          "text": "regarder",
+          "audioText": "regarder",
+          "translation": "看",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "regarde",
+            "tu": "regardes",
+            "il": "regarde",
+            "nous": "regardons",
+            "vous": "regardez",
+            "ils": "regardent"
+          },
+          "examples": [
+            {
+              "text": "Je regarde le film.",
+              "audioText": "Je regarde le film.",
+              "translation": "我看这部电影。"
+            },
+            {
+              "text": "Il regarde le film.",
+              "audioText": "Il regarde le film.",
+              "translation": "他/她看这部电影。"
+            },
+            {
+              "text": "Nous regardons le film.",
+              "audioText": "Nous regardons le film.",
+              "translation": "我们看这部电影。"
+            },
+            {
+              "text": "Vous regardez le film.",
+              "audioText": "Vous regardez le film.",
+              "translation": "你们/您看这部电影。"
+            }
+          ]
+        },
+        {
+          "id": "pv-ecouter",
+          "type": "verb",
+          "text": "écouter",
+          "audioText": "écouter",
+          "translation": "听",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "écoute",
+            "tu": "écoutes",
+            "il": "écoute",
+            "nous": "écoutons",
+            "vous": "écoutez",
+            "ils": "écoutent"
+          },
+          "examples": [
+            {
+              "text": "J'écoute la phrase.",
+              "audioText": "J'écoute la phrase.",
+              "translation": "我听这个句子。"
+            },
+            {
+              "text": "Il écoute la phrase.",
+              "audioText": "Il écoute la phrase.",
+              "translation": "他/她听这个句子。"
+            },
+            {
+              "text": "Nous écoutons la phrase.",
+              "audioText": "Nous écoutons la phrase.",
+              "translation": "我们听这个句子。"
+            },
+            {
+              "text": "Vous écoutez la phrase.",
+              "audioText": "Vous écoutez la phrase.",
+              "translation": "你们/您听这个句子。"
+            }
+          ]
+        },
+        {
+          "id": "pv-trouver",
+          "type": "verb",
+          "text": "trouver",
+          "audioText": "trouver",
+          "translation": "找到 / 觉得",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "trouve",
+            "tu": "trouves",
+            "il": "trouve",
+            "nous": "trouvons",
+            "vous": "trouvez",
+            "ils": "trouvent"
+          },
+          "examples": [
+            {
+              "text": "Je trouve la solution.",
+              "audioText": "Je trouve la solution.",
+              "translation": "我找到 / 觉得解决办法。"
+            },
+            {
+              "text": "Il trouve la solution.",
+              "audioText": "Il trouve la solution.",
+              "translation": "他/她找到 / 觉得解决办法。"
+            },
+            {
+              "text": "Nous trouvons la solution.",
+              "audioText": "Nous trouvons la solution.",
+              "translation": "我们找到 / 觉得解决办法。"
+            },
+            {
+              "text": "Vous trouvez la solution.",
+              "audioText": "Vous trouvez la solution.",
+              "translation": "你们/您找到 / 觉得解决办法。"
+            }
+          ]
+        },
+        {
+          "id": "pv-chercher",
+          "type": "verb",
+          "text": "chercher",
+          "audioText": "chercher",
+          "translation": "寻找",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "cherche",
+            "tu": "cherches",
+            "il": "cherche",
+            "nous": "cherchons",
+            "vous": "cherchez",
+            "ils": "cherchent"
+          },
+          "examples": [
+            {
+              "text": "Je cherche la clé.",
+              "audioText": "Je cherche la clé.",
+              "translation": "我寻找钥匙。"
+            },
+            {
+              "text": "Il cherche la clé.",
+              "audioText": "Il cherche la clé.",
+              "translation": "他/她寻找钥匙。"
+            },
+            {
+              "text": "Nous cherchons la clé.",
+              "audioText": "Nous cherchons la clé.",
+              "translation": "我们寻找钥匙。"
+            },
+            {
+              "text": "Vous cherchez la clé.",
+              "audioText": "Vous cherchez la clé.",
+              "translation": "你们/您寻找钥匙。"
+            }
+          ]
+        },
+        {
+          "id": "pv-penser",
+          "type": "verb",
+          "text": "penser",
+          "audioText": "penser",
+          "translation": "想 / 认为",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "pense",
+            "tu": "penses",
+            "il": "pense",
+            "nous": "pensons",
+            "vous": "pensez",
+            "ils": "pensent"
+          },
+          "examples": [
+            {
+              "text": "Je pense à ça.",
+              "audioText": "Je pense à ça.",
+              "translation": "我想 / 认为这件事。"
+            },
+            {
+              "text": "Il pense à ça.",
+              "audioText": "Il pense à ça.",
+              "translation": "他/她想 / 认为这件事。"
+            },
+            {
+              "text": "Nous pensons à ça.",
+              "audioText": "Nous pensons à ça.",
+              "translation": "我们想 / 认为这件事。"
+            },
+            {
+              "text": "Vous pensez à ça.",
+              "audioText": "Vous pensez à ça.",
+              "translation": "你们/您想 / 认为这件事。"
+            }
+          ]
+        },
+        {
+          "id": "pv-passer",
+          "type": "verb",
+          "text": "passer",
+          "audioText": "passer",
+          "translation": "经过 / 度过",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "passe",
+            "tu": "passes",
+            "il": "passe",
+            "nous": "passons",
+            "vous": "passez",
+            "ils": "passent"
+          },
+          "examples": [
+            {
+              "text": "Je passe la journée ici.",
+              "audioText": "Je passe la journée ici.",
+              "translation": "我经过 / 度过今天在这里。"
+            },
+            {
+              "text": "Il passe la journée ici.",
+              "audioText": "Il passe la journée ici.",
+              "translation": "他/她经过 / 度过今天在这里。"
+            },
+            {
+              "text": "Nous passons la journée ici.",
+              "audioText": "Nous passons la journée ici.",
+              "translation": "我们经过 / 度过今天在这里。"
+            },
+            {
+              "text": "Vous passez la journée ici.",
+              "audioText": "Vous passez la journée ici.",
+              "translation": "你们/您经过 / 度过今天在这里。"
+            }
+          ]
+        },
+        {
+          "id": "pv-rester",
+          "type": "verb",
+          "text": "rester",
+          "audioText": "rester",
+          "translation": "留下",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "reste",
+            "tu": "restes",
+            "il": "reste",
+            "nous": "restons",
+            "vous": "restez",
+            "ils": "restent"
+          },
+          "examples": [
+            {
+              "text": "Je reste à la maison.",
+              "audioText": "Je reste à la maison.",
+              "translation": "我留下在家。"
+            },
+            {
+              "text": "Il reste à la maison.",
+              "audioText": "Il reste à la maison.",
+              "translation": "他/她留下在家。"
+            },
+            {
+              "text": "Nous restons à la maison.",
+              "audioText": "Nous restons à la maison.",
+              "translation": "我们留下在家。"
+            },
+            {
+              "text": "Vous restez à la maison.",
+              "audioText": "Vous restez à la maison.",
+              "translation": "你们/您留下在家。"
+            }
+          ]
+        },
+        {
+          "id": "pv-entrer",
+          "type": "verb",
+          "text": "entrer",
+          "audioText": "entrer",
+          "translation": "进入",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "entre",
+            "tu": "entres",
+            "il": "entre",
+            "nous": "entrons",
+            "vous": "entrez",
+            "ils": "entrent"
+          },
+          "examples": [
+            {
+              "text": "J'entre dans la salle.",
+              "audioText": "J'entre dans la salle.",
+              "translation": "我进入进房间。"
+            },
+            {
+              "text": "Il entre dans la salle.",
+              "audioText": "Il entre dans la salle.",
+              "translation": "他/她进入进房间。"
+            },
+            {
+              "text": "Nous entrons dans la salle.",
+              "audioText": "Nous entrons dans la salle.",
+              "translation": "我们进入进房间。"
+            },
+            {
+              "text": "Vous entrez dans la salle.",
+              "audioText": "Vous entrez dans la salle.",
+              "translation": "你们/您进入进房间。"
+            }
+          ]
+        },
+        {
+          "id": "pv-arriver",
+          "type": "verb",
+          "text": "arriver",
+          "audioText": "arriver",
+          "translation": "到达",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "arrive",
+            "tu": "arrives",
+            "il": "arrive",
+            "nous": "arrivons",
+            "vous": "arrivez",
+            "ils": "arrivent"
+          },
+          "examples": [
+            {
+              "text": "J'arrive à l’heure.",
+              "audioText": "J'arrive à l’heure.",
+              "translation": "我到达准时。"
+            },
+            {
+              "text": "Il arrive à l’heure.",
+              "audioText": "Il arrive à l’heure.",
+              "translation": "他/她到达准时。"
+            },
+            {
+              "text": "Nous arrivons à l’heure.",
+              "audioText": "Nous arrivons à l’heure.",
+              "translation": "我们到达准时。"
+            },
+            {
+              "text": "Vous arrivez à l’heure.",
+              "audioText": "Vous arrivez à l’heure.",
+              "translation": "你们/您到达准时。"
+            }
+          ]
+        },
+        {
+          "id": "pv-habiter",
+          "type": "verb",
+          "text": "habiter",
+          "audioText": "habiter",
+          "translation": "居住",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "habite",
+            "tu": "habites",
+            "il": "habite",
+            "nous": "habitons",
+            "vous": "habitez",
+            "ils": "habitent"
+          },
+          "examples": [
+            {
+              "text": "J'habite à Auckland.",
+              "audioText": "J'habite à Auckland.",
+              "translation": "我居住在奥克兰。"
+            },
+            {
+              "text": "Il habite à Auckland.",
+              "audioText": "Il habite à Auckland.",
+              "translation": "他/她居住在奥克兰。"
+            },
+            {
+              "text": "Nous habitons à Auckland.",
+              "audioText": "Nous habitons à Auckland.",
+              "translation": "我们居住在奥克兰。"
+            },
+            {
+              "text": "Vous habitez à Auckland.",
+              "audioText": "Vous habitez à Auckland.",
+              "translation": "你们/您居住在奥克兰。"
+            }
+          ]
+        },
+        {
+          "id": "pv-jouer",
+          "type": "verb",
+          "text": "jouer",
+          "audioText": "jouer",
+          "translation": "玩 / 演奏",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "joue",
+            "tu": "joues",
+            "il": "joue",
+            "nous": "jouons",
+            "vous": "jouez",
+            "ils": "jouent"
+          },
+          "examples": [
+            {
+              "text": "Je joue avec eux.",
+              "audioText": "Je joue avec eux.",
+              "translation": "我玩 / 演奏和他们一起。"
+            },
+            {
+              "text": "Il joue avec eux.",
+              "audioText": "Il joue avec eux.",
+              "translation": "他/她玩 / 演奏和他们一起。"
+            },
+            {
+              "text": "Nous jouons avec eux.",
+              "audioText": "Nous jouons avec eux.",
+              "translation": "我们玩 / 演奏和他们一起。"
+            },
+            {
+              "text": "Vous jouez avec eux.",
+              "audioText": "Vous jouez avec eux.",
+              "translation": "你们/您玩 / 演奏和他们一起。"
+            }
+          ]
+        },
+        {
+          "id": "pv-manger",
+          "type": "verb",
+          "text": "manger",
+          "audioText": "manger",
+          "translation": "吃",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "mange",
+            "tu": "manges",
+            "il": "mange",
+            "nous": "mangeons",
+            "vous": "mangez",
+            "ils": "mangent"
+          },
+          "examples": [
+            {
+              "text": "Je mange du pain.",
+              "audioText": "Je mange du pain.",
+              "translation": "我吃面包。"
+            },
+            {
+              "text": "Il mange du pain.",
+              "audioText": "Il mange du pain.",
+              "translation": "他/她吃面包。"
+            },
+            {
+              "text": "Nous mangeons du pain.",
+              "audioText": "Nous mangeons du pain.",
+              "translation": "我们吃面包。"
+            },
+            {
+              "text": "Vous mangez du pain.",
+              "audioText": "Vous mangez du pain.",
+              "translation": "你们/您吃面包。"
+            }
+          ]
+        },
+        {
+          "id": "pv-commencer",
+          "type": "verb",
+          "text": "commencer",
+          "audioText": "commencer",
+          "translation": "开始",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "commence",
+            "tu": "commences",
+            "il": "commence",
+            "nous": "commençons",
+            "vous": "commencez",
+            "ils": "commencent"
+          },
+          "examples": [
+            {
+              "text": "Je commence maintenant.",
+              "audioText": "Je commence maintenant.",
+              "translation": "我开始现在。"
+            },
+            {
+              "text": "Il commence maintenant.",
+              "audioText": "Il commence maintenant.",
+              "translation": "他/她开始现在。"
+            },
+            {
+              "text": "Nous commençons maintenant.",
+              "audioText": "Nous commençons maintenant.",
+              "translation": "我们开始现在。"
+            },
+            {
+              "text": "Vous commencez maintenant.",
+              "audioText": "Vous commencez maintenant.",
+              "translation": "你们/您开始现在。"
+            }
+          ]
+        },
+        {
+          "id": "pv-appeler",
+          "type": "verb",
+          "text": "appeler",
+          "audioText": "appeler",
+          "translation": "打电话 / 称呼",
+          "rule": "appeler: je/tu/il/ils 双写 l。",
+          "conjugation": {
+            "je": "appelle",
+            "tu": "appelles",
+            "il": "appelle",
+            "nous": "appelons",
+            "vous": "appelez",
+            "ils": "appellent"
+          },
+          "examples": [
+            {
+              "text": "J'appelle Paul.",
+              "audioText": "J'appelle Paul.",
+              "translation": "我打电话 / 称呼Paul。"
+            },
+            {
+              "text": "Il appelle Paul.",
+              "audioText": "Il appelle Paul.",
+              "translation": "他/她打电话 / 称呼Paul。"
+            },
+            {
+              "text": "Nous appelons Paul.",
+              "audioText": "Nous appelons Paul.",
+              "translation": "我们打电话 / 称呼Paul。"
+            },
+            {
+              "text": "Vous appelez Paul.",
+              "audioText": "Vous appelez Paul.",
+              "translation": "你们/您打电话 / 称呼Paul。"
+            }
+          ]
+        },
+        {
+          "id": "pv-acheter",
+          "type": "verb",
+          "text": "acheter",
+          "audioText": "acheter",
+          "translation": "买",
+          "rule": "acheter: 部分人称 e 变 è。",
+          "conjugation": {
+            "je": "achète",
+            "tu": "achètes",
+            "il": "achète",
+            "nous": "achetons",
+            "vous": "achetez",
+            "ils": "achètent"
+          },
+          "examples": [
+            {
+              "text": "J'achète du pain.",
+              "audioText": "J'achète du pain.",
+              "translation": "我买面包。"
+            },
+            {
+              "text": "Il achète du pain.",
+              "audioText": "Il achète du pain.",
+              "translation": "他/她买面包。"
+            },
+            {
+              "text": "Nous achetons du pain.",
+              "audioText": "Nous achetons du pain.",
+              "translation": "我们买面包。"
+            },
+            {
+              "text": "Vous achetez du pain.",
+              "audioText": "Vous achetez du pain.",
+              "translation": "你们/您买面包。"
+            }
+          ]
+        },
+        {
+          "id": "pv-payer",
+          "type": "verb",
+          "text": "payer",
+          "audioText": "payer",
+          "translation": "付款",
+          "rule": "payer: y 在部分人称变 i。",
+          "conjugation": {
+            "je": "paie",
+            "tu": "paies",
+            "il": "paie",
+            "nous": "payons",
+            "vous": "payez",
+            "ils": "paient"
+          },
+          "examples": [
+            {
+              "text": "Je paie par carte.",
+              "audioText": "Je paie par carte.",
+              "translation": "我付款用卡付款。"
+            },
+            {
+              "text": "Il paie par carte.",
+              "audioText": "Il paie par carte.",
+              "translation": "他/她付款用卡付款。"
+            },
+            {
+              "text": "Nous payons par carte.",
+              "audioText": "Nous payons par carte.",
+              "translation": "我们付款用卡付款。"
+            },
+            {
+              "text": "Vous payez par carte.",
+              "audioText": "Vous payez par carte.",
+              "translation": "你们/您付款用卡付款。"
+            }
+          ]
+        },
+        {
+          "id": "pv-essayer",
+          "type": "verb",
+          "text": "essayer",
+          "audioText": "essayer",
+          "translation": "尝试",
+          "rule": "essayer: y 在部分人称变 i。",
+          "conjugation": {
+            "je": "essaie",
+            "tu": "essaies",
+            "il": "essaie",
+            "nous": "essayons",
+            "vous": "essayez",
+            "ils": "essaient"
+          },
+          "examples": [
+            {
+              "text": "J'essaie encore.",
+              "audioText": "J'essaie encore.",
+              "translation": "我尝试再试一次。"
+            },
+            {
+              "text": "Il essaie encore.",
+              "audioText": "Il essaie encore.",
+              "translation": "他/她尝试再试一次。"
+            },
+            {
+              "text": "Nous essayons encore.",
+              "audioText": "Nous essayons encore.",
+              "translation": "我们尝试再试一次。"
+            },
+            {
+              "text": "Vous essayez encore.",
+              "audioText": "Vous essayez encore.",
+              "translation": "你们/您尝试再试一次。"
+            }
+          ]
+        },
+        {
+          "id": "pv-envoyer",
+          "type": "verb",
+          "text": "envoyer",
+          "audioText": "envoyer",
+          "translation": "发送",
+          "rule": "envoyer: y 变 i，nous/vous 保留 y。",
+          "conjugation": {
+            "je": "envoie",
+            "tu": "envoies",
+            "il": "envoie",
+            "nous": "envoyons",
+            "vous": "envoyez",
+            "ils": "envoient"
+          },
+          "examples": [
+            {
+              "text": "J'envoie un message.",
+              "audioText": "J'envoie un message.",
+              "translation": "我发送一条消息。"
+            },
+            {
+              "text": "Il envoie un message.",
+              "audioText": "Il envoie un message.",
+              "translation": "他/她发送一条消息。"
+            },
+            {
+              "text": "Nous envoyons un message.",
+              "audioText": "Nous envoyons un message.",
+              "translation": "我们发送一条消息。"
+            },
+            {
+              "text": "Vous envoyez un message.",
+              "audioText": "Vous envoyez un message.",
+              "translation": "你们/您发送一条消息。"
+            }
+          ]
+        },
+        {
+          "id": "pv-expliquer",
+          "type": "verb",
+          "text": "expliquer",
+          "audioText": "expliquer",
+          "translation": "解释",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "explique",
+            "tu": "expliques",
+            "il": "explique",
+            "nous": "expliquons",
+            "vous": "expliquez",
+            "ils": "expliquent"
+          },
+          "examples": [
+            {
+              "text": "J'explique la règle.",
+              "audioText": "J'explique la règle.",
+              "translation": "我解释规则。"
+            },
+            {
+              "text": "Il explique la règle.",
+              "audioText": "Il explique la règle.",
+              "translation": "他/她解释规则。"
+            },
+            {
+              "text": "Nous expliquons la règle.",
+              "audioText": "Nous expliquons la règle.",
+              "translation": "我们解释规则。"
+            },
+            {
+              "text": "Vous expliquez la règle.",
+              "audioText": "Vous expliquez la règle.",
+              "translation": "你们/您解释规则。"
+            }
+          ]
+        },
+        {
+          "id": "pv-utiliser",
+          "type": "verb",
+          "text": "utiliser",
+          "audioText": "utiliser",
+          "translation": "使用",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "utilise",
+            "tu": "utilises",
+            "il": "utilise",
+            "nous": "utilisons",
+            "vous": "utilisez",
+            "ils": "utilisent"
+          },
+          "examples": [
+            {
+              "text": "J'utilise cet outil.",
+              "audioText": "J'utilise cet outil.",
+              "translation": "我使用这个工具。"
+            },
+            {
+              "text": "Il utilise cet outil.",
+              "audioText": "Il utilise cet outil.",
+              "translation": "他/她使用这个工具。"
+            },
+            {
+              "text": "Nous utilisons cet outil.",
+              "audioText": "Nous utilisons cet outil.",
+              "translation": "我们使用这个工具。"
+            },
+            {
+              "text": "Vous utilisez cet outil.",
+              "audioText": "Vous utilisez cet outil.",
+              "translation": "你们/您使用这个工具。"
+            }
+          ]
+        },
+        {
+          "id": "pv-porter",
+          "type": "verb",
+          "text": "porter",
+          "audioText": "porter",
+          "translation": "穿 / 带",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "porte",
+            "tu": "portes",
+            "il": "porte",
+            "nous": "portons",
+            "vous": "portez",
+            "ils": "portent"
+          },
+          "examples": [
+            {
+              "text": "Je porte un manteau.",
+              "audioText": "Je porte un manteau.",
+              "translation": "我穿 / 带一件大衣。"
+            },
+            {
+              "text": "Il porte un manteau.",
+              "audioText": "Il porte un manteau.",
+              "translation": "他/她穿 / 带一件大衣。"
+            },
+            {
+              "text": "Nous portons un manteau.",
+              "audioText": "Nous portons un manteau.",
+              "translation": "我们穿 / 带一件大衣。"
+            },
+            {
+              "text": "Vous portez un manteau.",
+              "audioText": "Vous portez un manteau.",
+              "translation": "你们/您穿 / 带一件大衣。"
+            }
+          ]
+        },
+        {
+          "id": "pv-marcher",
+          "type": "verb",
+          "text": "marcher",
+          "audioText": "marcher",
+          "translation": "走路 / 运转",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "marche",
+            "tu": "marches",
+            "il": "marche",
+            "nous": "marchons",
+            "vous": "marchez",
+            "ils": "marchent"
+          },
+          "examples": [
+            {
+              "text": "Je marche dans la rue.",
+              "audioText": "Je marche dans la rue.",
+              "translation": "我走路 / 运转在街上。"
+            },
+            {
+              "text": "Il marche dans la rue.",
+              "audioText": "Il marche dans la rue.",
+              "translation": "他/她走路 / 运转在街上。"
+            },
+            {
+              "text": "Nous marchons dans la rue.",
+              "audioText": "Nous marchons dans la rue.",
+              "translation": "我们走路 / 运转在街上。"
+            },
+            {
+              "text": "Vous marchez dans la rue.",
+              "audioText": "Vous marchez dans la rue.",
+              "translation": "你们/您走路 / 运转在街上。"
+            }
+          ]
+        },
+        {
+          "id": "pv-aider",
+          "type": "verb",
+          "text": "aider",
+          "audioText": "aider",
+          "translation": "帮助",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "aide",
+            "tu": "aides",
+            "il": "aide",
+            "nous": "aidons",
+            "vous": "aidez",
+            "ils": "aident"
+          },
+          "examples": [
+            {
+              "text": "J'aide mon ami.",
+              "audioText": "J'aide mon ami.",
+              "translation": "我帮助我的朋友。"
+            },
+            {
+              "text": "Il aide mon ami.",
+              "audioText": "Il aide mon ami.",
+              "translation": "他/她帮助我的朋友。"
+            },
+            {
+              "text": "Nous aidons mon ami.",
+              "audioText": "Nous aidons mon ami.",
+              "translation": "我们帮助我的朋友。"
+            },
+            {
+              "text": "Vous aidez mon ami.",
+              "audioText": "Vous aidez mon ami.",
+              "translation": "你们/您帮助我的朋友。"
+            }
+          ]
+        },
+        {
+          "id": "pv-garder",
+          "type": "verb",
+          "text": "garder",
+          "audioText": "garder",
+          "translation": "保留 / 照看",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "garde",
+            "tu": "gardes",
+            "il": "garde",
+            "nous": "gardons",
+            "vous": "gardez",
+            "ils": "gardent"
+          },
+          "examples": [
+            {
+              "text": "Je garde la clé.",
+              "audioText": "Je garde la clé.",
+              "translation": "我保留 / 照看钥匙。"
+            },
+            {
+              "text": "Il garde la clé.",
+              "audioText": "Il garde la clé.",
+              "translation": "他/她保留 / 照看钥匙。"
+            },
+            {
+              "text": "Nous gardons la clé.",
+              "audioText": "Nous gardons la clé.",
+              "translation": "我们保留 / 照看钥匙。"
+            },
+            {
+              "text": "Vous gardez la clé.",
+              "audioText": "Vous gardez la clé.",
+              "translation": "你们/您保留 / 照看钥匙。"
+            }
+          ]
+        },
+        {
+          "id": "pv-montrer",
+          "type": "verb",
+          "text": "montrer",
+          "audioText": "montrer",
+          "translation": "展示",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "montre",
+            "tu": "montres",
+            "il": "montre",
+            "nous": "montrons",
+            "vous": "montrez",
+            "ils": "montrent"
+          },
+          "examples": [
+            {
+              "text": "Je montre la photo.",
+              "audioText": "Je montre la photo.",
+              "translation": "我展示照片。"
+            },
+            {
+              "text": "Il montre la photo.",
+              "audioText": "Il montre la photo.",
+              "translation": "他/她展示照片。"
+            },
+            {
+              "text": "Nous montrons la photo.",
+              "audioText": "Nous montrons la photo.",
+              "translation": "我们展示照片。"
+            },
+            {
+              "text": "Vous montrez la photo.",
+              "audioText": "Vous montrez la photo.",
+              "translation": "你们/您展示照片。"
+            }
+          ]
+        },
+        {
+          "id": "pv-oublier",
+          "type": "verb",
+          "text": "oublier",
+          "audioText": "oublier",
+          "translation": "忘记",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "oublie",
+            "tu": "oublies",
+            "il": "oublie",
+            "nous": "oublions",
+            "vous": "oubliez",
+            "ils": "oublient"
+          },
+          "examples": [
+            {
+              "text": "J'oublie le mot.",
+              "audioText": "J'oublie le mot.",
+              "translation": "我忘记这个词。"
+            },
+            {
+              "text": "Il oublie le mot.",
+              "audioText": "Il oublie le mot.",
+              "translation": "他/她忘记这个词。"
+            },
+            {
+              "text": "Nous oublions le mot.",
+              "audioText": "Nous oublions le mot.",
+              "translation": "我们忘记这个词。"
+            },
+            {
+              "text": "Vous oubliez le mot.",
+              "audioText": "Vous oubliez le mot.",
+              "translation": "你们/您忘记这个词。"
+            }
+          ]
+        },
+        {
+          "id": "pv-preparer",
+          "type": "verb",
+          "text": "préparer",
+          "audioText": "préparer",
+          "translation": "准备",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "prépare",
+            "tu": "prépares",
+            "il": "prépare",
+            "nous": "préparons",
+            "vous": "préparez",
+            "ils": "préparent"
+          },
+          "examples": [
+            {
+              "text": "Je prépare le repas.",
+              "audioText": "Je prépare le repas.",
+              "translation": "我准备这顿饭。"
+            },
+            {
+              "text": "Il prépare le repas.",
+              "audioText": "Il prépare le repas.",
+              "translation": "他/她准备这顿饭。"
+            },
+            {
+              "text": "Nous préparons le repas.",
+              "audioText": "Nous préparons le repas.",
+              "translation": "我们准备这顿饭。"
+            },
+            {
+              "text": "Vous préparez le repas.",
+              "audioText": "Vous préparez le repas.",
+              "translation": "你们/您准备这顿饭。"
+            }
+          ]
+        },
+        {
+          "id": "pv-gagner",
+          "type": "verb",
+          "text": "gagner",
+          "audioText": "gagner",
+          "translation": "赢 / 赚",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "gagne",
+            "tu": "gagnes",
+            "il": "gagne",
+            "nous": "gagnons",
+            "vous": "gagnez",
+            "ils": "gagnent"
+          },
+          "examples": [
+            {
+              "text": "Je gagne du temps.",
+              "audioText": "Je gagne du temps.",
+              "translation": "我赢 / 赚时间。"
+            },
+            {
+              "text": "Il gagne du temps.",
+              "audioText": "Il gagne du temps.",
+              "translation": "他/她赢 / 赚时间。"
+            },
+            {
+              "text": "Nous gagnons du temps.",
+              "audioText": "Nous gagnons du temps.",
+              "translation": "我们赢 / 赚时间。"
+            },
+            {
+              "text": "Vous gagnez du temps.",
+              "audioText": "Vous gagnez du temps.",
+              "translation": "你们/您赢 / 赚时间。"
+            }
+          ]
+        },
+        {
+          "id": "pv-changer",
+          "type": "verb",
+          "text": "changer",
+          "audioText": "changer",
+          "translation": "改变 / 换",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "change",
+            "tu": "changes",
+            "il": "change",
+            "nous": "changeons",
+            "vous": "changez",
+            "ils": "changent"
+          },
+          "examples": [
+            {
+              "text": "Je change de plan.",
+              "audioText": "Je change de plan.",
+              "translation": "我改变 / 换计划。"
+            },
+            {
+              "text": "Il change de plan.",
+              "audioText": "Il change de plan.",
+              "translation": "他/她改变 / 换计划。"
+            },
+            {
+              "text": "Nous changeons de plan.",
+              "audioText": "Nous changeons de plan.",
+              "translation": "我们改变 / 换计划。"
+            },
+            {
+              "text": "Vous changez de plan.",
+              "audioText": "Vous changez de plan.",
+              "translation": "你们/您改变 / 换计划。"
+            }
+          ]
+        },
+        {
+          "id": "pv-laisser",
+          "type": "verb",
+          "text": "laisser",
+          "audioText": "laisser",
+          "translation": "留下 / 让",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "laisse",
+            "tu": "laisses",
+            "il": "laisse",
+            "nous": "laissons",
+            "vous": "laissez",
+            "ils": "laissent"
+          },
+          "examples": [
+            {
+              "text": "Je laisse la porte ouverte.",
+              "audioText": "Je laisse la porte ouverte.",
+              "translation": "我留下 / 让门开着。"
+            },
+            {
+              "text": "Il laisse la porte ouverte.",
+              "audioText": "Il laisse la porte ouverte.",
+              "translation": "他/她留下 / 让门开着。"
+            },
+            {
+              "text": "Nous laissons la porte ouverte.",
+              "audioText": "Nous laissons la porte ouverte.",
+              "translation": "我们留下 / 让门开着。"
+            },
+            {
+              "text": "Vous laissez la porte ouverte.",
+              "audioText": "Vous laissez la porte ouverte.",
+              "translation": "你们/您留下 / 让门开着。"
+            }
+          ]
+        },
+        {
+          "id": "pv-apporter",
+          "type": "verb",
+          "text": "apporter",
+          "audioText": "apporter",
+          "translation": "带来",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "apporte",
+            "tu": "apportes",
+            "il": "apporte",
+            "nous": "apportons",
+            "vous": "apportez",
+            "ils": "apportent"
+          },
+          "examples": [
+            {
+              "text": "J'apporte un livre.",
+              "audioText": "J'apporte un livre.",
+              "translation": "我带来一本书。"
+            },
+            {
+              "text": "Il apporte un livre.",
+              "audioText": "Il apporte un livre.",
+              "translation": "他/她带来一本书。"
+            },
+            {
+              "text": "Nous apportons un livre.",
+              "audioText": "Nous apportons un livre.",
+              "translation": "我们带来一本书。"
+            },
+            {
+              "text": "Vous apportez un livre.",
+              "audioText": "Vous apportez un livre.",
+              "translation": "你们/您带来一本书。"
+            }
+          ]
+        },
+        {
+          "id": "pv-fermer",
+          "type": "verb",
+          "text": "fermer",
+          "audioText": "fermer",
+          "translation": "关闭",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "ferme",
+            "tu": "fermes",
+            "il": "ferme",
+            "nous": "fermons",
+            "vous": "fermez",
+            "ils": "ferment"
+          },
+          "examples": [
+            {
+              "text": "Je ferme la fenêtre.",
+              "audioText": "Je ferme la fenêtre.",
+              "translation": "我关闭窗户。"
+            },
+            {
+              "text": "Il ferme la fenêtre.",
+              "audioText": "Il ferme la fenêtre.",
+              "translation": "他/她关闭窗户。"
+            },
+            {
+              "text": "Nous fermons la fenêtre.",
+              "audioText": "Nous fermons la fenêtre.",
+              "translation": "我们关闭窗户。"
+            },
+            {
+              "text": "Vous fermez la fenêtre.",
+              "audioText": "Vous fermez la fenêtre.",
+              "translation": "你们/您关闭窗户。"
+            }
+          ]
+        },
+        {
+          "id": "pv-continuer",
+          "type": "verb",
+          "text": "continuer",
+          "audioText": "continuer",
+          "translation": "继续",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "continue",
+            "tu": "continues",
+            "il": "continue",
+            "nous": "continuons",
+            "vous": "continuez",
+            "ils": "continuent"
+          },
+          "examples": [
+            {
+              "text": "Je continue le travail.",
+              "audioText": "Je continue le travail.",
+              "translation": "我继续这项工作。"
+            },
+            {
+              "text": "Il continue le travail.",
+              "audioText": "Il continue le travail.",
+              "translation": "他/她继续这项工作。"
+            },
+            {
+              "text": "Nous continuons le travail.",
+              "audioText": "Nous continuons le travail.",
+              "translation": "我们继续这项工作。"
+            },
+            {
+              "text": "Vous continuez le travail.",
+              "audioText": "Vous continuez le travail.",
+              "translation": "你们/您继续这项工作。"
+            }
+          ]
+        },
+        {
+          "id": "pv-creer",
+          "type": "verb",
+          "text": "créer",
+          "audioText": "créer",
+          "translation": "创造",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "crée",
+            "tu": "crées",
+            "il": "crée",
+            "nous": "créons",
+            "vous": "créez",
+            "ils": "créent"
+          },
+          "examples": [
+            {
+              "text": "Je crée un compte.",
+              "audioText": "Je crée un compte.",
+              "translation": "我创造一个账号。"
+            },
+            {
+              "text": "Il crée un compte.",
+              "audioText": "Il crée un compte.",
+              "translation": "他/她创造一个账号。"
+            },
+            {
+              "text": "Nous créons un compte.",
+              "audioText": "Nous créons un compte.",
+              "translation": "我们创造一个账号。"
+            },
+            {
+              "text": "Vous créez un compte.",
+              "audioText": "Vous créez un compte.",
+              "translation": "你们/您创造一个账号。"
+            }
+          ]
+        },
+        {
+          "id": "pv-etudier",
+          "type": "verb",
+          "text": "étudier",
+          "audioText": "étudier",
+          "translation": "学习",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "étudie",
+            "tu": "étudies",
+            "il": "étudie",
+            "nous": "étudions",
+            "vous": "étudiez",
+            "ils": "étudient"
+          },
+          "examples": [
+            {
+              "text": "J'étudie le français.",
+              "audioText": "J'étudie le français.",
+              "translation": "我学习法语。"
+            },
+            {
+              "text": "Il étudie le français.",
+              "audioText": "Il étudie le français.",
+              "translation": "他/她学习法语。"
+            },
+            {
+              "text": "Nous étudions le français.",
+              "audioText": "Nous étudions le français.",
+              "translation": "我们学习法语。"
+            },
+            {
+              "text": "Vous étudiez le français.",
+              "audioText": "Vous étudiez le français.",
+              "translation": "你们/您学习法语。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pv-er-special",
+      "title": "-er 特殊拼写：听熟再归纳",
+      "note": "-ger, -cer, -yer, appeler, acheter, préférer 这类拼写会变，但发音逻辑很清楚。",
+      "blocks": [
+        {
+          "id": "pv-rencontrer",
+          "type": "verb",
+          "text": "rencontrer",
+          "audioText": "rencontrer",
+          "translation": "遇见",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "rencontre",
+            "tu": "rencontres",
+            "il": "rencontre",
+            "nous": "rencontrons",
+            "vous": "rencontrez",
+            "ils": "rencontrent"
+          },
+          "examples": [
+            {
+              "text": "Je rencontre un ami.",
+              "audioText": "Je rencontre un ami.",
+              "translation": "我遇见一个朋友。"
+            },
+            {
+              "text": "Il rencontre un ami.",
+              "audioText": "Il rencontre un ami.",
+              "translation": "他/她遇见一个朋友。"
+            },
+            {
+              "text": "Nous rencontrons un ami.",
+              "audioText": "Nous rencontrons un ami.",
+              "translation": "我们遇见一个朋友。"
+            },
+            {
+              "text": "Vous rencontrez un ami.",
+              "audioText": "Vous rencontrez un ami.",
+              "translation": "你们/您遇见一个朋友。"
+            }
+          ]
+        },
+        {
+          "id": "pv-presenter",
+          "type": "verb",
+          "text": "présenter",
+          "audioText": "présenter",
+          "translation": "介绍",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "présente",
+            "tu": "présentes",
+            "il": "présente",
+            "nous": "présentons",
+            "vous": "présentez",
+            "ils": "présentent"
+          },
+          "examples": [
+            {
+              "text": "Je présente le projet.",
+              "audioText": "Je présente le projet.",
+              "translation": "我介绍这个项目。"
+            },
+            {
+              "text": "Il présente le projet.",
+              "audioText": "Il présente le projet.",
+              "translation": "他/她介绍这个项目。"
+            },
+            {
+              "text": "Nous présentons le projet.",
+              "audioText": "Nous présentons le projet.",
+              "translation": "我们介绍这个项目。"
+            },
+            {
+              "text": "Vous présentez le projet.",
+              "audioText": "Vous présentez le projet.",
+              "translation": "你们/您介绍这个项目。"
+            }
+          ]
+        },
+        {
+          "id": "pv-accepter",
+          "type": "verb",
+          "text": "accepter",
+          "audioText": "accepter",
+          "translation": "接受",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "accepte",
+            "tu": "acceptes",
+            "il": "accepte",
+            "nous": "acceptons",
+            "vous": "acceptez",
+            "ils": "acceptent"
+          },
+          "examples": [
+            {
+              "text": "J'accepte l’idée.",
+              "audioText": "J'accepte l’idée.",
+              "translation": "我接受这个想法。"
+            },
+            {
+              "text": "Il accepte l’idée.",
+              "audioText": "Il accepte l’idée.",
+              "translation": "他/她接受这个想法。"
+            },
+            {
+              "text": "Nous acceptons l’idée.",
+              "audioText": "Nous acceptons l’idée.",
+              "translation": "我们接受这个想法。"
+            },
+            {
+              "text": "Vous acceptez l’idée.",
+              "audioText": "Vous acceptez l’idée.",
+              "translation": "你们/您接受这个想法。"
+            }
+          ]
+        },
+        {
+          "id": "pv-refuser",
+          "type": "verb",
+          "text": "refuser",
+          "audioText": "refuser",
+          "translation": "拒绝",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "refuse",
+            "tu": "refuses",
+            "il": "refuse",
+            "nous": "refusons",
+            "vous": "refusez",
+            "ils": "refusent"
+          },
+          "examples": [
+            {
+              "text": "Je refuse l’offre.",
+              "audioText": "Je refuse l’offre.",
+              "translation": "我拒绝这个提议。"
+            },
+            {
+              "text": "Il refuse l’offre.",
+              "audioText": "Il refuse l’offre.",
+              "translation": "他/她拒绝这个提议。"
+            },
+            {
+              "text": "Nous refusons l’offre.",
+              "audioText": "Nous refusons l’offre.",
+              "translation": "我们拒绝这个提议。"
+            },
+            {
+              "text": "Vous refusez l’offre.",
+              "audioText": "Vous refusez l’offre.",
+              "translation": "你们/您拒绝这个提议。"
+            }
+          ]
+        },
+        {
+          "id": "pv-decider",
+          "type": "verb",
+          "text": "décider",
+          "audioText": "décider",
+          "translation": "决定",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "décide",
+            "tu": "décides",
+            "il": "décide",
+            "nous": "décidons",
+            "vous": "décidez",
+            "ils": "décident"
+          },
+          "examples": [
+            {
+              "text": "Je décide maintenant.",
+              "audioText": "Je décide maintenant.",
+              "translation": "我决定现在。"
+            },
+            {
+              "text": "Il décide maintenant.",
+              "audioText": "Il décide maintenant.",
+              "translation": "他/她决定现在。"
+            },
+            {
+              "text": "Nous décidons maintenant.",
+              "audioText": "Nous décidons maintenant.",
+              "translation": "我们决定现在。"
+            },
+            {
+              "text": "Vous décidez maintenant.",
+              "audioText": "Vous décidez maintenant.",
+              "translation": "你们/您决定现在。"
+            }
+          ]
+        },
+        {
+          "id": "pv-esperer",
+          "type": "verb",
+          "text": "espérer",
+          "audioText": "espérer",
+          "translation": "希望",
+          "rule": "espérer: 部分人称 é 变 è。",
+          "conjugation": {
+            "je": "espère",
+            "tu": "espères",
+            "il": "espère",
+            "nous": "espérons",
+            "vous": "espérez",
+            "ils": "espèrent"
+          },
+          "examples": [
+            {
+              "text": "J'espère réussir.",
+              "audioText": "J'espère réussir.",
+              "translation": "我希望成功。"
+            },
+            {
+              "text": "Il espère réussir.",
+              "audioText": "Il espère réussir.",
+              "translation": "他/她希望成功。"
+            },
+            {
+              "text": "Nous espérons réussir.",
+              "audioText": "Nous espérons réussir.",
+              "translation": "我们希望成功。"
+            },
+            {
+              "text": "Vous espérez réussir.",
+              "audioText": "Vous espérez réussir.",
+              "translation": "你们/您希望成功。"
+            }
+          ]
+        },
+        {
+          "id": "pv-preferer",
+          "type": "verb",
+          "text": "préférer",
+          "audioText": "préférer",
+          "translation": "更喜欢",
+          "rule": "préférer: 部分人称 é 变 è。",
+          "conjugation": {
+            "je": "préfère",
+            "tu": "préfères",
+            "il": "préfère",
+            "nous": "préférons",
+            "vous": "préférez",
+            "ils": "préfèrent"
+          },
+          "examples": [
+            {
+              "text": "Je préfère le café.",
+              "audioText": "Je préfère le café.",
+              "translation": "我更喜欢咖啡。"
+            },
+            {
+              "text": "Il préfère le café.",
+              "audioText": "Il préfère le café.",
+              "translation": "他/她更喜欢咖啡。"
+            },
+            {
+              "text": "Nous préférons le café.",
+              "audioText": "Nous préférons le café.",
+              "translation": "我们更喜欢咖啡。"
+            },
+            {
+              "text": "Vous préférez le café.",
+              "audioText": "Vous préférez le café.",
+              "translation": "你们/您更喜欢咖啡。"
+            }
+          ]
+        },
+        {
+          "id": "pv-lever",
+          "type": "verb",
+          "text": "lever",
+          "audioText": "lever",
+          "translation": "举起 / 起床",
+          "rule": "lever: 部分人称 e 变 è。",
+          "conjugation": {
+            "je": "lève",
+            "tu": "lèves",
+            "il": "lève",
+            "nous": "levons",
+            "vous": "levez",
+            "ils": "lèvent"
+          },
+          "examples": [
+            {
+              "text": "Je lève la main.",
+              "audioText": "Je lève la main.",
+              "translation": "我举起 / 起床手。"
+            },
+            {
+              "text": "Il lève la main.",
+              "audioText": "Il lève la main.",
+              "translation": "他/她举起 / 起床手。"
+            },
+            {
+              "text": "Nous levons la main.",
+              "audioText": "Nous levons la main.",
+              "translation": "我们举起 / 起床手。"
+            },
+            {
+              "text": "Vous levez la main.",
+              "audioText": "Vous levez la main.",
+              "translation": "你们/您举起 / 起床手。"
+            }
+          ]
+        },
+        {
+          "id": "pv-mener",
+          "type": "verb",
+          "text": "mener",
+          "audioText": "mener",
+          "translation": "带领",
+          "rule": "mener: 部分人称 e 变 è。",
+          "conjugation": {
+            "je": "mène",
+            "tu": "mènes",
+            "il": "mène",
+            "nous": "menons",
+            "vous": "menez",
+            "ils": "mènent"
+          },
+          "examples": [
+            {
+              "text": "Je mène le groupe.",
+              "audioText": "Je mène le groupe.",
+              "translation": "我带领这个小组。"
+            },
+            {
+              "text": "Il mène le groupe.",
+              "audioText": "Il mène le groupe.",
+              "translation": "他/她带领这个小组。"
+            },
+            {
+              "text": "Nous menons le groupe.",
+              "audioText": "Nous menons le groupe.",
+              "translation": "我们带领这个小组。"
+            },
+            {
+              "text": "Vous menez le groupe.",
+              "audioText": "Vous menez le groupe.",
+              "translation": "你们/您带领这个小组。"
+            }
+          ]
+        },
+        {
+          "id": "pv-repeter",
+          "type": "verb",
+          "text": "répéter",
+          "audioText": "répéter",
+          "translation": "重复",
+          "rule": "répéter: 部分人称 é 变 è。",
+          "conjugation": {
+            "je": "répète",
+            "tu": "répètes",
+            "il": "répète",
+            "nous": "répétons",
+            "vous": "répétez",
+            "ils": "répètent"
+          },
+          "examples": [
+            {
+              "text": "Je répète la phrase.",
+              "audioText": "Je répète la phrase.",
+              "translation": "我重复这个句子。"
+            },
+            {
+              "text": "Il répète la phrase.",
+              "audioText": "Il répète la phrase.",
+              "translation": "他/她重复这个句子。"
+            },
+            {
+              "text": "Nous répétons la phrase.",
+              "audioText": "Nous répétons la phrase.",
+              "translation": "我们重复这个句子。"
+            },
+            {
+              "text": "Vous répétez la phrase.",
+              "audioText": "Vous répétez la phrase.",
+              "translation": "你们/您重复这个句子。"
+            }
+          ]
+        },
+        {
+          "id": "pv-visiter",
+          "type": "verb",
+          "text": "visiter",
+          "audioText": "visiter",
+          "translation": "参观",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "visite",
+            "tu": "visites",
+            "il": "visite",
+            "nous": "visitons",
+            "vous": "visitez",
+            "ils": "visitent"
+          },
+          "examples": [
+            {
+              "text": "Je visite le musée.",
+              "audioText": "Je visite le musée.",
+              "translation": "我参观博物馆。"
+            },
+            {
+              "text": "Il visite le musée.",
+              "audioText": "Il visite le musée.",
+              "translation": "他/她参观博物馆。"
+            },
+            {
+              "text": "Nous visitons le musée.",
+              "audioText": "Nous visitons le musée.",
+              "translation": "我们参观博物馆。"
+            },
+            {
+              "text": "Vous visitez le musée.",
+              "audioText": "Vous visitez le musée.",
+              "translation": "你们/您参观博物馆。"
+            }
+          ]
+        },
+        {
+          "id": "pv-voyager",
+          "type": "verb",
+          "text": "voyager",
+          "audioText": "voyager",
+          "translation": "旅行",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "voyage",
+            "tu": "voyages",
+            "il": "voyage",
+            "nous": "voyageons",
+            "vous": "voyagez",
+            "ils": "voyagent"
+          },
+          "examples": [
+            {
+              "text": "Je voyage en France.",
+              "audioText": "Je voyage en France.",
+              "translation": "我旅行去法国。"
+            },
+            {
+              "text": "Il voyage en France.",
+              "audioText": "Il voyage en France.",
+              "translation": "他/她旅行去法国。"
+            },
+            {
+              "text": "Nous voyageons en France.",
+              "audioText": "Nous voyageons en France.",
+              "translation": "我们旅行去法国。"
+            },
+            {
+              "text": "Vous voyagez en France.",
+              "audioText": "Vous voyagez en France.",
+              "translation": "你们/您旅行去法国。"
+            }
+          ]
+        },
+        {
+          "id": "pv-partager",
+          "type": "verb",
+          "text": "partager",
+          "audioText": "partager",
+          "translation": "分享",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "partage",
+            "tu": "partages",
+            "il": "partage",
+            "nous": "partageons",
+            "vous": "partagez",
+            "ils": "partagent"
+          },
+          "examples": [
+            {
+              "text": "Je partage le document.",
+              "audioText": "Je partage le document.",
+              "translation": "我分享这个文件。"
+            },
+            {
+              "text": "Il partage le document.",
+              "audioText": "Il partage le document.",
+              "translation": "他/她分享这个文件。"
+            },
+            {
+              "text": "Nous partageons le document.",
+              "audioText": "Nous partageons le document.",
+              "translation": "我们分享这个文件。"
+            },
+            {
+              "text": "Vous partagez le document.",
+              "audioText": "Vous partagez le document.",
+              "translation": "你们/您分享这个文件。"
+            }
+          ]
+        },
+        {
+          "id": "pv-cuisiner",
+          "type": "verb",
+          "text": "cuisiner",
+          "audioText": "cuisiner",
+          "translation": "做饭",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "cuisine",
+            "tu": "cuisines",
+            "il": "cuisine",
+            "nous": "cuisinons",
+            "vous": "cuisinez",
+            "ils": "cuisinent"
+          },
+          "examples": [
+            {
+              "text": "Je cuisine ce soir.",
+              "audioText": "Je cuisine ce soir.",
+              "translation": "我做饭今晚。"
+            },
+            {
+              "text": "Il cuisine ce soir.",
+              "audioText": "Il cuisine ce soir.",
+              "translation": "他/她做饭今晚。"
+            },
+            {
+              "text": "Nous cuisinons ce soir.",
+              "audioText": "Nous cuisinons ce soir.",
+              "translation": "我们做饭今晚。"
+            },
+            {
+              "text": "Vous cuisinez ce soir.",
+              "audioText": "Vous cuisinez ce soir.",
+              "translation": "你们/您做饭今晚。"
+            }
+          ]
+        },
+        {
+          "id": "pv-nettoyer",
+          "type": "verb",
+          "text": "nettoyer",
+          "audioText": "nettoyer",
+          "translation": "打扫",
+          "rule": "nettoyer: y 在部分人称变 i。",
+          "conjugation": {
+            "je": "nettoie",
+            "tu": "nettoies",
+            "il": "nettoie",
+            "nous": "nettoyons",
+            "vous": "nettoyez",
+            "ils": "nettoient"
+          },
+          "examples": [
+            {
+              "text": "Je nettoie la cuisine.",
+              "audioText": "Je nettoie la cuisine.",
+              "translation": "我打扫厨房。"
+            },
+            {
+              "text": "Il nettoie la cuisine.",
+              "audioText": "Il nettoie la cuisine.",
+              "translation": "他/她打扫厨房。"
+            },
+            {
+              "text": "Nous nettoyons la cuisine.",
+              "audioText": "Nous nettoyons la cuisine.",
+              "translation": "我们打扫厨房。"
+            },
+            {
+              "text": "Vous nettoyez la cuisine.",
+              "audioText": "Vous nettoyez la cuisine.",
+              "translation": "你们/您打扫厨房。"
+            }
+          ]
+        },
+        {
+          "id": "pv-louer",
+          "type": "verb",
+          "text": "louer",
+          "audioText": "louer",
+          "translation": "租",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "loue",
+            "tu": "loues",
+            "il": "loue",
+            "nous": "louons",
+            "vous": "louez",
+            "ils": "louent"
+          },
+          "examples": [
+            {
+              "text": "Je loue un appartement.",
+              "audioText": "Je loue un appartement.",
+              "translation": "我租一套公寓。"
+            },
+            {
+              "text": "Il loue un appartement.",
+              "audioText": "Il loue un appartement.",
+              "translation": "他/她租一套公寓。"
+            },
+            {
+              "text": "Nous louons un appartement.",
+              "audioText": "Nous louons un appartement.",
+              "translation": "我们租一套公寓。"
+            },
+            {
+              "text": "Vous louez un appartement.",
+              "audioText": "Vous louez un appartement.",
+              "translation": "你们/您租一套公寓。"
+            }
+          ]
+        },
+        {
+          "id": "pv-compter",
+          "type": "verb",
+          "text": "compter",
+          "audioText": "compter",
+          "translation": "数 / 打算",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "compte",
+            "tu": "comptes",
+            "il": "compte",
+            "nous": "comptons",
+            "vous": "comptez",
+            "ils": "comptent"
+          },
+          "examples": [
+            {
+              "text": "Je compte les jours.",
+              "audioText": "Je compte les jours.",
+              "translation": "我数 / 打算天数。"
+            },
+            {
+              "text": "Il compte les jours.",
+              "audioText": "Il compte les jours.",
+              "translation": "他/她数 / 打算天数。"
+            },
+            {
+              "text": "Nous comptons les jours.",
+              "audioText": "Nous comptons les jours.",
+              "translation": "我们数 / 打算天数。"
+            },
+            {
+              "text": "Vous comptez les jours.",
+              "audioText": "Vous comptez les jours.",
+              "translation": "你们/您数 / 打算天数。"
+            }
+          ]
+        },
+        {
+          "id": "pv-reserver",
+          "type": "verb",
+          "text": "réserver",
+          "audioText": "réserver",
+          "translation": "预订",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "réserve",
+            "tu": "réserves",
+            "il": "réserve",
+            "nous": "réservons",
+            "vous": "réservez",
+            "ils": "réservent"
+          },
+          "examples": [
+            {
+              "text": "Je réserve une table.",
+              "audioText": "Je réserve une table.",
+              "translation": "我预订一张桌子。"
+            },
+            {
+              "text": "Il réserve une table.",
+              "audioText": "Il réserve une table.",
+              "translation": "他/她预订一张桌子。"
+            },
+            {
+              "text": "Nous réservons une table.",
+              "audioText": "Nous réservons une table.",
+              "translation": "我们预订一张桌子。"
+            },
+            {
+              "text": "Vous réservez une table.",
+              "audioText": "Vous réservez une table.",
+              "translation": "你们/您预订一张桌子。"
+            }
+          ]
+        },
+        {
+          "id": "pv-inviter",
+          "type": "verb",
+          "text": "inviter",
+          "audioText": "inviter",
+          "translation": "邀请",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "invite",
+            "tu": "invites",
+            "il": "invite",
+            "nous": "invitons",
+            "vous": "invitez",
+            "ils": "invitent"
+          },
+          "examples": [
+            {
+              "text": "J'invite mes amis.",
+              "audioText": "J'invite mes amis.",
+              "translation": "我邀请我的朋友。"
+            },
+            {
+              "text": "Il invite mes amis.",
+              "audioText": "Il invite mes amis.",
+              "translation": "他/她邀请我的朋友。"
+            },
+            {
+              "text": "Nous invitons mes amis.",
+              "audioText": "Nous invitons mes amis.",
+              "translation": "我们邀请我的朋友。"
+            },
+            {
+              "text": "Vous invitez mes amis.",
+              "audioText": "Vous invitez mes amis.",
+              "translation": "你们/您邀请我的朋友。"
+            }
+          ]
+        },
+        {
+          "id": "pv-organiser",
+          "type": "verb",
+          "text": "organiser",
+          "audioText": "organiser",
+          "translation": "组织",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "organise",
+            "tu": "organises",
+            "il": "organise",
+            "nous": "organisons",
+            "vous": "organisez",
+            "ils": "organisent"
+          },
+          "examples": [
+            {
+              "text": "J'organise une réunion.",
+              "audioText": "J'organise une réunion.",
+              "translation": "我组织一个会议。"
+            },
+            {
+              "text": "Il organise une réunion.",
+              "audioText": "Il organise une réunion.",
+              "translation": "他/她组织一个会议。"
+            },
+            {
+              "text": "Nous organisons une réunion.",
+              "audioText": "Nous organisons une réunion.",
+              "translation": "我们组织一个会议。"
+            },
+            {
+              "text": "Vous organisez une réunion.",
+              "audioText": "Vous organisez une réunion.",
+              "translation": "你们/您组织一个会议。"
+            }
+          ]
+        },
+        {
+          "id": "pv-poser",
+          "type": "verb",
+          "text": "poser",
+          "audioText": "poser",
+          "translation": "放 / 提出",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "pose",
+            "tu": "poses",
+            "il": "pose",
+            "nous": "posons",
+            "vous": "posez",
+            "ils": "posent"
+          },
+          "examples": [
+            {
+              "text": "Je pose une question.",
+              "audioText": "Je pose une question.",
+              "translation": "我放 / 提出一个问题。"
+            },
+            {
+              "text": "Il pose une question.",
+              "audioText": "Il pose une question.",
+              "translation": "他/她放 / 提出一个问题。"
+            },
+            {
+              "text": "Nous posons une question.",
+              "audioText": "Nous posons une question.",
+              "translation": "我们放 / 提出一个问题。"
+            },
+            {
+              "text": "Vous posez une question.",
+              "audioText": "Vous posez une question.",
+              "translation": "你们/您放 / 提出一个问题。"
+            }
+          ]
+        },
+        {
+          "id": "pv-toucher",
+          "type": "verb",
+          "text": "toucher",
+          "audioText": "toucher",
+          "translation": "触碰",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "touche",
+            "tu": "touches",
+            "il": "touche",
+            "nous": "touchons",
+            "vous": "touchez",
+            "ils": "touchent"
+          },
+          "examples": [
+            {
+              "text": "Je touche la table.",
+              "audioText": "Je touche la table.",
+              "translation": "我触碰桌子。"
+            },
+            {
+              "text": "Il touche la table.",
+              "audioText": "Il touche la table.",
+              "translation": "他/她触碰桌子。"
+            },
+            {
+              "text": "Nous touchons la table.",
+              "audioText": "Nous touchons la table.",
+              "translation": "我们触碰桌子。"
+            },
+            {
+              "text": "Vous touchez la table.",
+              "audioText": "Vous touchez la table.",
+              "translation": "你们/您触碰桌子。"
+            }
+          ]
+        },
+        {
+          "id": "pv-couper",
+          "type": "verb",
+          "text": "couper",
+          "audioText": "couper",
+          "translation": "切 / 剪",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "coupe",
+            "tu": "coupes",
+            "il": "coupe",
+            "nous": "coupons",
+            "vous": "coupez",
+            "ils": "coupent"
+          },
+          "examples": [
+            {
+              "text": "Je coupe le pain.",
+              "audioText": "Je coupe le pain.",
+              "translation": "我切 / 剪面包。"
+            },
+            {
+              "text": "Il coupe le pain.",
+              "audioText": "Il coupe le pain.",
+              "translation": "他/她切 / 剪面包。"
+            },
+            {
+              "text": "Nous coupons le pain.",
+              "audioText": "Nous coupons le pain.",
+              "translation": "我们切 / 剪面包。"
+            },
+            {
+              "text": "Vous coupez le pain.",
+              "audioText": "Vous coupez le pain.",
+              "translation": "你们/您切 / 剪面包。"
+            }
+          ]
+        },
+        {
+          "id": "pv-monter",
+          "type": "verb",
+          "text": "monter",
+          "audioText": "monter",
+          "translation": "上去",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "monte",
+            "tu": "montes",
+            "il": "monte",
+            "nous": "montons",
+            "vous": "montez",
+            "ils": "montent"
+          },
+          "examples": [
+            {
+              "text": "Je monte dans le bus.",
+              "audioText": "Je monte dans le bus.",
+              "translation": "我上去上公交。"
+            },
+            {
+              "text": "Il monte dans le bus.",
+              "audioText": "Il monte dans le bus.",
+              "translation": "他/她上去上公交。"
+            },
+            {
+              "text": "Nous montons dans le bus.",
+              "audioText": "Nous montons dans le bus.",
+              "translation": "我们上去上公交。"
+            },
+            {
+              "text": "Vous montez dans le bus.",
+              "audioText": "Vous montez dans le bus.",
+              "translation": "你们/您上去上公交。"
+            }
+          ]
+        },
+        {
+          "id": "pv-tomber",
+          "type": "verb",
+          "text": "tomber",
+          "audioText": "tomber",
+          "translation": "掉下 / 摔倒",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "tombe",
+            "tu": "tombes",
+            "il": "tombe",
+            "nous": "tombons",
+            "vous": "tombez",
+            "ils": "tombent"
+          },
+          "examples": [
+            {
+              "text": "Je tombe souvent.",
+              "audioText": "Je tombe souvent.",
+              "translation": "我掉下 / 摔倒经常。"
+            },
+            {
+              "text": "Il tombe souvent.",
+              "audioText": "Il tombe souvent.",
+              "translation": "他/她掉下 / 摔倒经常。"
+            },
+            {
+              "text": "Nous tombons souvent.",
+              "audioText": "Nous tombons souvent.",
+              "translation": "我们掉下 / 摔倒经常。"
+            },
+            {
+              "text": "Vous tombez souvent.",
+              "audioText": "Vous tombez souvent.",
+              "translation": "你们/您掉下 / 摔倒经常。"
+            }
+          ]
+        },
+        {
+          "id": "pv-noter",
+          "type": "verb",
+          "text": "noter",
+          "audioText": "noter",
+          "translation": "记下",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "note",
+            "tu": "notes",
+            "il": "note",
+            "nous": "notons",
+            "vous": "notez",
+            "ils": "notent"
+          },
+          "examples": [
+            {
+              "text": "Je note le mot.",
+              "audioText": "Je note le mot.",
+              "translation": "我记下这个词。"
+            },
+            {
+              "text": "Il note le mot.",
+              "audioText": "Il note le mot.",
+              "translation": "他/她记下这个词。"
+            },
+            {
+              "text": "Nous notons le mot.",
+              "audioText": "Nous notons le mot.",
+              "translation": "我们记下这个词。"
+            },
+            {
+              "text": "Vous notez le mot.",
+              "audioText": "Vous notez le mot.",
+              "translation": "你们/您记下这个词。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pv-ir-re",
+      "title": "-ir / -re 与常见变体",
+      "note": "补上 finir, attendre, répondre, conduire 等常用动词。",
+      "blocks": [
+        {
+          "id": "pv-dessiner",
+          "type": "verb",
+          "text": "dessiner",
+          "audioText": "dessiner",
+          "translation": "画",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "dessine",
+            "tu": "dessines",
+            "il": "dessine",
+            "nous": "dessinons",
+            "vous": "dessinez",
+            "ils": "dessinent"
+          },
+          "examples": [
+            {
+              "text": "Je dessine une carte.",
+              "audioText": "Je dessine une carte.",
+              "translation": "我画一张地图。"
+            },
+            {
+              "text": "Il dessine une carte.",
+              "audioText": "Il dessine une carte.",
+              "translation": "他/她画一张地图。"
+            },
+            {
+              "text": "Nous dessinons une carte.",
+              "audioText": "Nous dessinons une carte.",
+              "translation": "我们画一张地图。"
+            },
+            {
+              "text": "Vous dessinez une carte.",
+              "audioText": "Vous dessinez une carte.",
+              "translation": "你们/您画一张地图。"
+            }
+          ]
+        },
+        {
+          "id": "pv-reparer",
+          "type": "verb",
+          "text": "réparer",
+          "audioText": "réparer",
+          "translation": "修理",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "répare",
+            "tu": "répares",
+            "il": "répare",
+            "nous": "réparons",
+            "vous": "réparez",
+            "ils": "réparent"
+          },
+          "examples": [
+            {
+              "text": "Je répare la machine.",
+              "audioText": "Je répare la machine.",
+              "translation": "我修理机器。"
+            },
+            {
+              "text": "Il répare la machine.",
+              "audioText": "Il répare la machine.",
+              "translation": "他/她修理机器。"
+            },
+            {
+              "text": "Nous réparons la machine.",
+              "audioText": "Nous réparons la machine.",
+              "translation": "我们修理机器。"
+            },
+            {
+              "text": "Vous réparez la machine.",
+              "audioText": "Vous réparez la machine.",
+              "translation": "你们/您修理机器。"
+            }
+          ]
+        },
+        {
+          "id": "pv-imprimer",
+          "type": "verb",
+          "text": "imprimer",
+          "audioText": "imprimer",
+          "translation": "打印",
+          "rule": "-er 规则动词：je -e, nous -ons, vous -ez。",
+          "conjugation": {
+            "je": "imprime",
+            "tu": "imprimes",
+            "il": "imprime",
+            "nous": "imprimons",
+            "vous": "imprimez",
+            "ils": "impriment"
+          },
+          "examples": [
+            {
+              "text": "J'imprime le document.",
+              "audioText": "J'imprime le document.",
+              "translation": "我打印文件。"
+            },
+            {
+              "text": "Il imprime le document.",
+              "audioText": "Il imprime le document.",
+              "translation": "他/她打印文件。"
+            },
+            {
+              "text": "Nous imprimons le document.",
+              "audioText": "Nous imprimons le document.",
+              "translation": "我们打印文件。"
+            },
+            {
+              "text": "Vous imprimez le document.",
+              "audioText": "Vous imprimez le document.",
+              "translation": "你们/您打印文件。"
+            }
+          ]
+        },
+        {
+          "id": "pv-finir",
+          "type": "verb",
+          "text": "finir",
+          "audioText": "finir",
+          "translation": "完成",
+          "rule": "-ir 规则动词：je -is, nous -issons。",
+          "conjugation": {
+            "je": "finis",
+            "tu": "finis",
+            "il": "finit",
+            "nous": "finissons",
+            "vous": "finissez",
+            "ils": "finissent"
+          },
+          "examples": [
+            {
+              "text": "Je finis le travail.",
+              "audioText": "Je finis le travail.",
+              "translation": "我完成这项工作。"
+            },
+            {
+              "text": "Il finit le travail.",
+              "audioText": "Il finit le travail.",
+              "translation": "他/她完成这项工作。"
+            },
+            {
+              "text": "Nous finissons le travail.",
+              "audioText": "Nous finissons le travail.",
+              "translation": "我们完成这项工作。"
+            },
+            {
+              "text": "Vous finissez le travail.",
+              "audioText": "Vous finissez le travail.",
+              "translation": "你们/您完成这项工作。"
+            }
+          ]
+        },
+        {
+          "id": "pv-choisir",
+          "type": "verb",
+          "text": "choisir",
+          "audioText": "choisir",
+          "translation": "选择",
+          "rule": "-ir 规则动词：je -is, nous -issons。",
+          "conjugation": {
+            "je": "choisis",
+            "tu": "choisis",
+            "il": "choisit",
+            "nous": "choisissons",
+            "vous": "choisissez",
+            "ils": "choisissent"
+          },
+          "examples": [
+            {
+              "text": "Je choisis un livre.",
+              "audioText": "Je choisis un livre.",
+              "translation": "我选择一本书。"
+            },
+            {
+              "text": "Il choisit un livre.",
+              "audioText": "Il choisit un livre.",
+              "translation": "他/她选择一本书。"
+            },
+            {
+              "text": "Nous choisissons un livre.",
+              "audioText": "Nous choisissons un livre.",
+              "translation": "我们选择一本书。"
+            },
+            {
+              "text": "Vous choisissez un livre.",
+              "audioText": "Vous choisissez un livre.",
+              "translation": "你们/您选择一本书。"
+            }
+          ]
+        },
+        {
+          "id": "pv-reussir",
+          "type": "verb",
+          "text": "réussir",
+          "audioText": "réussir",
+          "translation": "成功",
+          "rule": "-ir 规则动词：je -is, nous -issons。",
+          "conjugation": {
+            "je": "réussis",
+            "tu": "réussis",
+            "il": "réussit",
+            "nous": "réussissons",
+            "vous": "réussissez",
+            "ils": "réussissent"
+          },
+          "examples": [
+            {
+              "text": "Je réussis l’exercice.",
+              "audioText": "Je réussis l’exercice.",
+              "translation": "我成功练习。"
+            },
+            {
+              "text": "Il réussit l’exercice.",
+              "audioText": "Il réussit l’exercice.",
+              "translation": "他/她成功练习。"
+            },
+            {
+              "text": "Nous réussissons l’exercice.",
+              "audioText": "Nous réussissons l’exercice.",
+              "translation": "我们成功练习。"
+            },
+            {
+              "text": "Vous réussissez l’exercice.",
+              "audioText": "Vous réussissez l’exercice.",
+              "translation": "你们/您成功练习。"
+            }
+          ]
+        },
+        {
+          "id": "pv-reflechir",
+          "type": "verb",
+          "text": "réfléchir",
+          "audioText": "réfléchir",
+          "translation": "思考",
+          "rule": "-ir 规则动词：je -is, nous -issons。",
+          "conjugation": {
+            "je": "réfléchis",
+            "tu": "réfléchis",
+            "il": "réfléchit",
+            "nous": "réfléchissons",
+            "vous": "réfléchissez",
+            "ils": "réfléchissent"
+          },
+          "examples": [
+            {
+              "text": "Je réfléchis au problème.",
+              "audioText": "Je réfléchis au problème.",
+              "translation": "我思考这个问题。"
+            },
+            {
+              "text": "Il réfléchit au problème.",
+              "audioText": "Il réfléchit au problème.",
+              "translation": "他/她思考这个问题。"
+            },
+            {
+              "text": "Nous réfléchissons au problème.",
+              "audioText": "Nous réfléchissons au problème.",
+              "translation": "我们思考这个问题。"
+            },
+            {
+              "text": "Vous réfléchissez au problème.",
+              "audioText": "Vous réfléchissez au problème.",
+              "translation": "你们/您思考这个问题。"
+            }
+          ]
+        },
+        {
+          "id": "pv-remplir",
+          "type": "verb",
+          "text": "remplir",
+          "audioText": "remplir",
+          "translation": "填满 / 填写",
+          "rule": "-ir 规则动词：je -is, nous -issons。",
+          "conjugation": {
+            "je": "remplis",
+            "tu": "remplis",
+            "il": "remplit",
+            "nous": "remplissons",
+            "vous": "remplissez",
+            "ils": "remplissent"
+          },
+          "examples": [
+            {
+              "text": "Je remplis le formulaire.",
+              "audioText": "Je remplis le formulaire.",
+              "translation": "我填满 / 填写表格。"
+            },
+            {
+              "text": "Il remplit le formulaire.",
+              "audioText": "Il remplit le formulaire.",
+              "translation": "他/她填满 / 填写表格。"
+            },
+            {
+              "text": "Nous remplissons le formulaire.",
+              "audioText": "Nous remplissons le formulaire.",
+              "translation": "我们填满 / 填写表格。"
+            },
+            {
+              "text": "Vous remplissez le formulaire.",
+              "audioText": "Vous remplissez le formulaire.",
+              "translation": "你们/您填满 / 填写表格。"
+            }
+          ]
+        },
+        {
+          "id": "pv-grandir",
+          "type": "verb",
+          "text": "grandir",
+          "audioText": "grandir",
+          "translation": "成长",
+          "rule": "-ir 规则动词：je -is, nous -issons。",
+          "conjugation": {
+            "je": "grandis",
+            "tu": "grandis",
+            "il": "grandit",
+            "nous": "grandissons",
+            "vous": "grandissez",
+            "ils": "grandissent"
+          },
+          "examples": [
+            {
+              "text": "Je grandis vite.",
+              "audioText": "Je grandis vite.",
+              "translation": "我成长很快。"
+            },
+            {
+              "text": "Il grandit vite.",
+              "audioText": "Il grandit vite.",
+              "translation": "他/她成长很快。"
+            },
+            {
+              "text": "Nous grandissons vite.",
+              "audioText": "Nous grandissons vite.",
+              "translation": "我们成长很快。"
+            },
+            {
+              "text": "Vous grandissez vite.",
+              "audioText": "Vous grandissez vite.",
+              "translation": "你们/您成长很快。"
+            }
+          ]
+        },
+        {
+          "id": "pv-agir",
+          "type": "verb",
+          "text": "agir",
+          "audioText": "agir",
+          "translation": "行动",
+          "rule": "-ir 规则动词：je -is, nous -issons。",
+          "conjugation": {
+            "je": "agis",
+            "tu": "agis",
+            "il": "agit",
+            "nous": "agissons",
+            "vous": "agissez",
+            "ils": "agissent"
+          },
+          "examples": [
+            {
+              "text": "J'agis maintenant.",
+              "audioText": "J'agis maintenant.",
+              "translation": "我行动现在。"
+            },
+            {
+              "text": "Il agit maintenant.",
+              "audioText": "Il agit maintenant.",
+              "translation": "他/她行动现在。"
+            },
+            {
+              "text": "Nous agissons maintenant.",
+              "audioText": "Nous agissons maintenant.",
+              "translation": "我们行动现在。"
+            },
+            {
+              "text": "Vous agissez maintenant.",
+              "audioText": "Vous agissez maintenant.",
+              "translation": "你们/您行动现在。"
+            }
+          ]
+        },
+        {
+          "id": "pv-obeir",
+          "type": "verb",
+          "text": "obéir",
+          "audioText": "obéir",
+          "translation": "服从",
+          "rule": "-ir 规则动词：je -is, nous -issons。",
+          "conjugation": {
+            "je": "obéis",
+            "tu": "obéis",
+            "il": "obéit",
+            "nous": "obéissons",
+            "vous": "obéissez",
+            "ils": "obéissent"
+          },
+          "examples": [
+            {
+              "text": "J'obéis aux règles.",
+              "audioText": "J'obéis aux règles.",
+              "translation": "我服从规则。"
+            },
+            {
+              "text": "Il obéit aux règles.",
+              "audioText": "Il obéit aux règles.",
+              "translation": "他/她服从规则。"
+            },
+            {
+              "text": "Nous obéissons aux règles.",
+              "audioText": "Nous obéissons aux règles.",
+              "translation": "我们服从规则。"
+            },
+            {
+              "text": "Vous obéissez aux règles.",
+              "audioText": "Vous obéissez aux règles.",
+              "translation": "你们/您服从规则。"
+            }
+          ]
+        },
+        {
+          "id": "pv-nourrir",
+          "type": "verb",
+          "text": "nourrir",
+          "audioText": "nourrir",
+          "translation": "喂养",
+          "rule": "-ir 规则动词：je -is, nous -issons。",
+          "conjugation": {
+            "je": "nourris",
+            "tu": "nourris",
+            "il": "nourrit",
+            "nous": "nourrissons",
+            "vous": "nourrissez",
+            "ils": "nourrissent"
+          },
+          "examples": [
+            {
+              "text": "Je nourris le chien.",
+              "audioText": "Je nourris le chien.",
+              "translation": "我喂养狗。"
+            },
+            {
+              "text": "Il nourrit le chien.",
+              "audioText": "Il nourrit le chien.",
+              "translation": "他/她喂养狗。"
+            },
+            {
+              "text": "Nous nourrissons le chien.",
+              "audioText": "Nous nourrissons le chien.",
+              "translation": "我们喂养狗。"
+            },
+            {
+              "text": "Vous nourrissez le chien.",
+              "audioText": "Vous nourrissez le chien.",
+              "translation": "你们/您喂养狗。"
+            }
+          ]
+        },
+        {
+          "id": "pv-etablir",
+          "type": "verb",
+          "text": "établir",
+          "audioText": "établir",
+          "translation": "建立",
+          "rule": "-ir 规则动词：je -is, nous -issons。",
+          "conjugation": {
+            "je": "établis",
+            "tu": "établis",
+            "il": "établit",
+            "nous": "établissons",
+            "vous": "établissez",
+            "ils": "établissent"
+          },
+          "examples": [
+            {
+              "text": "J'établis un plan.",
+              "audioText": "J'établis un plan.",
+              "translation": "我建立一个计划。"
+            },
+            {
+              "text": "Il établit un plan.",
+              "audioText": "Il établit un plan.",
+              "translation": "他/她建立一个计划。"
+            },
+            {
+              "text": "Nous établissons un plan.",
+              "audioText": "Nous établissons un plan.",
+              "translation": "我们建立一个计划。"
+            },
+            {
+              "text": "Vous établissez un plan.",
+              "audioText": "Vous établissez un plan.",
+              "translation": "你们/您建立一个计划。"
+            }
+          ]
+        },
+        {
+          "id": "pv-attendre",
+          "type": "verb",
+          "text": "attendre",
+          "audioText": "attendre",
+          "translation": "等待",
+          "rule": "-re 规则动词：je -s, il 无结尾音，nous -ons。",
+          "conjugation": {
+            "je": "attends",
+            "tu": "attends",
+            "il": "attend",
+            "nous": "attendons",
+            "vous": "attendez",
+            "ils": "attendent"
+          },
+          "examples": [
+            {
+              "text": "J'attends ici.",
+              "audioText": "J'attends ici.",
+              "translation": "我等待在这里。"
+            },
+            {
+              "text": "Il attend ici.",
+              "audioText": "Il attend ici.",
+              "translation": "他/她等待在这里。"
+            },
+            {
+              "text": "Nous attendons ici.",
+              "audioText": "Nous attendons ici.",
+              "translation": "我们等待在这里。"
+            },
+            {
+              "text": "Vous attendez ici.",
+              "audioText": "Vous attendez ici.",
+              "translation": "你们/您等待在这里。"
+            }
+          ]
+        },
+        {
+          "id": "pv-entendre",
+          "type": "verb",
+          "text": "entendre",
+          "audioText": "entendre",
+          "translation": "听见",
+          "rule": "-re 规则动词：je -s, il 无结尾音，nous -ons。",
+          "conjugation": {
+            "je": "entends",
+            "tu": "entends",
+            "il": "entend",
+            "nous": "entendons",
+            "vous": "entendez",
+            "ils": "entendent"
+          },
+          "examples": [
+            {
+              "text": "J'entends la voix.",
+              "audioText": "J'entends la voix.",
+              "translation": "我听见声音。"
+            },
+            {
+              "text": "Il entend la voix.",
+              "audioText": "Il entend la voix.",
+              "translation": "他/她听见声音。"
+            },
+            {
+              "text": "Nous entendons la voix.",
+              "audioText": "Nous entendons la voix.",
+              "translation": "我们听见声音。"
+            },
+            {
+              "text": "Vous entendez la voix.",
+              "audioText": "Vous entendez la voix.",
+              "translation": "你们/您听见声音。"
+            }
+          ]
+        },
+        {
+          "id": "pv-vendre",
+          "type": "verb",
+          "text": "vendre",
+          "audioText": "vendre",
+          "translation": "卖",
+          "rule": "-re 规则动词：je -s, il 无结尾音，nous -ons。",
+          "conjugation": {
+            "je": "vends",
+            "tu": "vends",
+            "il": "vend",
+            "nous": "vendons",
+            "vous": "vendez",
+            "ils": "vendent"
+          },
+          "examples": [
+            {
+              "text": "Je vends la voiture.",
+              "audioText": "Je vends la voiture.",
+              "translation": "我卖汽车。"
+            },
+            {
+              "text": "Il vend la voiture.",
+              "audioText": "Il vend la voiture.",
+              "translation": "他/她卖汽车。"
+            },
+            {
+              "text": "Nous vendons la voiture.",
+              "audioText": "Nous vendons la voiture.",
+              "translation": "我们卖汽车。"
+            },
+            {
+              "text": "Vous vendez la voiture.",
+              "audioText": "Vous vendez la voiture.",
+              "translation": "你们/您卖汽车。"
+            }
+          ]
+        },
+        {
+          "id": "pv-repondre",
+          "type": "verb",
+          "text": "répondre",
+          "audioText": "répondre",
+          "translation": "回答",
+          "rule": "-re 规则动词：je -s, il 无结尾音，nous -ons。",
+          "conjugation": {
+            "je": "réponds",
+            "tu": "réponds",
+            "il": "répond",
+            "nous": "répondons",
+            "vous": "répondez",
+            "ils": "répondent"
+          },
+          "examples": [
+            {
+              "text": "Je réponds à la question.",
+              "audioText": "Je réponds à la question.",
+              "translation": "我回答这个问题。"
+            },
+            {
+              "text": "Il répond à la question.",
+              "audioText": "Il répond à la question.",
+              "translation": "他/她回答这个问题。"
+            },
+            {
+              "text": "Nous répondons à la question.",
+              "audioText": "Nous répondons à la question.",
+              "translation": "我们回答这个问题。"
+            },
+            {
+              "text": "Vous répondez à la question.",
+              "audioText": "Vous répondez à la question.",
+              "translation": "你们/您回答这个问题。"
+            }
+          ]
+        },
+        {
+          "id": "pv-perdre",
+          "type": "verb",
+          "text": "perdre",
+          "audioText": "perdre",
+          "translation": "失去 / 输",
+          "rule": "-re 规则动词：je -s, il 无结尾音，nous -ons。",
+          "conjugation": {
+            "je": "perds",
+            "tu": "perds",
+            "il": "perd",
+            "nous": "perdons",
+            "vous": "perdez",
+            "ils": "perdent"
+          },
+          "examples": [
+            {
+              "text": "Je perds du temps.",
+              "audioText": "Je perds du temps.",
+              "translation": "我失去 / 输时间。"
+            },
+            {
+              "text": "Il perd du temps.",
+              "audioText": "Il perd du temps.",
+              "translation": "他/她失去 / 输时间。"
+            },
+            {
+              "text": "Nous perdons du temps.",
+              "audioText": "Nous perdons du temps.",
+              "translation": "我们失去 / 输时间。"
+            },
+            {
+              "text": "Vous perdez du temps.",
+              "audioText": "Vous perdez du temps.",
+              "translation": "你们/您失去 / 输时间。"
+            }
+          ]
+        },
+        {
+          "id": "pv-rendre",
+          "type": "verb",
+          "text": "rendre",
+          "audioText": "rendre",
+          "translation": "归还 / 使变得",
+          "rule": "-re 规则动词：je -s, il 无结尾音，nous -ons。",
+          "conjugation": {
+            "je": "rends",
+            "tu": "rends",
+            "il": "rend",
+            "nous": "rendons",
+            "vous": "rendez",
+            "ils": "rendent"
+          },
+          "examples": [
+            {
+              "text": "Je rends le livre.",
+              "audioText": "Je rends le livre.",
+              "translation": "我归还 / 使变得书。"
+            },
+            {
+              "text": "Il rend le livre.",
+              "audioText": "Il rend le livre.",
+              "translation": "他/她归还 / 使变得书。"
+            },
+            {
+              "text": "Nous rendons le livre.",
+              "audioText": "Nous rendons le livre.",
+              "translation": "我们归还 / 使变得书。"
+            },
+            {
+              "text": "Vous rendez le livre.",
+              "audioText": "Vous rendez le livre.",
+              "translation": "你们/您归还 / 使变得书。"
+            }
+          ]
+        },
+        {
+          "id": "pv-descendre",
+          "type": "verb",
+          "text": "descendre",
+          "audioText": "descendre",
+          "translation": "下去",
+          "rule": "-re 规则动词：je -s, il 无结尾音，nous -ons。",
+          "conjugation": {
+            "je": "descends",
+            "tu": "descends",
+            "il": "descend",
+            "nous": "descendons",
+            "vous": "descendez",
+            "ils": "descendent"
+          },
+          "examples": [
+            {
+              "text": "Je descends à la station.",
+              "audioText": "Je descends à la station.",
+              "translation": "我下去在车站下。"
+            },
+            {
+              "text": "Il descend à la station.",
+              "audioText": "Il descend à la station.",
+              "translation": "他/她下去在车站下。"
+            },
+            {
+              "text": "Nous descendons à la station.",
+              "audioText": "Nous descendons à la station.",
+              "translation": "我们下去在车站下。"
+            },
+            {
+              "text": "Vous descendez à la station.",
+              "audioText": "Vous descendez à la station.",
+              "translation": "你们/您下去在车站下。"
+            }
+          ]
+        },
+        {
+          "id": "pv-defendre",
+          "type": "verb",
+          "text": "défendre",
+          "audioText": "défendre",
+          "translation": "保护 / 禁止",
+          "rule": "-re 规则动词：je -s, il 无结尾音，nous -ons。",
+          "conjugation": {
+            "je": "défends",
+            "tu": "défends",
+            "il": "défend",
+            "nous": "défendons",
+            "vous": "défendez",
+            "ils": "défendent"
+          },
+          "examples": [
+            {
+              "text": "Je défends cette idée.",
+              "audioText": "Je défends cette idée.",
+              "translation": "我保护 / 禁止这个想法。"
+            },
+            {
+              "text": "Il défend cette idée.",
+              "audioText": "Il défend cette idée.",
+              "translation": "他/她保护 / 禁止这个想法。"
+            },
+            {
+              "text": "Nous défendons cette idée.",
+              "audioText": "Nous défendons cette idée.",
+              "translation": "我们保护 / 禁止这个想法。"
+            },
+            {
+              "text": "Vous défendez cette idée.",
+              "audioText": "Vous défendez cette idée.",
+              "translation": "你们/您保护 / 禁止这个想法。"
+            }
+          ]
+        },
+        {
+          "id": "pv-correspondre",
+          "type": "verb",
+          "text": "correspondre",
+          "audioText": "correspondre",
+          "translation": "符合 / 通信",
+          "rule": "-re 规则动词：je -s, il 无结尾音，nous -ons。",
+          "conjugation": {
+            "je": "corresponds",
+            "tu": "corresponds",
+            "il": "correspond",
+            "nous": "correspondons",
+            "vous": "correspondez",
+            "ils": "correspondent"
+          },
+          "examples": [
+            {
+              "text": "Je corresponds à mes besoins.",
+              "audioText": "Je corresponds à mes besoins.",
+              "translation": "我符合 / 通信我的需求。"
+            },
+            {
+              "text": "Il correspond à mes besoins.",
+              "audioText": "Il correspond à mes besoins.",
+              "translation": "他/她符合 / 通信我的需求。"
+            },
+            {
+              "text": "Nous correspondons à mes besoins.",
+              "audioText": "Nous correspondons à mes besoins.",
+              "translation": "我们符合 / 通信我的需求。"
+            },
+            {
+              "text": "Vous correspondez à mes besoins.",
+              "audioText": "Vous correspondez à mes besoins.",
+              "translation": "你们/您符合 / 通信我的需求。"
+            }
+          ]
+        },
+        {
+          "id": "pv-construire",
+          "type": "verb",
+          "text": "construire",
+          "audioText": "construire",
+          "translation": "建造",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "construis",
+            "tu": "construis",
+            "il": "construit",
+            "nous": "construisons",
+            "vous": "construisez",
+            "ils": "construisent"
+          },
+          "examples": [
+            {
+              "text": "Je construis une maison.",
+              "audioText": "Je construis une maison.",
+              "translation": "我建造一栋房子。"
+            },
+            {
+              "text": "Il construit une maison.",
+              "audioText": "Il construit une maison.",
+              "translation": "他/她建造一栋房子。"
+            },
+            {
+              "text": "Nous construisons une maison.",
+              "audioText": "Nous construisons une maison.",
+              "translation": "我们建造一栋房子。"
+            },
+            {
+              "text": "Vous construisez une maison.",
+              "audioText": "Vous construisez une maison.",
+              "translation": "你们/您建造一栋房子。"
+            }
+          ]
+        },
+        {
+          "id": "pv-conduire",
+          "type": "verb",
+          "text": "conduire",
+          "audioText": "conduire",
+          "translation": "驾驶",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "conduis",
+            "tu": "conduis",
+            "il": "conduit",
+            "nous": "conduisons",
+            "vous": "conduisez",
+            "ils": "conduisent"
+          },
+          "examples": [
+            {
+              "text": "Je conduis la voiture.",
+              "audioText": "Je conduis la voiture.",
+              "translation": "我驾驶汽车。"
+            },
+            {
+              "text": "Il conduit la voiture.",
+              "audioText": "Il conduit la voiture.",
+              "translation": "他/她驾驶汽车。"
+            },
+            {
+              "text": "Nous conduisons la voiture.",
+              "audioText": "Nous conduisons la voiture.",
+              "translation": "我们驾驶汽车。"
+            },
+            {
+              "text": "Vous conduisez la voiture.",
+              "audioText": "Vous conduisez la voiture.",
+              "translation": "你们/您驾驶汽车。"
+            }
+          ]
+        },
+        {
+          "id": "pv-produire",
+          "type": "verb",
+          "text": "produire",
+          "audioText": "produire",
+          "translation": "生产",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "produis",
+            "tu": "produis",
+            "il": "produit",
+            "nous": "produisons",
+            "vous": "produisez",
+            "ils": "produisent"
+          },
+          "examples": [
+            {
+              "text": "Je produis un résultat.",
+              "audioText": "Je produis un résultat.",
+              "translation": "我生产一个结果。"
+            },
+            {
+              "text": "Il produit un résultat.",
+              "audioText": "Il produit un résultat.",
+              "translation": "他/她生产一个结果。"
+            },
+            {
+              "text": "Nous produisons un résultat.",
+              "audioText": "Nous produisons un résultat.",
+              "translation": "我们生产一个结果。"
+            },
+            {
+              "text": "Vous produisez un résultat.",
+              "audioText": "Vous produisez un résultat.",
+              "translation": "你们/您生产一个结果。"
+            }
+          ]
+        },
+        {
+          "id": "pv-traduire",
+          "type": "verb",
+          "text": "traduire",
+          "audioText": "traduire",
+          "translation": "翻译",
+          "rule": "高频不规则动词，优先整块听熟。",
+          "conjugation": {
+            "je": "traduis",
+            "tu": "traduis",
+            "il": "traduit",
+            "nous": "traduisons",
+            "vous": "traduisez",
+            "ils": "traduisent"
+          },
+          "examples": [
+            {
+              "text": "Je traduis la phrase.",
+              "audioText": "Je traduis la phrase.",
+              "translation": "我翻译这个句子。"
+            },
+            {
+              "text": "Il traduit la phrase.",
+              "audioText": "Il traduit la phrase.",
+              "translation": "他/她翻译这个句子。"
+            },
+            {
+              "text": "Nous traduisons la phrase.",
+              "audioText": "Nous traduisons la phrase.",
+              "translation": "我们翻译这个句子。"
+            },
+            {
+              "text": "Vous traduisez la phrase.",
+              "audioText": "Vous traduisez la phrase.",
+              "translation": "你们/您翻译这个句子。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

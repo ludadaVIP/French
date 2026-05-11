@@ -3,18 +3,74 @@
   "title": "现在时表达",
   "phase": "基础表达",
   "level": "A1",
-  "estimatedMinutes": 28,
-  "objective": "用现在时表达身份、状态、拥有、去向、动作和否定。",
-  "strategy": "先学能产出的句型，不从完整语法表开始。每个句型都是一个可替换模板。",
+  "estimatedMinutes": 58,
+  "objective": "用现在时表达身份、状态、拥有、去向、动作、习惯、频率、需求、否定、提问和正在发生的事情。",
+  "strategy": "这一课不背长语法说明，而是把现在时变成可替换模板：主语换一换、动词换一换、补语换一换，马上能产出句子。",
   "sections": [
     {
       "id": "etre-patterns",
       "title": "être: 是 / 在 / 状态",
       "note": "先用 être 表达身份、位置、状态。",
       "blocks": [
-        {"id": "pattern-je-suis", "type": "pattern", "text": "Je suis ...", "audioText": "Je suis prêt.", "translation": "我是 / 我在 / 我处于...", "rule": "suis 是 être 的 je 形式。", "examples": [{"text": "Je suis prêt.", "audioText": "Je suis prêt.", "translation": "我准备好了。"}, {"text": "Je suis à Paris.", "audioText": "Je suis à Paris.", "translation": "我在巴黎。"}]},
-        {"id": "pattern-cest", "type": "pattern", "text": "C'est ...", "audioText": "C'est important.", "translation": "这是 / 这很...", "rule": "c'est 是超高频整块。", "examples": [{"text": "C'est important.", "audioText": "C'est important.", "translation": "这很重要。"}, {"text": "C'est possible.", "audioText": "C'est possible.", "translation": "这是可能的。"}]},
-        {"id": "pattern-il-est", "type": "pattern", "text": "Il est / Elle est ...", "audioText": "Elle est ici.", "translation": "他 / 她是或在...", "examples": [{"text": "Elle est ici.", "audioText": "Elle est ici.", "translation": "她在这里。"}, {"text": "Il est français.", "audioText": "Il est français.", "translation": "他是法国人。"}]}
+        {
+          "id": "pattern-je-suis",
+          "type": "pattern",
+          "text": "Je suis ...",
+          "audioText": "Je suis prêt.",
+          "translation": "我是 / 我在 / 我处于...",
+          "rule": "suis 是 être 的 je 形式。",
+          "examples": [
+            {
+              "text": "Je suis prêt.",
+              "audioText": "Je suis prêt.",
+              "translation": "我准备好了。"
+            },
+            {
+              "text": "Je suis à Paris.",
+              "audioText": "Je suis à Paris.",
+              "translation": "我在巴黎。"
+            }
+          ]
+        },
+        {
+          "id": "pattern-cest",
+          "type": "pattern",
+          "text": "C'est ...",
+          "audioText": "C'est important.",
+          "translation": "这是 / 这很...",
+          "rule": "c'est 是超高频整块。",
+          "examples": [
+            {
+              "text": "C'est important.",
+              "audioText": "C'est important.",
+              "translation": "这很重要。"
+            },
+            {
+              "text": "C'est possible.",
+              "audioText": "C'est possible.",
+              "translation": "这是可能的。"
+            }
+          ]
+        },
+        {
+          "id": "pattern-il-est",
+          "type": "pattern",
+          "text": "Il est / Elle est ...",
+          "audioText": "Elle est ici.",
+          "translation": "他 / 她是或在...",
+          "examples": [
+            {
+              "text": "Elle est ici.",
+              "audioText": "Elle est ici.",
+              "translation": "她在这里。"
+            },
+            {
+              "text": "Il est français.",
+              "audioText": "Il est français.",
+              "translation": "他是法国人。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -22,9 +78,59 @@
       "title": "avoir: 有 / 需要 / 年龄",
       "note": "法语很多表达用 avoir，不要按中文逐词翻。",
       "blocks": [
-        {"id": "pattern-jai", "type": "pattern", "text": "J'ai ...", "audioText": "J'ai une question.", "translation": "我有...", "examples": [{"text": "J'ai une question.", "audioText": "J'ai une question.", "translation": "我有一个问题。"}, {"text": "J'ai le temps.", "audioText": "J'ai le temps.", "translation": "我有时间。"}]},
-        {"id": "pattern-besoin", "type": "pattern", "text": "J'ai besoin de ...", "audioText": "J'ai besoin de temps.", "translation": "我需要...", "examples": [{"text": "J'ai besoin de temps.", "audioText": "J'ai besoin de temps.", "translation": "我需要时间。"}, {"text": "J'ai besoin d'aide.", "audioText": "J'ai besoin d'aide.", "translation": "我需要帮助。"}]},
-        {"id": "pattern-age", "type": "pattern", "text": "J'ai ... ans.", "audioText": "J'ai trente ans.", "translation": "我...岁。", "rule": "年龄用 avoir，不用 être。", "examples": [{"text": "J'ai trente ans.", "audioText": "J'ai trente ans.", "translation": "我三十岁。"}]}
+        {
+          "id": "pattern-jai",
+          "type": "pattern",
+          "text": "J'ai ...",
+          "audioText": "J'ai une question.",
+          "translation": "我有...",
+          "examples": [
+            {
+              "text": "J'ai une question.",
+              "audioText": "J'ai une question.",
+              "translation": "我有一个问题。"
+            },
+            {
+              "text": "J'ai le temps.",
+              "audioText": "J'ai le temps.",
+              "translation": "我有时间。"
+            }
+          ]
+        },
+        {
+          "id": "pattern-besoin",
+          "type": "pattern",
+          "text": "J'ai besoin de ...",
+          "audioText": "J'ai besoin de temps.",
+          "translation": "我需要...",
+          "examples": [
+            {
+              "text": "J'ai besoin de temps.",
+              "audioText": "J'ai besoin de temps.",
+              "translation": "我需要时间。"
+            },
+            {
+              "text": "J'ai besoin d'aide.",
+              "audioText": "J'ai besoin d'aide.",
+              "translation": "我需要帮助。"
+            }
+          ]
+        },
+        {
+          "id": "pattern-age",
+          "type": "pattern",
+          "text": "J'ai ... ans.",
+          "audioText": "J'ai trente ans.",
+          "translation": "我...岁。",
+          "rule": "年龄用 avoir，不用 être。",
+          "examples": [
+            {
+              "text": "J'ai trente ans.",
+              "audioText": "J'ai trente ans.",
+              "translation": "我三十岁。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -32,9 +138,63 @@
       "title": "动作与去向",
       "note": "用少量动词先搭出大量句子。",
       "blocks": [
-        {"id": "pattern-je-vais", "type": "pattern", "text": "Je vais ...", "audioText": "Je vais au café.", "translation": "我去 / 我要...", "examples": [{"text": "Je vais au café.", "audioText": "Je vais au café.", "translation": "我去咖啡馆。"}, {"text": "Je vais travailler.", "audioText": "Je vais travailler.", "translation": "我要工作。"}]},
-        {"id": "pattern-je-fais", "type": "pattern", "text": "Je fais ...", "audioText": "Je fais ça maintenant.", "translation": "我做...", "examples": [{"text": "Je fais ça maintenant.", "audioText": "Je fais ça maintenant.", "translation": "我现在做这个。"}, {"text": "Je fais du français.", "audioText": "Je fais du français.", "translation": "我学法语。"}]},
-        {"id": "pattern-je-veux", "type": "pattern", "text": "Je veux ...", "audioText": "Je veux comprendre.", "translation": "我想要...", "examples": [{"text": "Je veux comprendre.", "audioText": "Je veux comprendre.", "translation": "我想理解。"}, {"text": "Je veux parler français.", "audioText": "Je veux parler français.", "translation": "我想说法语。"}]}
+        {
+          "id": "pattern-je-vais",
+          "type": "pattern",
+          "text": "Je vais ...",
+          "audioText": "Je vais au café.",
+          "translation": "我去 / 我要...",
+          "examples": [
+            {
+              "text": "Je vais au café.",
+              "audioText": "Je vais au café.",
+              "translation": "我去咖啡馆。"
+            },
+            {
+              "text": "Je vais travailler.",
+              "audioText": "Je vais travailler.",
+              "translation": "我要工作。"
+            }
+          ]
+        },
+        {
+          "id": "pattern-je-fais",
+          "type": "pattern",
+          "text": "Je fais ...",
+          "audioText": "Je fais ça maintenant.",
+          "translation": "我做...",
+          "examples": [
+            {
+              "text": "Je fais ça maintenant.",
+              "audioText": "Je fais ça maintenant.",
+              "translation": "我现在做这个。"
+            },
+            {
+              "text": "Je fais du français.",
+              "audioText": "Je fais du français.",
+              "translation": "我学法语。"
+            }
+          ]
+        },
+        {
+          "id": "pattern-je-veux",
+          "type": "pattern",
+          "text": "Je veux ...",
+          "audioText": "Je veux comprendre.",
+          "translation": "我想要...",
+          "examples": [
+            {
+              "text": "Je veux comprendre.",
+              "audioText": "Je veux comprendre.",
+              "translation": "我想理解。"
+            },
+            {
+              "text": "Je veux parler français.",
+              "audioText": "Je veux parler français.",
+              "translation": "我想说法语。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -42,11 +202,739 @@
       "title": "否定与提问",
       "note": "先掌握最常用结构，口语细节后面再优化。",
       "blocks": [
-        {"id": "pattern-ne-pas", "type": "pattern", "text": "Je ne ... pas.", "audioText": "Je ne comprends pas.", "translation": "我不...", "rule": "ne ... pas 包住变位动词。", "examples": [{"text": "Je ne comprends pas.", "audioText": "Je ne comprends pas.", "translation": "我不懂。"}, {"text": "Je ne peux pas.", "audioText": "Je ne peux pas.", "translation": "我不能。"}]},
-        {"id": "pattern-est-ce-que", "type": "pattern", "text": "Est-ce que ... ?", "audioText": "Est-ce que vous comprenez ?", "translation": "...吗？", "examples": [{"text": "Est-ce que vous comprenez ?", "audioText": "Est-ce que vous comprenez ?", "translation": "您懂吗？"}, {"text": "Est-ce que c'est clair ?", "audioText": "Est-ce que c'est clair ?", "translation": "清楚吗？"}]},
-        {"id": "pattern-quest-ce-que", "type": "pattern", "text": "Qu'est-ce que ... ?", "audioText": "Qu'est-ce que vous faites ?", "translation": "什么...？", "examples": [{"text": "Qu'est-ce que vous faites ?", "audioText": "Qu'est-ce que vous faites ?", "translation": "您在做什么？"}]}
+        {
+          "id": "pattern-ne-pas",
+          "type": "pattern",
+          "text": "Je ne ... pas.",
+          "audioText": "Je ne comprends pas.",
+          "translation": "我不...",
+          "rule": "ne ... pas 包住变位动词。",
+          "examples": [
+            {
+              "text": "Je ne comprends pas.",
+              "audioText": "Je ne comprends pas.",
+              "translation": "我不懂。"
+            },
+            {
+              "text": "Je ne peux pas.",
+              "audioText": "Je ne peux pas.",
+              "translation": "我不能。"
+            }
+          ]
+        },
+        {
+          "id": "pattern-est-ce-que",
+          "type": "pattern",
+          "text": "Est-ce que ... ?",
+          "audioText": "Est-ce que vous comprenez ?",
+          "translation": "...吗？",
+          "examples": [
+            {
+              "text": "Est-ce que vous comprenez ?",
+              "audioText": "Est-ce que vous comprenez ?",
+              "translation": "您懂吗？"
+            },
+            {
+              "text": "Est-ce que c'est clair ?",
+              "audioText": "Est-ce que c'est clair ?",
+              "translation": "清楚吗？"
+            }
+          ]
+        },
+        {
+          "id": "pattern-quest-ce-que",
+          "type": "pattern",
+          "text": "Qu'est-ce que ... ?",
+          "audioText": "Qu'est-ce que vous faites ?",
+          "translation": "什么...？",
+          "examples": [
+            {
+              "text": "Qu'est-ce que vous faites ?",
+              "audioText": "Qu'est-ce que vous faites ?",
+              "translation": "您在做什么？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subject-swap-present",
+      "title": "主语替换：同一个动作换人称",
+      "note": "先练 je / il-elle / nous / vous 四个高频人称，和上一课的动词变位接起来。",
+      "blocks": [
+        {
+          "id": "pt-swap-parler",
+          "type": "pattern",
+          "text": "Je / Il / Nous / Vous + parler",
+          "audioText": "Nous parlons français.",
+          "translation": "同一个动词随主语变化。",
+          "rule": "先听人称变化，不急着分析所有结尾。",
+          "examples": [
+            {
+              "text": "Je parle français.",
+              "audioText": "Je parle français.",
+              "translation": "我说法语。"
+            },
+            {
+              "text": "Il parle français.",
+              "audioText": "Il parle français.",
+              "translation": "他说法语。"
+            },
+            {
+              "text": "Nous parlons français.",
+              "audioText": "Nous parlons français.",
+              "translation": "我们说法语。"
+            },
+            {
+              "text": "Vous parlez français.",
+              "audioText": "Vous parlez français.",
+              "translation": "你们/您说法语。"
+            }
+          ]
+        },
+        {
+          "id": "pt-swap-avoir",
+          "type": "pattern",
+          "text": "J'ai / Il a / Nous avons / Vous avez",
+          "audioText": "Vous avez le temps ?",
+          "translation": "用 avoir 表达有、年龄、需求。",
+          "rule": "je + ai 会省音成 j’ai。",
+          "examples": [
+            {
+              "text": "J’ai une question.",
+              "audioText": "J’ai une question.",
+              "translation": "我有一个问题。"
+            },
+            {
+              "text": "Elle a le temps.",
+              "audioText": "Elle a le temps.",
+              "translation": "她有时间。"
+            },
+            {
+              "text": "Nous avons une idée.",
+              "audioText": "Nous avons une idée.",
+              "translation": "我们有一个想法。"
+            },
+            {
+              "text": "Vous avez raison.",
+              "audioText": "Vous avez raison.",
+              "translation": "您是对的。"
+            }
+          ]
+        },
+        {
+          "id": "pt-swap-aller",
+          "type": "pattern",
+          "text": "Je vais / Il va / Nous allons / Vous allez",
+          "audioText": "Je vais au travail.",
+          "translation": "aller 表示去向，也能接不定式表示马上要做。",
+          "rule": "allons / allez 开头元音前容易连读。",
+          "examples": [
+            {
+              "text": "Je vais au travail.",
+              "audioText": "Je vais au travail.",
+              "translation": "我去上班。"
+            },
+            {
+              "text": "Il va à la gare.",
+              "audioText": "Il va à la gare.",
+              "translation": "他去火车站。"
+            },
+            {
+              "text": "Nous allons au restaurant.",
+              "audioText": "Nous allons au restaurant.",
+              "translation": "我们去餐厅。"
+            },
+            {
+              "text": "Vous allez bien ?",
+              "audioText": "Vous allez bien ?",
+              "translation": "您好吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "regular-actions-present",
+      "title": "规则动作：现在正在做 / 平时做",
+      "note": "用 -er 动词快速说日常动作。",
+      "blocks": [
+        {
+          "id": "pt-er-work",
+          "type": "pattern",
+          "text": "Je travaille / Nous travaillons",
+          "audioText": "Je travaille ici.",
+          "translation": "我工作 / 我们工作。",
+          "rule": "-er 动词的 nous 形式通常是 -ons。",
+          "examples": [
+            {
+              "text": "Je travaille ici.",
+              "audioText": "Je travaille ici.",
+              "translation": "我在这里工作。"
+            },
+            {
+              "text": "Elle travaille aujourd’hui.",
+              "audioText": "Elle travaille aujourd’hui.",
+              "translation": "她今天工作。"
+            },
+            {
+              "text": "Nous travaillons ensemble.",
+              "audioText": "Nous travaillons ensemble.",
+              "translation": "我们一起工作。"
+            },
+            {
+              "text": "Vous travaillez demain ?",
+              "audioText": "Vous travaillez demain ?",
+              "translation": "你们明天工作吗？"
+            }
+          ]
+        },
+        {
+          "id": "pt-er-look-listen",
+          "type": "pattern",
+          "text": "regarder / écouter",
+          "audioText": "Vous écoutez la phrase.",
+          "translation": "看、听、读句子时很常用。",
+          "rule": "对象直接放在动词后面。",
+          "examples": [
+            {
+              "text": "Je regarde la vidéo.",
+              "audioText": "Je regarde la vidéo.",
+              "translation": "我看视频。"
+            },
+            {
+              "text": "Il écoute la phrase.",
+              "audioText": "Il écoute la phrase.",
+              "translation": "他听这个句子。"
+            },
+            {
+              "text": "Nous regardons la carte.",
+              "audioText": "Nous regardons la carte.",
+              "translation": "我们看地图。"
+            },
+            {
+              "text": "Vous écoutez le dialogue.",
+              "audioText": "Vous écoutez le dialogue.",
+              "translation": "你们听对话。"
+            }
+          ]
+        },
+        {
+          "id": "pt-er-need-help",
+          "type": "pattern",
+          "text": "chercher / trouver / aider",
+          "audioText": "Je cherche la clé.",
+          "translation": "寻找、找到、帮助。",
+          "rule": "这组动词很适合日常小任务。",
+          "examples": [
+            {
+              "text": "Je cherche la clé.",
+              "audioText": "Je cherche la clé.",
+              "translation": "我在找钥匙。"
+            },
+            {
+              "text": "Elle trouve la solution.",
+              "audioText": "Elle trouve la solution.",
+              "translation": "她找到解决办法。"
+            },
+            {
+              "text": "Nous aidons un ami.",
+              "audioText": "Nous aidons un ami.",
+              "translation": "我们帮助一个朋友。"
+            },
+            {
+              "text": "Vous cherchez un taxi ?",
+              "audioText": "Vous cherchez un taxi ?",
+              "translation": "您在找出租车吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modal-infinitive-present",
+      "title": "情态动词 + 不定式：能、想、必须",
+      "note": "这是高效表达的核心结构：变位动词 + 原形动词。",
+      "blocks": [
+        {
+          "id": "pt-can-do",
+          "type": "pattern",
+          "text": "pouvoir + infinitif",
+          "audioText": "Je peux partir.",
+          "translation": "我能做某事。",
+          "rule": "pouvoir 后面接动词原形。",
+          "examples": [
+            {
+              "text": "Je peux partir.",
+              "audioText": "Je peux partir.",
+              "translation": "我可以离开。"
+            },
+            {
+              "text": "Elle peut venir.",
+              "audioText": "Elle peut venir.",
+              "translation": "她可以来。"
+            },
+            {
+              "text": "Nous pouvons aider.",
+              "audioText": "Nous pouvons aider.",
+              "translation": "我们可以帮忙。"
+            },
+            {
+              "text": "Vous pouvez répéter ?",
+              "audioText": "Vous pouvez répéter ?",
+              "translation": "您可以重复一下吗？"
+            }
+          ]
+        },
+        {
+          "id": "pt-want-do",
+          "type": "pattern",
+          "text": "vouloir + infinitif",
+          "audioText": "Je veux comprendre.",
+          "translation": "我想做某事。",
+          "rule": "vouloir 后面接动词原形。",
+          "examples": [
+            {
+              "text": "Je veux comprendre.",
+              "audioText": "Je veux comprendre.",
+              "translation": "我想理解。"
+            },
+            {
+              "text": "Il veut apprendre.",
+              "audioText": "Il veut apprendre.",
+              "translation": "他想学习。"
+            },
+            {
+              "text": "Nous voulons continuer.",
+              "audioText": "Nous voulons continuer.",
+              "translation": "我们想继续。"
+            },
+            {
+              "text": "Vous voulez essayer ?",
+              "audioText": "Vous voulez essayer ?",
+              "translation": "您想试试吗？"
+            }
+          ]
+        },
+        {
+          "id": "pt-must-do",
+          "type": "pattern",
+          "text": "devoir + infinitif",
+          "audioText": "Je dois travailler.",
+          "translation": "我必须 / 应该做某事。",
+          "rule": "devoir 后面接动词原形。",
+          "examples": [
+            {
+              "text": "Je dois travailler.",
+              "audioText": "Je dois travailler.",
+              "translation": "我必须工作。"
+            },
+            {
+              "text": "Elle doit partir.",
+              "audioText": "Elle doit partir.",
+              "translation": "她必须离开。"
+            },
+            {
+              "text": "Nous devons attendre.",
+              "audioText": "Nous devons attendre.",
+              "translation": "我们必须等待。"
+            },
+            {
+              "text": "Vous devez choisir.",
+              "audioText": "Vous devez choisir.",
+              "translation": "您必须选择。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "habit-frequency-present",
+      "title": "习惯与频率：经常、总是、有时候",
+      "note": "现在时常用来讲习惯，不只是“现在这一秒”。",
+      "blocks": [
+        {
+          "id": "pt-frequency-often",
+          "type": "pattern",
+          "text": "souvent / toujours / parfois",
+          "audioText": "Je travaille souvent ici.",
+          "translation": "经常 / 总是 / 有时。",
+          "rule": "频率副词通常放在变位动词后。",
+          "examples": [
+            {
+              "text": "Je travaille souvent ici.",
+              "audioText": "Je travaille souvent ici.",
+              "translation": "我经常在这里工作。"
+            },
+            {
+              "text": "Il mange toujours tôt.",
+              "audioText": "Il mange toujours tôt.",
+              "translation": "他总是吃得早。"
+            },
+            {
+              "text": "Nous sortons parfois le soir.",
+              "audioText": "Nous sortons parfois le soir.",
+              "translation": "我们有时晚上出去。"
+            },
+            {
+              "text": "Vous voyagez souvent ?",
+              "audioText": "Vous voyagez souvent ?",
+              "translation": "您经常旅行吗？"
+            }
+          ]
+        },
+        {
+          "id": "pt-every-day",
+          "type": "pattern",
+          "text": "tous les jours / chaque semaine",
+          "audioText": "Je lis tous les jours.",
+          "translation": "每天 / 每周。",
+          "rule": "时间短语可以放在句尾。",
+          "examples": [
+            {
+              "text": "Je lis tous les jours.",
+              "audioText": "Je lis tous les jours.",
+              "translation": "我每天读。"
+            },
+            {
+              "text": "Elle court chaque semaine.",
+              "audioText": "Elle court chaque semaine.",
+              "translation": "她每周跑步。"
+            },
+            {
+              "text": "Nous étudions le français tous les jours.",
+              "audioText": "Nous étudions le français tous les jours.",
+              "translation": "我们每天学法语。"
+            },
+            {
+              "text": "Vous travaillez le week-end ?",
+              "audioText": "Vous travaillez le week-end ?",
+              "translation": "你们周末工作吗？"
+            }
+          ]
+        },
+        {
+          "id": "pt-now-today",
+          "type": "pattern",
+          "text": "maintenant / aujourd’hui",
+          "audioText": "Je commence maintenant.",
+          "translation": "现在 / 今天。",
+          "rule": "用时间词让现在时更具体。",
+          "examples": [
+            {
+              "text": "Je commence maintenant.",
+              "audioText": "Je commence maintenant.",
+              "translation": "我现在开始。"
+            },
+            {
+              "text": "Il arrive aujourd’hui.",
+              "audioText": "Il arrive aujourd’hui.",
+              "translation": "他今天到。"
+            },
+            {
+              "text": "Nous préparons le dîner maintenant.",
+              "audioText": "Nous préparons le dîner maintenant.",
+              "translation": "我们现在准备晚饭。"
+            },
+            {
+              "text": "Vous restez ici aujourd’hui ?",
+              "audioText": "Vous restez ici aujourd’hui ?",
+              "translation": "您今天留在这里吗？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "need-existence-present",
+      "title": "需要、存在、剩下：il faut / il y a / il reste",
+      "note": "这些不是普通主语动词句，但口语极高频。",
+      "blocks": [
+        {
+          "id": "pt-il-faut",
+          "type": "pattern",
+          "text": "Il faut + nom / infinitif",
+          "audioText": "Il faut partir.",
+          "translation": "需要 / 必须。",
+          "rule": "il faut 后面可以接名词或动词原形。",
+          "examples": [
+            {
+              "text": "Il faut partir.",
+              "audioText": "Il faut partir.",
+              "translation": "必须离开。"
+            },
+            {
+              "text": "Il faut une clé.",
+              "audioText": "Il faut une clé.",
+              "translation": "需要一把钥匙。"
+            },
+            {
+              "text": "Il faut attendre.",
+              "audioText": "Il faut attendre.",
+              "translation": "必须等待。"
+            },
+            {
+              "text": "Il faut parler plus lentement.",
+              "audioText": "Il faut parler plus lentement.",
+              "translation": "需要说慢一点。"
+            }
+          ]
+        },
+        {
+          "id": "pt-il-y-a",
+          "type": "pattern",
+          "text": "Il y a ...",
+          "audioText": "Il y a un problème.",
+          "translation": "有 / 存在。",
+          "rule": "il y a 是固定块。",
+          "examples": [
+            {
+              "text": "Il y a un problème.",
+              "audioText": "Il y a un problème.",
+              "translation": "有一个问题。"
+            },
+            {
+              "text": "Il y a beaucoup de monde.",
+              "audioText": "Il y a beaucoup de monde.",
+              "translation": "有很多人。"
+            },
+            {
+              "text": "Il y a une gare ici.",
+              "audioText": "Il y a une gare ici.",
+              "translation": "这里有一个火车站。"
+            },
+            {
+              "text": "Il y a du café ?",
+              "audioText": "Il y a du café ?",
+              "translation": "有咖啡吗？"
+            }
+          ]
+        },
+        {
+          "id": "pt-il-reste",
+          "type": "pattern",
+          "text": "Il reste ...",
+          "audioText": "Il reste du temps.",
+          "translation": "还剩。",
+          "rule": "reste 在这里常用作“剩下”。",
+          "examples": [
+            {
+              "text": "Il reste du temps.",
+              "audioText": "Il reste du temps.",
+              "translation": "还剩时间。"
+            },
+            {
+              "text": "Il reste deux places.",
+              "audioText": "Il reste deux places.",
+              "translation": "还剩两个位置。"
+            },
+            {
+              "text": "Il reste du pain.",
+              "audioText": "Il reste du pain.",
+              "translation": "还剩面包。"
+            },
+            {
+              "text": "Il reste une question.",
+              "audioText": "Il reste une question.",
+              "translation": "还剩一个问题。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "present-questions",
+      "title": "现在时提问：能不能、想不想、在哪里",
+      "note": "先掌握口语最高频问法。",
+      "blocks": [
+        {
+          "id": "pt-question-can",
+          "type": "pattern",
+          "text": "Vous pouvez ... ?",
+          "audioText": "Vous pouvez répéter ?",
+          "translation": "您可以……吗？",
+          "rule": "礼貌请求常用 vous pouvez。",
+          "examples": [
+            {
+              "text": "Vous pouvez répéter ?",
+              "audioText": "Vous pouvez répéter ?",
+              "translation": "您可以重复吗？"
+            },
+            {
+              "text": "Vous pouvez parler plus lentement ?",
+              "audioText": "Vous pouvez parler plus lentement ?",
+              "translation": "您可以说慢一点吗？"
+            },
+            {
+              "text": "Vous pouvez m’aider ?",
+              "audioText": "Vous pouvez m’aider ?",
+              "translation": "您可以帮我吗？"
+            },
+            {
+              "text": "Vous pouvez attendre ici ?",
+              "audioText": "Vous pouvez attendre ici ?",
+              "translation": "您可以在这里等吗？"
+            }
+          ]
+        },
+        {
+          "id": "pt-question-want",
+          "type": "pattern",
+          "text": "Tu veux / Vous voulez ... ?",
+          "audioText": "Vous voulez un café ?",
+          "translation": "你想 / 您想……吗？",
+          "rule": "点餐、邀请、确认都高频。",
+          "examples": [
+            {
+              "text": "Tu veux venir ?",
+              "audioText": "Tu veux venir ?",
+              "translation": "你想来吗？"
+            },
+            {
+              "text": "Vous voulez un café ?",
+              "audioText": "Vous voulez un café ?",
+              "translation": "您想要咖啡吗？"
+            },
+            {
+              "text": "Tu veux essayer ?",
+              "audioText": "Tu veux essayer ?",
+              "translation": "你想试试吗？"
+            },
+            {
+              "text": "Vous voulez regarder ?",
+              "audioText": "Vous voulez regarder ?",
+              "translation": "您想看看吗？"
+            }
+          ]
+        },
+        {
+          "id": "pt-question-where",
+          "type": "pattern",
+          "text": "Où est / Où sont ... ?",
+          "audioText": "Où est la gare ?",
+          "translation": "在哪里？",
+          "rule": "où + être 是找地点最快的句型。",
+          "examples": [
+            {
+              "text": "Où est la gare ?",
+              "audioText": "Où est la gare ?",
+              "translation": "火车站在哪里？"
+            },
+            {
+              "text": "Où est la clé ?",
+              "audioText": "Où est la clé ?",
+              "translation": "钥匙在哪里？"
+            },
+            {
+              "text": "Où sont les toilettes ?",
+              "audioText": "Où sont les toilettes ?",
+              "translation": "洗手间在哪里？"
+            },
+            {
+              "text": "Où est votre bureau ?",
+              "audioText": "Où est votre bureau ?",
+              "translation": "您的办公室在哪里？"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "present-negative-expanded",
+      "title": "否定扩展：不是、没有、不想、不能",
+      "note": "把 ne...pas 套到不同高频动词上。",
+      "blocks": [
+        {
+          "id": "pt-neg-etre",
+          "type": "pattern",
+          "text": "ne suis pas / n’est pas",
+          "audioText": "Je ne suis pas prêt.",
+          "translation": "不是 / 不在 / 状态不是。",
+          "rule": "口语里 ne 常弱化，但先按完整结构学。",
+          "examples": [
+            {
+              "text": "Je ne suis pas prêt.",
+              "audioText": "Je ne suis pas prêt.",
+              "translation": "我没准备好。"
+            },
+            {
+              "text": "Elle n’est pas ici.",
+              "audioText": "Elle n’est pas ici.",
+              "translation": "她不在这里。"
+            },
+            {
+              "text": "Nous ne sommes pas d’accord.",
+              "audioText": "Nous ne sommes pas d’accord.",
+              "translation": "我们不同意。"
+            },
+            {
+              "text": "Vous n’êtes pas seul.",
+              "audioText": "Vous n’êtes pas seul.",
+              "translation": "您不是一个人。"
+            }
+          ]
+        },
+        {
+          "id": "pt-neg-avoir",
+          "type": "pattern",
+          "text": "n’ai pas / n’a pas",
+          "audioText": "Je n’ai pas le temps.",
+          "translation": "没有。",
+          "rule": "avoir 前面元音要 n’。",
+          "examples": [
+            {
+              "text": "Je n’ai pas le temps.",
+              "audioText": "Je n’ai pas le temps.",
+              "translation": "我没有时间。"
+            },
+            {
+              "text": "Il n’a pas la clé.",
+              "audioText": "Il n’a pas la clé.",
+              "translation": "他没有钥匙。"
+            },
+            {
+              "text": "Nous n’avons pas de problème.",
+              "audioText": "Nous n’avons pas de problème.",
+              "translation": "我们没有问题。"
+            },
+            {
+              "text": "Vous n’avez pas besoin de ça.",
+              "audioText": "Vous n’avez pas besoin de ça.",
+              "translation": "您不需要这个。"
+            }
+          ]
+        },
+        {
+          "id": "pt-neg-modal",
+          "type": "pattern",
+          "text": "ne peux / veux / dois pas",
+          "audioText": "Je ne peux pas venir.",
+          "translation": "不能 / 不想 / 不必。",
+          "rule": "pas 放在变位动词后，不放在不定式后。",
+          "examples": [
+            {
+              "text": "Je ne peux pas venir.",
+              "audioText": "Je ne peux pas venir.",
+              "translation": "我不能来。"
+            },
+            {
+              "text": "Elle ne veut pas partir.",
+              "audioText": "Elle ne veut pas partir.",
+              "translation": "她不想离开。"
+            },
+            {
+              "text": "Nous ne devons pas attendre.",
+              "audioText": "Nous ne devons pas attendre.",
+              "translation": "我们不必等待。"
+            },
+            {
+              "text": "Vous ne pouvez pas entrer.",
+              "audioText": "Vous ne pouvez pas entrer.",
+              "translation": "您不能进入。"
+            }
+          ]
+        }
       ]
     }
   ]
 }
-

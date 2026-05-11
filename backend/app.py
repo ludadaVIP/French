@@ -186,7 +186,13 @@ def roadmap():
                             "id": "core-words",
                             "title": "基础单词",
                             "status": "ready",
-                            "goal": "名词、形容词、人称、方向、时间。",
+                            "goal": "名词、形容词、人称、时间、家庭、居家、身体、地点、交通。",
+                        },
+                        {
+                            "id": "present-verbs",
+                            "title": "动词变位-现在时",
+                            "status": "ready",
+                            "goal": "100+ 高频动词现在时，逐格发音，并用四类例句落到句子里。",
                         },
                         {
                             "id": "present-tense",

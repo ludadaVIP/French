@@ -2,15 +2,12 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import {
   BookOpen,
   ChevronRight,
-  Clock,
-  Headphones,
   Loader2,
   PanelLeftClose,
   PanelLeftOpen,
   PanelRightClose,
   PanelRightOpen,
   Play,
-  Route,
   Volume2,
 } from "lucide-react";
 
@@ -71,7 +68,27 @@ function AudioButton({ active, label = "播放法语发音", loading, onClick })
   );
 }
 
-function ConjugationTable({ conjugation }) {
+function conjugationAudioText(pronoun, form) {
+  if (pronoun === "je") {
+    const needsElision = /^[aeiouhàâäéèêëîïôöùûü]/i.test(form);
+    return needsElision ? `J'${form}` : `Je ${form}`;
+  }
+  if (pronoun === "il / elle") {
+    return `Il ${form}. Elle ${form}.`;
+  }
+  if (pronoun === "ils / elles") {
+    return `Ils ${form}. Elles ${form}.`;
+  }
+  return `${pronoun} ${form}`;
+}
+
+function ConjugationTable({
+  blockId,
+  conjugation,
+  loadingAudioKey,
+  onSpeak,
+  speakingKey,
+}) {
   if (!conjugation) {
     return null;
   }
@@ -91,8 +108,21 @@ function ConjugationTable({ conjugation }) {
       <div className="conjugation-grid">
         {rows.map(([pronoun, form]) => (
           <div className="conjugation-cell" key={pronoun}>
-            <span>{pronoun}</span>
-            <strong>{form}</strong>
+            <div>
+              <span>{pronoun}</span>
+              <strong>{form}</strong>
+            </div>
+            <AudioButton
+              active={speakingKey === `${blockId}:conjugation:${pronoun}`}
+              label="播放变位发音"
+              loading={loadingAudioKey === `${blockId}:conjugation:${pronoun}`}
+              onClick={() =>
+                onSpeak(
+                  conjugationAudioText(pronoun, form),
+                  `${blockId}:conjugation:${pronoun}`,
+                )
+              }
+            />
           </div>
         ))}
       </div>
@@ -130,7 +160,13 @@ function LessonBlock({ block, heard, loadingAudioKey, onSpeak, speakingKey }) {
       {block.translation && <p className="translation">{block.translation}</p>}
       {block.rule && <p className="rule-text">{block.rule}</p>}
       {block.hint && <p className="hint">{block.hint}</p>}
-      <ConjugationTable conjugation={block.conjugation} />
+      <ConjugationTable
+        blockId={block.id}
+        conjugation={block.conjugation}
+        loadingAudioKey={loadingAudioKey}
+        onSpeak={onSpeak}
+        speakingKey={speakingKey}
+      />
 
       {examples.length > 0 && (
         <div className="example-list">
@@ -174,7 +210,6 @@ function Sidebar({
           {isOpen && (
             <div>
               <div className="brand-title">French Sprint</div>
-              <div className="brand-subtitle">自由推进 · 不锁课</div>
             </div>
           )}
         </div>
@@ -222,18 +257,6 @@ function Sidebar({
         <div className="side-rail-label">路线</div>
       )}
     </aside>
-  );
-}
-
-function Stat({ icon, label, value }) {
-  return (
-    <div className="stat">
-      <div className="stat-icon">{icon}</div>
-      <div>
-        <div className="stat-value">{value}</div>
-        <div className="stat-label">{label}</div>
-      </div>
-    </div>
   );
 }
 
@@ -313,15 +336,10 @@ function LessonNavigator({
 
 function RightPanel({
   activeSectionId,
-  allBlocks,
   audioError,
-  currentLessonIndex,
-  heardInLesson,
-  heardPercent,
   isOpen,
   lesson,
   lessonSections,
-  lessonSummaries,
   nextLesson,
   onJumpToSection,
   onJumpToTop,
@@ -351,7 +369,7 @@ function RightPanel({
       <div className="right-panel-header">
         <div>
           <div className="map-label">学习面板</div>
-          <div className="map-summary">目录、位置和本课节奏</div>
+          <div className="map-summary">本课说明和目录</div>
         </div>
         <button
           className="panel-icon-button"
@@ -401,32 +419,6 @@ function RightPanel({
         onJumpToTop={onJumpToTop}
         sections={lessonSections}
       />
-
-      <section className="right-card side-session-panel" aria-label="本课进度">
-        <Stat
-          icon={<Route size={20} />}
-          label="路线位置"
-          value={`${currentLessonIndex + 1}/${lessonSummaries.length}`}
-        />
-        <Stat
-          icon={<Headphones size={20} />}
-          label="本课已听"
-          value={`${heardInLesson}/${allBlocks.length}`}
-        />
-        <Stat
-          icon={<Clock size={20} />}
-          label="预计时间"
-          value={`${lesson.estimatedMinutes} 分钟`}
-        />
-        <div className="progress-track" aria-label="本课听过的内容比例">
-          <div className="progress-fill" style={{ width: `${heardPercent}%` }} />
-        </div>
-      </section>
-
-      <section className="right-card efficiency-band" aria-label="高效学习策略">
-        <strong>自由推进</strong>
-        <span>{lesson.strategy}</span>
-      </section>
     </aside>
   );
 }
@@ -496,21 +488,8 @@ function App() {
   const previousLesson = lessonSummaries[currentLessonIndex - 1];
   const nextLesson = lessonSummaries[currentLessonIndex + 1];
 
-  const allBlocks = useMemo(() => {
-    if (!lesson) {
-      return [];
-    }
-    return lesson.sections.flatMap((section) =>
-      section.blocks.map((block) => ({ ...block, sectionId: section.id })),
-    );
-  }, [lesson]);
-
   const heardBlocks = progress?.heardBlocks || {};
   const visitedLessonIds = progress?.visitedLessons || [];
-  const heardInLesson = allBlocks.filter((block) => heardBlocks[block.id]).length;
-  const heardPercent = allBlocks.length
-    ? Math.round((heardInLesson / allBlocks.length) * 100)
-    : 0;
 
   const lessonSections = useMemo(() => {
     if (!lesson) {
@@ -825,15 +804,10 @@ function App() {
 
       <RightPanel
         activeSectionId={activeSectionId}
-        allBlocks={allBlocks}
         audioError={audioError}
-        currentLessonIndex={currentLessonIndex}
-        heardInLesson={heardInLesson}
-        heardPercent={heardPercent}
         isOpen={isRightOpen}
         lesson={lesson}
         lessonSections={lessonSections}
-        lessonSummaries={lessonSummaries}
         nextLesson={nextLesson}
         onJumpToSection={jumpToSection}
         onJumpToTop={jumpToTop}

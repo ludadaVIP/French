@@ -3,9 +3,9 @@
   "title": "基础单词",
   "phase": "基础表达",
   "level": "A1-A2",
-  "estimatedMinutes": 55,
-  "objective": "建立可快速调用的基础词库：人称、数字、日期、食物、动物、生活名词、形容词副词和最高频动词。",
-  "strategy": "不要把词汇当孤立清单背。先按 category 快速扫，听音频、看 IPA、看例句；高频动词直接连现在时变位一起学。",
+  "estimatedMinutes": 75,
+  "objective": "建立可快速调用的基础词库：人称、数字、日期、颜色、家庭、居家、食物饮品、身体、职业、地点、交通和生活高频名词形容词。",
+  "strategy": "不要把词汇当孤立清单背。按 category 快速扫：先听发音，再看 IPA 和中文意思；动词变位已经拆到下一课，基础单词这里专心扩词库。",
   "sections": [
     {
       "id": "people-pronouns",
@@ -13,14 +13,134 @@
       "layout": "compact",
       "note": "先拿到句子的主语和常用指代。",
       "blocks": [
-        {"id": "core-je", "type": "word", "text": "je", "audioText": "je", "ipa": "/ʒə/", "translation": "我", "examples": [{"text": "Je parle.", "audioText": "Je parle.", "ipa": "/ʒə paʁl/", "translation": "我说。"}]},
-        {"id": "core-tu", "type": "word", "text": "tu", "audioText": "tu", "ipa": "/ty/", "translation": "你", "examples": [{"text": "Tu comprends ?", "audioText": "Tu comprends ?", "ipa": "/ty kɔ̃pʁɑ̃/", "translation": "你懂吗？"}]},
-        {"id": "core-il", "type": "word", "text": "il", "audioText": "il", "ipa": "/il/", "translation": "他 / 它", "examples": [{"text": "Il est là.", "audioText": "Il est là.", "ipa": "/il ɛ la/", "translation": "他在那里。"}]},
-        {"id": "core-elle", "type": "word", "text": "elle", "audioText": "elle", "ipa": "/ɛl/", "translation": "她 / 它", "examples": [{"text": "Elle est ici.", "audioText": "Elle est ici.", "ipa": "/ɛl ɛ isi/", "translation": "她在这里。"}]},
-        {"id": "core-nous", "type": "word", "text": "nous", "audioText": "nous", "ipa": "/nu/", "translation": "我们", "examples": [{"text": "Nous parlons.", "audioText": "Nous parlons.", "ipa": "/nu paʁlɔ̃/", "translation": "我们说。"}]},
-        {"id": "core-on", "type": "word", "text": "on", "audioText": "on", "ipa": "/ɔ̃/", "translation": "我们 / 人们", "examples": [{"text": "On y va.", "audioText": "On y va.", "ipa": "/ɔ̃ ni va/", "translation": "我们走。"}]},
-        {"id": "core-vous", "type": "word", "text": "vous", "audioText": "vous", "ipa": "/vu/", "translation": "您 / 你们", "examples": [{"text": "Vous avez le temps ?", "audioText": "Vous avez le temps ?", "ipa": "/vu zave lə tɑ̃/", "translation": "您有时间吗？"}]},
-        {"id": "core-ils-elles", "type": "word", "text": "ils / elles", "audioText": "ils, elles", "ipa": "/il/ /ɛl/", "translation": "他们 / 她们", "examples": [{"text": "Ils sont prêts.", "audioText": "Ils sont prêts.", "ipa": "/il sɔ̃ pʁɛ/", "translation": "他们准备好了。"}]}
+        {
+          "id": "core-je",
+          "type": "word",
+          "text": "je",
+          "audioText": "je",
+          "ipa": "/ʒə/",
+          "translation": "我",
+          "examples": [
+            {
+              "text": "Je parle.",
+              "audioText": "Je parle.",
+              "ipa": "/ʒə paʁl/",
+              "translation": "我说。"
+            }
+          ]
+        },
+        {
+          "id": "core-tu",
+          "type": "word",
+          "text": "tu",
+          "audioText": "tu",
+          "ipa": "/ty/",
+          "translation": "你",
+          "examples": [
+            {
+              "text": "Tu comprends ?",
+              "audioText": "Tu comprends ?",
+              "ipa": "/ty kɔ̃pʁɑ̃/",
+              "translation": "你懂吗？"
+            }
+          ]
+        },
+        {
+          "id": "core-il",
+          "type": "word",
+          "text": "il",
+          "audioText": "il",
+          "ipa": "/il/",
+          "translation": "他 / 它",
+          "examples": [
+            {
+              "text": "Il est là.",
+              "audioText": "Il est là.",
+              "ipa": "/il ɛ la/",
+              "translation": "他在那里。"
+            }
+          ]
+        },
+        {
+          "id": "core-elle",
+          "type": "word",
+          "text": "elle",
+          "audioText": "elle",
+          "ipa": "/ɛl/",
+          "translation": "她 / 它",
+          "examples": [
+            {
+              "text": "Elle est ici.",
+              "audioText": "Elle est ici.",
+              "ipa": "/ɛl ɛ isi/",
+              "translation": "她在这里。"
+            }
+          ]
+        },
+        {
+          "id": "core-nous",
+          "type": "word",
+          "text": "nous",
+          "audioText": "nous",
+          "ipa": "/nu/",
+          "translation": "我们",
+          "examples": [
+            {
+              "text": "Nous parlons.",
+              "audioText": "Nous parlons.",
+              "ipa": "/nu paʁlɔ̃/",
+              "translation": "我们说。"
+            }
+          ]
+        },
+        {
+          "id": "core-on",
+          "type": "word",
+          "text": "on",
+          "audioText": "on",
+          "ipa": "/ɔ̃/",
+          "translation": "我们 / 人们",
+          "examples": [
+            {
+              "text": "On y va.",
+              "audioText": "On y va.",
+              "ipa": "/ɔ̃ ni va/",
+              "translation": "我们走。"
+            }
+          ]
+        },
+        {
+          "id": "core-vous",
+          "type": "word",
+          "text": "vous",
+          "audioText": "vous",
+          "ipa": "/vu/",
+          "translation": "您 / 你们",
+          "examples": [
+            {
+              "text": "Vous avez le temps ?",
+              "audioText": "Vous avez le temps ?",
+              "ipa": "/vu zave lə tɑ̃/",
+              "translation": "您有时间吗？"
+            }
+          ]
+        },
+        {
+          "id": "core-ils-elles",
+          "type": "word",
+          "text": "ils / elles",
+          "audioText": "ils, elles",
+          "ipa": "/il/ /ɛl/",
+          "translation": "他们 / 她们",
+          "examples": [
+            {
+              "text": "Ils sont prêts.",
+              "audioText": "Ils sont prêts.",
+              "ipa": "/il sɔ̃ pʁɛ/",
+              "translation": "他们准备好了。"
+            }
+          ]
+        }
       ]
     },
     {
@@ -29,32 +149,214 @@
       "layout": "compact",
       "note": "先掌握 0-20 和整十，足够应付价格、时间、数量的入门表达。",
       "blocks": [
-        {"id": "num-zero", "type": "word", "text": "zéro", "audioText": "zéro", "ipa": "/zeʁo/", "translation": "0"},
-        {"id": "num-un", "type": "word", "text": "un", "audioText": "un", "ipa": "/œ̃/", "translation": "1 / 一个"},
-        {"id": "num-deux", "type": "word", "text": "deux", "audioText": "deux", "ipa": "/dø/", "translation": "2"},
-        {"id": "num-trois", "type": "word", "text": "trois", "audioText": "trois", "ipa": "/tʁwa/", "translation": "3"},
-        {"id": "num-quatre", "type": "word", "text": "quatre", "audioText": "quatre", "ipa": "/katʁ/", "translation": "4"},
-        {"id": "num-cinq", "type": "word", "text": "cinq", "audioText": "cinq", "ipa": "/sɛ̃k/", "translation": "5"},
-        {"id": "num-six", "type": "word", "text": "six", "audioText": "six", "ipa": "/sis/", "translation": "6"},
-        {"id": "num-sept", "type": "word", "text": "sept", "audioText": "sept", "ipa": "/sɛt/", "translation": "7"},
-        {"id": "num-huit", "type": "word", "text": "huit", "audioText": "huit", "ipa": "/ɥit/", "translation": "8"},
-        {"id": "num-neuf", "type": "word", "text": "neuf", "audioText": "neuf", "ipa": "/nœf/", "translation": "9"},
-        {"id": "num-dix", "type": "word", "text": "dix", "audioText": "dix", "ipa": "/dis/", "translation": "10"},
-        {"id": "num-onze", "type": "word", "text": "onze", "audioText": "onze", "ipa": "/ɔ̃z/", "translation": "11"},
-        {"id": "num-douze", "type": "word", "text": "douze", "audioText": "douze", "ipa": "/duz/", "translation": "12"},
-        {"id": "num-treize", "type": "word", "text": "treize", "audioText": "treize", "ipa": "/tʁɛz/", "translation": "13"},
-        {"id": "num-quatorze", "type": "word", "text": "quatorze", "audioText": "quatorze", "ipa": "/katɔʁz/", "translation": "14"},
-        {"id": "num-quinze", "type": "word", "text": "quinze", "audioText": "quinze", "ipa": "/kɛ̃z/", "translation": "15"},
-        {"id": "num-seize", "type": "word", "text": "seize", "audioText": "seize", "ipa": "/sɛz/", "translation": "16"},
-        {"id": "num-dix-sept", "type": "word", "text": "dix-sept", "audioText": "dix-sept", "ipa": "/dis sɛt/", "translation": "17"},
-        {"id": "num-dix-huit", "type": "word", "text": "dix-huit", "audioText": "dix-huit", "ipa": "/diz ɥit/", "translation": "18"},
-        {"id": "num-dix-neuf", "type": "word", "text": "dix-neuf", "audioText": "dix-neuf", "ipa": "/diz nœf/", "translation": "19"},
-        {"id": "num-vingt", "type": "word", "text": "vingt", "audioText": "vingt", "ipa": "/vɛ̃/", "translation": "20"},
-        {"id": "num-trente", "type": "word", "text": "trente", "audioText": "trente", "ipa": "/tʁɑ̃t/", "translation": "30"},
-        {"id": "num-quarante", "type": "word", "text": "quarante", "audioText": "quarante", "ipa": "/kaʁɑ̃t/", "translation": "40"},
-        {"id": "num-cinquante", "type": "word", "text": "cinquante", "audioText": "cinquante", "ipa": "/sɛ̃kɑ̃t/", "translation": "50"},
-        {"id": "num-soixante", "type": "word", "text": "soixante", "audioText": "soixante", "ipa": "/swasɑ̃t/", "translation": "60"},
-        {"id": "num-cent", "type": "word", "text": "cent", "audioText": "cent", "ipa": "/sɑ̃/", "translation": "100"}
+        {
+          "id": "num-zero",
+          "type": "word",
+          "text": "zéro",
+          "audioText": "zéro",
+          "ipa": "/zeʁo/",
+          "translation": "0"
+        },
+        {
+          "id": "num-un",
+          "type": "word",
+          "text": "un",
+          "audioText": "un",
+          "ipa": "/œ̃/",
+          "translation": "1 / 一个"
+        },
+        {
+          "id": "num-deux",
+          "type": "word",
+          "text": "deux",
+          "audioText": "deux",
+          "ipa": "/dø/",
+          "translation": "2"
+        },
+        {
+          "id": "num-trois",
+          "type": "word",
+          "text": "trois",
+          "audioText": "trois",
+          "ipa": "/tʁwa/",
+          "translation": "3"
+        },
+        {
+          "id": "num-quatre",
+          "type": "word",
+          "text": "quatre",
+          "audioText": "quatre",
+          "ipa": "/katʁ/",
+          "translation": "4"
+        },
+        {
+          "id": "num-cinq",
+          "type": "word",
+          "text": "cinq",
+          "audioText": "cinq",
+          "ipa": "/sɛ̃k/",
+          "translation": "5"
+        },
+        {
+          "id": "num-six",
+          "type": "word",
+          "text": "six",
+          "audioText": "six",
+          "ipa": "/sis/",
+          "translation": "6"
+        },
+        {
+          "id": "num-sept",
+          "type": "word",
+          "text": "sept",
+          "audioText": "sept",
+          "ipa": "/sɛt/",
+          "translation": "7"
+        },
+        {
+          "id": "num-huit",
+          "type": "word",
+          "text": "huit",
+          "audioText": "huit",
+          "ipa": "/ɥit/",
+          "translation": "8"
+        },
+        {
+          "id": "num-neuf",
+          "type": "word",
+          "text": "neuf",
+          "audioText": "neuf",
+          "ipa": "/nœf/",
+          "translation": "9"
+        },
+        {
+          "id": "num-dix",
+          "type": "word",
+          "text": "dix",
+          "audioText": "dix",
+          "ipa": "/dis/",
+          "translation": "10"
+        },
+        {
+          "id": "num-onze",
+          "type": "word",
+          "text": "onze",
+          "audioText": "onze",
+          "ipa": "/ɔ̃z/",
+          "translation": "11"
+        },
+        {
+          "id": "num-douze",
+          "type": "word",
+          "text": "douze",
+          "audioText": "douze",
+          "ipa": "/duz/",
+          "translation": "12"
+        },
+        {
+          "id": "num-treize",
+          "type": "word",
+          "text": "treize",
+          "audioText": "treize",
+          "ipa": "/tʁɛz/",
+          "translation": "13"
+        },
+        {
+          "id": "num-quatorze",
+          "type": "word",
+          "text": "quatorze",
+          "audioText": "quatorze",
+          "ipa": "/katɔʁz/",
+          "translation": "14"
+        },
+        {
+          "id": "num-quinze",
+          "type": "word",
+          "text": "quinze",
+          "audioText": "quinze",
+          "ipa": "/kɛ̃z/",
+          "translation": "15"
+        },
+        {
+          "id": "num-seize",
+          "type": "word",
+          "text": "seize",
+          "audioText": "seize",
+          "ipa": "/sɛz/",
+          "translation": "16"
+        },
+        {
+          "id": "num-dix-sept",
+          "type": "word",
+          "text": "dix-sept",
+          "audioText": "dix-sept",
+          "ipa": "/dis sɛt/",
+          "translation": "17"
+        },
+        {
+          "id": "num-dix-huit",
+          "type": "word",
+          "text": "dix-huit",
+          "audioText": "dix-huit",
+          "ipa": "/diz ɥit/",
+          "translation": "18"
+        },
+        {
+          "id": "num-dix-neuf",
+          "type": "word",
+          "text": "dix-neuf",
+          "audioText": "dix-neuf",
+          "ipa": "/diz nœf/",
+          "translation": "19"
+        },
+        {
+          "id": "num-vingt",
+          "type": "word",
+          "text": "vingt",
+          "audioText": "vingt",
+          "ipa": "/vɛ̃/",
+          "translation": "20"
+        },
+        {
+          "id": "num-trente",
+          "type": "word",
+          "text": "trente",
+          "audioText": "trente",
+          "ipa": "/tʁɑ̃t/",
+          "translation": "30"
+        },
+        {
+          "id": "num-quarante",
+          "type": "word",
+          "text": "quarante",
+          "audioText": "quarante",
+          "ipa": "/kaʁɑ̃t/",
+          "translation": "40"
+        },
+        {
+          "id": "num-cinquante",
+          "type": "word",
+          "text": "cinquante",
+          "audioText": "cinquante",
+          "ipa": "/sɛ̃kɑ̃t/",
+          "translation": "50"
+        },
+        {
+          "id": "num-soixante",
+          "type": "word",
+          "text": "soixante",
+          "audioText": "soixante",
+          "ipa": "/swasɑ̃t/",
+          "translation": "60"
+        },
+        {
+          "id": "num-cent",
+          "type": "word",
+          "text": "cent",
+          "audioText": "cent",
+          "ipa": "/sɑ̃/",
+          "translation": "100"
+        }
       ]
     },
     {
@@ -63,25 +365,158 @@
       "layout": "compact",
       "note": "时间词很高频，先能听懂和开口说。",
       "blocks": [
-        {"id": "day-lundi", "type": "word", "text": "lundi", "audioText": "lundi", "ipa": "/lœ̃di/", "translation": "星期一"},
-        {"id": "day-mardi", "type": "word", "text": "mardi", "audioText": "mardi", "ipa": "/maʁdi/", "translation": "星期二"},
-        {"id": "day-mercredi", "type": "word", "text": "mercredi", "audioText": "mercredi", "ipa": "/mɛʁkʁədi/", "translation": "星期三"},
-        {"id": "day-jeudi", "type": "word", "text": "jeudi", "audioText": "jeudi", "ipa": "/ʒødi/", "translation": "星期四"},
-        {"id": "day-vendredi", "type": "word", "text": "vendredi", "audioText": "vendredi", "ipa": "/vɑ̃dʁədi/", "translation": "星期五"},
-        {"id": "day-samedi", "type": "word", "text": "samedi", "audioText": "samedi", "ipa": "/samdi/", "translation": "星期六"},
-        {"id": "day-dimanche", "type": "word", "text": "dimanche", "audioText": "dimanche", "ipa": "/dimɑ̃ʃ/", "translation": "星期日"},
-        {"id": "month-janvier", "type": "word", "text": "janvier", "audioText": "janvier", "ipa": "/ʒɑ̃vje/", "translation": "一月"},
-        {"id": "month-fevrier", "type": "word", "text": "février", "audioText": "février", "ipa": "/fevʁije/", "translation": "二月"},
-        {"id": "month-mars", "type": "word", "text": "mars", "audioText": "mars", "ipa": "/maʁs/", "translation": "三月"},
-        {"id": "month-avril", "type": "word", "text": "avril", "audioText": "avril", "ipa": "/avʁil/", "translation": "四月"},
-        {"id": "month-mai", "type": "word", "text": "mai", "audioText": "mai", "ipa": "/mɛ/", "translation": "五月"},
-        {"id": "month-juin", "type": "word", "text": "juin", "audioText": "juin", "ipa": "/ʒɥɛ̃/", "translation": "六月"},
-        {"id": "month-juillet", "type": "word", "text": "juillet", "audioText": "juillet", "ipa": "/ʒɥijɛ/", "translation": "七月"},
-        {"id": "month-aout", "type": "word", "text": "août", "audioText": "août", "ipa": "/ut/", "translation": "八月"},
-        {"id": "month-septembre", "type": "word", "text": "septembre", "audioText": "septembre", "ipa": "/sɛptɑ̃bʁ/", "translation": "九月"},
-        {"id": "month-octobre", "type": "word", "text": "octobre", "audioText": "octobre", "ipa": "/ɔktɔbʁ/", "translation": "十月"},
-        {"id": "month-novembre", "type": "word", "text": "novembre", "audioText": "novembre", "ipa": "/nɔvɑ̃bʁ/", "translation": "十一月"},
-        {"id": "month-decembre", "type": "word", "text": "décembre", "audioText": "décembre", "ipa": "/desɑ̃bʁ/", "translation": "十二月"}
+        {
+          "id": "day-lundi",
+          "type": "word",
+          "text": "lundi",
+          "audioText": "lundi",
+          "ipa": "/lœ̃di/",
+          "translation": "星期一"
+        },
+        {
+          "id": "day-mardi",
+          "type": "word",
+          "text": "mardi",
+          "audioText": "mardi",
+          "ipa": "/maʁdi/",
+          "translation": "星期二"
+        },
+        {
+          "id": "day-mercredi",
+          "type": "word",
+          "text": "mercredi",
+          "audioText": "mercredi",
+          "ipa": "/mɛʁkʁədi/",
+          "translation": "星期三"
+        },
+        {
+          "id": "day-jeudi",
+          "type": "word",
+          "text": "jeudi",
+          "audioText": "jeudi",
+          "ipa": "/ʒødi/",
+          "translation": "星期四"
+        },
+        {
+          "id": "day-vendredi",
+          "type": "word",
+          "text": "vendredi",
+          "audioText": "vendredi",
+          "ipa": "/vɑ̃dʁədi/",
+          "translation": "星期五"
+        },
+        {
+          "id": "day-samedi",
+          "type": "word",
+          "text": "samedi",
+          "audioText": "samedi",
+          "ipa": "/samdi/",
+          "translation": "星期六"
+        },
+        {
+          "id": "day-dimanche",
+          "type": "word",
+          "text": "dimanche",
+          "audioText": "dimanche",
+          "ipa": "/dimɑ̃ʃ/",
+          "translation": "星期日"
+        },
+        {
+          "id": "month-janvier",
+          "type": "word",
+          "text": "janvier",
+          "audioText": "janvier",
+          "ipa": "/ʒɑ̃vje/",
+          "translation": "一月"
+        },
+        {
+          "id": "month-fevrier",
+          "type": "word",
+          "text": "février",
+          "audioText": "février",
+          "ipa": "/fevʁije/",
+          "translation": "二月"
+        },
+        {
+          "id": "month-mars",
+          "type": "word",
+          "text": "mars",
+          "audioText": "mars",
+          "ipa": "/maʁs/",
+          "translation": "三月"
+        },
+        {
+          "id": "month-avril",
+          "type": "word",
+          "text": "avril",
+          "audioText": "avril",
+          "ipa": "/avʁil/",
+          "translation": "四月"
+        },
+        {
+          "id": "month-mai",
+          "type": "word",
+          "text": "mai",
+          "audioText": "mai",
+          "ipa": "/mɛ/",
+          "translation": "五月"
+        },
+        {
+          "id": "month-juin",
+          "type": "word",
+          "text": "juin",
+          "audioText": "juin",
+          "ipa": "/ʒɥɛ̃/",
+          "translation": "六月"
+        },
+        {
+          "id": "month-juillet",
+          "type": "word",
+          "text": "juillet",
+          "audioText": "juillet",
+          "ipa": "/ʒɥijɛ/",
+          "translation": "七月"
+        },
+        {
+          "id": "month-aout",
+          "type": "word",
+          "text": "août",
+          "audioText": "août",
+          "ipa": "/ut/",
+          "translation": "八月"
+        },
+        {
+          "id": "month-septembre",
+          "type": "word",
+          "text": "septembre",
+          "audioText": "septembre",
+          "ipa": "/sɛptɑ̃bʁ/",
+          "translation": "九月"
+        },
+        {
+          "id": "month-octobre",
+          "type": "word",
+          "text": "octobre",
+          "audioText": "octobre",
+          "ipa": "/ɔktɔbʁ/",
+          "translation": "十月"
+        },
+        {
+          "id": "month-novembre",
+          "type": "word",
+          "text": "novembre",
+          "audioText": "novembre",
+          "ipa": "/nɔvɑ̃bʁ/",
+          "translation": "十一月"
+        },
+        {
+          "id": "month-decembre",
+          "type": "word",
+          "text": "décembre",
+          "audioText": "décembre",
+          "ipa": "/desɑ̃bʁ/",
+          "translation": "十二月"
+        }
       ]
     },
     {
@@ -90,21 +525,142 @@
       "layout": "compact",
       "note": "这些词负责把动作放进现实场景，并把句子连接起来。",
       "blocks": [
-        {"id": "core-ici", "type": "word", "text": "ici", "audioText": "ici", "ipa": "/isi/", "translation": "这里", "examples": [{"text": "Je suis ici.", "audioText": "Je suis ici.", "ipa": "/ʒə sɥi isi/", "translation": "我在这里。"}]},
-        {"id": "core-la", "type": "word", "text": "là", "audioText": "là", "ipa": "/la/", "translation": "那里 / 在那", "examples": [{"text": "Il est là.", "audioText": "Il est là.", "ipa": "/il ɛ la/", "translation": "他在那里。"}]},
-        {"id": "core-aujourdhui", "type": "word", "text": "aujourd'hui", "audioText": "aujourd'hui", "ipa": "/oʒuʁdɥi/", "translation": "今天"},
-        {"id": "core-demain", "type": "word", "text": "demain", "audioText": "demain", "ipa": "/dəmɛ̃/", "translation": "明天"},
-        {"id": "core-hier", "type": "word", "text": "hier", "audioText": "hier", "ipa": "/jɛʁ/", "translation": "昨天"},
-        {"id": "core-maintenant", "type": "word", "text": "maintenant", "audioText": "maintenant", "ipa": "/mɛ̃tnɑ̃/", "translation": "现在"},
-        {"id": "core-temps", "type": "word", "text": "temps", "audioText": "temps", "ipa": "/tɑ̃/", "translation": "时间 / 天气"},
-        {"id": "core-fois", "type": "word", "text": "fois", "audioText": "fois", "ipa": "/fwa/", "translation": "次"},
-        {"id": "core-et", "type": "word", "text": "et", "audioText": "et", "ipa": "/e/", "translation": "和 / 并且"},
-        {"id": "core-mais", "type": "word", "text": "mais", "audioText": "mais", "ipa": "/mɛ/", "translation": "但是"},
-        {"id": "core-ou", "type": "word", "text": "ou", "audioText": "ou", "ipa": "/u/", "translation": "或者"},
-        {"id": "core-donc", "type": "word", "text": "donc", "audioText": "donc", "ipa": "/dɔ̃k/", "translation": "所以 / 那么"},
-        {"id": "core-parce-que", "type": "phrase", "text": "parce que", "audioText": "parce que", "ipa": "/paʁs kə/", "translation": "因为"},
-        {"id": "core-avec", "type": "word", "text": "avec", "audioText": "avec", "ipa": "/avɛk/", "translation": "和 / 带着"},
-        {"id": "core-sans", "type": "word", "text": "sans", "audioText": "sans", "ipa": "/sɑ̃/", "translation": "没有 / 不带"}
+        {
+          "id": "core-ici",
+          "type": "word",
+          "text": "ici",
+          "audioText": "ici",
+          "ipa": "/isi/",
+          "translation": "这里",
+          "examples": [
+            {
+              "text": "Je suis ici.",
+              "audioText": "Je suis ici.",
+              "ipa": "/ʒə sɥi isi/",
+              "translation": "我在这里。"
+            }
+          ]
+        },
+        {
+          "id": "core-la",
+          "type": "word",
+          "text": "là",
+          "audioText": "là",
+          "ipa": "/la/",
+          "translation": "那里 / 在那",
+          "examples": [
+            {
+              "text": "Il est là.",
+              "audioText": "Il est là.",
+              "ipa": "/il ɛ la/",
+              "translation": "他在那里。"
+            }
+          ]
+        },
+        {
+          "id": "core-aujourdhui",
+          "type": "word",
+          "text": "aujourd'hui",
+          "audioText": "aujourd'hui",
+          "ipa": "/oʒuʁdɥi/",
+          "translation": "今天"
+        },
+        {
+          "id": "core-demain",
+          "type": "word",
+          "text": "demain",
+          "audioText": "demain",
+          "ipa": "/dəmɛ̃/",
+          "translation": "明天"
+        },
+        {
+          "id": "core-hier",
+          "type": "word",
+          "text": "hier",
+          "audioText": "hier",
+          "ipa": "/jɛʁ/",
+          "translation": "昨天"
+        },
+        {
+          "id": "core-maintenant",
+          "type": "word",
+          "text": "maintenant",
+          "audioText": "maintenant",
+          "ipa": "/mɛ̃tnɑ̃/",
+          "translation": "现在"
+        },
+        {
+          "id": "core-temps",
+          "type": "word",
+          "text": "temps",
+          "audioText": "temps",
+          "ipa": "/tɑ̃/",
+          "translation": "时间 / 天气"
+        },
+        {
+          "id": "core-fois",
+          "type": "word",
+          "text": "fois",
+          "audioText": "fois",
+          "ipa": "/fwa/",
+          "translation": "次"
+        },
+        {
+          "id": "core-et",
+          "type": "word",
+          "text": "et",
+          "audioText": "et",
+          "ipa": "/e/",
+          "translation": "和 / 并且"
+        },
+        {
+          "id": "core-mais",
+          "type": "word",
+          "text": "mais",
+          "audioText": "mais",
+          "ipa": "/mɛ/",
+          "translation": "但是"
+        },
+        {
+          "id": "core-ou",
+          "type": "word",
+          "text": "ou",
+          "audioText": "ou",
+          "ipa": "/u/",
+          "translation": "或者"
+        },
+        {
+          "id": "core-donc",
+          "type": "word",
+          "text": "donc",
+          "audioText": "donc",
+          "ipa": "/dɔ̃k/",
+          "translation": "所以 / 那么"
+        },
+        {
+          "id": "core-parce-que",
+          "type": "phrase",
+          "text": "parce que",
+          "audioText": "parce que",
+          "ipa": "/paʁs kə/",
+          "translation": "因为"
+        },
+        {
+          "id": "core-avec",
+          "type": "word",
+          "text": "avec",
+          "audioText": "avec",
+          "ipa": "/avɛk/",
+          "translation": "和 / 带着"
+        },
+        {
+          "id": "core-sans",
+          "type": "word",
+          "text": "sans",
+          "audioText": "sans",
+          "ipa": "/sɑ̃/",
+          "translation": "没有 / 不带"
+        }
       ]
     },
     {
@@ -113,18 +669,102 @@
       "layout": "compact",
       "note": "这些名词可以马上进入句子。",
       "blocks": [
-        {"id": "noun-maison", "type": "word", "text": "maison", "audioText": "maison", "ipa": "/mɛzɔ̃/", "translation": "房子 / 家"},
-        {"id": "noun-travail", "type": "word", "text": "travail", "audioText": "travail", "ipa": "/tʁavaj/", "translation": "工作"},
-        {"id": "noun-argent", "type": "word", "text": "argent", "audioText": "argent", "ipa": "/aʁʒɑ̃/", "translation": "钱"},
-        {"id": "noun-question", "type": "word", "text": "question", "audioText": "question", "ipa": "/kɛstjɔ̃/", "translation": "问题"},
-        {"id": "noun-probleme", "type": "word", "text": "problème", "audioText": "problème", "ipa": "/pʁɔblɛm/", "translation": "问题 / 麻烦"},
-        {"id": "noun-chose", "type": "word", "text": "chose", "audioText": "chose", "ipa": "/ʃoz/", "translation": "东西 / 事情"},
-        {"id": "noun-personne", "type": "word", "text": "personne", "audioText": "personne", "ipa": "/pɛʁsɔn/", "translation": "人 / 没有人"},
-        {"id": "noun-livre", "type": "word", "text": "livre", "audioText": "livre", "ipa": "/livʁ/", "translation": "书"},
-        {"id": "noun-ville", "type": "word", "text": "ville", "audioText": "ville", "ipa": "/vil/", "translation": "城市"},
-        {"id": "noun-pays", "type": "word", "text": "pays", "audioText": "pays", "ipa": "/pei/", "translation": "国家"},
-        {"id": "noun-langue", "type": "word", "text": "langue", "audioText": "langue", "ipa": "/lɑ̃ɡ/", "translation": "语言 / 舌头"},
-        {"id": "noun-eau", "type": "word", "text": "eau", "audioText": "eau", "ipa": "/o/", "translation": "水"}
+        {
+          "id": "noun-maison",
+          "type": "word",
+          "text": "maison",
+          "audioText": "maison",
+          "ipa": "/mɛzɔ̃/",
+          "translation": "房子 / 家"
+        },
+        {
+          "id": "noun-travail",
+          "type": "word",
+          "text": "travail",
+          "audioText": "travail",
+          "ipa": "/tʁavaj/",
+          "translation": "工作"
+        },
+        {
+          "id": "noun-argent",
+          "type": "word",
+          "text": "argent",
+          "audioText": "argent",
+          "ipa": "/aʁʒɑ̃/",
+          "translation": "钱"
+        },
+        {
+          "id": "noun-question",
+          "type": "word",
+          "text": "question",
+          "audioText": "question",
+          "ipa": "/kɛstjɔ̃/",
+          "translation": "问题"
+        },
+        {
+          "id": "noun-probleme",
+          "type": "word",
+          "text": "problème",
+          "audioText": "problème",
+          "ipa": "/pʁɔblɛm/",
+          "translation": "问题 / 麻烦"
+        },
+        {
+          "id": "noun-chose",
+          "type": "word",
+          "text": "chose",
+          "audioText": "chose",
+          "ipa": "/ʃoz/",
+          "translation": "东西 / 事情"
+        },
+        {
+          "id": "noun-personne",
+          "type": "word",
+          "text": "personne",
+          "audioText": "personne",
+          "ipa": "/pɛʁsɔn/",
+          "translation": "人 / 没有人"
+        },
+        {
+          "id": "noun-livre",
+          "type": "word",
+          "text": "livre",
+          "audioText": "livre",
+          "ipa": "/livʁ/",
+          "translation": "书"
+        },
+        {
+          "id": "noun-ville",
+          "type": "word",
+          "text": "ville",
+          "audioText": "ville",
+          "ipa": "/vil/",
+          "translation": "城市"
+        },
+        {
+          "id": "noun-pays",
+          "type": "word",
+          "text": "pays",
+          "audioText": "pays",
+          "ipa": "/pei/",
+          "translation": "国家"
+        },
+        {
+          "id": "noun-langue",
+          "type": "word",
+          "text": "langue",
+          "audioText": "langue",
+          "ipa": "/lɑ̃ɡ/",
+          "translation": "语言 / 舌头"
+        },
+        {
+          "id": "noun-eau",
+          "type": "word",
+          "text": "eau",
+          "audioText": "eau",
+          "ipa": "/o/",
+          "translation": "水"
+        }
       ]
     },
     {
@@ -133,22 +773,134 @@
       "layout": "compact",
       "note": "食物词常用于购物、点餐和日常描述。",
       "blocks": [
-        {"id": "fruit-pomme", "type": "word", "text": "pomme", "audioText": "pomme", "ipa": "/pɔm/", "translation": "苹果"},
-        {"id": "fruit-banane", "type": "word", "text": "banane", "audioText": "banane", "ipa": "/banan/", "translation": "香蕉"},
-        {"id": "fruit-orange", "type": "word", "text": "orange", "audioText": "orange", "ipa": "/ɔʁɑ̃ʒ/", "translation": "橙子 / 橙色"},
-        {"id": "fruit-fraise", "type": "word", "text": "fraise", "audioText": "fraise", "ipa": "/fʁɛz/", "translation": "草莓"},
-        {"id": "fruit-raisin", "type": "word", "text": "raisin", "audioText": "raisin", "ipa": "/ʁɛzɛ̃/", "translation": "葡萄"},
-        {"id": "fruit-citron", "type": "word", "text": "citron", "audioText": "citron", "ipa": "/sitʁɔ̃/", "translation": "柠檬"},
-        {"id": "fruit-peche", "type": "word", "text": "pêche", "audioText": "pêche", "ipa": "/pɛʃ/", "translation": "桃子"},
-        {"id": "fruit-poire", "type": "word", "text": "poire", "audioText": "poire", "ipa": "/pwaʁ/", "translation": "梨"},
-        {"id": "veg-carotte", "type": "word", "text": "carotte", "audioText": "carotte", "ipa": "/kaʁɔt/", "translation": "胡萝卜"},
-        {"id": "veg-tomate", "type": "word", "text": "tomate", "audioText": "tomate", "ipa": "/tɔmat/", "translation": "番茄"},
-        {"id": "veg-pomme-de-terre", "type": "phrase", "text": "pomme de terre", "audioText": "pomme de terre", "ipa": "/pɔm də tɛʁ/", "translation": "土豆"},
-        {"id": "veg-oignon", "type": "word", "text": "oignon", "audioText": "oignon", "ipa": "/ɔɲɔ̃/", "translation": "洋葱"},
-        {"id": "veg-salade", "type": "word", "text": "salade", "audioText": "salade", "ipa": "/salad/", "translation": "生菜 / 沙拉"},
-        {"id": "veg-concombre", "type": "word", "text": "concombre", "audioText": "concombre", "ipa": "/kɔ̃kɔ̃bʁ/", "translation": "黄瓜"},
-        {"id": "veg-champignon", "type": "word", "text": "champignon", "audioText": "champignon", "ipa": "/ʃɑ̃piɲɔ̃/", "translation": "蘑菇"},
-        {"id": "veg-ail", "type": "word", "text": "ail", "audioText": "ail", "ipa": "/aj/", "translation": "大蒜"}
+        {
+          "id": "fruit-pomme",
+          "type": "word",
+          "text": "pomme",
+          "audioText": "pomme",
+          "ipa": "/pɔm/",
+          "translation": "苹果"
+        },
+        {
+          "id": "fruit-banane",
+          "type": "word",
+          "text": "banane",
+          "audioText": "banane",
+          "ipa": "/banan/",
+          "translation": "香蕉"
+        },
+        {
+          "id": "fruit-orange",
+          "type": "word",
+          "text": "orange",
+          "audioText": "orange",
+          "ipa": "/ɔʁɑ̃ʒ/",
+          "translation": "橙子 / 橙色"
+        },
+        {
+          "id": "fruit-fraise",
+          "type": "word",
+          "text": "fraise",
+          "audioText": "fraise",
+          "ipa": "/fʁɛz/",
+          "translation": "草莓"
+        },
+        {
+          "id": "fruit-raisin",
+          "type": "word",
+          "text": "raisin",
+          "audioText": "raisin",
+          "ipa": "/ʁɛzɛ̃/",
+          "translation": "葡萄"
+        },
+        {
+          "id": "fruit-citron",
+          "type": "word",
+          "text": "citron",
+          "audioText": "citron",
+          "ipa": "/sitʁɔ̃/",
+          "translation": "柠檬"
+        },
+        {
+          "id": "fruit-peche",
+          "type": "word",
+          "text": "pêche",
+          "audioText": "pêche",
+          "ipa": "/pɛʃ/",
+          "translation": "桃子"
+        },
+        {
+          "id": "fruit-poire",
+          "type": "word",
+          "text": "poire",
+          "audioText": "poire",
+          "ipa": "/pwaʁ/",
+          "translation": "梨"
+        },
+        {
+          "id": "veg-carotte",
+          "type": "word",
+          "text": "carotte",
+          "audioText": "carotte",
+          "ipa": "/kaʁɔt/",
+          "translation": "胡萝卜"
+        },
+        {
+          "id": "veg-tomate",
+          "type": "word",
+          "text": "tomate",
+          "audioText": "tomate",
+          "ipa": "/tɔmat/",
+          "translation": "番茄"
+        },
+        {
+          "id": "veg-pomme-de-terre",
+          "type": "phrase",
+          "text": "pomme de terre",
+          "audioText": "pomme de terre",
+          "ipa": "/pɔm də tɛʁ/",
+          "translation": "土豆"
+        },
+        {
+          "id": "veg-oignon",
+          "type": "word",
+          "text": "oignon",
+          "audioText": "oignon",
+          "ipa": "/ɔɲɔ̃/",
+          "translation": "洋葱"
+        },
+        {
+          "id": "veg-salade",
+          "type": "word",
+          "text": "salade",
+          "audioText": "salade",
+          "ipa": "/salad/",
+          "translation": "生菜 / 沙拉"
+        },
+        {
+          "id": "veg-concombre",
+          "type": "word",
+          "text": "concombre",
+          "audioText": "concombre",
+          "ipa": "/kɔ̃kɔ̃bʁ/",
+          "translation": "黄瓜"
+        },
+        {
+          "id": "veg-champignon",
+          "type": "word",
+          "text": "champignon",
+          "audioText": "champignon",
+          "ipa": "/ʃɑ̃piɲɔ̃/",
+          "translation": "蘑菇"
+        },
+        {
+          "id": "veg-ail",
+          "type": "word",
+          "text": "ail",
+          "audioText": "ail",
+          "ipa": "/aj/",
+          "translation": "大蒜"
+        }
       ]
     },
     {
@@ -157,14 +909,70 @@
       "layout": "compact",
       "note": "先学日常和儿童读物里高频出现的动物词。",
       "blocks": [
-        {"id": "animal-chat", "type": "word", "text": "chat", "audioText": "chat", "ipa": "/ʃa/", "translation": "猫"},
-        {"id": "animal-chien", "type": "word", "text": "chien", "audioText": "chien", "ipa": "/ʃjɛ̃/", "translation": "狗"},
-        {"id": "animal-oiseau", "type": "word", "text": "oiseau", "audioText": "oiseau", "ipa": "/wazo/", "translation": "鸟"},
-        {"id": "animal-cheval", "type": "word", "text": "cheval", "audioText": "cheval", "ipa": "/ʃəval/", "translation": "马"},
-        {"id": "animal-poisson", "type": "word", "text": "poisson", "audioText": "poisson", "ipa": "/pwasɔ̃/", "translation": "鱼"},
-        {"id": "animal-vache", "type": "word", "text": "vache", "audioText": "vache", "ipa": "/vaʃ/", "translation": "牛"},
-        {"id": "animal-mouton", "type": "word", "text": "mouton", "audioText": "mouton", "ipa": "/mutɔ̃/", "translation": "羊"},
-        {"id": "animal-cochon", "type": "word", "text": "cochon", "audioText": "cochon", "ipa": "/kɔʃɔ̃/", "translation": "猪"}
+        {
+          "id": "animal-chat",
+          "type": "word",
+          "text": "chat",
+          "audioText": "chat",
+          "ipa": "/ʃa/",
+          "translation": "猫"
+        },
+        {
+          "id": "animal-chien",
+          "type": "word",
+          "text": "chien",
+          "audioText": "chien",
+          "ipa": "/ʃjɛ̃/",
+          "translation": "狗"
+        },
+        {
+          "id": "animal-oiseau",
+          "type": "word",
+          "text": "oiseau",
+          "audioText": "oiseau",
+          "ipa": "/wazo/",
+          "translation": "鸟"
+        },
+        {
+          "id": "animal-cheval",
+          "type": "word",
+          "text": "cheval",
+          "audioText": "cheval",
+          "ipa": "/ʃəval/",
+          "translation": "马"
+        },
+        {
+          "id": "animal-poisson",
+          "type": "word",
+          "text": "poisson",
+          "audioText": "poisson",
+          "ipa": "/pwasɔ̃/",
+          "translation": "鱼"
+        },
+        {
+          "id": "animal-vache",
+          "type": "word",
+          "text": "vache",
+          "audioText": "vache",
+          "ipa": "/vaʃ/",
+          "translation": "牛"
+        },
+        {
+          "id": "animal-mouton",
+          "type": "word",
+          "text": "mouton",
+          "audioText": "mouton",
+          "ipa": "/mutɔ̃/",
+          "translation": "羊"
+        },
+        {
+          "id": "animal-cochon",
+          "type": "word",
+          "text": "cochon",
+          "audioText": "cochon",
+          "ipa": "/kɔʃɔ̃/",
+          "translation": "猪"
+        }
       ]
     },
     {
@@ -173,49 +981,1326 @@
       "layout": "compact",
       "note": "这些词能让句子马上变得有信息量。",
       "blocks": [
-        {"id": "adj-bon", "type": "word", "text": "bon", "audioText": "bon", "ipa": "/bɔ̃/", "translation": "好的 / 好吃的"},
-        {"id": "adj-mauvais", "type": "word", "text": "mauvais", "audioText": "mauvais", "ipa": "/movɛ/", "translation": "坏的"},
-        {"id": "adj-grand", "type": "word", "text": "grand", "audioText": "grand", "ipa": "/ɡʁɑ̃/", "translation": "大的 / 高的"},
-        {"id": "adj-petit", "type": "word", "text": "petit", "audioText": "petit", "ipa": "/pəti/", "translation": "小的"},
-        {"id": "adj-nouveau", "type": "word", "text": "nouveau", "audioText": "nouveau", "ipa": "/nuvo/", "translation": "新的"},
-        {"id": "adj-important", "type": "word", "text": "important", "audioText": "important", "ipa": "/ɛ̃pɔʁtɑ̃/", "translation": "重要的"},
-        {"id": "adj-possible", "type": "word", "text": "possible", "audioText": "possible", "ipa": "/pɔsibl/", "translation": "可能的"},
-        {"id": "adj-facile", "type": "word", "text": "facile", "audioText": "facile", "ipa": "/fasil/", "translation": "容易的"},
-        {"id": "adj-difficile", "type": "word", "text": "difficile", "audioText": "difficile", "ipa": "/difisil/", "translation": "困难的"},
-        {"id": "adv-vite", "type": "word", "text": "vite", "audioText": "vite", "ipa": "/vit/", "translation": "快"},
-        {"id": "adv-lentement", "type": "word", "text": "lentement", "audioText": "lentement", "ipa": "/lɑ̃tmɑ̃/", "translation": "慢慢地"},
-        {"id": "adv-toujours", "type": "word", "text": "toujours", "audioText": "toujours", "ipa": "/tuʒuʁ/", "translation": "总是 / 仍然"},
-        {"id": "adv-souvent", "type": "word", "text": "souvent", "audioText": "souvent", "ipa": "/suvɑ̃/", "translation": "经常"},
-        {"id": "adv-jamais", "type": "word", "text": "jamais", "audioText": "jamais", "ipa": "/ʒamɛ/", "translation": "从不 / 曾经"}
+        {
+          "id": "adj-bon",
+          "type": "word",
+          "text": "bon",
+          "audioText": "bon",
+          "ipa": "/bɔ̃/",
+          "translation": "好的 / 好吃的"
+        },
+        {
+          "id": "adj-mauvais",
+          "type": "word",
+          "text": "mauvais",
+          "audioText": "mauvais",
+          "ipa": "/movɛ/",
+          "translation": "坏的"
+        },
+        {
+          "id": "adj-grand",
+          "type": "word",
+          "text": "grand",
+          "audioText": "grand",
+          "ipa": "/ɡʁɑ̃/",
+          "translation": "大的 / 高的"
+        },
+        {
+          "id": "adj-petit",
+          "type": "word",
+          "text": "petit",
+          "audioText": "petit",
+          "ipa": "/pəti/",
+          "translation": "小的"
+        },
+        {
+          "id": "adj-nouveau",
+          "type": "word",
+          "text": "nouveau",
+          "audioText": "nouveau",
+          "ipa": "/nuvo/",
+          "translation": "新的"
+        },
+        {
+          "id": "adj-important",
+          "type": "word",
+          "text": "important",
+          "audioText": "important",
+          "ipa": "/ɛ̃pɔʁtɑ̃/",
+          "translation": "重要的"
+        },
+        {
+          "id": "adj-possible",
+          "type": "word",
+          "text": "possible",
+          "audioText": "possible",
+          "ipa": "/pɔsibl/",
+          "translation": "可能的"
+        },
+        {
+          "id": "adj-facile",
+          "type": "word",
+          "text": "facile",
+          "audioText": "facile",
+          "ipa": "/fasil/",
+          "translation": "容易的"
+        },
+        {
+          "id": "adj-difficile",
+          "type": "word",
+          "text": "difficile",
+          "audioText": "difficile",
+          "ipa": "/difisil/",
+          "translation": "困难的"
+        },
+        {
+          "id": "adv-vite",
+          "type": "word",
+          "text": "vite",
+          "audioText": "vite",
+          "ipa": "/vit/",
+          "translation": "快"
+        },
+        {
+          "id": "adv-lentement",
+          "type": "word",
+          "text": "lentement",
+          "audioText": "lentement",
+          "ipa": "/lɑ̃tmɑ̃/",
+          "translation": "慢慢地"
+        },
+        {
+          "id": "adv-toujours",
+          "type": "word",
+          "text": "toujours",
+          "audioText": "toujours",
+          "ipa": "/tuʒuʁ/",
+          "translation": "总是 / 仍然"
+        },
+        {
+          "id": "adv-souvent",
+          "type": "word",
+          "text": "souvent",
+          "audioText": "souvent",
+          "ipa": "/suvɑ̃/",
+          "translation": "经常"
+        },
+        {
+          "id": "adv-jamais",
+          "type": "word",
+          "text": "jamais",
+          "audioText": "jamais",
+          "ipa": "/ʒamɛ/",
+          "translation": "从不 / 曾经"
+        }
       ]
     },
     {
-      "id": "high-frequency-verbs",
-      "title": "最高频动词 + 现在时变位",
+      "id": "colors",
+      "title": "颜色 color",
       "layout": "compact",
-      "note": "这些动词优先级很高。卡片里直接列现在时六个人称，先看模式，再听例句。",
+      "note": "颜色会高频出现在衣服、家居、食物、描述里，先拿基础色。",
       "blocks": [
-        {"id": "verb-etre", "type": "verb", "text": "être", "audioText": "être", "ipa": "/ɛtʁ/", "translation": "是 / 在 / 存在", "conjugation": {"je": "suis", "tu": "es", "il": "est", "nous": "sommes", "vous": "êtes", "ils": "sont"}, "examples": [{"text": "Je suis prêt.", "audioText": "Je suis prêt.", "ipa": "/ʒə sɥi pʁɛ/", "translation": "我准备好了。"}]},
-        {"id": "verb-avoir", "type": "verb", "text": "avoir", "audioText": "avoir", "ipa": "/avwaʁ/", "translation": "有", "conjugation": {"je": "ai", "tu": "as", "il": "a", "nous": "avons", "vous": "avez", "ils": "ont"}, "examples": [{"text": "J'ai une question.", "audioText": "J'ai une question.", "ipa": "/ʒe yn kɛstjɔ̃/", "translation": "我有一个问题。"}]},
-        {"id": "verb-aller", "type": "verb", "text": "aller", "audioText": "aller", "ipa": "/ale/", "translation": "去", "conjugation": {"je": "vais", "tu": "vas", "il": "va", "nous": "allons", "vous": "allez", "ils": "vont"}, "examples": [{"text": "Je vais à Paris.", "audioText": "Je vais à Paris.", "ipa": "/ʒə vɛ a paʁi/", "translation": "我去巴黎。"}]},
-        {"id": "verb-faire", "type": "verb", "text": "faire", "audioText": "faire", "ipa": "/fɛʁ/", "translation": "做", "conjugation": {"je": "fais", "tu": "fais", "il": "fait", "nous": "faisons", "vous": "faites", "ils": "font"}, "examples": [{"text": "Je fais ça maintenant.", "audioText": "Je fais ça maintenant.", "ipa": "/ʒə fɛ sa mɛ̃tnɑ̃/", "translation": "我现在做这个。"}]},
-        {"id": "verb-pouvoir", "type": "verb", "text": "pouvoir", "audioText": "pouvoir", "ipa": "/puvwaʁ/", "translation": "能够", "conjugation": {"je": "peux", "tu": "peux", "il": "peut", "nous": "pouvons", "vous": "pouvez", "ils": "peuvent"}, "examples": [{"text": "Je peux le faire.", "audioText": "Je peux le faire.", "ipa": "/ʒə pø lə fɛʁ/", "translation": "我能做这件事。"}]},
-        {"id": "verb-vouloir", "type": "verb", "text": "vouloir", "audioText": "vouloir", "ipa": "/vulwaʁ/", "translation": "想要", "conjugation": {"je": "veux", "tu": "veux", "il": "veut", "nous": "voulons", "vous": "voulez", "ils": "veulent"}, "examples": [{"text": "Je veux comprendre.", "audioText": "Je veux comprendre.", "ipa": "/ʒə vø kɔ̃pʁɑ̃dʁ/", "translation": "我想理解。"}]},
-        {"id": "verb-devoir", "type": "verb", "text": "devoir", "audioText": "devoir", "ipa": "/dəvwaʁ/", "translation": "必须 / 应该", "conjugation": {"je": "dois", "tu": "dois", "il": "doit", "nous": "devons", "vous": "devez", "ils": "doivent"}, "examples": [{"text": "Je dois partir.", "audioText": "Je dois partir.", "ipa": "/ʒə dwa paʁtiʁ/", "translation": "我必须离开。"}]},
-        {"id": "verb-savoir", "type": "verb", "text": "savoir", "audioText": "savoir", "ipa": "/savwaʁ/", "translation": "知道 / 会", "conjugation": {"je": "sais", "tu": "sais", "il": "sait", "nous": "savons", "vous": "savez", "ils": "savent"}, "examples": [{"text": "Je ne sais pas.", "audioText": "Je ne sais pas.", "ipa": "/ʒə nə sɛ pa/", "translation": "我不知道。"}]},
-        {"id": "verb-comprendre", "type": "verb", "text": "comprendre", "audioText": "comprendre", "ipa": "/kɔ̃pʁɑ̃dʁ/", "translation": "理解", "conjugation": {"je": "comprends", "tu": "comprends", "il": "comprend", "nous": "comprenons", "vous": "comprenez", "ils": "comprennent"}, "examples": [{"text": "Je comprends.", "audioText": "Je comprends.", "ipa": "/ʒə kɔ̃pʁɑ̃/", "translation": "我理解。"}]},
-        {"id": "verb-parler", "type": "verb", "text": "parler", "audioText": "parler", "ipa": "/paʁle/", "translation": "说", "conjugation": {"je": "parle", "tu": "parles", "il": "parle", "nous": "parlons", "vous": "parlez", "ils": "parlent"}, "examples": [{"text": "Je parle français.", "audioText": "Je parle français.", "ipa": "/ʒə paʁl fʁɑ̃sɛ/", "translation": "我说法语。"}]},
-        {"id": "verb-travailler", "type": "verb", "text": "travailler", "audioText": "travailler", "ipa": "/tʁavaje/", "translation": "工作 / 学习", "conjugation": {"je": "travaille", "tu": "travailles", "il": "travaille", "nous": "travaillons", "vous": "travaillez", "ils": "travaillent"}, "examples": [{"text": "Je travaille aujourd'hui.", "audioText": "Je travaille aujourd'hui.", "ipa": "/ʒə tʁavaj oʒuʁdɥi/", "translation": "我今天工作。"}]},
-        {"id": "verb-aimer", "type": "verb", "text": "aimer", "audioText": "aimer", "ipa": "/eme/", "translation": "喜欢 / 爱", "conjugation": {"je": "aime", "tu": "aimes", "il": "aime", "nous": "aimons", "vous": "aimez", "ils": "aiment"}, "examples": [{"text": "J'aime le français.", "audioText": "J'aime le français.", "ipa": "/ʒɛm lə fʁɑ̃sɛ/", "translation": "我喜欢法语。"}]},
-        {"id": "verb-donner", "type": "verb", "text": "donner", "audioText": "donner", "ipa": "/dɔne/", "translation": "给", "conjugation": {"je": "donne", "tu": "donnes", "il": "donne", "nous": "donnons", "vous": "donnez", "ils": "donnent"}, "examples": [{"text": "Je donne un exemple.", "audioText": "Je donne un exemple.", "ipa": "/ʒə dɔn œ̃ ɛɡzɑ̃pl/", "translation": "我给一个例子。"}]},
-        {"id": "verb-prendre", "type": "verb", "text": "prendre", "audioText": "prendre", "ipa": "/pʁɑ̃dʁ/", "translation": "拿 / 乘坐 / 吃喝", "conjugation": {"je": "prends", "tu": "prends", "il": "prend", "nous": "prenons", "vous": "prenez", "ils": "prennent"}, "examples": [{"text": "Je prends un café.", "audioText": "Je prends un café.", "ipa": "/ʒə pʁɑ̃ œ̃ kafe/", "translation": "我喝一杯咖啡。"}]},
-        {"id": "verb-venir", "type": "verb", "text": "venir", "audioText": "venir", "ipa": "/vəniʁ/", "translation": "来", "conjugation": {"je": "viens", "tu": "viens", "il": "vient", "nous": "venons", "vous": "venez", "ils": "viennent"}, "examples": [{"text": "Je viens de Chine.", "audioText": "Je viens de Chine.", "ipa": "/ʒə vjɛ̃ də ʃin/", "translation": "我来自中国。"}]},
-        {"id": "verb-voir", "type": "verb", "text": "voir", "audioText": "voir", "ipa": "/vwaʁ/", "translation": "看见 / 明白", "conjugation": {"je": "vois", "tu": "vois", "il": "voit", "nous": "voyons", "vous": "voyez", "ils": "voient"}, "examples": [{"text": "Je vois.", "audioText": "Je vois.", "ipa": "/ʒə vwa/", "translation": "我明白 / 我看见。"}]},
-        {"id": "verb-dire", "type": "verb", "text": "dire", "audioText": "dire", "ipa": "/diʁ/", "translation": "说", "conjugation": {"je": "dis", "tu": "dis", "il": "dit", "nous": "disons", "vous": "dites", "ils": "disent"}, "examples": [{"text": "Comment on dit ça ?", "audioText": "Comment on dit ça ?", "ipa": "/kɔmɑ̃ ɔ̃ di sa/", "translation": "这个怎么说？"}]},
-        {"id": "verb-mettre", "type": "verb", "text": "mettre", "audioText": "mettre", "ipa": "/mɛtʁ/", "translation": "放 / 穿 / 花费时间", "conjugation": {"je": "mets", "tu": "mets", "il": "met", "nous": "mettons", "vous": "mettez", "ils": "mettent"}, "examples": [{"text": "Je mets ça ici.", "audioText": "Je mets ça ici.", "ipa": "/ʒə mɛ sa isi/", "translation": "我把这个放这里。"}]},
-        {"id": "verb-partir", "type": "verb", "text": "partir", "audioText": "partir", "ipa": "/paʁtiʁ/", "translation": "离开 / 出发", "conjugation": {"je": "pars", "tu": "pars", "il": "part", "nous": "partons", "vous": "partez", "ils": "partent"}, "examples": [{"text": "Je pars demain.", "audioText": "Je pars demain.", "ipa": "/ʒə paʁ dəmɛ̃/", "translation": "我明天出发。"}]},
-        {"id": "verb-vivre", "type": "verb", "text": "vivre", "audioText": "vivre", "ipa": "/vivʁ/", "translation": "生活 / 居住", "conjugation": {"je": "vis", "tu": "vis", "il": "vit", "nous": "vivons", "vous": "vivez", "ils": "vivent"}, "examples": [{"text": "Je vis ici.", "audioText": "Je vis ici.", "ipa": "/ʒə vi isi/", "translation": "我住在这里。"}]},
-        {"id": "verb-attendre", "type": "verb", "text": "attendre", "audioText": "attendre", "ipa": "/atɑ̃dʁ/", "translation": "等待", "conjugation": {"je": "attends", "tu": "attends", "il": "attend", "nous": "attendons", "vous": "attendez", "ils": "attendent"}, "examples": [{"text": "J'attends ici.", "audioText": "J'attends ici.", "ipa": "/ʒatɑ̃ isi/", "translation": "我在这里等。"}]}
+        {
+          "id": "color-blanc",
+          "type": "word",
+          "text": "blanc / blanche",
+          "audioText": "blanc / blanche",
+          "ipa": "/blɑ̃/ /blɑ̃ʃ/",
+          "translation": "白色的"
+        },
+        {
+          "id": "color-noir",
+          "type": "word",
+          "text": "noir / noire",
+          "audioText": "noir / noire",
+          "ipa": "/nwaʁ/",
+          "translation": "黑色的"
+        },
+        {
+          "id": "color-rouge",
+          "type": "word",
+          "text": "rouge",
+          "audioText": "rouge",
+          "ipa": "/ʁuʒ/",
+          "translation": "红色的"
+        },
+        {
+          "id": "color-bleu",
+          "type": "word",
+          "text": "bleu / bleue",
+          "audioText": "bleu / bleue",
+          "ipa": "/blø/",
+          "translation": "蓝色的"
+        },
+        {
+          "id": "color-vert",
+          "type": "word",
+          "text": "vert / verte",
+          "audioText": "vert / verte",
+          "ipa": "/vɛʁ/ /vɛʁt/",
+          "translation": "绿色的"
+        },
+        {
+          "id": "color-jaune",
+          "type": "word",
+          "text": "jaune",
+          "audioText": "jaune",
+          "ipa": "/ʒon/",
+          "translation": "黄色的"
+        },
+        {
+          "id": "color-gris",
+          "type": "word",
+          "text": "gris / grise",
+          "audioText": "gris / grise",
+          "ipa": "/ɡʁi/ /ɡʁiz/",
+          "translation": "灰色的"
+        },
+        {
+          "id": "color-rose",
+          "type": "word",
+          "text": "rose",
+          "audioText": "rose",
+          "ipa": "/ʁoz/",
+          "translation": "粉色的"
+        },
+        {
+          "id": "color-marron",
+          "type": "word",
+          "text": "marron",
+          "audioText": "marron",
+          "ipa": "/maʁɔ̃/",
+          "translation": "棕色的"
+        },
+        {
+          "id": "color-orange",
+          "type": "word",
+          "text": "orange",
+          "audioText": "orange",
+          "ipa": "/ɔʁɑ̃ʒ/",
+          "translation": "橙色的"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "title": "家庭 family",
+      "layout": "compact",
+      "note": "描述人际关系、聊天、介绍自己时最先用到。",
+      "blocks": [
+        {
+          "id": "family-famille",
+          "type": "word",
+          "text": "la famille",
+          "audioText": "la famille",
+          "ipa": "/la famij/",
+          "translation": "家庭"
+        },
+        {
+          "id": "family-mere",
+          "type": "word",
+          "text": "la mère",
+          "audioText": "la mère",
+          "ipa": "/la mɛʁ/",
+          "translation": "母亲"
+        },
+        {
+          "id": "family-pere",
+          "type": "word",
+          "text": "le père",
+          "audioText": "le père",
+          "ipa": "/lə pɛʁ/",
+          "translation": "父亲"
+        },
+        {
+          "id": "family-parents",
+          "type": "word",
+          "text": "les parents",
+          "audioText": "les parents",
+          "ipa": "/le paʁɑ̃/",
+          "translation": "父母"
+        },
+        {
+          "id": "family-frere",
+          "type": "word",
+          "text": "le frère",
+          "audioText": "le frère",
+          "ipa": "/lə fʁɛʁ/",
+          "translation": "兄弟"
+        },
+        {
+          "id": "family-soeur",
+          "type": "word",
+          "text": "la sœur",
+          "audioText": "la sœur",
+          "ipa": "/la sœʁ/",
+          "translation": "姐妹"
+        },
+        {
+          "id": "family-enfant",
+          "type": "word",
+          "text": "l'enfant",
+          "audioText": "l'enfant",
+          "ipa": "/lɑ̃fɑ̃/",
+          "translation": "孩子"
+        },
+        {
+          "id": "family-fils",
+          "type": "word",
+          "text": "le fils",
+          "audioText": "le fils",
+          "ipa": "/lə fis/",
+          "translation": "儿子"
+        },
+        {
+          "id": "family-fille",
+          "type": "word",
+          "text": "la fille",
+          "audioText": "la fille",
+          "ipa": "/la fij/",
+          "translation": "女儿 / 女孩"
+        },
+        {
+          "id": "family-mari",
+          "type": "word",
+          "text": "le mari",
+          "audioText": "le mari",
+          "ipa": "/lə maʁi/",
+          "translation": "丈夫"
+        },
+        {
+          "id": "family-femme",
+          "type": "word",
+          "text": "la femme",
+          "audioText": "la femme",
+          "ipa": "/la fam/",
+          "translation": "妻子 / 女人"
+        },
+        {
+          "id": "family-ami",
+          "type": "word",
+          "text": "l'ami / l'amie",
+          "audioText": "l'ami / l'amie",
+          "ipa": "/lami/",
+          "translation": "朋友"
+        }
+      ]
+    },
+    {
+      "id": "house-home",
+      "title": "房子与居家 house",
+      "layout": "compact",
+      "note": "房间、家具和日常物件，后面做短句非常顺手。",
+      "blocks": [
+        {
+          "id": "house-maison",
+          "type": "word",
+          "text": "la maison",
+          "audioText": "la maison",
+          "ipa": "/la mɛzɔ̃/",
+          "translation": "房子"
+        },
+        {
+          "id": "house-appartement",
+          "type": "word",
+          "text": "l'appartement",
+          "audioText": "l'appartement",
+          "ipa": "/lapaʁtəmɑ̃/",
+          "translation": "公寓"
+        },
+        {
+          "id": "house-chambre",
+          "type": "word",
+          "text": "la chambre",
+          "audioText": "la chambre",
+          "ipa": "/la ʃɑ̃bʁ/",
+          "translation": "卧室 / 房间"
+        },
+        {
+          "id": "house-cuisine",
+          "type": "word",
+          "text": "la cuisine",
+          "audioText": "la cuisine",
+          "ipa": "/la kɥizin/",
+          "translation": "厨房"
+        },
+        {
+          "id": "house-salon",
+          "type": "word",
+          "text": "le salon",
+          "audioText": "le salon",
+          "ipa": "/lə salɔ̃/",
+          "translation": "客厅"
+        },
+        {
+          "id": "house-salle-bain",
+          "type": "word",
+          "text": "la salle de bain",
+          "audioText": "la salle de bain",
+          "ipa": "/la sal də bɛ̃/",
+          "translation": "浴室"
+        },
+        {
+          "id": "house-table",
+          "type": "word",
+          "text": "la table",
+          "audioText": "la table",
+          "ipa": "/la tabl/",
+          "translation": "桌子"
+        },
+        {
+          "id": "house-chaise",
+          "type": "word",
+          "text": "la chaise",
+          "audioText": "la chaise",
+          "ipa": "/la ʃɛz/",
+          "translation": "椅子"
+        },
+        {
+          "id": "house-lit",
+          "type": "word",
+          "text": "le lit",
+          "audioText": "le lit",
+          "ipa": "/lə li/",
+          "translation": "床"
+        },
+        {
+          "id": "house-porte",
+          "type": "word",
+          "text": "la porte",
+          "audioText": "la porte",
+          "ipa": "/la pɔʁt/",
+          "translation": "门"
+        },
+        {
+          "id": "house-fenetre",
+          "type": "word",
+          "text": "la fenêtre",
+          "audioText": "la fenêtre",
+          "ipa": "/la fənɛtʁ/",
+          "translation": "窗户"
+        },
+        {
+          "id": "house-cle",
+          "type": "word",
+          "text": "la clé",
+          "audioText": "la clé",
+          "ipa": "/la kle/",
+          "translation": "钥匙"
+        }
+      ]
+    },
+    {
+      "id": "appliances-tools",
+      "title": "电器与工具 appliances / tools",
+      "layout": "compact",
+      "note": "生活操作类词汇，适合搭配 avoir, utiliser, chercher, réparer。",
+      "blocks": [
+        {
+          "id": "appliance-telephone",
+          "type": "word",
+          "text": "le téléphone",
+          "audioText": "le téléphone",
+          "ipa": "/lə telefɔn/",
+          "translation": "电话 / 手机"
+        },
+        {
+          "id": "appliance-ordinateur",
+          "type": "word",
+          "text": "l'ordinateur",
+          "audioText": "l'ordinateur",
+          "ipa": "/lɔʁdinatœʁ/",
+          "translation": "电脑"
+        },
+        {
+          "id": "appliance-chargeur",
+          "type": "word",
+          "text": "le chargeur",
+          "audioText": "le chargeur",
+          "ipa": "/lə ʃaʁʒœʁ/",
+          "translation": "充电器"
+        },
+        {
+          "id": "appliance-lampe",
+          "type": "word",
+          "text": "la lampe",
+          "audioText": "la lampe",
+          "ipa": "/la lɑ̃p/",
+          "translation": "灯"
+        },
+        {
+          "id": "appliance-frigo",
+          "type": "word",
+          "text": "le frigo",
+          "audioText": "le frigo",
+          "ipa": "/lə fʁiɡo/",
+          "translation": "冰箱"
+        },
+        {
+          "id": "appliance-machine",
+          "type": "word",
+          "text": "la machine à laver",
+          "audioText": "la machine à laver",
+          "ipa": "/la maʃin a lave/",
+          "translation": "洗衣机"
+        },
+        {
+          "id": "appliance-four",
+          "type": "word",
+          "text": "le four",
+          "audioText": "le four",
+          "ipa": "/lə fuʁ/",
+          "translation": "烤箱"
+        },
+        {
+          "id": "appliance-tele",
+          "type": "word",
+          "text": "la télé",
+          "audioText": "la télé",
+          "ipa": "/la tele/",
+          "translation": "电视"
+        },
+        {
+          "id": "tool-outil",
+          "type": "word",
+          "text": "l'outil",
+          "audioText": "l'outil",
+          "ipa": "/luti/",
+          "translation": "工具"
+        },
+        {
+          "id": "tool-marteau",
+          "type": "word",
+          "text": "le marteau",
+          "audioText": "le marteau",
+          "ipa": "/lə maʁto/",
+          "translation": "锤子"
+        },
+        {
+          "id": "tool-tournevis",
+          "type": "word",
+          "text": "le tournevis",
+          "audioText": "le tournevis",
+          "ipa": "/lə tuʁnəvis/",
+          "translation": "螺丝刀"
+        },
+        {
+          "id": "tool-ciseaux",
+          "type": "word",
+          "text": "les ciseaux",
+          "audioText": "les ciseaux",
+          "ipa": "/le sizo/",
+          "translation": "剪刀"
+        },
+        {
+          "id": "tool-couteau",
+          "type": "word",
+          "text": "le couteau",
+          "audioText": "le couteau",
+          "ipa": "/lə kuto/",
+          "translation": "刀"
+        },
+        {
+          "id": "tool-sac",
+          "type": "word",
+          "text": "le sac",
+          "audioText": "le sac",
+          "ipa": "/lə sak/",
+          "translation": "包"
+        },
+        {
+          "id": "tool-boite",
+          "type": "word",
+          "text": "la boîte",
+          "audioText": "la boîte",
+          "ipa": "/la bwat/",
+          "translation": "盒子"
+        },
+        {
+          "id": "tool-batterie",
+          "type": "word",
+          "text": "la batterie",
+          "audioText": "la batterie",
+          "ipa": "/la batʁi/",
+          "translation": "电池"
+        }
+      ]
+    },
+    {
+      "id": "week-season-nature",
+      "title": "week / season / nature",
+      "layout": "compact",
+      "note": "时间节奏和自然环境，方便描述安排、天气和地点。",
+      "blocks": [
+        {
+          "id": "time-semaine",
+          "type": "word",
+          "text": "la semaine",
+          "audioText": "la semaine",
+          "ipa": "/la səmɛn/",
+          "translation": "星期 / 一周"
+        },
+        {
+          "id": "time-weekend",
+          "type": "word",
+          "text": "le week-end",
+          "audioText": "le week-end",
+          "ipa": "/lə wikɛnd/",
+          "translation": "周末"
+        },
+        {
+          "id": "time-saison",
+          "type": "word",
+          "text": "la saison",
+          "audioText": "la saison",
+          "ipa": "/la sɛzɔ̃/",
+          "translation": "季节"
+        },
+        {
+          "id": "season-printemps",
+          "type": "word",
+          "text": "le printemps",
+          "audioText": "le printemps",
+          "ipa": "/lə pʁɛ̃tɑ̃/",
+          "translation": "春天"
+        },
+        {
+          "id": "season-ete",
+          "type": "word",
+          "text": "l'été",
+          "audioText": "l'été",
+          "ipa": "/lete/",
+          "translation": "夏天"
+        },
+        {
+          "id": "season-automne",
+          "type": "word",
+          "text": "l'automne",
+          "audioText": "l'automne",
+          "ipa": "/lotɔn/",
+          "translation": "秋天"
+        },
+        {
+          "id": "season-hiver",
+          "type": "word",
+          "text": "l'hiver",
+          "audioText": "l'hiver",
+          "ipa": "/livɛʁ/",
+          "translation": "冬天"
+        },
+        {
+          "id": "nature-ciel",
+          "type": "word",
+          "text": "le ciel",
+          "audioText": "le ciel",
+          "ipa": "/lə sjɛl/",
+          "translation": "天空"
+        },
+        {
+          "id": "nature-soleil",
+          "type": "word",
+          "text": "le soleil",
+          "audioText": "le soleil",
+          "ipa": "/lə sɔlɛj/",
+          "translation": "太阳"
+        },
+        {
+          "id": "nature-pluie",
+          "type": "word",
+          "text": "la pluie",
+          "audioText": "la pluie",
+          "ipa": "/la plɥi/",
+          "translation": "雨"
+        },
+        {
+          "id": "nature-vent",
+          "type": "word",
+          "text": "le vent",
+          "audioText": "le vent",
+          "ipa": "/lə vɑ̃/",
+          "translation": "风"
+        },
+        {
+          "id": "nature-mer",
+          "type": "word",
+          "text": "la mer",
+          "audioText": "la mer",
+          "ipa": "/la mɛʁ/",
+          "translation": "海"
+        },
+        {
+          "id": "nature-montagne",
+          "type": "word",
+          "text": "la montagne",
+          "audioText": "la montagne",
+          "ipa": "/la mɔ̃taɲ/",
+          "translation": "山"
+        },
+        {
+          "id": "nature-riviere",
+          "type": "word",
+          "text": "la rivière",
+          "audioText": "la rivière",
+          "ipa": "/la ʁivjɛʁ/",
+          "translation": "河"
+        },
+        {
+          "id": "nature-arbre",
+          "type": "word",
+          "text": "l'arbre",
+          "audioText": "l'arbre",
+          "ipa": "/laʁbʁ/",
+          "translation": "树"
+        },
+        {
+          "id": "nature-fleur",
+          "type": "word",
+          "text": "la fleur",
+          "audioText": "la fleur",
+          "ipa": "/la flœʁ/",
+          "translation": "花"
+        }
+      ]
+    },
+    {
+      "id": "food-beverage-meals",
+      "title": "food / beverage / 三餐",
+      "layout": "compact",
+      "note": "吃喝是高频场景，和 vouloir, prendre, acheter, préparer 很好组合。",
+      "blocks": [
+        {
+          "id": "food-pain",
+          "type": "word",
+          "text": "le pain",
+          "audioText": "le pain",
+          "ipa": "/lə pɛ̃/",
+          "translation": "面包"
+        },
+        {
+          "id": "food-riz",
+          "type": "word",
+          "text": "le riz",
+          "audioText": "le riz",
+          "ipa": "/lə ʁi/",
+          "translation": "米饭"
+        },
+        {
+          "id": "food-pates",
+          "type": "word",
+          "text": "les pâtes",
+          "audioText": "les pâtes",
+          "ipa": "/le pat/",
+          "translation": "意面"
+        },
+        {
+          "id": "food-viande",
+          "type": "word",
+          "text": "la viande",
+          "audioText": "la viande",
+          "ipa": "/la vjɑ̃d/",
+          "translation": "肉"
+        },
+        {
+          "id": "food-poisson",
+          "type": "word",
+          "text": "le poisson",
+          "audioText": "le poisson",
+          "ipa": "/lə pwasɔ̃/",
+          "translation": "鱼"
+        },
+        {
+          "id": "food-oeuf",
+          "type": "word",
+          "text": "l'œuf",
+          "audioText": "l'œuf",
+          "ipa": "/lœf/",
+          "translation": "鸡蛋"
+        },
+        {
+          "id": "food-fromage",
+          "type": "word",
+          "text": "le fromage",
+          "audioText": "le fromage",
+          "ipa": "/lə fʁɔmaʒ/",
+          "translation": "奶酪"
+        },
+        {
+          "id": "food-soupe",
+          "type": "word",
+          "text": "la soupe",
+          "audioText": "la soupe",
+          "ipa": "/la sup/",
+          "translation": "汤"
+        },
+        {
+          "id": "drink-eau",
+          "type": "word",
+          "text": "l'eau",
+          "audioText": "l'eau",
+          "ipa": "/lo/",
+          "translation": "水"
+        },
+        {
+          "id": "drink-cafe",
+          "type": "word",
+          "text": "le café",
+          "audioText": "le café",
+          "ipa": "/lə kafe/",
+          "translation": "咖啡"
+        },
+        {
+          "id": "drink-the",
+          "type": "word",
+          "text": "le thé",
+          "audioText": "le thé",
+          "ipa": "/lə te/",
+          "translation": "茶"
+        },
+        {
+          "id": "drink-jus",
+          "type": "word",
+          "text": "le jus",
+          "audioText": "le jus",
+          "ipa": "/lə ʒy/",
+          "translation": "果汁"
+        },
+        {
+          "id": "drink-lait",
+          "type": "word",
+          "text": "le lait",
+          "audioText": "le lait",
+          "ipa": "/lə lɛ/",
+          "translation": "牛奶"
+        },
+        {
+          "id": "meal-petit-dejeuner",
+          "type": "word",
+          "text": "le petit déjeuner",
+          "audioText": "le petit déjeuner",
+          "ipa": "/lə pəti deʒœne/",
+          "translation": "早餐"
+        },
+        {
+          "id": "meal-dejeuner",
+          "type": "word",
+          "text": "le déjeuner",
+          "audioText": "le déjeuner",
+          "ipa": "/lə deʒœne/",
+          "translation": "午餐"
+        },
+        {
+          "id": "meal-diner",
+          "type": "word",
+          "text": "le dîner",
+          "audioText": "le dîner",
+          "ipa": "/lə dine/",
+          "translation": "晚餐"
+        },
+        {
+          "id": "meal-repas",
+          "type": "word",
+          "text": "le repas",
+          "audioText": "le repas",
+          "ipa": "/lə ʁəpa/",
+          "translation": "一餐 / 饭"
+        },
+        {
+          "id": "meal-dessert",
+          "type": "word",
+          "text": "le dessert",
+          "audioText": "le dessert",
+          "ipa": "/lə desɛʁ/",
+          "translation": "甜点"
+        }
+      ]
+    },
+    {
+      "id": "clothes-accessories",
+      "title": "衣服与配件 clothes / accessories",
+      "layout": "compact",
+      "note": "购物、颜色、大小、穿搭描述都要用。",
+      "blocks": [
+        {
+          "id": "clothes-vetement",
+          "type": "word",
+          "text": "le vêtement",
+          "audioText": "le vêtement",
+          "ipa": "/lə vɛtmɑ̃/",
+          "translation": "衣服"
+        },
+        {
+          "id": "clothes-chemise",
+          "type": "word",
+          "text": "la chemise",
+          "audioText": "la chemise",
+          "ipa": "/la ʃəmiz/",
+          "translation": "衬衫"
+        },
+        {
+          "id": "clothes-tshirt",
+          "type": "word",
+          "text": "le tee-shirt",
+          "audioText": "le tee-shirt",
+          "ipa": "/lə tiʃœʁt/",
+          "translation": "T恤"
+        },
+        {
+          "id": "clothes-pantalon",
+          "type": "word",
+          "text": "le pantalon",
+          "audioText": "le pantalon",
+          "ipa": "/lə pɑ̃talɔ̃/",
+          "translation": "裤子"
+        },
+        {
+          "id": "clothes-robe",
+          "type": "word",
+          "text": "la robe",
+          "audioText": "la robe",
+          "ipa": "/la ʁɔb/",
+          "translation": "连衣裙"
+        },
+        {
+          "id": "clothes-manteau",
+          "type": "word",
+          "text": "le manteau",
+          "audioText": "le manteau",
+          "ipa": "/lə mɑ̃to/",
+          "translation": "大衣"
+        },
+        {
+          "id": "clothes-chaussures",
+          "type": "word",
+          "text": "les chaussures",
+          "audioText": "les chaussures",
+          "ipa": "/le ʃosyʁ/",
+          "translation": "鞋子"
+        },
+        {
+          "id": "clothes-chaussettes",
+          "type": "word",
+          "text": "les chaussettes",
+          "audioText": "les chaussettes",
+          "ipa": "/le ʃosɛt/",
+          "translation": "袜子"
+        },
+        {
+          "id": "accessory-sac",
+          "type": "word",
+          "text": "le sac",
+          "audioText": "le sac",
+          "ipa": "/lə sak/",
+          "translation": "包"
+        },
+        {
+          "id": "accessory-lunettes",
+          "type": "word",
+          "text": "les lunettes",
+          "audioText": "les lunettes",
+          "ipa": "/le lynɛt/",
+          "translation": "眼镜"
+        },
+        {
+          "id": "accessory-montre",
+          "type": "word",
+          "text": "la montre",
+          "audioText": "la montre",
+          "ipa": "/la mɔ̃tʁ/",
+          "translation": "手表"
+        },
+        {
+          "id": "accessory-chapeau",
+          "type": "word",
+          "text": "le chapeau",
+          "audioText": "le chapeau",
+          "ipa": "/lə ʃapo/",
+          "translation": "帽子"
+        },
+        {
+          "id": "accessory-ceinture",
+          "type": "word",
+          "text": "la ceinture",
+          "audioText": "la ceinture",
+          "ipa": "/la sɛ̃tyʁ/",
+          "translation": "腰带"
+        },
+        {
+          "id": "accessory-bague",
+          "type": "word",
+          "text": "la bague",
+          "audioText": "la bague",
+          "ipa": "/la baɡ/",
+          "translation": "戒指"
+        },
+        {
+          "id": "accessory-portefeuille",
+          "type": "word",
+          "text": "le portefeuille",
+          "audioText": "le portefeuille",
+          "ipa": "/lə pɔʁtfœj/",
+          "translation": "钱包"
+        },
+        {
+          "id": "accessory-parapluie",
+          "type": "word",
+          "text": "le parapluie",
+          "audioText": "le parapluie",
+          "ipa": "/lə paʁaplɥi/",
+          "translation": "雨伞"
+        }
+      ]
+    },
+    {
+      "id": "body-organs-health",
+      "title": "身体部位与器官 body / organs",
+      "layout": "compact",
+      "note": "描述状态、疼痛、运动、医疗场景会高频出现。",
+      "blocks": [
+        {
+          "id": "body-tete",
+          "type": "word",
+          "text": "la tête",
+          "audioText": "la tête",
+          "ipa": "/la tɛt/",
+          "translation": "头"
+        },
+        {
+          "id": "body-visage",
+          "type": "word",
+          "text": "le visage",
+          "audioText": "le visage",
+          "ipa": "/lə vizaʒ/",
+          "translation": "脸"
+        },
+        {
+          "id": "body-oeil",
+          "type": "word",
+          "text": "l'œil",
+          "audioText": "l'œil",
+          "ipa": "/lœj/",
+          "translation": "眼睛"
+        },
+        {
+          "id": "body-oreille",
+          "type": "word",
+          "text": "l'oreille",
+          "audioText": "l'oreille",
+          "ipa": "/lɔʁɛj/",
+          "translation": "耳朵"
+        },
+        {
+          "id": "body-nez",
+          "type": "word",
+          "text": "le nez",
+          "audioText": "le nez",
+          "ipa": "/lə ne/",
+          "translation": "鼻子"
+        },
+        {
+          "id": "body-bouche",
+          "type": "word",
+          "text": "la bouche",
+          "audioText": "la bouche",
+          "ipa": "/la buʃ/",
+          "translation": "嘴"
+        },
+        {
+          "id": "body-main",
+          "type": "word",
+          "text": "la main",
+          "audioText": "la main",
+          "ipa": "/la mɛ̃/",
+          "translation": "手"
+        },
+        {
+          "id": "body-bras",
+          "type": "word",
+          "text": "le bras",
+          "audioText": "le bras",
+          "ipa": "/lə bʁa/",
+          "translation": "胳膊"
+        },
+        {
+          "id": "body-jambe",
+          "type": "word",
+          "text": "la jambe",
+          "audioText": "la jambe",
+          "ipa": "/la ʒɑ̃b/",
+          "translation": "腿"
+        },
+        {
+          "id": "body-pied",
+          "type": "word",
+          "text": "le pied",
+          "audioText": "le pied",
+          "ipa": "/lə pje/",
+          "translation": "脚"
+        },
+        {
+          "id": "organ-coeur",
+          "type": "word",
+          "text": "le cœur",
+          "audioText": "le cœur",
+          "ipa": "/lə kœʁ/",
+          "translation": "心脏 / 心"
+        },
+        {
+          "id": "organ-cerveau",
+          "type": "word",
+          "text": "le cerveau",
+          "audioText": "le cerveau",
+          "ipa": "/lə sɛʁvo/",
+          "translation": "大脑"
+        },
+        {
+          "id": "organ-estomac",
+          "type": "word",
+          "text": "l'estomac",
+          "audioText": "l'estomac",
+          "ipa": "/lɛstɔma/",
+          "translation": "胃"
+        },
+        {
+          "id": "organ-dos",
+          "type": "word",
+          "text": "le dos",
+          "audioText": "le dos",
+          "ipa": "/lə do/",
+          "translation": "背"
+        },
+        {
+          "id": "health-sante",
+          "type": "word",
+          "text": "la santé",
+          "audioText": "la santé",
+          "ipa": "/la sɑ̃te/",
+          "translation": "健康"
+        },
+        {
+          "id": "health-douleur",
+          "type": "word",
+          "text": "la douleur",
+          "audioText": "la douleur",
+          "ipa": "/la dulœʁ/",
+          "translation": "疼痛"
+        },
+        {
+          "id": "health-fatigue",
+          "type": "word",
+          "text": "fatigué / fatiguée",
+          "audioText": "fatigué / fatiguée",
+          "ipa": "/fatiɡe/",
+          "translation": "累的"
+        },
+        {
+          "id": "health-malade",
+          "type": "word",
+          "text": "malade",
+          "audioText": "malade",
+          "ipa": "/malad/",
+          "translation": "生病的"
+        }
+      ]
+    },
+    {
+      "id": "jobs-places-transport",
+      "title": "职业、地点与交通 jobs / places / transport",
+      "layout": "compact",
+      "note": "出门、工作、问路和描述日常路线时直接用。",
+      "blocks": [
+        {
+          "id": "job-professeur",
+          "type": "word",
+          "text": "le professeur",
+          "audioText": "le professeur",
+          "ipa": "/lə pʁɔfɛsœʁ/",
+          "translation": "老师"
+        },
+        {
+          "id": "job-etudiant",
+          "type": "word",
+          "text": "l'étudiant / l'étudiante",
+          "audioText": "l'étudiant / l'étudiante",
+          "ipa": "/letydjɑ̃/ /letydjɑ̃t/",
+          "translation": "学生"
+        },
+        {
+          "id": "job-medecin",
+          "type": "word",
+          "text": "le médecin",
+          "audioText": "le médecin",
+          "ipa": "/lə medsɛ̃/",
+          "translation": "医生"
+        },
+        {
+          "id": "job-ingenieur",
+          "type": "word",
+          "text": "l'ingénieur",
+          "audioText": "l'ingénieur",
+          "ipa": "/lɛ̃ʒenjœʁ/",
+          "translation": "工程师"
+        },
+        {
+          "id": "job-serveur",
+          "type": "word",
+          "text": "le serveur / la serveuse",
+          "audioText": "le serveur / la serveuse",
+          "ipa": "/lə sɛʁvœʁ/ /la sɛʁvøz/",
+          "translation": "服务员"
+        },
+        {
+          "id": "job-vendeur",
+          "type": "word",
+          "text": "le vendeur / la vendeuse",
+          "audioText": "le vendeur / la vendeuse",
+          "ipa": "/lə vɑ̃dœʁ/ /la vɑ̃døz/",
+          "translation": "销售员"
+        },
+        {
+          "id": "place-ville",
+          "type": "word",
+          "text": "la ville",
+          "audioText": "la ville",
+          "ipa": "/la vil/",
+          "translation": "城市"
+        },
+        {
+          "id": "place-rue",
+          "type": "word",
+          "text": "la rue",
+          "audioText": "la rue",
+          "ipa": "/la ʁy/",
+          "translation": "街道"
+        },
+        {
+          "id": "place-ecole",
+          "type": "word",
+          "text": "l'école",
+          "audioText": "l'école",
+          "ipa": "/lekɔl/",
+          "translation": "学校"
+        },
+        {
+          "id": "place-bureau",
+          "type": "word",
+          "text": "le bureau",
+          "audioText": "le bureau",
+          "ipa": "/lə byʁo/",
+          "translation": "办公室"
+        },
+        {
+          "id": "place-magasin",
+          "type": "word",
+          "text": "le magasin",
+          "audioText": "le magasin",
+          "ipa": "/lə maɡazɛ̃/",
+          "translation": "商店"
+        },
+        {
+          "id": "place-restaurant",
+          "type": "word",
+          "text": "le restaurant",
+          "audioText": "le restaurant",
+          "ipa": "/lə ʁɛstɔʁɑ̃/",
+          "translation": "餐厅"
+        },
+        {
+          "id": "place-hopital",
+          "type": "word",
+          "text": "l'hôpital",
+          "audioText": "l'hôpital",
+          "ipa": "/lopital/",
+          "translation": "医院"
+        },
+        {
+          "id": "place-gare",
+          "type": "word",
+          "text": "la gare",
+          "audioText": "la gare",
+          "ipa": "/la ɡaʁ/",
+          "translation": "火车站"
+        },
+        {
+          "id": "place-aeroport",
+          "type": "word",
+          "text": "l'aéroport",
+          "audioText": "l'aéroport",
+          "ipa": "/laeʁɔpɔʁ/",
+          "translation": "机场"
+        },
+        {
+          "id": "place-banque",
+          "type": "word",
+          "text": "la banque",
+          "audioText": "la banque",
+          "ipa": "/la bɑ̃k/",
+          "translation": "银行"
+        },
+        {
+          "id": "transport-voiture",
+          "type": "word",
+          "text": "la voiture",
+          "audioText": "la voiture",
+          "ipa": "/la vwatyʁ/",
+          "translation": "汽车"
+        },
+        {
+          "id": "transport-bus",
+          "type": "word",
+          "text": "le bus",
+          "audioText": "le bus",
+          "ipa": "/lə bys/",
+          "translation": "公交车"
+        },
+        {
+          "id": "transport-metro",
+          "type": "word",
+          "text": "le métro",
+          "audioText": "le métro",
+          "ipa": "/lə metʁo/",
+          "translation": "地铁"
+        },
+        {
+          "id": "transport-train",
+          "type": "word",
+          "text": "le train",
+          "audioText": "le train",
+          "ipa": "/lə tʁɛ̃/",
+          "translation": "火车"
+        },
+        {
+          "id": "transport-avion",
+          "type": "word",
+          "text": "l'avion",
+          "audioText": "l'avion",
+          "ipa": "/lavjɔ̃/",
+          "translation": "飞机"
+        },
+        {
+          "id": "transport-velo",
+          "type": "word",
+          "text": "le vélo",
+          "audioText": "le vélo",
+          "ipa": "/lə velo/",
+          "translation": "自行车"
+        },
+        {
+          "id": "transport-taxi",
+          "type": "word",
+          "text": "le taxi",
+          "audioText": "le taxi",
+          "ipa": "/lə taksi/",
+          "translation": "出租车"
+        },
+        {
+          "id": "transport-billet",
+          "type": "word",
+          "text": "le billet",
+          "audioText": "le billet",
+          "ipa": "/lə bijɛ/",
+          "translation": "票"
+        }
       ]
     },
     {
@@ -223,10 +2308,38 @@
       "title": "马上可用的基础句",
       "note": "这些句子先整块吃进去，后面再拆语法。",
       "blocks": [
-        {"id": "survival-french", "type": "sentence", "text": "Je parle un peu français.", "audioText": "Je parle un peu français.", "ipa": "/ʒə paʁl œ̃ pø fʁɑ̃sɛ/", "translation": "我会说一点法语。"},
-        {"id": "survival-repeat", "type": "sentence", "text": "Vous pouvez répéter ?", "audioText": "Vous pouvez répéter ?", "ipa": "/vu puve ʁepete/", "translation": "您可以重复一下吗？"},
-        {"id": "survival-understand", "type": "sentence", "text": "Je comprends, mais je parle lentement.", "audioText": "Je comprends, mais je parle lentement.", "ipa": "/ʒə kɔ̃pʁɑ̃ mɛ ʒə paʁl lɑ̃tmɑ̃/", "translation": "我能理解，但我说得慢。"},
-        {"id": "survival-question", "type": "sentence", "text": "Comment on dit ça en français ?", "audioText": "Comment on dit ça en français ?", "ipa": "/kɔmɑ̃ ɔ̃ di sa ɑ̃ fʁɑ̃sɛ/", "translation": "这个用法语怎么说？"}
+        {
+          "id": "survival-french",
+          "type": "sentence",
+          "text": "Je parle un peu français.",
+          "audioText": "Je parle un peu français.",
+          "ipa": "/ʒə paʁl œ̃ pø fʁɑ̃sɛ/",
+          "translation": "我会说一点法语。"
+        },
+        {
+          "id": "survival-repeat",
+          "type": "sentence",
+          "text": "Vous pouvez répéter ?",
+          "audioText": "Vous pouvez répéter ?",
+          "ipa": "/vu puve ʁepete/",
+          "translation": "您可以重复一下吗？"
+        },
+        {
+          "id": "survival-understand",
+          "type": "sentence",
+          "text": "Je comprends, mais je parle lentement.",
+          "audioText": "Je comprends, mais je parle lentement.",
+          "ipa": "/ʒə kɔ̃pʁɑ̃ mɛ ʒə paʁl lɑ̃tmɑ̃/",
+          "translation": "我能理解，但我说得慢。"
+        },
+        {
+          "id": "survival-question",
+          "type": "sentence",
+          "text": "Comment on dit ça en français ?",
+          "audioText": "Comment on dit ça en français ?",
+          "ipa": "/kɔmɑ̃ ɔ̃ di sa ɑ̃ fʁɑ̃sɛ/",
+          "translation": "这个用法语怎么说？"
+        }
       ]
     }
   ]
