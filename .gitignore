@@ -86,3 +86,5 @@ coverage/
 *.mp3
 backend/data/audio/edge-tts/manifest.json
 backend/data/progress/progress.json
+.DS_Store
+backend/.DS_Store
