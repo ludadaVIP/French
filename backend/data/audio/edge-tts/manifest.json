@@ -669,6 +669,86 @@
       "path": "edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/25cb9e19bf10b5904d3fc976b2916cb6c20fb188.mp3",
       "bytes": 7344,
       "updatedAt": "2026-05-10T23:42:01.818812+00:00"
+    },
+    "aa950c9ed030629ee0dcc2963ffa3ee047242758": {
+      "voice": "fr-FR-VivienneMultilingualNeural",
+      "language": "fr-FR",
+      "engine": "edge-tts",
+      "chars": 20,
+      "textPreview": "Je ne comprends pas.",
+      "path": "edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/aa950c9ed030629ee0dcc2963ffa3ee047242758.mp3",
+      "bytes": 7776,
+      "updatedAt": "2026-05-11T00:03:49.390759+00:00"
+    },
+    "26b2caa753154b786c07dcd0a23326d3d1ed06da": {
+      "voice": "fr-FR-DeniseNeural",
+      "language": "fr-FR",
+      "engine": "edge-tts",
+      "chars": 21,
+      "textPreview": "Je n'ai pas le temps.",
+      "path": "edge-tts/fr-FR/fr-FR-DeniseNeural/26b2caa753154b786c07dcd0a23326d3d1ed06da.mp3",
+      "bytes": 11376,
+      "updatedAt": "2026-05-11T00:03:52.262047+00:00"
+    },
+    "9a34dfc7749b189bd9006b98010663684a0c075b": {
+      "voice": "fr-FR-HenriNeural",
+      "language": "fr-FR",
+      "engine": "edge-tts",
+      "chars": 22,
+      "textPreview": "Ce n'est pas possible.",
+      "path": "edge-tts/fr-FR/fr-FR-HenriNeural/9a34dfc7749b189bd9006b98010663684a0c075b.mp3",
+      "bytes": 12096,
+      "updatedAt": "2026-05-11T00:03:55.693265+00:00"
+    },
+    "8014e95da43c13cf360e0e7982ef57ddc8e4f5bc": {
+      "voice": "fr-FR-DeniseNeural",
+      "language": "fr-FR",
+      "engine": "edge-tts",
+      "chars": 19,
+      "textPreview": "C'est pas possible.",
+      "path": "edge-tts/fr-FR/fr-FR-DeniseNeural/8014e95da43c13cf360e0e7982ef57ddc8e4f5bc.mp3",
+      "bytes": 12096,
+      "updatedAt": "2026-05-11T00:03:59.169726+00:00"
+    },
+    "339518d9bb0780303f08ac0a3df42abe0515f7a5": {
+      "voice": "fr-FR-VivienneMultilingualNeural",
+      "language": "fr-FR",
+      "engine": "edge-tts",
+      "chars": 15,
+      "textPreview": "Je ne veux pas.",
+      "path": "edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/339518d9bb0780303f08ac0a3df42abe0515f7a5.mp3",
+      "bytes": 6480,
+      "updatedAt": "2026-05-11T00:04:02.959154+00:00"
+    },
+    "cb37e6ecb2b63968643b7140881f4f1034a28c7f": {
+      "voice": "fr-FR-VivienneMultilingualNeural",
+      "language": "fr-FR",
+      "engine": "edge-tts",
+      "chars": 15,
+      "textPreview": "Je ne peux pas.",
+      "path": "edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/cb37e6ecb2b63968643b7140881f4f1034a28c7f.mp3",
+      "bytes": 6624,
+      "updatedAt": "2026-05-11T00:04:05.658017+00:00"
+    },
+    "d169f4a39528908053c1c49f2ec3ae634a4aaa5a": {
+      "voice": "fr-FR-VivienneMultilingualNeural",
+      "language": "fr-FR",
+      "engine": "edge-tts",
+      "chars": 23,
+      "textPreview": "Je ne vais pas à Paris.",
+      "path": "edge-tts/fr-FR/fr-FR-VivienneMultilingualNeural/d169f4a39528908053c1c49f2ec3ae634a4aaa5a.mp3",
+      "bytes": 8064,
+      "updatedAt": "2026-05-11T00:04:08.524293+00:00"
+    },
+    "834f50b32b924f8840e011e861465ed15ff5a682": {
+      "voice": "fr-FR-DeniseNeural",
+      "language": "fr-FR",
+      "engine": "edge-tts",
+      "chars": 22,
+      "textPreview": "Je ne sais pas encore.",
+      "path": "edge-tts/fr-FR/fr-FR-DeniseNeural/834f50b32b924f8840e011e861465ed15ff5a682.mp3",
+      "bytes": 13392,
+      "updatedAt": "2026-05-11T00:04:11.289376+00:00"
     }
   }
 }
